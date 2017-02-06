@@ -3,4 +3,6 @@
 	<string name="hello">FETA project, Click Me!</string>
 	<string name="app_name">FetaProject.Droid</string>
   <string name="GoogleKey">AIzaSyB6hP4yQzYHSUjgT9_2MP3vWCoqIN7NWDg</string>
+  <string name="openDrawer">Drawer Open</string>
+  <string name="closeDrawer">Drawer Closed</string>
 </resources>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="AppTheme" parent="AppTheme.Base" />
+  
+  <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">#2196F3</item>
+    <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
+  </style>
+
+  <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+    <item name="color">#F5F5F5</item>
+    <item name="spinBars">true</item>
+  </style>
+
+  <color name="primary">#457C50</color>
+  <color name="primaryDarker">#580C0C</color>
+</resources>
