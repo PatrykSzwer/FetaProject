@@ -42,7 +42,7 @@ namespace FetaProject.Droid
             mToolbar = FindViewById<SupportTooblar>(Resource.Id.toolbar);
             mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             mLeftDrawer = FindViewById<ListView>(Resource.Id.left_drawer);
-            SetSupportActionBar(mToolbar);
+            //SetSupportActionBar(mToolbar);
 
             mLeftSideMenuHandler = new LeftSideMenuHandler(
                 this,                         //host activity

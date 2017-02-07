@@ -2417,9 +2417,6 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a013e
 			public const int AppTheme = 2131362110;
 			
-			// aapt resource value: 0x7f0a013f
-			public const int AppTheme_Base = 2131362111;
-			
 			// aapt resource value: 0x7f0a008a
 			public const int Base_AlertDialog_AppCompat = 2131361930;
 			
@@ -2846,8 +2843,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a0079
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131361913;
 			
-			// aapt resource value: 0x7f0a0140
-			public const int MyDrawerArrowStyle = 2131362112;
+			// aapt resource value: 0x7f0a013f
+			public const int MyDrawerArrowStyle = 2131362111;
 			
 			// aapt resource value: 0x7f0a0017
 			public const int Platform_AppCompat = 2131361815;
