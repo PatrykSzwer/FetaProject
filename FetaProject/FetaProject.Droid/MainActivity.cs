@@ -48,9 +48,51 @@ namespace FetaProject.Droid
 
         public void OnMapReady(GoogleMap googleMap)
         {
+            
+            //Wczytywanie pliku mapy (KML)
+            XmlDocument doc = new XmlDocument();
+
+            //default  doc.Load("https://www.google.com/maps/d/kml?mid="+w_tym_miejscu_musi_byc_hash_dowolnej_mapki+"&forcekml=1");
+
+
+            //CZWARTEK  doc.Load("https://www.google.com/maps/d/kml?mid=1YAdsxSz644qe4F90BerIaSeENgk&forcekml=1");
+            //PIATEK    doc.Load("https://www.google.com/maps/d/kml?mid=1U_fAWaQwaIVGbZ1lk-TC9Bxn7n0&forcekml=1");
+            //SOBOTA    doc.Load("https://www.google.com/maps/d/kml?mid=1eABjtJfl-31WyggXycwIRsAI_d4&forcekml=1");
+            //NIEDZIELA 
+            doc.Load("https://www.google.com/maps/d/kml?mid=1W2wGEBUezDja1qdDTG85fxicUNA&forcekml=1");
+
+            //lista elemtow z XML ktore nas interesuja
+            XmlNodeList idNodes = doc.GetElementsByTagName("Placemark");
+            //Marker
+            MarkerOptions marker = new MarkerOptions();
+            List<MarkerOptions> placemarks = new List<MarkerOptions>();
+            //wpisane w liste markerow
+            placemarks = ReadMarkers(idNodes, placemarks, marker);
+
+            //obliczanie najlepszego widoku dla mapy
+            double maxLat = marker.Position.Latitude;
+            double minLat = marker.Position.Latitude;
+            double maxLng = marker.Position.Longitude;
+            double minLng = marker.Position.Longitude;
+            foreach (var mark in placemarks)
+            {
+                if (mark.Position.Latitude > maxLat)
+                    maxLat = mark.Position.Latitude;
+
+                if (minLat > mark.Position.Latitude)
+                    minLat = mark.Position.Latitude;
+
+                if (mark.Position.Longitude > maxLng)
+                    maxLng = mark.Position.Longitude;
+
+                if (minLng > mark.Position.Longitude)
+                    minLng = mark.Position.Longitude;
+            }
+
             //Ustawianie widoku mapy
-            LatLng location = new LatLng(54.3409615, 18.6410568);       //te wartosci warto bedzie wyciagac srednia z markerow
-           
+            //średnia z wszysztkich markerów
+            LatLng location = new LatLng((maxLat+minLat)/2,(maxLng+minLng)/2);            
+
             CameraPosition.Builder builder = CameraPosition.InvokeBuilder();
             builder.Target(location);
             builder.Zoom(15);
@@ -58,42 +100,19 @@ namespace FetaProject.Droid
             CameraPosition cameraPosition = builder.Build();
             CameraUpdate cameraUpdate = CameraUpdateFactory.NewCameraPosition(cameraPosition);
 
-            //Ustawianie markera
-            //trzeba przygotować czytnik do robienia listy wrzucajacej wiecej markerow na mapie
-            MarkerOptions markerOptions = new MarkerOptions();
-           
-            //przykładowe preferencje markerów 
-            //.SetPosition(new LatLng(54.7509615, 17.5710568))
-            //.SetTitle("My position")
-            //.SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
-
-
-            //Wczytywanie pliku mapy (KML)
-            XmlDocument doc = new XmlDocument();
-            //doc.Load(Assets.Open("a.kml"));
-            //CZWARTEK doc.Load("https://www.google.com/maps/d/kml?mid=1YAdsxSz644qe4F90BerIaSeENgk&forcekml=1");
-            //PIATEK doc.Load("https://www.google.com/maps/d/kml?mid=1U_fAWaQwaIVGbZ1lk-TC9Bxn7n0&forcekml=1");
-            //SOBOTA doc.Load("https://www.google.com/maps/d/kml?mid=1eABjtJfl-31WyggXycwIRsAI_d4&forcekml=1");
-            //NIEDZIELA 
-            doc.Load("https://www.google.com/maps/d/kml?mid=1W2wGEBUezDja1qdDTG85fxicUNA&forcekml=1");
-
-
-            XmlNodeList idNodes = doc.GetElementsByTagName("Placemark");
-            List<MarkerOptions> placemarks = new List<MarkerOptions>();
-            placemarks = ReadMarkers(idNodes, placemarks, markerOptions);
 
             //wrzucanie listy markerow na mape
-            foreach (var marker in placemarks)
+            foreach (var iMarker in placemarks)
             {
-                //marker.SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.pin));   //konkretna ikona 
-                marker.SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
+                //marker.SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.pin));     //konkretny plik z ikona 
+                iMarker.SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
 
-                googleMap.AddMarker(marker);
-                Console.WriteLine("MARKER :" + marker.Title + " : " + marker.Position + " : " + marker.Snippet + "\r\n");
+                googleMap.AddMarker(iMarker);
             }
 
 
             //Opcje mapy i update'y
+            //trzeba bedzie dodac obsluge nawigacji
             googleMap.UiSettings.ZoomControlsEnabled = true;
             googleMap.UiSettings.CompassEnabled = true;
             googleMap.MoveCamera(CameraUpdateFactory.ZoomIn());
@@ -112,18 +131,15 @@ namespace FetaProject.Droid
                 if (node.Name == "name")
                 {
                     marker.SetTitle(node.FirstChild.Value);
-                    //Console.WriteLine(node.Name + " = " + node.FirstChild.Value + "\r\n");
                 }
                 else if (node.Name == "coordinates")
                 {
                     coordinates = node.FirstChild.Value.Split(',');
                     marker.SetPosition(new LatLng(Convert.ToDouble(coordinates[1]), Convert.ToDouble(coordinates[0])));
-                    //Console.WriteLine("cor1: {0}, cor2: {1}", Convert.ToDouble(coordinates[1]), Convert.ToDouble(coordinates[0]));
                 }
                 else if (node.Name == "description")
                 {
                     marker.SetSnippet(node.FirstChild.Value);
-                    //Console.WriteLine(node.Name + " = " + node.FirstChild.Value + "\r\n");
                 }
                 else
                 {
