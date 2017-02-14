@@ -340,6 +340,9 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f07000a
 			public const int auto = 2131165194;
 			
+			// aapt resource value: 0x7f07000d
+			public const int btnMap = 2131165197;
+			
 			// aapt resource value: 0x7f07000b
 			public const int dark = 2131165195;
 			
@@ -354,9 +357,6 @@ namespace FetaProject.Droid
 			
 			// aapt resource value: 0x7f07000e
 			public const int map = 2131165198;
-			
-			// aapt resource value: 0x7f07000d
-			public const int myButton = 2131165197;
 			
 			// aapt resource value: 0x7f070001
 			public const int none = 2131165185;
