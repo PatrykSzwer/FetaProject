@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
@@ -69,6 +68,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FetaProject\FetaProject.csproj">
       <Name>FetaProject</Name>
+      <Project>{F4730006-FF55-4FCC-AAA6-AE19F197CABD}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -139,10 +139,29 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
+    <Compile Include="ProgramViewControler.cs" />
+    <Compile Include="ProgramViewControler.designer.cs">
+      <DependentUpon>ProgramViewControler.cs</DependentUpon>
     </Compile>
+    <Compile Include="EventClassCell.cs" />
+    <Compile Include="EventClassCell.designer.cs">
+      <DependentUpon>EventClassCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsView.cs" />
+    <Compile Include="SettingsView.designer.cs">
+      <DependentUpon>SettingsView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\program.png" />
+    <BundleResource Include="Resources\info.png" />
+    <BundleResource Include="Resources\gallery.png" />
+    <BundleResource Include="Resources\settings.png" />
+    <BundleResource Include="Resources\map.png" />
+    <BundleResource Include="Resources\poster.jpg" />
+    <BundleResource Include="Resources\obrazek-filled-50.png" />
+    <BundleResource Include="Resources\PolishLanguageButton.png" />
+    <BundleResource Include="Resources\EnglishLanguageButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

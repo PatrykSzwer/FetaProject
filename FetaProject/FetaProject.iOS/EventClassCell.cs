@@ -6,7 +6,23 @@ namespace FetaProject.iOS
 {
     public partial class EventClassCell : UITableViewCell
     {
-        public EventClassCell (IntPtr handle) : base (handle)
+		private EventClass eventData;
+		public EventClass EventData
+		{
+			get { return eventData; }
+			set
+			{
+				eventData = value;
+				TimeLabel.Text = eventData.TimeEvent.ToString();
+				ActLabel.Text = eventData.ActName;
+				TheatreLabel.Text = eventData.TeatreName;
+
+
+
+			}
+		}
+
+		public EventClassCell (IntPtr handle) : base (handle)
         {
         }
     }

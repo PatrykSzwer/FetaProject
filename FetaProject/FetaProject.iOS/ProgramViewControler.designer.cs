@@ -14,5 +14,25 @@ namespace FetaProject.iOS
     [Register ("ProgramViewControler")]
     partial class ProgramViewControler
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISegmentedControl SegmentDayControl { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITableView TableEvent { get; set; }
+
+        void ReleaseDesignerOutlets ()
+        {
+            if (SegmentDayControl != null) {
+                SegmentDayControl.Dispose ();
+                SegmentDayControl = null;
+            }
+
+            if (TableEvent != null) {
+                TableEvent.Dispose ();
+                TableEvent = null;
+            }
+        }
     }
 }

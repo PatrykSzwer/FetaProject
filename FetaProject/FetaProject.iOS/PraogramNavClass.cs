@@ -8,6 +8,7 @@ namespace FetaProject.iOS
     {
         public PraogramNavClass (IntPtr handle) : base (handle)
         {
+			
         }
     }
 }

@@ -14,5 +14,8 @@ namespace FetaProject.iOS
     [Register ("PraogramNavClass")]
     partial class PraogramNavClass
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

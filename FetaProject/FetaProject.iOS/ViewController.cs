@@ -1,26 +1,25 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using CoreGraphics;
 using UIKit;
 
 namespace FetaProject.iOS
 {
 	public partial class ViewController : UIViewController
 	{
-		int count = 1;
-
-		public ViewController (IntPtr handle) : base (handle)
-		{
-		}
+		UITableView table;
 
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-			// Perform any additional setup after loading the view, typically from a nib.
-			Button.AccessibilityIdentifier = "myButton";
-			Button.TouchUpInside += delegate {
-				var title = string.Format ("{0} clicks!", count++);
-				Button.SetTitle (title, UIControlState.Normal);
-			};
+			var width = View.Bounds.Width;
+			var height = View.Bounds.Height;
+
+			table = new UITableView(new CGRect(0, 0, width, height));
+			table.AutoresizingMask = UIViewAutoresizing.All;;
+			string[] tableItems = new string[] { "Vegetables", "Fruits", "Flower Buds", "Legumes", "Bulbs", "Tubers" };
+			table.Source = new ProgramTableSource(tableItems);
+			Add(table);
 		}
 
 		public override void DidReceiveMemoryWarning ()

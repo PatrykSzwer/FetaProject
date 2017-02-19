@@ -14,5 +14,16 @@ namespace FetaProject.iOS
     [Register ("SettingsView")]
     partial class SettingsView
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton LanguageButton { get; set; }
+
+        void ReleaseDesignerOutlets ()
+        {
+            if (LanguageButton != null) {
+                LanguageButton.Dispose ();
+                LanguageButton = null;
+            }
+        }
     }
 }

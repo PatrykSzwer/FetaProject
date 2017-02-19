@@ -14,5 +14,8 @@ namespace FetaProject.iOS
     [Register ("ProgramTabelViewControllers")]
     partial class ProgramTabelViewControllers
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

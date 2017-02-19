@@ -12,7 +12,10 @@ using UIKit;
 namespace FetaProject.iOS
 {
     [Register ("try")]
-    partial class try
+    partial class 
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }
