@@ -273,7 +273,7 @@
         </scene>
         <scene sceneID="1389">
             <objects>
-                <viewController id="1390" sceneMemberID="viewController">
+                <viewController id="1390" sceneMemberID="viewController" customClass="MapViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1387"/>
                         <viewControllerLayoutGuide type="bottom" id="1388"/>
@@ -408,8 +408,6 @@
         <simulatedOrientationMetrics key="orientation"/>
     </simulatedMetricsContainer>
     <resources>
-        <image name="poster.jpg" width="2087" height="3000"/>
-        <image name="EnglishLanguageButton.png" width="1280" height="1280"/>
         <image name="PolishLanguageButton.png" width="1280" height="1280"/>
         <image name="ButtonsImage/EnglishLanguageButton.png" width="1280" height="1280"/>
         <image name="ButtonsImage/PolishLanguageButton.png" width="1280" height="1280"/>

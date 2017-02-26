@@ -6,6 +6,7 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <Button
+<<<<<<< HEAD
         android:text="EN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,4 +16,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/plButton" />
+=======
+        android:text="Map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMap" />
+>>>>>>> origin/AddingMapFeature
 </LinearLayout>

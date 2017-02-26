@@ -1,5 +1,6 @@
 ﻿using Foundation;
 using UIKit;
+using Google.Maps;
 
 namespace FetaProject.iOS
 {
