@@ -163,6 +163,10 @@
     <Compile Include="GalleryView.designer.cs">
       <DependentUpon>GalleryView.cs</DependentUpon>
     </Compile>
+    <Compile Include="MapViewController.cs" />
+    <Compile Include="MapViewController.designer.cs">
+      <DependentUpon>MapViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\pl.lproj\Localizable.strings" />
