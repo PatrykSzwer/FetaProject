@@ -16,13 +16,17 @@ namespace FetaProject.iOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton LanguageButton { get; set; }
+        UIKit.UIButton testButton { get; set; }
+
+        [Action ("TestButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void TestButton_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
-            if (LanguageButton != null) {
-                LanguageButton.Dispose ();
-                LanguageButton = null;
+            if (testButton != null) {
+                testButton.Dispose ();
+                testButton = null;
             }
         }
     }

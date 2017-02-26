@@ -18,6 +18,11 @@ namespace FetaProject.iOS
 
 		};
 		List<EventClass> EventList;
+		public override void ViewDidLoad()
+		{
+			base.ViewDidLoad();
+			SegmentDayControl.ValueChanged += (sender, e) => TableEvent.ReloadData();
+		}
 		public ProgramViewControler(IntPtr handle) : base(handle)
 		{
 			
@@ -132,7 +137,7 @@ namespace FetaProject.iOS
 		}
 		public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
 		{
-			SegmentDayControl.ValueChanged += (sender, e) => TableEvent.ReloadData();
+			
 			var cell = tableView.DequeueReusableCell("ShowEvent") as EventClassCell;
 			var selectedDate = test[SegmentDayControl.SelectedSegment].Date.Day;
 			var theatreEvents = EventList.Where(x => x.TimeEvent.Day == selectedDate).ToArray();
@@ -147,8 +152,6 @@ namespace FetaProject.iOS
 		private void SegmentChange(object sender, EventArgs e, int row, EventClassCell cell)
 		{
 			TableEvent.ReloadData();
-
-
 		}
 	}
 

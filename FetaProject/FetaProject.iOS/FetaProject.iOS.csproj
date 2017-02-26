@@ -1,4 +1,5 @@
 ﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\Xamarin.Build.Download.0.2.2\build\Xamarin.Build.Download.props" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.2.2\build\Xamarin.Build.Download.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
@@ -64,6 +65,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="Google.Maps">
+      <HintPath>..\..\packages\Xamarin.Google.iOS.Maps.2.1.0\lib\Xamarin.iOS10\Google.Maps.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FetaProject\FetaProject.csproj">
@@ -135,6 +139,7 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -151,17 +156,45 @@
     <Compile Include="SettingsView.designer.cs">
       <DependentUpon>SettingsView.cs</DependentUpon>
     </Compile>
+    <Compile Include="BundleManager.cs" />
+    <Compile Include="LanguageView.cs" />
+    <Compile Include="LanguageView.designer.cs" />
+    <Compile Include="GalleryView.cs" />
+    <Compile Include="GalleryView.designer.cs">
+      <DependentUpon>GalleryView.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\program.png" />
-    <BundleResource Include="Resources\info.png" />
-    <BundleResource Include="Resources\gallery.png" />
-    <BundleResource Include="Resources\settings.png" />
-    <BundleResource Include="Resources\map.png" />
-    <BundleResource Include="Resources\poster.jpg" />
-    <BundleResource Include="Resources\obrazek-filled-50.png" />
-    <BundleResource Include="Resources\PolishLanguageButton.png" />
-    <BundleResource Include="Resources\EnglishLanguageButton.png" />
+    <BundleResource Include="Resources\pl.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Base.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\ButtonsImage\EnglishLanguageButton.png" />
+    <BundleResource Include="Resources\ButtonsImage\PolishLanguageButton.png" />
+    <BundleResource Include="Resources\Icons\gallery.png" />
+    <BundleResource Include="Resources\Icons\info.png" />
+    <BundleResource Include="Resources\Icons\map.png" />
+    <BundleResource Include="Resources\Icons\posterIcon.png" />
+    <BundleResource Include="Resources\Icons\program.png" />
+    <BundleResource Include="Resources\Icons\settings.png" />
+    <BundleResource Include="Resources\Photo\poster.jpg" />
+    <BundleResource Include="Resources\Photo\FETA_2001.jpg" />
+    <BundleResource Include="Resources\Photo\FETA_2013_1.jpg" />
+    <BundleResource Include="Resources\Photo\FETA_2013_2.jpg" />
+    <BundleResource Include="Resources\Photo\FETA_2015_1.jpg" />
+    <BundleResource Include="Resources\Photo\FETA-2014.jpg" />
+    <BundleResource Include="Resources\Photo\FETA-2015_2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\ButtonsImage\" />
+    <Folder Include="Resources\Photo\" />
+    <Folder Include="Resources\Icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="googleiosmaps">
+      <Version>2.1.0.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\..\packages\Xamarin.Build.Download.0.2.2\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.2.2\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\..\packages\Xamarin.Google.iOS.Maps.2.1.0\build\Xamarin.Google.iOS.Maps.targets" Condition="Exists('..\..\packages\Xamarin.Google.iOS.Maps.2.1.0\build\Xamarin.Google.iOS.Maps.targets')" />
 </Project>
