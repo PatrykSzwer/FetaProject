@@ -14,8 +14,20 @@ namespace FetaProject.iOS
     [Register ("MapViewController")]
     partial class MapViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView map { get; set; }
+
+        [Action ("PrevPhoto_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void PrevPhoto_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
+            if (map != null) {
+                map.Dispose ();
+                map = null;
+            }
         }
     }
 }

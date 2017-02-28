@@ -21,9 +21,10 @@ namespace FetaProject.iOS
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
-			var lang = new BundleManager();
-			testButton.SetTitle(lang.LanguageBundle.LocalizedString("Test", "optional"),UIControlState.Normal) ;
 
+			//testButton.SetTitle(lang.LanguageBundle.LocalizedString("Test", "optional"),UIControlState.Normal) ;
+
+			testlabel.Text = "Test".Translate();
 		}
     }
 }

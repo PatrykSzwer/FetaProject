@@ -13,21 +13,18 @@ namespace FetaProject.iOS
 		partial void UIButton1330_TouchUpInside(UIButton sender)
 		{
 			
-			var path1 = NSBundle.MainBundle.PathForResource("pl", "lproj");
-			BundleManager language = new BundleManager();
-			language.LanguageBundle = new NSBundle(path1);;
-
+			var userDefaults = NSUserDefaults.StandardUserDefaults;
+			userDefaults.SetString("Base", "language");
+			userDefaults.Synchronize(); // TODO: check on returned bool
 
 		}
 
 		partial void UIButton1329_TouchUpInside(UIButton sender)
 		{
 			
-			var path2 = NSBundle.MainBundle.PathForResource("Base", "lproj");
-			BundleManager language = new BundleManager();
-			language.LanguageBundle = new NSBundle(path2);
-
-			//BundleManager.languageBundle = languageBundle;
+			var userDefaults = NSUserDefaults.StandardUserDefaults;
+			userDefaults.SetString("pl", "language");
+			userDefaults.Synchronize(); // TODO: check on returned bool
 
 
 		}

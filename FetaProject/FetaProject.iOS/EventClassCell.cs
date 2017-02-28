@@ -13,7 +13,7 @@ namespace FetaProject.iOS
 			set
 			{
 				eventData = value;
-				TimeLabel.Text = eventData.TimeEvent.ToString();
+				TimeLabel.Text = eventData.TimeEvent.ToString("HH:mm");
 				ActLabel.Text = eventData.ActName;
 				TheatreLabel.Text = eventData.TeatreName;
 

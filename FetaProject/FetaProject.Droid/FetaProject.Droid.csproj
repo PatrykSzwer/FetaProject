@@ -16,12 +16,12 @@
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AssemblyName>FetaProject.Droid</AssemblyName>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
-<<<<<<< HEAD
+
     <AndroidTlsProvider></AndroidTlsProvider>
-=======
+
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
->>>>>>> origin/AddingMapFeature
+
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -85,11 +85,11 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Assets\AboutAssets.txt" />
-<<<<<<< HEAD
-    <AndroidResource Include="Resources\layout\Example.axml">
-=======
-    <AndroidResource Include="Resources\layout\Map.axml">
->>>>>>> origin/AddingMapFeature
+
+    <AndroidResource Include="Resources\layout\Example.axml"/>
+
+    <AndroidResource Include="Resources\layout\Map.axml"/>
+
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -107,13 +107,12 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+
     <AndroidResource Include="Resources\values-pl\Strings.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
-=======
     <XamarinComponentReference Include="googleplayservices-maps">
       <Visible>False</Visible>
       <Version>29.0.0.2</Version>
@@ -127,5 +126,4 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.GooglePlayServices.Basement.29.0.0.2\build\Xamarin.GooglePlayServices.Basement.targets'))" />
   </Target>
->>>>>>> origin/AddingMapFeature
 </Project>

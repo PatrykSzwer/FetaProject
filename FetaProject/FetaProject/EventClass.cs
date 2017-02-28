@@ -6,6 +6,9 @@ namespace FetaProject
 		public string TeatreName;
 		public string ActName;
 		public DateTime TimeEvent;
+		public string OriginCountry;
+		public string Description;
+
 
 		public EventClass()
 		{

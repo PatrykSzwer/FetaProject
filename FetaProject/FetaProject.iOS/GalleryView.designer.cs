@@ -18,20 +18,19 @@ namespace FetaProject.iOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView imageView { get; set; }
 
-        [Outlet]
+        [Action ("UIButton2798_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UISwipeGestureRecognizer Swipe { get; set; }
+        partial void UIButton2798_TouchUpInside (UIKit.UIButton sender);
+
+        [Action ("UIButton2799_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton2799_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
             if (imageView != null) {
                 imageView.Dispose ();
                 imageView = null;
-            }
-
-            if (Swipe != null) {
-                Swipe.Dispose ();
-                Swipe = null;
             }
         }
     }

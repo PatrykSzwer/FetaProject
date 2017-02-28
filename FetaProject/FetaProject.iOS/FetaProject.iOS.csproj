@@ -156,7 +156,6 @@
     <Compile Include="SettingsView.designer.cs">
       <DependentUpon>SettingsView.cs</DependentUpon>
     </Compile>
-    <Compile Include="BundleManager.cs" />
     <Compile Include="LanguageView.cs" />
     <Compile Include="LanguageView.designer.cs" />
     <Compile Include="GalleryView.cs" />
@@ -167,6 +166,8 @@
     <Compile Include="MapViewController.designer.cs">
       <DependentUpon>MapViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="LocalizationExtensions.cs" />
+    <Compile Include="reachability.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\pl.lproj\Localizable.strings" />
@@ -184,8 +185,12 @@
     <BundleResource Include="Resources\Photo\FETA_2013_1.jpg" />
     <BundleResource Include="Resources\Photo\FETA_2013_2.jpg" />
     <BundleResource Include="Resources\Photo\FETA_2015_1.jpg" />
-    <BundleResource Include="Resources\Photo\FETA-2014.jpg" />
-    <BundleResource Include="Resources\Photo\FETA-2015_2.jpeg" />
+    <BundleResource Include="Resources\Photo\FETA_2014.jpg" />
+    <BundleResource Include="Resources\Photo\FETA_2015_2.jpeg" />
+    <BundleResource Include="Resources\mapMarker.png" />
+    <BundleResource Include="Resources\Photo\Map.jpg" />
+    <BundleResource Include="Resources\Icons\arrow_right.png" />
+    <BundleResource Include="Resources\Icons\arrow_left-2.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\ButtonsImage\" />

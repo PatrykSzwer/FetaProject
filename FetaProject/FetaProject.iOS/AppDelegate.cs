@@ -10,7 +10,7 @@ namespace FetaProject.iOS
 	public class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
-
+		const string MapsApiKey = "AIzaSyAvK0jTW1WHQPodnTUcoP_paXJoX8bJQ5A";
 		public override UIWindow Window {
 			get;
 			set;
@@ -18,6 +18,7 @@ namespace FetaProject.iOS
 
 		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
 		{
+			MapServices.ProvideAPIKey(MapsApiKey);
 			// Override point for customization after application launch.
 			// If not required for your application you can safely delete this method
 			return true;

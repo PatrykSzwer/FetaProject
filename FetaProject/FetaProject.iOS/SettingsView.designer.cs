@@ -18,6 +18,10 @@ namespace FetaProject.iOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton testButton { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel testlabel { get; set; }
+
         [Action ("TestButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void TestButton_TouchUpInside (UIKit.UIButton sender);
@@ -27,6 +31,11 @@ namespace FetaProject.iOS
             if (testButton != null) {
                 testButton.Dispose ();
                 testButton = null;
+            }
+
+            if (testlabel != null) {
+                testlabel.Dispose ();
+                testlabel = null;
             }
         }
     }
