@@ -1,158 +1,64 @@
+﻿using FetaProject.Models;
 using Foundation;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using UIKit;
-using System.Collections.Generic;
 
 
 namespace FetaProject.iOS
 {
-	public partial class ProgramViewControler : UITableViewController
-	{
-		public DateTime[] test = new DateTime[]{
+    public partial class ProgramViewControler : UITableViewController
+    {
+        private readonly List<Event> _eventList;
 
-			new DateTime(2017, 7, 13),
-			new DateTime(2017, 7, 14),
-			new DateTime(2017, 7, 15),
-			new DateTime(2017, 7, 16)
+        private readonly DateTime[] _eventsDates = {
 
-		};
-		List<EventClass> EventList;
-		public override void ViewDidLoad()
-		{
-			base.ViewDidLoad();
-			SegmentDayControl.ValueChanged += (sender, e) => TableEvent.ReloadData();
-		}
-		public ProgramViewControler(IntPtr handle) : base(handle)
-		{
-			
-			EventList = new List<EventClass>();
+            new DateTime(2017, 7, 13),
+            new DateTime(2017, 7, 14),
+            new DateTime(2017, 7, 15),
+            new DateTime(2017, 7, 16)
+        };
 
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "FETA",
-				ActName = "Te białe kwiaty",
-				TimeEvent = new DateTime(2017, 7, 15, 15, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 14, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 13, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 16, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "FETA",
-				ActName = "Te białe kwiaty",
-				TimeEvent = new DateTime(2017, 7, 15, 15, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 14, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 13, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 16, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "FETA",
-				ActName = "Te białe kwiaty",
-				TimeEvent = new DateTime(2017, 7, 15, 15, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 14, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 13, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 16, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "FETA",
-				ActName = "Te białe kwiaty",
-				TimeEvent = new DateTime(2017, 7, 15, 15, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 15, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 15, 22, 30, 0)
-			});
-			EventList.Add(new EventClass()
-			{
-				TeatreName = "Titanic",
-				ActName = "Test działania",
-				TimeEvent = new DateTime(2017, 7, 15, 22, 30, 0)
-			});
+        public override void ViewDidLoad()
+        {
+            base.ViewDidLoad();
+            SegmentDayControl.ValueChanged += (sender, e) => TableEvent.ReloadData();
+        }
+        public ProgramViewControler(IntPtr handle) : base(handle)
+        {
+            _eventList = EventsManager.EventsManager.GetEvents().ToList();
+        }
 
-		}
-		public override nint NumberOfSections(UITableView tableView)
-		{
-			return 1;
-		}
-		public override nint RowsInSection(UITableView tableView, nint section)
-		{
-			var selectedDate = test[SegmentDayControl.SelectedSegment].Date.Day;
-			return EventList.Where(x => x.TimeEvent.Day==selectedDate).Count();
-		}
-		public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
-		{
-			
-			var cell = tableView.DequeueReusableCell("ShowEvent") as EventClassCell;
-			var selectedDate = test[SegmentDayControl.SelectedSegment].Date.Day;
-			var theatreEvents = EventList.Where(x => x.TimeEvent.Day == selectedDate).ToArray();
+        public override nint NumberOfSections(UITableView tableView)
+        {
+            return 1;
+        }
 
-			var data = theatreEvents[indexPath.Row];
+        public override nint RowsInSection(UITableView tableView, nint section)
+        {
+            var selectedDate = _eventsDates[SegmentDayControl.SelectedSegment].Date.Day;
+            return _eventList.Count(x => x.TimeEvent.Day == selectedDate);
+        }
 
-			cell.EventData = data;
+        public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
+        {
 
+            var cell = tableView.DequeueReusableCell("ShowEvent") as EventClassCell;
+            var selectedDate = _eventsDates[SegmentDayControl.SelectedSegment].Date.Day;
+            var theatreEvents = _eventList.Where(x => x.TimeEvent.Day == selectedDate).ToArray();
 
-			return cell;
-		}
-		private void SegmentChange(object sender, EventArgs e, int row, EventClassCell cell)
-		{
-			TableEvent.ReloadData();
-		}
-	}
+            var data = theatreEvents[indexPath.Row];
 
+            cell.EventData = data;
+
+            return cell;
+        }
+
+        // Unused method? Should be used key word "override" or deleted?
+        private void SegmentChange(object sender, EventArgs e, int row, EventClassCell cell)
+        {
+            TableEvent.ReloadData();
+        }
+    }
 }

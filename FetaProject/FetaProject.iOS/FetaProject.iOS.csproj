@@ -1,14 +1,17 @@
-﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\..\packages\Xamarin.Build.Download.0.2.2\build\Xamarin.Build.Download.props" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.2.2\build\Xamarin.Build.Download.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>5445252e-861c-4acb-a63b-5cdef9db78e3</ProjectGuid>
+    <ProjectGuid>{5445252E-861C-4ACB-A63B-5CDEF9DB78E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>FetaProject.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>FetaProject.iOS</AssemblyName>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,13 +64,14 @@
     <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Google.Maps, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Google.iOS.Maps.2.1.0\lib\Xamarin.iOS10\Google.Maps.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="Google.Maps">
-      <HintPath>..\..\packages\Xamarin.Google.iOS.Maps.2.1.0\lib\Xamarin.iOS10\Google.Maps.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FetaProject\FetaProject.csproj">
@@ -142,6 +146,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventsManager\EventsManager.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="ProgramViewControler.cs" />
@@ -166,7 +171,7 @@
     <Compile Include="MapViewController.designer.cs">
       <DependentUpon>MapViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="LocalizationExtensions.cs" />
+    <Compile Include="LocalizationExtension\LocalizationExtension.cs" />
     <Compile Include="reachability.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -192,11 +197,7 @@
     <BundleResource Include="Resources\Icons\arrow_right.png" />
     <BundleResource Include="Resources\Icons\arrow_left-2.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\ButtonsImage\" />
-    <Folder Include="Resources\Photo\" />
-    <Folder Include="Resources\Icons\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <XamarinComponentReference Include="googleiosmaps">
       <Version>2.1.0.0</Version>
@@ -206,4 +207,10 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Build.Download.0.2.2\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.2.2\build\Xamarin.Build.Download.targets')" />
   <Import Project="..\..\packages\Xamarin.Google.iOS.Maps.2.1.0\build\Xamarin.Google.iOS.Maps.targets" Condition="Exists('..\..\packages\Xamarin.Google.iOS.Maps.2.1.0\build\Xamarin.Google.iOS.Maps.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Xamarin.Google.iOS.Maps.2.1.0\build\Xamarin.Google.iOS.Maps.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Google.iOS.Maps.2.1.0\build\Xamarin.Google.iOS.Maps.targets'))" />
+  </Target>
 </Project>

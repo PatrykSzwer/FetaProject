@@ -1,1 +1,43 @@
 ﻿"Test" = "Język";
+
+"Parade" = "Parada";
+"Parade_TheaterName" = "Cie Abozeta";
+"Parade_OriginCountry" = "Francja";
+"Parade_Description" = "Żonglerzy, muzycy, szczudlarze i akrobaci — wszyscy mają stopy na ziemi, ale głowy w chmurach. Tkają sieć ruchomych, złożonych obrazów za pomocą nici pokazywanych na żywo eksperymentów oraz poetyckiej ekspresji. Przenoszą nas w zupełnie nowy świat umiejscowiony gdzieś pomiędzy niebem a ziemią, w którym na przemian splatają i rozplatają swoje ciała, szczudła, żonglowane piłki oraz maczugi, sny i humor…";
+"Parade_DateTime" = "14-07-2016 20:30";
+
+"Remus" = "Remus";
+"Remus_TheaterName" = "Teatr Snow";
+"Remus_OriginCountry" = "Polska";
+"Remus_Description" = "Opowieść o samotności niepozornego, a bogatego duchem człowieka, który nie godzi się z zastanym i podejmuje walkę o zmiany w najbliższym otoczeniu. Należy realizować ideały, walczyć w imię Dobra z silniejszymi, a czasowe niepowodzenie nie oznacza ostatecznej klęski.";
+"Remus_DateTime" = "14-07-2016 20:30";
+
+"Spatial" = "Przestrzenny";
+"Spatial_TheaterName" = "Teatr Snow";
+"Spatial_OriginCountry" = "Polska";
+"Spatial_Description" = "'Przestrzenny' to spektakl o kimś, kto przestaje mieścić się w trywialnej rzeczywistości. Zaczyna widzieć, w jakiej klatce stworzonej przez samego siebie znajdował się do tej pory. Próbuje więc rozpychać rzeczywistość, Szuka sposobów na poszerzenie wewnętrznej przestrzeni, aby znalazło się w niej również miejsce na bycie szczęśliwym. Podejmuje podróż w górę, w przestworza, aby tam znaleźć perspektywę i nowe terytorium, w którym po powrocie na Ziemię będzie mógł zmieścić również pozytywne strony życia.";
+"Spatial_DateTime" = "15-07-2016 18:00";
+
+"TheSenses" = "Zmysły";
+"TheSenses_TheaterName" = "A3Teatr";
+"TheSenses_OriginCountry" = "Polska";
+"TheSenses_Description" = "Zmyły! Kuszące, flirtujące, pociągające, szalejące, wrzeszczące, śpiewające i rozśmieszające – zagadkowo, z przymrużeniem oka, zza trzepotu rzęs uwodzą publiczność „zmysłowym” surrealistycznym kabaretem lirycznym pełnym wokalnych popisów solo, żartów i gagów, interakcji z widzem dorosłym i familijnym. Śpiewające Uszy, Stepujące Gałki Oczne czy Nos z Gilem i machiną Ust Korali, Pomocna Dłoń – są barwnym, absurdalnym i wywołującym i uśmiech działaniem. Absurd sytuacji idzie pod rękę z Komizmem, a wszystko w barwnej formie wszystkich Zmysłów. Aktorzy nawiązują kontakt z widzem, intrygują przechodnia, wciągają go w interakcje.";
+"TheSenses_DateTime" = "15-07-2016 19:30";
+
+"TheLastBastion" = "The Last Bastion";
+"TheLastBastion_TheaterName" = "Mr Pejo's Wandering Dolls";
+"TheLastBastion_OriginCountry" = "Rosja";
+"TheLastBastion_Description" = "Ostatni bastion starego teatru – przedstawienie w stylu bufonady, które niknie powoli pod naciskiem współczesnej, awangardowej sztuki konceptualnej. Występują w nim tradycyjni mieszkańcy domku z kart, Pulcinella i Pierrot, Aktorka i Aktor – Komedianci. Jak przystało na prawdziwą bufonadę, przedstawienie jest pełne zaskakujących tricków i mitycznych postaci, jak. np. Minotaur, który symbolizuje irracjonalność teatru. Przedstawienie zgłębia problem wewnętrznej agresji i fikcyjnych granic wytyczanych przez ludzi, ukazuje też odwieczny związek między widownią a aktorami. „Ostatni bastion” to zabawne, prowokujące przedstawienie. Publiczność jest bombardowana z katapulty, bohaterowie budują barykady, próbują dezerterować, wywieszają białą flagę. Sztuka jest zabawna i ekscytująca, inteligentna i groteskowa. Dla każdego widza.";
+"TheLastBastion_DateTime" = "15-07-2016 21:00";
+
+"BigBangCompany" = "Big Bang Company";
+"BigBangCompany_TheaterName" = "Dansk Rakkerpak";
+"BigBangCompany_OriginCountry" = "Dania";
+"BigBangCompany_Description" = "Do grupy Big Bang Company należą Nicko i Speedy, duet artystyczny, który występuje razem przez całe życie, polski dyrygent Tomazjewski oraz solowy zespół cyrkowy. Ich show było kiedyś znacznie lepsze, ale artyści nadal odgrywają swoje role z dużym wdziękiem, pewnością siebie, pogardzając śmiercią – w wielkim finale Speedy zostaje wystrzelony nad publicznością jako ludzka kula armatnia! Big Bang Company to przedstawienie zawierające także głębszą refleksję, poruszające takie tematy jak partnerstwo i przyjaźń na całe życie, kryzysy, kompromisy i wielka miłość do swojej profesji. Jest pełne zakurzonej cyrkowej nostalgii i prezentowane jest przy użyciu oryginalnego, komicznego języka teatru ruchu, który przyciąga zarówno dzieci, jak i dorosłych.";
+"BigBangCompany_DateTime" = "16-07-2016 17:00";
+
+"Remus17" = "Remus";
+"Remus17_TheaterName" = "Teatr Snow";
+"Remus17_OriginCountry" = "Polska";
+"Remus17_Description" = "Opowieść o samotności niepozornego, a bogatego duchem człowieka, który nie godzi się z zastanym i podejmuje walkę o zmiany w najbliższym otoczeniu. Należy realizować ideały, walczyć w imię Dobra z silniejszymi, a czasowe niepowodzenie nie oznacza ostatecznej klęski.";
+"Remus17_DateTime" = "17-07-2016 15:00";
