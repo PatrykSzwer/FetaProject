@@ -45,10 +45,11 @@
 
 // Navigation item title
 
-"Map" = "Map";
-"Program" = "Program";
-"Poster" = "Poster";
 "GalleryTab" = "Gallery";
+"MapsTab" = "Map";
+"AboutTab" = "About";
+"SettingsTab" = "Settings";
+"ProgramTab" = "Program";
 
 
 

@@ -21,26 +21,26 @@ namespace FetaProject.iOS
 			MapServices.ProvideAPIKey(MapsApiKey);
 			Window = new UIWindow(UIScreen.MainScreen.Bounds);
 			var storyboard = UIStoryboard.FromName("Main", null);
-			TabBarViews menu = storyboard.InstantiateViewController("menu") as TabBarViews;
-			Window.RootViewController = menu;
+
 
 			if (NSUserDefaults.StandardUserDefaults.StringForKey("Key") == "no")
 			{
-				//TutorialView toturial = storyboard.InstantiateViewController("Tutorail") as TutorialView;
-				//Window.RootViewController = toturial;
+				TutorialView toturial = storyboard.InstantiateViewController("Tutorail") as TutorialView;
+				Window.RootViewController = toturial;
 			}
 			else if (NSUserDefaults.StandardUserDefaults.StringForKey("Key") == "yes")
 			{
 				//tabBarView home = storyboard.InstantiateViewController("tabBarView") as tabBarView;
 				//Window.RootViewController = home;
 				//TutorialView toturial = storyboard.InstantiateViewController("Tutorail") as TutorialView;
-
+				TabBarViews menu = storyboard.InstantiateViewController("menu") as TabBarViews;
+				Window.RootViewController = menu;
 
 			}
 			else 
 			{
-				//StartLanguageView firstView = storyboard.InstantiateViewController("firstView") as StartLanguageView;
-				//Window.RootViewController = firstView;
+				StartLanguageView firstView = storyboard.InstantiateViewController("firstView") as StartLanguageView;
+				Window.RootViewController = firstView;
 
 			
 			}
