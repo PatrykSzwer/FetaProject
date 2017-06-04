@@ -89,7 +89,7 @@ namespace FetaProject.iOS
 			events = ReadEvents(map, events);
 
 			//debug console write of list
-			Console.WriteLine("Lista eventow");
+			Console.WriteLine("Lista eventow:");
 			foreach (var cos in events)
 			{
 				Console.WriteLine(cos.ActName + "," + cos.TeatreName + "," + cos.OriginCountry + "," + cos.Description + "," + cos.TimeEvent);
@@ -118,7 +118,7 @@ namespace FetaProject.iOS
 			//Ustawianie widoku mapy
 			//œrednia z wszysztkich markerów
 			CLLocationCoordinate2D location = new CLLocationCoordinate2D((maxLat + minLat) / 2, (maxLng + minLng) / 2);
-			Console.WriteLine(location);			//CameraPosition. mapView = CameraPosition.InvokeBuilder();
+			//Console.WriteLine(location);			
 			CameraPosition camera = CameraPosition.FromCamera((maxLat + minLat) / 2, (maxLng + minLng) / 2, zoom: 15);
 			//CameraUpdate cameraUpdate = CameraUpdateFactory.NewCameraPosition(camera);
 			//CameraUpdate cameraUpdate = CameraUpdate.
@@ -206,9 +206,6 @@ namespace FetaProject.iOS
 			// zmienna przechowujaca miejsce spektaklu np. A, B, ...
 			string eventPlace = String.Empty;
 
-			//TestMap
-			//string testMap = "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4";
-
 			using (XmlReader reader = XmlReader.Create(map))
 			{
 
@@ -219,17 +216,7 @@ namespace FetaProject.iOS
 				{
 					switch (reader.NodeType)
 					{
-						case XmlNodeType.Element:
-							Console.Write("<{0}", reader.Name);
-							while (reader.MoveToNextAttribute())
-							{
-								Console.Write(" {0}='{1}'", reader.Name, reader.Value);
-							}
-							Console.Write(">");
-							break;
-						case XmlNodeType.Text:
-							Console.Write(reader.Value);
-							break;
+
 						case XmlNodeType.CDATA:
 							Console.Write(reader.Value);
 							descpString = reader.Value.Split(';');
@@ -240,17 +227,17 @@ namespace FetaProject.iOS
 							actPL.Description = descpString[3];
 							if (descpString[4] !=null)
 							actPL.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
-							Console.WriteLine("Data wydarzenia:{0}",descpString[4]);
+							//Console.WriteLine("Data wydarzenia:{0}",descpString[4]);
 
 							// ENG part
 							actENG.ActName = descpString[6];
 							actENG.TeatreName = descpString[7];
 							actENG.OriginCountry = descpString[8];
 							actENG.Description = descpString[9];
+							if (descpString[4] != null)
+								actENG.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
 							break;
-						case XmlNodeType.EndElement:
-							Console.Write("</{0}>", reader.Name);
-							break;
+
 					}
 
 					if (actPL.Description != null && actENG.Description != null)
