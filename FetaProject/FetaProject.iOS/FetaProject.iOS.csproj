@@ -158,8 +158,6 @@
     <Compile Include="SettingsView.designer.cs">
       <DependentUpon>SettingsView.cs</DependentUpon>
     </Compile>
-    <Compile Include="LanguageView.designer.cs" />
-    <Compile Include="LanguageView.cs" />
     <Compile Include="GalleryView.cs" />
     <Compile Include="GalleryView.designer.cs">
       <DependentUpon>GalleryView.cs</DependentUpon>
@@ -191,10 +189,6 @@
     <Compile Include="DisplayMapView.designer.cs">
       <DependentUpon>DisplayMapView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs" />
-    <Compile Include="Menu.designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
-    </Compile>
     <Compile Include="SettingsNav.cs" />
     <Compile Include="SettingsNav.designer.cs">
       <DependentUpon>SettingsNav.cs</DependentUpon>
@@ -206,6 +200,10 @@
     <Compile Include="ProgramNav.cs" />
     <Compile Include="ProgramNav.designer.cs">
       <DependentUpon>ProgramNav.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageViewControler.cs" />
+    <Compile Include="LanguageViewControler.designer.cs">
+      <DependentUpon>LanguageViewControler.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

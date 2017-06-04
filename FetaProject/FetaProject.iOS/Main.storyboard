@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7356">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4929">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -192,7 +192,7 @@
         </scene>
         <scene sceneID="702">
             <objects>
-                <viewController id="703" sceneMemberID="viewController" customClass="LanguageView">
+                <viewController id="703" sceneMemberID="viewController" customClass="LanguageViewControler">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="700"/>
                         <viewControllerLayoutGuide type="bottom" id="701"/>
@@ -203,23 +203,25 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1330" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="11" y="360" width="335" height="237"/>
+                                <rect key="frame" x="20" y="378" width="335" height="237"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="ButtonsImage/EnglishLanguageButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="UIButton1330_TouchUpInside:" destination="703" id="2068" eventType="touchUpInside"/>
+                                    <action selector="ENButtonClick:" destination="703" id="7460" eventType="touchUpInside"/>
+                                    <segue id="7814" destination="7356" kind="showDetail"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1329" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="20" y="97" width="335" height="237"/>
+                                <rect key="frame" x="20" y="91" width="335" height="237"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="ButtonsImage/PolishLanguageButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="UIButton1329_TouchUpInside:" destination="703" id="2067" eventType="touchUpInside"/>
+                                    <action selector="PLButtonClick:" destination="703" id="7459" eventType="touchUpInside"/>
+                                    <segue id="7686" destination="7356" kind="showDetail"/>
                                 </connections>
                             </button>
                         </subviews>

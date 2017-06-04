@@ -11,20 +11,20 @@ using UIKit;
 
 namespace FetaProject.iOS
 {
-    [Register ("LanguageView")]
-    partial class LanguageView
+    [Register ("LanguageViewControler")]
+    partial class LanguageViewControler
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton plButton { get; set; }
 
-        [Action ("UIButton1329_TouchUpInside:")]
+        [Action ("ENButtonClick:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton1329_TouchUpInside (UIKit.UIButton sender);
+        partial void ENButtonClick (UIKit.UIButton sender);
 
-        [Action ("UIButton1330_TouchUpInside:")]
+        [Action ("PLButtonClick:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton1330_TouchUpInside (UIKit.UIButton sender);
+        partial void PLButtonClick (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {

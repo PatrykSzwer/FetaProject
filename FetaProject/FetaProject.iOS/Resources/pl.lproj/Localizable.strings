@@ -48,6 +48,10 @@
 "Program" = "Program";
 
 "GalleryTab" = "Galeria";
+"MapsTab" = "Mapa";
+"AboutTab" = "O festiwalu";
+"SettingsTab" = "Ustawienia";
+"ProgramTab" = "Program";
 
 // SettingView
 

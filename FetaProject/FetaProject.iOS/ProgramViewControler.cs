@@ -23,8 +23,7 @@ namespace FetaProject.iOS
 		Event[] theatreEvents;
         public override void ViewDidLoad()
         {
-            base.ViewDidLoad();
-			Console.WriteLine(NSUserDefaults.StandardUserDefaults.StringForKey("Key"));
+			base.ViewDidLoad();
             SegmentDayControl.ValueChanged += (sender, e) => TableEvent.ReloadData();
 
 
@@ -79,7 +78,7 @@ namespace FetaProject.iOS
 
             var cell = tableView.DequeueReusableCell("ShowEvent") as EventClassCell;
             var selectedDate = _eventsDates[SegmentDayControl.SelectedSegment].Date.Day;
-             theatreEvents = _eventList.Where(x => x.TimeEvent.Day == selectedDate).ToArray();
+            theatreEvents = _eventList.Where(x => x.TimeEvent.Day == selectedDate).ToArray();
 
             var data = theatreEvents[indexPath.Row];
 
