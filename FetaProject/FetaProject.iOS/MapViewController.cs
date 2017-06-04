@@ -4,8 +4,11 @@ using UIKit;
 using Google.Maps;
 using CoreGraphics;
 using System.Xml;
+using System.Xml.Serialization;
+using System.IO;
 using System.Collections.Generic;
 using CoreLocation;
+using FetaProject.Models;
 
 
 namespace FetaProject.iOS
@@ -63,8 +66,15 @@ namespace FetaProject.iOS
 			//CZWARTEK  doc.Load("https://www.google.com/maps/d/kml?mid=1YAdsxSz644qe4F90BerIaSeENgk&forcekml=1");
 			//PIATEK    doc.Load("https://www.google.com/maps/d/kml?mid=1U_fAWaQwaIVGbZ1lk-TC9Bxn7n0&forcekml=1");
 			//SOBOTA    
-			doc.Load("https://www.google.com/maps/d/kml?mid=1eABjtJfl-31WyggXycwIRsAI_d4&forcekml=1");
-			//NIEDZIELA doc.Load("https://www.google.com/maps/d/kml?mid=1W2wGEBUezDja1qdDTG85fxicUNA&forcekml=1");
+			//doc.Load("https://www.google.com/maps/d/kml?mid=1eABjtJfl-31WyggXycwIRsAI_d4&forcekml=1");
+			//NIEDZIELA
+			//var Map = "https://www.google.com/maps/d/kml?mid=1W2wGEBUezDja1qdDTG85fxicUNA&forcekml=1";
+
+
+			//TestMap
+			var map = "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4";
+
+			doc.Load(map);
 
 			//lista elemtow z XML ktore nas interesuja
 			XmlNodeList idNodes = doc.GetElementsByTagName("Placemark");
@@ -73,6 +83,17 @@ namespace FetaProject.iOS
 			List<Marker> placemarks = new List<Marker>();
 			//wpisane w liste markerow
 			placemarks = ReadMarkers(idNodes, placemarks, marker);
+
+			//zbranie info o eventach
+			List<Event> events = new List<Event>();
+			events = ReadEvents(map, events);
+
+			//debug console write of list
+			Console.WriteLine("Lista eventow");
+			foreach (var cos in events)
+			{
+				Console.WriteLine(cos.ActName + "," + cos.TeatreName + "," + cos.OriginCountry + "," + cos.Description + "," + cos.TimeEvent);
+			};
 
 			//obliczanie najlepszego widoku dla mapy
 			double maxLat = marker.Position.Latitude;
@@ -134,6 +155,7 @@ namespace FetaProject.iOS
 			//zmienna potrzebna do rozdzielania koordynatow
 			string[] coordinates;
 
+
 			foreach (XmlNode node in nodeList)
 			{
 
@@ -149,10 +171,12 @@ namespace FetaProject.iOS
 					marker.Position = new CLLocationCoordinate2D(Convert.ToDouble(coordinates[1]), Convert.ToDouble(coordinates[0]));
 					marker = Marker.FromPosition(marker.Position);
 				}
-				else if (node.Name == "description")
+				//optional description under the marker
+				// można dobrać informacje które chcemy wyświetlać pod markerem (jak poniżej w ReadEvents)
+				/*else if (node.Name == "description")
 				{
 					marker.Snippet = node.FirstChild.Value;
-				}
+				}*/
 				else
 				{
 					ReadMarkers(node.ChildNodes, placemarks, marker);
@@ -169,6 +193,80 @@ namespace FetaProject.iOS
 
 			}
 			return placemarks;
+		}
+
+		private List<Event> ReadEvents(string map, List<Event> events)
+		{
+			Event actPL = new Event();
+			Event actENG = new Event();
+
+			//zmienna potrzebna do rozdzielania opisu
+			string[] descpString;
+
+			// zmienna przechowujaca miejsce spektaklu np. A, B, ...
+			string eventPlace = String.Empty;
+
+			//TestMap
+			//string testMap = "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4";
+
+			using (XmlReader reader = XmlReader.Create(map))
+			{
+
+				reader.MoveToContent();
+				reader.ReadToDescendant("Placemark");
+
+				do
+				{
+					switch (reader.NodeType)
+					{
+						case XmlNodeType.Element:
+							Console.Write("<{0}", reader.Name);
+							while (reader.MoveToNextAttribute())
+							{
+								Console.Write(" {0}='{1}'", reader.Name, reader.Value);
+							}
+							Console.Write(">");
+							break;
+						case XmlNodeType.Text:
+							Console.Write(reader.Value);
+							break;
+						case XmlNodeType.CDATA:
+							Console.Write(reader.Value);
+							descpString = reader.Value.Split(';');
+							// PL part
+							actPL.ActName = descpString[0];
+							actPL.TeatreName = descpString[1];
+							actPL.OriginCountry = descpString[2];
+							actPL.Description = descpString[3];
+							if (descpString[4] !=null)
+							actPL.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
+							Console.WriteLine("Data wydarzenia:{0}",descpString[4]);
+
+							// ENG part
+							actENG.ActName = descpString[6];
+							actENG.TeatreName = descpString[7];
+							actENG.OriginCountry = descpString[8];
+							actENG.Description = descpString[9];
+							break;
+						case XmlNodeType.EndElement:
+							Console.Write("</{0}>", reader.Name);
+							break;
+					}
+
+					if (actPL.Description != null && actENG.Description != null)
+					{
+						events.Add(actPL);
+						events.Add(actENG);
+
+						actPL = new Event();
+						actENG = new Event();
+					}
+
+				} while (reader.Read());
+
+			}
+
+			return events;
 		}
     }
 }
