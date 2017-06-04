@@ -18,6 +18,14 @@ namespace FetaProject.iOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView map { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITabBarItem mapButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISegmentedControl SelectDay { get; set; }
+
         [Action ("PrevPhoto_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void PrevPhoto_TouchUpInside (UIKit.UIButton sender);
@@ -27,6 +35,16 @@ namespace FetaProject.iOS
             if (map != null) {
                 map.Dispose ();
                 map = null;
+            }
+
+            if (mapButton != null) {
+                mapButton.Dispose ();
+                mapButton = null;
+            }
+
+            if (SelectDay != null) {
+                SelectDay.Dispose ();
+                SelectDay = null;
             }
         }
     }

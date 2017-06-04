@@ -19,9 +19,9 @@ namespace FetaProject.iOS
         {
             base.ViewDidLoad();
 
-            //testButton.SetTitle(lang.LanguageBundle.LocalizedString("Test", "optional"),UIControlState.Normal) ;
-
-            testlabel.Text = "Test".Translate();
+            testButton.SetTitle("Language".Translate(),UIControlState.Normal);
+			settingTitle.Title = "Settings".Translate();
+            
         }
     }
 }

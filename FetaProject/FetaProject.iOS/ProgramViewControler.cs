@@ -19,10 +19,11 @@ namespace FetaProject.iOS
             new DateTime(2017, 7, 15),
             new DateTime(2017, 7, 16)
         };
-
+		Event[] theatreEvents;
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+			Console.WriteLine(NSUserDefaults.StandardUserDefaults.StringForKey("Key"));
             SegmentDayControl.ValueChanged += (sender, e) => TableEvent.ReloadData();
         }
         public ProgramViewControler(IntPtr handle) : base(handle)
@@ -46,7 +47,7 @@ namespace FetaProject.iOS
 
             var cell = tableView.DequeueReusableCell("ShowEvent") as EventClassCell;
             var selectedDate = _eventsDates[SegmentDayControl.SelectedSegment].Date.Day;
-            var theatreEvents = _eventList.Where(x => x.TimeEvent.Day == selectedDate).ToArray();
+             theatreEvents = _eventList.Where(x => x.TimeEvent.Day == selectedDate).ToArray();
 
             var data = theatreEvents[indexPath.Row];
 
@@ -60,5 +61,20 @@ namespace FetaProject.iOS
         {
             TableEvent.ReloadData();
         }
+		public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+		{
+			
+			if (segue.Identifier == "EventDetail")
+			{
+				var detileController = segue.DestinationViewController as DetailProgramView;
+
+				if (detileController != null)
+				{
+					var rowPath = TableView.IndexPathForSelectedRow;
+					var selectedData = theatreEvents[rowPath.Row];
+					detileController.selectedEvent = selectedData;
+				}
+			}
+		}
     }
 }

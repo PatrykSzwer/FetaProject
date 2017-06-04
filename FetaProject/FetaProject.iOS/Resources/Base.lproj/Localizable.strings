@@ -1,6 +1,4 @@
-﻿"Test" = "Language";
-
-"Parade" = "Parade";
+﻿"Parade" = "Parade";
 "Parade_TheaterName" = "Cie Abozeta";
 "Parade_OriginCountry" = "France";
 "Parade_Description" = "Jugglers, musicians, stilt walkers and acrobats — they all have their feet on the ground and their heads in the clouds. They weave a web of moving multifaceted pictures from the strings of live experimentation and poetic expression and bring us into a brand new world between the skies and the ground where they mingle and untangle their bodies, stilts, juggling balls and clubs, dreams and humour…";
@@ -24,6 +22,7 @@
 "TheSenses_Description" = "The Senses could take over any anonymous urban space thanks to the vital energy of the performance and its appealing, absurd and amusing episodes. The show fills a street, a park or other urban space with a new life and meaning. Live music, music from loudspeakers, characters (the Singing Ears, the Stepping Eyes, the Huge Nose where children can find hidden treasures), the Special Mouth Machine interact with the surroundings and the passing audience in a sparkling manner.";
 "TheSenses_DateTime" = "15-07-2016 19:30";
 
+
 "TheLastBastion" = "The Last Bastion";
 "TheLastBastion_TheaterName" = "Mr Pejo's Wandering Dolls";
 "TheLastBastion_OriginCountry" = "Russia";
@@ -41,3 +40,30 @@
 "Remus17_OriginCountry" = "Poland";
 "Remus17_Description" = "A tale of the loneliness of an ordinary but generous-spirited man who does not agree on status quo and starts a fight for changes in his immediate surroundings. You have to realise what your ideals are and struggle with the stronger in the name of good, whereas temporary misfortunes do not mean a final defeat.";
 "Remus17_DateTime" = "17-07-2016 15:00";
+
+
+
+// Navigation item title
+
+"Map" = "Map";
+"Program" = "Program";
+"Poster" = "Poster";
+"GalleryTab" = "Gallery";
+
+
+
+// SettingView
+
+"Settings" = "Settings";
+"Language" = "Language";
+
+// PosterView
+
+"PosterTitle" = "Poster FETA 2017";
+"Poster" = "Poster";
+
+//TutorialView
+
+"skip"="Skip";
+"End" = "End";
+"Not_Show_Tutoraial"="I want see tutorail again.";

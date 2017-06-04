@@ -16,11 +16,11 @@ namespace FetaProject.iOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton testButton { get; set; }
+        UIKit.UINavigationItem settingTitle { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel testlabel { get; set; }
+        UIKit.UIButton testButton { get; set; }
 
         [Action ("TestButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -28,14 +28,14 @@ namespace FetaProject.iOS
 
         void ReleaseDesignerOutlets ()
         {
+            if (settingTitle != null) {
+                settingTitle.Dispose ();
+                settingTitle = null;
+            }
+
             if (testButton != null) {
                 testButton.Dispose ();
                 testButton = null;
-            }
-
-            if (testlabel != null) {
-                testlabel.Dispose ();
-                testlabel = null;
             }
         }
     }

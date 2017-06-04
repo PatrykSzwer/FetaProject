@@ -3,6 +3,7 @@ using FetaProject.iOS.LocalizationExtension;
 using FetaProject.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace FetaProject.iOS.EventsManager
 {
@@ -33,5 +34,10 @@ namespace FetaProject.iOS.EventsManager
 
             return events;
         }
+
+		public static Event GetEventByName(string actName)
+		{
+			return GetEvents().FirstOrDefault(x => x.ActName == actName);
+		}
     }
 }
