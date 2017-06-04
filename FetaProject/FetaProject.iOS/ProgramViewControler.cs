@@ -3,6 +3,7 @@ using Foundation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Xml;
 using UIKit;
 
 
@@ -10,7 +11,7 @@ namespace FetaProject.iOS
 {
     public partial class ProgramViewControler : UITableViewController
     {
-        private readonly List<Event> _eventList;
+        private List<Event> _eventList;
 
         private readonly DateTime[] _eventsDates = {
 
@@ -25,6 +26,37 @@ namespace FetaProject.iOS
             base.ViewDidLoad();
 			Console.WriteLine(NSUserDefaults.StandardUserDefaults.StringForKey("Key"));
             SegmentDayControl.ValueChanged += (sender, e) => TableEvent.ReloadData();
+
+
+			//TestMap
+			var map = "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4";
+			//zbranie info o eventach
+			List<Event> events = new List<Event>();
+			List<Event> eventsENG = new List<Event>();
+			events = ReadEvents(map, events);
+
+			//split list of events by language
+			for (var i = 1; i < events.Count; i++)
+			{
+				eventsENG.Add(events[i]);
+				events.Remove(events[i]);
+			}
+
+			// choose list for specific language
+			var userDefaults = NSUserDefaults.StandardUserDefaults;
+			var selectedLng = userDefaults.ValueForKey((Foundation.NSString)"language");
+
+			if (selectedLng.ToString() == "pl")
+			{
+				_eventList = events;
+			}
+			else if (selectedLng.ToString() == "Base")
+			{
+				_eventList = eventsENG;
+			}
+
+
+
         }
         public ProgramViewControler(IntPtr handle) : base(handle)
         {
@@ -75,6 +107,67 @@ namespace FetaProject.iOS
 					detileController.selectedEvent = selectedData;
 				}
 			}
+		}
+
+		private List<Event> ReadEvents(string map, List<Event> events)
+		{
+			Event actPL = new Event();
+			Event actENG = new Event();
+
+			//zmienna potrzebna do rozdzielania opisu
+			string[] descpString;
+
+			// zmienna przechowujaca miejsce spektaklu np. A, B, ...
+			string eventPlace = String.Empty;
+
+			using (XmlReader reader = XmlReader.Create(map))
+			{
+
+				reader.MoveToContent();
+				reader.ReadToDescendant("Placemark");
+
+				do
+				{
+					switch (reader.NodeType)
+					{
+
+						case XmlNodeType.CDATA:
+							Console.Write(reader.Value);
+							descpString = reader.Value.Split(';');
+							// PL part
+							actPL.ActName = descpString[0];
+							actPL.TeatreName = descpString[1];
+							actPL.OriginCountry = descpString[2];
+							actPL.Description = descpString[3];
+							if (descpString[4] != null)
+								actPL.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
+							//Console.WriteLine("Data wydarzenia:{0}",descpString[4]);
+
+							// ENG part
+							actENG.ActName = descpString[6];
+							actENG.TeatreName = descpString[7];
+							actENG.OriginCountry = descpString[8];
+							actENG.Description = descpString[9];
+							if (descpString[4] != null)
+								actENG.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
+							break;
+
+					}
+
+					if (actPL.Description != null && actENG.Description != null)
+					{
+						events.Add(actPL);
+						events.Add(actENG);
+
+						actPL = new Event();
+						actENG = new Event();
+					}
+
+				} while (reader.Read());
+
+			}
+
+			return events;
 		}
     }
 }

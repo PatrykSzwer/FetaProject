@@ -87,16 +87,6 @@ namespace FetaProject.iOS
 			//wpisane w liste markerow
 			placemarks = ReadMarkers(idNodes, placemarks, marker);
 
-			//zbranie info o eventach
-			List<Event> events = new List<Event>();
-			events = ReadEvents(map, events);
-
-			//debug console write of list
-			Console.WriteLine("Lista eventow:");
-			foreach (var cos in events)
-			{
-				Console.WriteLine(cos.ActName + "," + cos.TeatreName + "," + cos.OriginCountry + "," + cos.Description + "," + cos.TimeEvent);
-			};
 
 			//obliczanie najlepszego widoku dla mapy
 			double maxLat = marker.Position.Latitude;
@@ -198,65 +188,6 @@ namespace FetaProject.iOS
 			return placemarks;
 		}
 
-		private List<Event> ReadEvents(string map, List<Event> events)
-		{
-			Event actPL = new Event();
-			Event actENG = new Event();
 
-			//zmienna potrzebna do rozdzielania opisu
-			string[] descpString;
-
-			// zmienna przechowujaca miejsce spektaklu np. A, B, ...
-			string eventPlace = String.Empty;
-
-			using (XmlReader reader = XmlReader.Create(map))
-			{
-
-				reader.MoveToContent();
-				reader.ReadToDescendant("Placemark");
-
-				do
-				{
-					switch (reader.NodeType)
-					{
-
-						case XmlNodeType.CDATA:
-							Console.Write(reader.Value);
-							descpString = reader.Value.Split(';');
-							// PL part
-							actPL.ActName = descpString[0];
-							actPL.TeatreName = descpString[1];
-							actPL.OriginCountry = descpString[2];
-							actPL.Description = descpString[3];
-							if (descpString[4] != null)
-								actPL.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
-							//Console.WriteLine("Data wydarzenia:{0}",descpString[4]);
-
-							// ENG part
-							actENG.ActName = descpString[6];
-							actENG.TeatreName = descpString[7];
-							actENG.OriginCountry = descpString[8];
-							actENG.Description = descpString[9];
-							if (descpString[4] != null)
-								actENG.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
-							break;
-
-					}
-
-					if (actPL.Description != null && actENG.Description != null)
-					{
-						events.Add(actPL);
-						events.Add(actENG);
-
-						actPL = new Event();
-						actENG = new Event();
-					}
-
-				} while (reader.Read());
-
-			}
-
-			return events;
-		}
 	}
 }
