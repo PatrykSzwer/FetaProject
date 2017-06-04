@@ -1,6 +1,4 @@
-﻿"Test" = "Język";
-
-"Parade" = "Parada";
+﻿"Parade" = "Parada";
 "Parade_TheaterName" = "Cie Abozeta";
 "Parade_OriginCountry" = "Francja";
 "Parade_Description" = "Żonglerzy, muzycy, szczudlarze i akrobaci — wszyscy mają stopy na ziemi, ale głowy w chmurach. Tkają sieć ruchomych, złożonych obrazów za pomocą nici pokazywanych na żywo eksperymentów oraz poetyckiej ekspresji. Przenoszą nas w zupełnie nowy świat umiejscowiony gdzieś pomiędzy niebem a ziemią, w którym na przemian splatają i rozplatają swoje ciała, szczudła, żonglowane piłki oraz maczugi, sny i humor…";
@@ -41,3 +39,28 @@
 "Remus17_OriginCountry" = "Polska";
 "Remus17_Description" = "Opowieść o samotności niepozornego, a bogatego duchem człowieka, który nie godzi się z zastanym i podejmuje walkę o zmiany w najbliższym otoczeniu. Należy realizować ideały, walczyć w imię Dobra z silniejszymi, a czasowe niepowodzenie nie oznacza ostatecznej klęski.";
 "Remus17_DateTime" = "17-07-2016 15:00";
+
+
+
+// Navigation item title
+
+"Map" = "Mapa";
+"Program" = "Program";
+
+"GalleryTab" = "Galeria";
+
+// SettingView
+
+"Settings" = "Ustawienia";
+"Language" = "Język";
+
+// PosterView
+
+"PosterTitle" = "Plakat FETA 2017";
+"Poster" = "Plakat";
+
+//TutorialView
+
+"skip"="Pomiń";
+"End"="Zakończ";
+"Not_Show_Tutoraial"="Chcesz zobaczyć poradnik następnym razem.";

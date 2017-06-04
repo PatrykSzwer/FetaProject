@@ -1,7 +1,7 @@
 ﻿using Foundation;
 using UIKit;
 using Google.Maps;
-
+                                     
 namespace FetaProject.iOS
 {
 	// The UIApplicationDelegate for the application. This class is responsible for launching the
@@ -19,6 +19,35 @@ namespace FetaProject.iOS
 		public override bool FinishedLaunching (UIApplication application, NSDictionary launchOptions)
 		{
 			MapServices.ProvideAPIKey(MapsApiKey);
+			Window = new UIWindow(UIScreen.MainScreen.Bounds);
+			var storyboard = UIStoryboard.FromName("Main", null);
+			TabBarViews menu = storyboard.InstantiateViewController("menu") as TabBarViews;
+			Window.RootViewController = menu;
+
+			if (NSUserDefaults.StandardUserDefaults.StringForKey("Key") == "no")
+			{
+				//TutorialView toturial = storyboard.InstantiateViewController("Tutorail") as TutorialView;
+				//Window.RootViewController = toturial;
+			}
+			else if (NSUserDefaults.StandardUserDefaults.StringForKey("Key") == "yes")
+			{
+				//tabBarView home = storyboard.InstantiateViewController("tabBarView") as tabBarView;
+				//Window.RootViewController = home;
+				//TutorialView toturial = storyboard.InstantiateViewController("Tutorail") as TutorialView;
+
+
+			}
+			else 
+			{
+				//StartLanguageView firstView = storyboard.InstantiateViewController("firstView") as StartLanguageView;
+				//Window.RootViewController = firstView;
+
+			
+			}
+
+
+
+
 			// Override point for customization after application launch.
 			// If not required for your application you can safely delete this method
 			return true;
