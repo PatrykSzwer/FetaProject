@@ -154,10 +154,6 @@
     <Compile Include="EventClassCell.designer.cs">
       <DependentUpon>EventClassCell.cs</DependentUpon>
     </Compile>
-    <Compile Include="SettingsView.cs" />
-    <Compile Include="SettingsView.designer.cs">
-      <DependentUpon>SettingsView.cs</DependentUpon>
-    </Compile>
     <Compile Include="GalleryView.cs" />
     <Compile Include="GalleryView.designer.cs">
       <DependentUpon>GalleryView.cs</DependentUpon>
@@ -188,10 +184,6 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="DisplayMapView.designer.cs">
       <DependentUpon>DisplayMapView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SettingsNav.cs" />
-    <Compile Include="SettingsNav.designer.cs">
-      <DependentUpon>SettingsNav.cs</DependentUpon>
     </Compile>
     <Compile Include="TabBarViews.cs" />
     <Compile Include="TabBarViews.designer.cs">

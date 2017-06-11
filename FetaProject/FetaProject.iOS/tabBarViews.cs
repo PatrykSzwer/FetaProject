@@ -17,7 +17,7 @@ namespace FetaProject.iOS
 
 			var storyboard = UIStoryboard.FromName("Main", null);
 			GalleryView gallery = storyboard.InstantiateViewController("gallery") as GalleryView;
-			SettingsNav setting = storyboard.InstantiateViewController("setting") as SettingsNav;
+			LanguageViewControler language = storyboard.InstantiateViewController("language") as LanguageViewControler;
 			ProgramNav program = storyboard.InstantiateViewController("program") as ProgramNav;
 			MapViewController maps = storyboard.InstantiateViewController("maps") as MapViewController;
 			PosterView about = storyboard.InstantiateViewController("about") as PosterView;
@@ -36,7 +36,7 @@ namespace FetaProject.iOS
 			 */
 			tab1 = gallery;
 			tab1.Title = "GalleryTab".Translate();
-			tab2 = setting;
+			tab2 = language;
 			tab2.Title = "SettingsTab".Translate();
 			tab3 = program;
 			tab3.Title = "ProgramTab".Translate();
