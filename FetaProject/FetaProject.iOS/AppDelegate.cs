@@ -48,7 +48,7 @@ namespace FetaProject.iOS
 			if (UIDevice.CurrentDevice.CheckSystemVersion(8, 0))
 			{
 				var notificationSettings = UIUserNotificationSettings.GetSettingsForTypes(
-					UIUserNotificationType.Badge | UIUserNotificationType.Sound, null
+					UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound, null
 				);
 
 				application.RegisterUserNotificationSettings(notificationSettings);

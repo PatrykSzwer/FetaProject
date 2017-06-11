@@ -1,192 +1,173 @@
-using Foundation;
-using System;
-using UIKit;
-using Google.Maps;
 using CoreGraphics;
-using System.Xml;
-using System.Xml.Serialization;
-using System.IO;
-using System.Collections.Generic;
 using CoreLocation;
-using FetaProject.Models;
-
+using Google.Maps;
+using System;
+using System.Collections.Generic;
+using System.Xml;
+using UIKit;
+using Foundation;
 
 namespace FetaProject.iOS
 {
-	public partial class DisplayMapView : UIViewController
-	{
 
-		private MapView mapView;
-		NetworkStatus internetStatus = Reachability.InternetConnectionStatus();
+    public partial class DisplayMapView : UIViewController
+    {
+        private readonly Dictionary<string, string> _maps = new Dictionary<string, string>
+            {
+                {"13.07", "https://www.google.com/maps/d/kml?mid=1AawIPxHphPSojHFvtVoG3XEVW1I&forcekml=1&cid=mp&cv=sEUwvjl8K84.pl."}, // Thursday
+                {"14.07", "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4"}, // Friday
+                {"15.07", "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4"}, // Saturday
+                {"16.07", "https://www.google.com/maps/d/kml?mid=1AawIPxHphPSojHFvtVoG3XEVW1I&forcekml=1&cid=mp&cv=sEUwvjl8K84.pl."}, // Sunday
+                {"Utilities", "https://www.google.com/maps/d/kml?mid=1AawIPxHphPSojHFvtVoG3XEVW1I&forcekml=1&cid=mp&cv=sEUwvjl8K84.pl."} // Sunday
 
-		public DisplayMapView(IntPtr handle) : base(handle)
-		{
-			
-		}
+            };
 
-		public override void LoadView()
-		{
-			base.LoadView();
-		}
+        private string selector = "13.07";
+        private MapView mapView;
+        NetworkStatus internetStatus = Reachability.InternetConnectionStatus();
 
-		public override void ViewDidLoad()
-		{
-			base.ViewDidLoad();
+        public DisplayMapView(IntPtr handle) : base(handle)
+        {
 
+        }
 
-			if (!Reachability.IsHostReachable("http://google.com"))
-			{
-				//map.Image = UIImage.FromBundle("Photo/Map.jpg");
-			}
-			else
-			{
-				OnMapReady();
-				View = mapView;
-			}
+        public override void ViewDidLoad()
+        {
+            base.ViewDidLoad();
+
+            if (!Reachability.IsHostReachable("http://google.com"))
+            {
+                //map.Image = UIImage.FromBundle("Photo/Map.jpg");
+            }
+            else
+            {
+                LoadMap(selector);
+            }
 
 			ShowNotifications();
+        }
 
-		}
-		public override void ViewWillAppear(bool animated)
-		{
-			base.ViewWillAppear(animated);
-			//mapView.StartRendering();
-		}
+        public void Test(string newSelector)
+        {
+            this.selector = newSelector;
+            this.ViewDidLoad();
+        }
 
-		public override void ViewWillDisappear(bool animated)
-		{
-			//mapView.StopRendering();
-			base.ViewWillDisappear(animated);
-		}
-		public void OnMapReady()
-		{
+        public void LoadMap(string mapId)
+        {
+            mapView?.Clear();
 
-			//Wczytywanie pliku mapy (KML)
-			XmlDocument doc = new XmlDocument();
+            //Wczytywanie pliku mapy (KML)
+            XmlDocument doc = new XmlDocument();
 
-			//default  doc.Load("https://www.google.com/maps/d/kml?mid="+w_tym_miejscu_musi_byc_hash_dowolnej_mapki+"&forcekml=1");
+            doc.Load(_maps[mapId]);
 
-
-			//CZWARTEK  doc.Load("https://www.google.com/maps/d/kml?mid=1YAdsxSz644qe4F90BerIaSeENgk&forcekml=1");
-			//PIATEK    doc.Load("https://www.google.com/maps/d/kml?mid=1U_fAWaQwaIVGbZ1lk-TC9Bxn7n0&forcekml=1");
-			//SOBOTA    
-			//doc.Load("https://www.google.com/maps/d/kml?mid=1eABjtJfl-31WyggXycwIRsAI_d4&forcekml=1");
-			//NIEDZIELA
-			//var Map = "https://www.google.com/maps/d/kml?mid=1W2wGEBUezDja1qdDTG85fxicUNA&forcekml=1";
+            //lista elemtow z XML ktore nas interesuja
+            XmlNodeList idNodes = doc.GetElementsByTagName("Placemark");
+            //Marker
+            Marker marker = new Marker();
+            List<Marker> placemarks = new List<Marker>();
+            //wpisane w liste markerow
+            placemarks = ReadMarkers(idNodes, placemarks, marker);
 
 
-			//TestMap
-			var map = "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4";
+            //obliczanie najlepszego widoku dla mapy
+            double maxLat = marker.Position.Latitude;
+            double minLat = marker.Position.Latitude;
+            double maxLng = marker.Position.Longitude;
+            double minLng = marker.Position.Longitude;
+            foreach (var mark in placemarks)
+            {
+                if (mark.Position.Latitude > maxLat)
+                    maxLat = mark.Position.Latitude;
 
-			doc.Load(map);
+                if (minLat > mark.Position.Latitude)
+                    minLat = mark.Position.Latitude;
 
-			//lista elemtow z XML ktore nas interesuja
-			XmlNodeList idNodes = doc.GetElementsByTagName("Placemark");
-			//Marker
-			Marker marker = new Marker();
-			List<Marker> placemarks = new List<Marker>();
-			//wpisane w liste markerow
-			placemarks = ReadMarkers(idNodes, placemarks, marker);
+                if (mark.Position.Longitude > maxLng)
+                    maxLng = mark.Position.Longitude;
 
+                if (minLng > mark.Position.Longitude)
+                    minLng = mark.Position.Longitude;
+            }
 
-			//obliczanie najlepszego widoku dla mapy
-			double maxLat = marker.Position.Latitude;
-			double minLat = marker.Position.Latitude;
-			double maxLng = marker.Position.Longitude;
-			double minLng = marker.Position.Longitude;
-			foreach (var mark in placemarks)
-			{
-				if (mark.Position.Latitude > maxLat)
-					maxLat = mark.Position.Latitude;
+            //Ustawianie widoku mapy
+            //œrednia z wszysztkich markerów
+            CLLocationCoordinate2D location = new CLLocationCoordinate2D((maxLat + minLat) / 2, (maxLng + minLng) / 2);
+            //Console.WriteLine(location);			
+            CameraPosition camera = CameraPosition.FromCamera((maxLat + minLat) / 2, (maxLng + minLng) / 2, zoom: 15);
+            //CameraUpdate cameraUpdate = CameraUpdateFactory.NewCameraPosition(camera);
+            //CameraUpdate cameraUpdate = CameraUpdate.
+            mapView = MapView.FromCamera(CGRect.Empty, camera);
+            mapView.MyLocationEnabled = true;
 
-				if (minLat > mark.Position.Latitude)
-					minLat = mark.Position.Latitude;
+            //wrzucanie listy markerow na mape
+            foreach (var iMarker in placemarks)
+            {
 
-				if (mark.Position.Longitude > maxLng)
-					maxLng = mark.Position.Longitude;
+                //iMarker.Icon = (BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
 
-				if (minLng > mark.Position.Longitude)
-					minLng = mark.Position.Longitude;
-			}
+                //iMarker.Map = mapView;
+                //googleMap.AddMarker(iMarker);
+                iMarker.Icon = UIImage.FromBundle("mapMarker.png");
+                iMarker.Map = mapView;
+            }
 
-			//Ustawianie widoku mapy
-			//œrednia z wszysztkich markerów
-			CLLocationCoordinate2D location = new CLLocationCoordinate2D((maxLat + minLat) / 2, (maxLng + minLng) / 2);
-			//Console.WriteLine(location);			
-			CameraPosition camera = CameraPosition.FromCamera((maxLat + minLat) / 2, (maxLng + minLng) / 2, zoom: 15);
-			//CameraUpdate cameraUpdate = CameraUpdateFactory.NewCameraPosition(camera);
-			//CameraUpdate cameraUpdate = CameraUpdate.
-			mapView = MapView.FromCamera(CGRect.Empty, camera);
-			mapView.MyLocationEnabled = true;
+            //Opcje mapy i update'y
+            //trzeba bedzie dodac obsluge nawigacji
+            //mapView.Settings.ZoomGestures = true;// google.UiSettings.ZoomControlsEnabled = true;
+            //mapView.Settings.AllowScrollGesturesDuringRotateOrZoom = true;
+            //googleMap.UiSettings.CompassEnabled = true;
+            //googleMap.MoveCamera(.ZoomIn());
+            //googleMap.MoveCamera(cameraUpdate);
 
-			//wrzucanie listy markerow na mape
-			foreach (var iMarker in placemarks)
-			{
+            View = mapView;
+        }
 
-				//iMarker.Icon = (BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
-
-				//iMarker.Map = mapView;
-				//googleMap.AddMarker(iMarker);
-				iMarker.Icon = UIImage.FromBundle("mapMarker.png");
-				iMarker.Map = mapView;
-				Console.WriteLine(iMarker);
-
-			}
-
-
-			//Opcje mapy i update'y
-			//trzeba bedzie dodac obsluge nawigacji
-			//mapView.Settings.ZoomGestures = true;// google.UiSettings.ZoomControlsEnabled = true;
-			//mapView.Settings.AllowScrollGesturesDuringRotateOrZoom = true;
-			//googleMap.UiSettings.CompassEnabled = true;
-			//googleMap.MoveCamera(.ZoomIn());
-			//googleMap.MoveCamera(cameraUpdate);
-
-		}
-		private List<Marker> ReadMarkers(XmlNodeList nodeList, List<Marker> placemarks, Marker marker)
-		{
-			//zmienna potrzebna do rozdzielania koordynatow
-			string[] coordinates;
+        private List<Marker> ReadMarkers(XmlNodeList nodeList, List<Marker> placemarks, Marker marker)
+        {
+            //zmienna potrzebna do rozdzielania koordynatow
+            string[] coordinates;
 
 
-			foreach (XmlNode node in nodeList)
-			{
+            foreach (XmlNode node in nodeList)
+            {
 
-				if (node.Name == "name")
-				{
-					marker.Title = node.FirstChild.Value;
+                if (node.Name == "name")
+                {
+                    marker.Title = node.FirstChild.Value;
 
 
-				}
-				else if (node.Name == "coordinates")
-				{
-					coordinates = node.FirstChild.Value.Split(',');
-					marker.Position = new CLLocationCoordinate2D(Convert.ToDouble(coordinates[1]), Convert.ToDouble(coordinates[0]));
-					marker = Marker.FromPosition(marker.Position);
-				}
-				//optional description under the marker
-				// można dobrać informacje które chcemy wyświetlać pod markerem (jak poniżej w ReadEvents)
-				/*else if (node.Name == "description")
+                }
+                else if (node.Name == "coordinates")
+                {
+                    coordinates = node.FirstChild.Value.Split(',');
+                    marker.Position = new CLLocationCoordinate2D(Convert.ToDouble(coordinates[1]), Convert.ToDouble(coordinates[0]));
+                    marker = Marker.FromPosition(marker.Position);
+                }
+                //optional description under the marker
+                // można dobrać informacje które chcemy wyświetlać pod markerem (jak poniżej w ReadEvents)
+                /*else if (node.Name == "description")
 				{
 					marker.Snippet = node.FirstChild.Value;
 				}*/
-				else
-				{
-					ReadMarkers(node.ChildNodes, placemarks, marker);
-				}
+                else
+                {
+                    ReadMarkers(node.ChildNodes, placemarks, marker);
+                }
 
-				if (marker.Position.Latitude > 0 && marker.Title != null)
-				{
+                if (marker.Position.Latitude > 0 && marker.Title != null)
+                {
 
 
-					placemarks.Add(marker);
-					marker = new Marker();
+                    placemarks.Add(marker);
+                    marker = new Marker();
 
-				}
+                }
 
-			}
-			return placemarks;
-		}
+            }
+            return placemarks;
+        }
 
 		private void ShowNotifications()
 		{
@@ -194,11 +175,11 @@ namespace FetaProject.iOS
 			var notification = new UILocalNotification();
 
 			// set the fire date (the date time in which it will fire)
-			notification.FireDate = NSDate.FromTimeIntervalSinceNow(30);
+			notification.FireDate = NSDate.FromTimeIntervalSinceNow(10);
 
 			// configure the alert
 			notification.AlertAction = "View Alert";
-			notification.AlertBody = "Your one minute alert has fired!";
+			notification.AlertBody = "Automatic after display map!";
 
 			// modify the badge
 			notification.ApplicationIconBadgeNumber = 1;
@@ -211,5 +192,5 @@ namespace FetaProject.iOS
 		}
 
 
-	}
+    }
 }

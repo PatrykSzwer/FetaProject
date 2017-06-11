@@ -298,6 +298,8 @@
                                     <segment title="15.07"/>
                                     <segment title="16.07"/>
                                 </segments>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
+                                <connections/>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5402" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="309" y="28" width="46" height="30"/>
@@ -619,27 +621,9 @@
             </objects>
             <point key="canvasLocation" x="-3649" y="-185"/>
         </scene>
-        <scene sceneID="5409">
-            <objects>
-                <viewController id="5408" sceneMemberID="viewController" customClass="DisplayMapView">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5404"/>
-                        <viewControllerLayoutGuide type="bottom" id="5405"/>
-                    </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5410">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5411" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-375" y="-892"/>
-        </scene>
         <scene sceneID="5469">
             <objects>
-                <viewController id="5468" sceneMemberID="viewController" customClass="DisplayMapView">
+                <viewController id="5468" sceneMemberID="viewController" customClass="DisplayMapView" storyboardIdentifier="map">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5464"/>
                         <viewControllerLayoutGuide type="bottom" id="5465"/>
