@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using System.Xml;
 using UIKit;
 
-
 namespace FetaProject.iOS
 {
     public partial class DisplayMapView : UIViewController
     {
+        private MapView _mapView;
         private readonly Dictionary<string, string> _maps = new Dictionary<string, string>
             {
                 {"13.07", "https://www.google.com/maps/d/kml?mid=1AawIPxHphPSojHFvtVoG3XEVW1I&forcekml=1&cid=mp&cv=sEUwvjl8K84.pl."}, // Thursday
@@ -21,8 +21,6 @@ namespace FetaProject.iOS
 
             };
 
-        private string selector = "13.07";
-        private MapView mapView;
         NetworkStatus internetStatus = Reachability.InternetConnectionStatus();
 
         public DisplayMapView(IntPtr handle) : base(handle)
@@ -40,40 +38,49 @@ namespace FetaProject.iOS
             }
             else
             {
-                LoadMap(selector);
+                LoadMap("13.07");
             }
-
-        }
-
-        public void Test(string newSelector)
-        {
-            this.selector = newSelector;
-            this.ViewDidLoad();
         }
 
         public void LoadMap(string mapId)
         {
-            mapView?.Clear();
+            _mapView?.Clear();
 
-            //Wczytywanie pliku mapy (KML)
-            XmlDocument doc = new XmlDocument();
-
+            // Load map from KML file
+            var doc = new XmlDocument();
             doc.Load(_maps[mapId]);
 
-            //lista elemtow z XML ktore nas interesuja
+            // Get list of nodes from loaded KML file
             XmlNodeList idNodes = doc.GetElementsByTagName("Placemark");
-            //Marker
-            Marker marker = new Marker();
-            List<Marker> placemarks = new List<Marker>();
-            //wpisane w liste markerow
+
+            var marker = new Marker();
+            var placemarks = new List<Marker>();
+
             placemarks = ReadMarkers(idNodes, placemarks, marker);
 
+            CameraPosition camera = GetCameraPositionForMap(marker, placemarks);
 
-            //obliczanie najlepszego widoku dla mapy
+            _mapView = MapView.FromCamera(CGRect.Empty, camera);
+            _mapView.MyLocationEnabled = true;
+
+            // Push markers onto mapView
+            foreach (var iMarker in placemarks)
+            {
+                iMarker.Icon = UIImage.FromBundle("mapMarker.png");
+                iMarker.Map = _mapView;
+            }
+
+            View = _mapView;
+        }
+
+        private static CameraPosition GetCameraPositionForMap(Marker marker, IEnumerable<Marker> placemarks)
+        {
+            // Calculation best view for map
             double maxLat = marker.Position.Latitude;
             double minLat = marker.Position.Latitude;
             double maxLng = marker.Position.Longitude;
             double minLng = marker.Position.Longitude;
+
             foreach (var mark in placemarks)
             {
                 if (mark.Position.Latitude > maxLat)
@@ -89,84 +96,41 @@ namespace FetaProject.iOS
                     minLng = mark.Position.Longitude;
             }
 
-            //Ustawianie widoku mapy
-            //œrednia z wszysztkich markerów
-            CLLocationCoordinate2D location = new CLLocationCoordinate2D((maxLat + minLat) / 2, (maxLng + minLng) / 2);
-            //Console.WriteLine(location);			
-            CameraPosition camera = CameraPosition.FromCamera((maxLat + minLat) / 2, (maxLng + minLng) / 2, zoom: 15);
-            //CameraUpdate cameraUpdate = CameraUpdateFactory.NewCameraPosition(camera);
-            //CameraUpdate cameraUpdate = CameraUpdate.
-            mapView = MapView.FromCamera(CGRect.Empty, camera);
-            mapView.MyLocationEnabled = true;
+            // Ustawianie widoku mapy
+            // srednia z wszysztkich markerów
+            // CLLocationCoordinate2D location = new CLLocationCoordinate2D((maxLat + minLat) / 2, (maxLng + minLng) / 2);
 
-            //wrzucanie listy markerow na mape
-            foreach (var iMarker in placemarks)
-            {
-
-                //iMarker.Icon = (BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
-
-                //iMarker.Map = mapView;
-                //googleMap.AddMarker(iMarker);
-                iMarker.Icon = UIImage.FromBundle("mapMarker.png");
-                iMarker.Map = mapView;
-            }
-
-            //Opcje mapy i update'y
-            //trzeba bedzie dodac obsluge nawigacji
-            //mapView.Settings.ZoomGestures = true;// google.UiSettings.ZoomControlsEnabled = true;
-            //mapView.Settings.AllowScrollGesturesDuringRotateOrZoom = true;
-            //googleMap.UiSettings.CompassEnabled = true;
-            //googleMap.MoveCamera(.ZoomIn());
-            //googleMap.MoveCamera(cameraUpdate);
-
-            View = mapView;
+            var camera = CameraPosition.FromCamera((maxLat + minLat) / 2, (maxLng + minLng) / 2, zoom: 15);
+            return camera;
         }
 
-        private List<Marker> ReadMarkers(XmlNodeList nodeList, List<Marker> placemarks, Marker marker)
+        private static List<Marker> ReadMarkers(XmlNodeList nodeList, List<Marker> placemarks, Marker marker)
         {
-            //zmienna potrzebna do rozdzielania koordynatow
-            string[] coordinates;
-
-
             foreach (XmlNode node in nodeList)
             {
-
-                if (node.Name == "name")
+                switch (node.Name)
                 {
-                    marker.Title = node.FirstChild.Value;
-
-
-                }
-                else if (node.Name == "coordinates")
-                {
-                    coordinates = node.FirstChild.Value.Split(',');
-                    marker.Position = new CLLocationCoordinate2D(Convert.ToDouble(coordinates[1]), Convert.ToDouble(coordinates[0]));
-                    marker = Marker.FromPosition(marker.Position);
-                }
-                //optional description under the marker
-                // można dobrać informacje które chcemy wyświetlać pod markerem (jak poniżej w ReadEvents)
-                /*else if (node.Name == "description")
-				{
-					marker.Snippet = node.FirstChild.Value;
-				}*/
-                else
-                {
-                    ReadMarkers(node.ChildNodes, placemarks, marker);
+                    case "name":
+                        marker.Title = node.FirstChild.Value;
+                        break;
+                    case "coordinates":
+                        var coordinates = node.FirstChild.Value.Split(',');
+                        marker.Position = new CLLocationCoordinate2D(Convert.ToDouble(coordinates[1]), Convert.ToDouble(coordinates[0]));
+                        marker = Marker.FromPosition(marker.Position);
+                        break;
+                    default:
+                        ReadMarkers(node.ChildNodes, placemarks, marker);
+                        break;
                 }
 
                 if (marker.Position.Latitude > 0 && marker.Title != null)
                 {
-
-
                     placemarks.Add(marker);
                     marker = new Marker();
-
                 }
-
             }
+
             return placemarks;
         }
-
-
     }
 }

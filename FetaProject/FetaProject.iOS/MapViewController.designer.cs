@@ -1,4 +1,4 @@
-// WARNING
+﻿// WARNING
 //
 // This file has been generated automatically by Xamarin Studio from the outlets and
 // actions declared in your storyboard file.
@@ -24,7 +24,15 @@ namespace FetaProject.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton OthersButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UISegmentedControl SelectDay { get; set; }
+
+        [Action ("PrevPhoto_TouchUpInside")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void PrevPhoto_TouchUpInside ();
 
         [Action ("PrevPhoto_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -40,6 +48,11 @@ namespace FetaProject.iOS
             if (mapButton != null) {
                 mapButton.Dispose ();
                 mapButton = null;
+            }
+
+            if (OthersButton != null) {
+                OthersButton.Dispose ();
+                OthersButton = null;
             }
 
             if (SelectDay != null) {
