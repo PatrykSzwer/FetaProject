@@ -314,6 +314,7 @@
                         <outlet property="map" destination="2389" id="name-outlet-2389"/>
                         <outlet property="mapButton" destination="1623" id="name-outlet-1623"/>
                         <outlet property="SelectDay" destination="5527" id="name-outlet-5527"/>
+                        <outlet property="btnNotifications" destination="5402" id="name-outlet-5402"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1392" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -16,6 +16,10 @@ namespace FetaProject.iOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnNotifications { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView map { get; set; }
 
         [Outlet]
@@ -32,6 +36,11 @@ namespace FetaProject.iOS
 
         void ReleaseDesignerOutlets ()
         {
+            if (btnNotifications != null) {
+                btnNotifications.Dispose ();
+                btnNotifications = null;
+            }
+
             if (map != null) {
                 map.Dispose ();
                 map = null;
