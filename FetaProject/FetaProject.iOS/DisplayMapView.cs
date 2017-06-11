@@ -44,7 +44,9 @@ namespace FetaProject.iOS
 
         public void LoadMap(string mapId)
         {
-            _mapView?.Clear();
+			MapView _mapView1 = _mapView;
+
+           // _mapView?.Clear();
 
             // Load map from KML file
             var doc = new XmlDocument();
@@ -60,18 +62,21 @@ namespace FetaProject.iOS
 
             CameraPosition camera = GetCameraPositionForMap(marker, placemarks);
 
-            _mapView = MapView.FromCamera(CGRect.Empty, camera);
-            _mapView.MyLocationEnabled = true;
+            _mapView1 = MapView.FromCamera(CGRect.Empty, camera);
+            _mapView1.MyLocationEnabled = true;
 
             // Push markers onto mapView
             foreach (var iMarker in placemarks)
             {
                 iMarker.Icon = UIImage.FromBundle("mapMarker.png");
-                iMarker.Map = _mapView;
+                iMarker.Map = _mapView1;
             }
 
-            View = _mapView;
-        }
+            View = _mapView1;
+
+
+ 			       
+		}
 
         private static CameraPosition GetCameraPositionForMap(Marker marker, IEnumerable<Marker> placemarks)
         {

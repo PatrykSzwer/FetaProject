@@ -113,11 +113,11 @@ namespace FetaProject.iOS
 			Event actPL = new Event();
 			Event actENG = new Event();
 
-			//zmienna potrzebna do rozdzielania opisu
+			//variable for spliting description
 			string[] descpString;
 
-			// zmienna przechowujaca miejsce spektaklu np. A, B, ...
-			string eventPlace = String.Empty;
+			//variable for spliting coordinates
+			string[] coordinates;
 
 			using (XmlReader reader = XmlReader.Create(map))
 			{
@@ -131,7 +131,6 @@ namespace FetaProject.iOS
 					{
 
 						case XmlNodeType.CDATA:
-							Console.Write(reader.Value);
 							descpString = reader.Value.Split(';');
 							// PL part
 							actPL.ActName = descpString[0];
@@ -140,7 +139,6 @@ namespace FetaProject.iOS
 							actPL.Description = descpString[3];
 							if (descpString[4] != null)
 								actPL.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
-							//Console.WriteLine("Data wydarzenia:{0}",descpString[4]);
 
 							// ENG part
 							actENG.ActName = descpString[6];
@@ -151,6 +149,24 @@ namespace FetaProject.iOS
 								actENG.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
 							break;
 
+						case XmlNodeType.Element:
+
+							if (reader.Name == "name")
+							{
+								reader.Read();
+								actPL.Place = reader.Value;
+								actENG.Place = reader.Value;
+							}
+							else if (reader.Name == "coordinates")
+							{
+								reader.Read();
+								coordinates = reader.Value.Split(',');
+								actPL.Latitude = Convert.ToDouble(coordinates[0]);
+								actPL.Longtitude = Convert.ToDouble(coordinates[1]);
+								actENG.Latitude = Convert.ToDouble(coordinates[0]);
+								actENG.Longtitude = Convert.ToDouble(coordinates[1]);
+							}
+							break;
 					}
 
 					if (actPL.Description != null && actENG.Description != null)
