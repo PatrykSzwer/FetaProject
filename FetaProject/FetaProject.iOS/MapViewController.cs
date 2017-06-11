@@ -21,7 +21,6 @@ namespace FetaProject.iOS
             SelectDay.ValueChanged += SegmentChange;
         }
 
-
         public MapViewController(IntPtr handle) : base(handle)
         {
             var storyboard = UIStoryboard.FromName("Main", null);
@@ -31,7 +30,7 @@ namespace FetaProject.iOS
         private void SegmentChange(object sender, EventArgs e)
         {
             var selectedSegmentId = (int)(sender as UISegmentedControl).SelectedSegment;
-            _mapView.Test(_eventsDayMapper[selectedSegmentId]);
+            _mapView.LoadMap(_eventsDayMapper[selectedSegmentId]);
         }
     }
 }

@@ -238,6 +238,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="PrevPhoto_TouchUpInside" destination="1390" id="7840" eventType="touchDownRepeat"/>
+                                </connections>
                             </button>
                         </subviews>
                     </view>
@@ -247,6 +250,7 @@
                         <outlet property="map" destination="2389" id="name-outlet-2389"/>
                         <outlet property="mapButton" destination="1623" id="name-outlet-1623"/>
                         <outlet property="SelectDay" destination="5527" id="name-outlet-5527"/>
+                        <outlet property="OthersButton" destination="5402" id="name-outlet-5402"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1392" userLabel="First Responder" sceneMemberID="firstResponder"/>
