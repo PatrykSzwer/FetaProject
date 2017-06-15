@@ -23,7 +23,9 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
-    <MtouchProfiling>true</MtouchProfiling>
+    <MtouchProfiling>false</MtouchProfiling>
+    <CodesignKey>iPhone Developer: tomek.twa@gmail.com (C36V9VD2L2)</CodesignKey>
+    <CodesignProvision>iOS Team Provisioning Profile: tom.FetaProject-iOS</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -34,7 +36,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: tomek.twa@gmail.com (C36V9VD2L2)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -58,7 +60,7 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchProfiling>true</MtouchProfiling>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: tomek.twa@gmail.com (C36V9VD2L2)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
   <ItemGroup>
@@ -164,10 +166,6 @@
     </Compile>
     <Compile Include="LocalizationExtension\LocalizationExtension.cs" />
     <Compile Include="reachability.cs" />
-    <Compile Include="DetailProgramView_.cs" />
-    <Compile Include="DetailProgramView_.designer.cs">
-      <DependentUpon>DetailProgramView_.cs</DependentUpon>
-    </Compile>
     <Compile Include="PosterView.cs" />
     <Compile Include="PosterView.designer.cs">
       <DependentUpon>PosterView.cs</DependentUpon>
@@ -196,6 +194,10 @@
     <Compile Include="LanguageViewControler.cs" />
     <Compile Include="LanguageViewControler.designer.cs">
       <DependentUpon>LanguageViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailProgramView_.cs" />
+    <Compile Include="DetailProgramView_.designer.cs">
+      <DependentUpon>DetailProgramView_.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
