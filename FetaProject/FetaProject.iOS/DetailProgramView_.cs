@@ -20,6 +20,11 @@ namespace FetaProject.iOS
 			{
 				MapViewController map = Storyboard.InstantiateViewController("maps") as MapViewController;
 				this.NavigationController.PushViewController(map, true);
+				DisplayMapView displayMap = Storyboard.InstantiateViewController("map") as DisplayMapView;
+
+				displayMap.a = selectedEvent.Place;
+				displayMap.b = selectedEvent.Latitude;
+				displayMap.c = selectedEvent.Longtitude;
 			})
 			, true);
 

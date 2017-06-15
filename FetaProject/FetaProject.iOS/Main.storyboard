@@ -60,7 +60,7 @@
                     </tableView>
                     <navigationItem id="109" key="navigationItem" title="Program">
                         <segmentedControl key="titleView" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="288" opaque="NO">
-                            <rect key="frame" x="44" y="7.5" width="287" height="29"/>
+                            <rect key="frame" x="44" y="8" width="287" height="29"/>
                             <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="13.07"/>
@@ -318,6 +318,8 @@
                         <outlet property="descriptionTextView" destination="1835" id="name-outlet-1835"/>
                         <outlet property="countryOriginLabel" destination="2880" id="name-outlet-2880"/>
                     </connections>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1638" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -422,6 +424,7 @@
                     <connections>
                         <outlet property="plButton" destination="4945" id="name-outlet-4945"/>
                         <outlet property="enButton" destination="4940" id="name-outlet-4940"/>
+                        <outlet property="title" destination="4948" id="name-outlet-4948"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4931" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -11,6 +11,9 @@ namespace FetaProject.iOS
     public partial class DisplayMapView : UIViewController
     {
         private MapView _mapView;
+		public string a = "";
+		public double b = 0.0;
+		public double c = 0.0; 
         private readonly Dictionary<string, string> _maps = new Dictionary<string, string>
             {
                 {"13.07", "https://www.google.com/maps/d/kml?mid=1AawIPxHphPSojHFvtVoG3XEVW1I&forcekml=1&cid=mp&cv=sEUwvjl8K84.pl."}, // Thursday
@@ -30,23 +33,28 @@ namespace FetaProject.iOS
 
         public override void ViewDidLoad()
         {
+
             base.ViewDidLoad();
 
-            if (!Reachability.IsHostReachable("http://google.com"))
-            {
-                //map.Image = UIImage.FromBundle("Photo/Map.jpg");
-            }
-            else
-            {
+			if (!Reachability.IsHostReachable("http://google.com"))
+			{
+				//map.Image = UIImage.FromBundle("Photo/Map.jpg");
+			}
+			else if (a == "")
+			{
+				LoadMap("13.07");
+			}
+			else
+			{ 
                 LoadMap("13.07");
-            }
+			}
         }
 
         public void LoadMap(string mapId)
         {
-			MapView _mapView1 = _mapView;
+			
 
-           // _mapView?.Clear();
+            _mapView?.Clear();
 
             // Load map from KML file
             var doc = new XmlDocument();
@@ -62,17 +70,17 @@ namespace FetaProject.iOS
 
             CameraPosition camera = GetCameraPositionForMap(marker, placemarks);
 
-            _mapView1 = MapView.FromCamera(CGRect.Empty, camera);
-            _mapView1.MyLocationEnabled = true;
+            _mapView = MapView.FromCamera(CGRect.Empty, camera);
+            _mapView.MyLocationEnabled = true;
 
             // Push markers onto mapView
             foreach (var iMarker in placemarks)
             {
                 iMarker.Icon = UIImage.FromBundle("mapMarker.png");
-                iMarker.Map = _mapView1;
+                iMarker.Map = _mapView;
             }
 
-            View = _mapView1;
+            View = _mapView;
 
 
  			       
