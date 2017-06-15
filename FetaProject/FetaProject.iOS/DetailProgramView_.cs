@@ -13,6 +13,15 @@ namespace FetaProject.iOS
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
+			this.NavigationItem.SetRightBarButtonItem(
+			new UIBarButtonItem(UIImage.FromFile("Icons/map.png")
+			, UIBarButtonItemStyle.Plain
+			, (sender, args) =>
+			{
+				MapViewController map = Storyboard.InstantiateViewController("maps") as MapViewController;
+				this.NavigationController.PushViewController(map, true);
+			})
+			, true);
 
 		}
 		public override void ViewWillAppear(bool animated)
