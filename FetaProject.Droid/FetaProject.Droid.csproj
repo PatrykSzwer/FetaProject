@@ -129,7 +129,9 @@
     <AndroidResource Include="Resources\values\styles.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\colors.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\values\dimens.xml" />
     <AndroidResource Include="Resources\drawable\gallery.png" />
     <AndroidResource Include="Resources\drawable\info.png" />

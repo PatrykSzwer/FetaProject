@@ -134,25 +134,52 @@ namespace FetaProject.Droid
             List<Event> _events = new List<Event>();
 
             List<MarkerOptions> placemarks = new List<MarkerOptions>();
-            //wpisane w liste markerow
-            _events = ReadEvents("13.07", _events);
+            
+            //read events from KML to list
+            _events = ReadEvents("14.07", _events);
 
-            MarkerOptions _marker;
+            MarkerOptions _marker = new MarkerOptions();
 
-            foreach(var _mark in _events)
+            foreach(var _event in _events)
             {
                 _marker = new MarkerOptions();
-                _marker.SetTitle(_mark.Place);
-                _marker.SetPosition(new LatLng(_mark.Longtitude, _mark.Latitude));
+                _marker.SetTitle(_event.Place);
+                _marker.SetPosition(new LatLng(_event.Longtitude, _event.Latitude));
                 placemarks.Add(_marker);
+            }
+            
+            CameraPosition cameraPosition = GetCameraPositionForMap(_marker, placemarks);
+            CameraUpdate cameraUpdate = CameraUpdateFactory.NewCameraPosition(cameraPosition);
+
+
+            //put placemarks on map
+            foreach (var iMarker in placemarks)
+            {
+                //marker.SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.pin));     //icon
+                iMarker.SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
+
+                googleMap.AddMarker(iMarker);
             }
 
 
-            //obliczanie najlepszego widoku dla mapy
-            double maxLat = _marker.Position.Latitude;
-            double minLat = _marker.Position.Latitude;
-            double maxLng = _marker.Position.Longitude;
-            double minLng = _marker.Position.Longitude;
+            //Opcje mapy i update'y
+            //trzeba bedzie dodac obsluge nawigacji
+            googleMap.UiSettings.ZoomControlsEnabled = true;
+            googleMap.UiSettings.CompassEnabled = true;
+            googleMap.UiSettings.MyLocationButtonEnabled = true;
+            //googleMap.UiSettings.
+            googleMap.MoveCamera(CameraUpdateFactory.ZoomIn());
+            googleMap.MoveCamera(cameraUpdate);
+        }
+
+        private static CameraPosition GetCameraPositionForMap(MarkerOptions marker, IEnumerable<MarkerOptions> placemarks)
+        {
+            // Calculation best view for map
+            double maxLat = marker.Position.Latitude;
+            double minLat = marker.Position.Latitude;
+            double maxLng = marker.Position.Longitude;
+            double minLng = marker.Position.Longitude;
+
             foreach (var mark in placemarks)
             {
                 if (mark.Position.Latitude > maxLat)
@@ -168,36 +195,11 @@ namespace FetaProject.Droid
                     minLng = mark.Position.Longitude;
             }
 
-            //Ustawianie widoku mapy
-            //œrednia z wszysztkich markerów
-            LatLng location = new LatLng((maxLat + minLat) / 2, (maxLng + minLng) / 2);
-
-            CameraPosition.Builder mapView = CameraPosition.InvokeBuilder();
-            mapView.Target(location);
-            mapView.Zoom(15);
-            mapView.Tilt(30);                                       //kat pochylenia 
-            CameraPosition cameraPosition = mapView.Build();
-            CameraUpdate cameraUpdate = CameraUpdateFactory.NewCameraPosition(cameraPosition);
-
-
-            //wrzucanie listy markerow na mape
-            foreach (var iMarker in placemarks)
-            {
-                //marker.SetIcon(BitmapDescriptorFactory.FromResource(Resource.Drawable.pin));     //konkretny plik z ikona 
-                iMarker.SetIcon(BitmapDescriptorFactory.DefaultMarker(BitmapDescriptorFactory.HueGreen));
-
-                googleMap.AddMarker(iMarker);
-            }
-
-
-            //Opcje mapy i update'y
-            //trzeba bedzie dodac obsluge nawigacji
-            googleMap.UiSettings.ZoomControlsEnabled = true;
-            googleMap.UiSettings.CompassEnabled = true;
-            googleMap.MoveCamera(CameraUpdateFactory.ZoomIn());
-            googleMap.MoveCamera(cameraUpdate);
+            // Ustawianie widoku mapy
+            
+            var camera = new CameraPosition(new LatLng((maxLat + minLat) / 2, (maxLng + minLng) / 2),15,30,0);
+            return camera;
         }
-
 
         private List<Event> ReadEvents(string mapId, List<Event> events)
         {
@@ -260,7 +262,7 @@ namespace FetaProject.Droid
                             break;
                     }
 
-                    if (actPL.Description != null && actENG.Description != null)
+                    if (actPL.Description != null && actPL.Longtitude != 0 && actENG.Description != null)
                     {
                         events.Add(actPL);
                         events.Add(actENG);
