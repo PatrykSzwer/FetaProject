@@ -4042,23 +4042,23 @@ namespace FetaProject.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int AboutItem = 2131361954;
+			// aapt resource value: 0x7f0a00a8
+			public const int AboutItem = 2131361960;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int GalleryItem = 2131361957;
+			// aapt resource value: 0x7f0a00ab
+			public const int GalleryItem = 2131361963;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int MapItem = 2131361956;
+			// aapt resource value: 0x7f0a00aa
+			public const int MapItem = 2131361962;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int ProgramItem = 2131361953;
+			// aapt resource value: 0x7f0a00a7
+			public const int ProgramItem = 2131361959;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int SettingsItem = 2131361955;
+			// aapt resource value: 0x7f0a00a9
+			public const int SettingsItem = 2131361961;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int action0 = 2131361940;
+			// aapt resource value: 0x7f0a009a
+			public const int action0 = 2131361946;
 			
 			// aapt resource value: 0x7f0a0068
 			public const int action_bar = 2131361896;
@@ -4084,8 +4084,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a0069
 			public const int action_context_bar = 2131361897;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int action_divider = 2131361944;
+			// aapt resource value: 0x7f0a009e
+			public const int action_divider = 2131361950;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -4162,11 +4162,17 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a007a
 			public const int button1 = 2131361914;
 			
+			// aapt resource value: 0x7f0a0097
+			public const int button4 = 2131361943;
+			
+			// aapt resource value: 0x7f0a0098
+			public const int button5 = 2131361944;
+			
 			// aapt resource value: 0x7f0a0051
 			public const int buttonPanel = 2131361873;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int cancel_action = 2131361941;
+			// aapt resource value: 0x7f0a009b
+			public const int cancel_action = 2131361947;
 			
 			// aapt resource value: 0x7f0a0036
 			public const int center = 2131361846;
@@ -4186,8 +4192,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a0078
 			public const int checkedTextView1 = 2131361912;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int chronometer = 2131361947;
+			// aapt resource value: 0x7f0a00a1
+			public const int chronometer = 2131361953;
 			
 			// aapt resource value: 0x7f0a003f
 			public const int clip_horizontal = 2131361855;
@@ -4240,8 +4246,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a0028
 			public const int end = 2131361832;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int end_padder = 2131361952;
+			// aapt resource value: 0x7f0a00a6
+			public const int end_padder = 2131361958;
 			
 			// aapt resource value: 0x7f0a0031
 			public const int enterAlways = 2131361841;
@@ -4266,6 +4272,9 @@ namespace FetaProject.Droid
 			
 			// aapt resource value: 0x7f0a0039
 			public const int fill_vertical = 2131361849;
+			
+			// aapt resource value: 0x7f0a0095
+			public const int firstDayMap = 2131361941;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int @fixed = 2131361861;
@@ -4297,8 +4306,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a0091
 			public const int imageView1 = 2131361937;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int info = 2131361951;
+			// aapt resource value: 0x7f0a00a5
+			public const int info = 2131361957;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int item_touch_helper_previous_elevation = 2131361792;
@@ -4309,11 +4318,17 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a0017
 			public const int light = 2131361815;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int line1 = 2131361945;
+			// aapt resource value: 0x7f0a009f
+			public const int line1 = 2131361951;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int line3 = 2131361949;
+			// aapt resource value: 0x7f0a00a3
+			public const int line3 = 2131361955;
+			
+			// aapt resource value: 0x7f0a0092
+			public const int linearLayout1 = 2131361938;
+			
+			// aapt resource value: 0x7f0a0094
+			public const int linearLayout2 = 2131361940;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int listMode = 2131361816;
@@ -4321,11 +4336,11 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a004e
 			public const int list_item = 2131361870;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int map = 2131361939;
+			// aapt resource value: 0x7f0a0099
+			public const int map = 2131361945;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int media_actions = 2131361943;
+			// aapt resource value: 0x7f0a009d
+			public const int media_actions = 2131361949;
 			
 			// aapt resource value: 0x7f0a0029
 			public const int middle = 2131361833;
@@ -4426,6 +4441,9 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a0075
 			public const int search_voice_btn = 2131361909;
 			
+			// aapt resource value: 0x7f0a0096
+			public const int secondDayMap = 2131361942;
+			
 			// aapt resource value: 0x7f0a0076
 			public const int select_dialog_listview = 2131361910;
 			
@@ -4474,8 +4492,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a003c
 			public const int start = 2131361852;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int status_bar_latest_event_content = 2131361942;
+			// aapt resource value: 0x7f0a009c
+			public const int status_bar_latest_event_content = 2131361948;
 			
 			// aapt resource value: 0x7f0a0062
 			public const int submenuarrow = 2131361890;
@@ -4489,23 +4507,23 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a000f
 			public const int terrain = 2131361807;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int text = 2131361950;
+			// aapt resource value: 0x7f0a00a4
+			public const int text = 2131361956;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int text2 = 2131361948;
+			// aapt resource value: 0x7f0a00a2
+			public const int text2 = 2131361954;
 			
 			// aapt resource value: 0x7f0a005a
 			public const int textSpacerNoButtons = 2131361882;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int textView1 = 2131361938;
+			// aapt resource value: 0x7f0a0093
+			public const int textView1 = 2131361939;
 			
 			// aapt resource value: 0x7f0a008d
 			public const int text_input_password_toggle = 2131361933;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int time = 2131361946;
+			// aapt resource value: 0x7f0a00a0
+			public const int time = 2131361952;
 			
 			// aapt resource value: 0x7f0a0050
 			public const int title = 2131361872;

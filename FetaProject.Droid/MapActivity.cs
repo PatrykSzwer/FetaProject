@@ -45,34 +45,37 @@ namespace FetaProject.Droid
                 {"Utilities", "https://www.google.com/maps/d/kml?mid=1AawIPxHphPSojHFvtVoG3XEVW1I&forcekml=1&cid=mp&cv=sEUwvjl8K84.pl."} // Sunday
 
             };
+        private string _mapID = "13.07";
+        private GoogleMap _map;
+        private MapFragment _mapFragment;
 
         private BottomBar _bottomBar;
 		private static string menuColor = "#3a3a3a";
 		private static int menuItemCount = 5;
+        
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.Map);
-
-            MapFragment _mapFragment = FragmentManager.FindFragmentById(Resource.Id.map) as MapFragment;
-            if (_mapFragment == null)
+            try
             {
-                GoogleMapOptions mapOptions = new GoogleMapOptions()
-                    .InvokeMapType(GoogleMap.MapTypeNormal)
-                    .InvokeZoomControlsEnabled(false)
-                    .InvokeCompassEnabled(true);
+                SetContentView(Resource.Layout.Map);
+                MapFragment _mapFragment = FragmentManager.FindFragmentById(Resource.Id.map) as MapFragment;
+                if (_mapFragment == null)
+                {
+                    //tutaj trzeba by wrzucic obrazek
+                }
+                _mapFragment.GetMapAsync(this);
 
-                FragmentTransaction fragTx = FragmentManager.BeginTransaction();
-                _mapFragment = MapFragment.NewInstance(mapOptions);
-                fragTx.Add(Resource.Id.map, _mapFragment, "map");
-                fragTx.Commit();
+
             }
-            _mapFragment.GetMapAsync(this);
+            catch
+            {
 
-            //FragmentManager.FindFragmentById<MapFragment>(Resource.Id.map).GetMapAsync(this);
-
+            }
+            
             _bottomBar = BottomBar.Attach(this, savedInstanceState);
 			_bottomBar.SetItems(Resource.Menu.bottombar_menu);
 			_bottomBar.SetOnMenuTabClickListener(this);
@@ -84,7 +87,50 @@ namespace FetaProject.Droid
 			{
 				_bottomBar.MapColorForTab(i, menuColor);
 			}
+
+            Button firstDayMap = FindViewById<Button>(Resource.Id.firstDayMap);
+            Button secondDayMap = FindViewById<Button>(Resource.Id.secondDayMap);
+
+            firstDayMap.Click += FirstDayMap_Click;
+            secondDayMap.Click += SecondDayMap_Click;
+
         }
+
+        private void SecondDayMap_Click(object sender, EventArgs e)
+        {
+            var _dayMap = "14.07";
+
+            ChooseMap(ref _dayMap);
+            MapFragment _mapFragment = MapFragment.NewInstance();
+                _mapFragment = FragmentManager.FindFragmentById(Resource.Id.map) as MapFragment;
+            try
+            {
+                _map.Clear();
+                _mapFragment.GetMapAsync(this);
+                
+            }
+            catch (Exception ex)
+            {
+                //view allert
+            }
+        }
+
+        private void FirstDayMap_Click(object sender, EventArgs e)
+        {
+            var _dayMap = "13.07";
+            ChooseMap(ref _dayMap);
+            MapFragment _mapFragment = FragmentManager.FindFragmentById(Resource.Id.map) as MapFragment;
+            try
+            {
+                _map.Clear();
+                _mapFragment.GetMapAsync(this);
+            }
+            catch (Exception ex)
+            {
+                //view allert
+            }
+        }
+
         protected override void OnSaveInstanceState(Bundle outState)
 		{
 			base.OnSaveInstanceState(outState);
@@ -129,14 +175,19 @@ namespace FetaProject.Droid
             
         }
 
+        public void ChooseMap(ref string _mapID)
+        {
+            this._mapID = _mapID;
+        }
+
         public void OnMapReady(GoogleMap googleMap)
         {
+            
             List<Event> _events = new List<Event>();
-
             List<MarkerOptions> placemarks = new List<MarkerOptions>();
             
             //read events from KML to list
-            _events = ReadEvents("14.07", _events);
+            _events = ReadEvents(_mapID, _events);
 
             MarkerOptions _marker = new MarkerOptions();
 
@@ -170,6 +221,8 @@ namespace FetaProject.Droid
             //googleMap.UiSettings.
             googleMap.MoveCamera(CameraUpdateFactory.ZoomIn());
             googleMap.MoveCamera(cameraUpdate);
+
+            _map = googleMap;
         }
 
         private static CameraPosition GetCameraPositionForMap(MarkerOptions marker, IEnumerable<MarkerOptions> placemarks)
