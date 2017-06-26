@@ -13,7 +13,7 @@ namespace FetaProject.Droid
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.Gallery);
-            NavigationHelper.SetNavigationChange(this);
+            NavigationHelper.SetNavigationChange(this, null);
         }
     }
 }

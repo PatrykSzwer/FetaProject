@@ -13,7 +13,7 @@ namespace FetaProject.Droid
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.AboutFestival);
-            NavigationHelper.SetNavigationChange(this);
+            NavigationHelper.SetNavigationChange(this, null);
         }
     }
 }
