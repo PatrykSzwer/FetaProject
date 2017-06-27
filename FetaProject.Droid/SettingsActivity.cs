@@ -48,7 +48,7 @@ namespace FetaProject.Droid
         public void OnMenuTabSelected(int menuItemId)
 		{
 			
-
+            Console.Write("111111111111111111111111111111111111111111111");
 		}
 
         public void OnMenuTabReSelected(int menuItemId)

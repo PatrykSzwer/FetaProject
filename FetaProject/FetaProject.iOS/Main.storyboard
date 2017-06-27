@@ -106,34 +106,52 @@
         </scene>
         <scene sceneID="341">
             <objects>
-                <viewController id="342" sceneMemberID="viewController" customClass="PosterView" storyboardIdentifier="about">
+                <viewController id="342" sceneMemberID="viewController" customClass="PosterView" storyboardIdentifier="about" modalPresentationStyle="overFullScreen">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="339"/>
                         <viewControllerLayoutGuide type="bottom" id="340"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="343">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="502" translatesAutoresizingMaskIntoConstraints="NO" image="Photo/FETA_2001.jpg" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="78" width="375" height="543"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4877" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="20" width="375" height="62"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8056" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1288"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="502" translatesAutoresizingMaskIntoConstraints="NO" image="Photo/FETA_2001.jpg" fixedFrame="YES">
+                                        <rect key="frame" x="0.0" y="686" width="375" height="463"/>
+                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4877" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="0.0" y="20" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" id="8057" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" editable="NO">
+                                        <rect key="frame" x="0.0" y="84" width="375" height="601"/>
+                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" link="YES" address="YES" phoneNumber="YES"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                     </view>
                     <tabBarItem key="tabBarItem" id="499" title="Plakat" image="Icons/posterIcon.png"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="posterTitleLabel" destination="4877" id="name-outlet-4877"/>
+                        <outlet property="aboutFestivalTextView" destination="8057" id="name-outlet-8057"/>
+                        <outlet property="titleAboutFestiwal" destination="4877" id="name-outlet-4877"/>
                     </connections>
+                    <value key="contentSizeForViewInPopover" type="size" width="375" height="1667"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1667"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="344" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -412,10 +430,10 @@
                                     <action selector="PlButton_TouchUpInside:" destination="4929" id="5198" eventType="touchUpInside"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wybierz Język / Chouse Your Language" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4948" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2">
-                                <rect key="frame" x="20" y="20" width="335" height="127"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wybierz Język / Chouse Your Language" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8031" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2">
+                                <rect key="frame" x="20" y="20" width="335" height="144"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -424,7 +442,6 @@
                     <connections>
                         <outlet property="plButton" destination="4945" id="name-outlet-4945"/>
                         <outlet property="enButton" destination="4940" id="name-outlet-4940"/>
-                        <outlet property="title" destination="4948" id="name-outlet-4948"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4931" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -1,26 +1,30 @@
-﻿using Android.App;
+﻿﻿using Android.App;
 using Android.Widget;
 using Android.OS;
 using Android.Support.V7.App;
 using System;
 using BottomNavigationBar;
 using Android.Support.V4.Content;
+using Android.Views;
+using System.Collections.Generic;
 
 namespace FetaProject.Droid
 {
 	[Activity(Label = "FetaProject.Droid", MainLauncher = true, Icon = "@mipmap/icon")]
-	public class MainActivity : AppCompatActivity, BottomNavigationBar.Listeners.IOnMenuTabClickListener
+    public class MainActivity : Activity, BottomNavigationBar.Listeners.IOnMenuTabClickListener
 	{
 		private BottomBar _bottomBar;
 		private static string menuColor = "#3a3a3a";
 		private static int menuItemCount = 5;
-
-		protected override void OnCreate(Bundle savedInstanceState)
+        private List<string> nItems;
+        private ListView programList;
+        protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 
-			// Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+
+            // Set our view from the "main" layout resource
+           // SetContentView(Resource.Layout.Main);
 
 			_bottomBar = BottomBar.Attach(this, savedInstanceState);
 			_bottomBar.SetItems(Resource.Menu.bottombar_menu);
@@ -34,7 +38,17 @@ namespace FetaProject.Droid
 				_bottomBar.MapColorForTab(i, menuColor);
 			}
 
-            //FindViewById<Button>(Resource.Id.GalleryItem).Click += showGalleryActivity;
+            programList = FindViewById<ListView>(Resource.Id.programLisView);
+            //Table
+            nItems = new List<string>();
+            nItems.Add("Bob");
+            nItems.Add("Tom");
+            nItems.Add("(.)(.)");
+
+            ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, nItems);
+
+            programList.Adapter = adapter;
+			
 
 		}
 

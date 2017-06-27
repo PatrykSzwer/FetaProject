@@ -16,13 +16,22 @@ namespace FetaProject.iOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel posterTitleLabel { get; set; }
+        UIKit.UITextView aboutFestivalTextView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel titleAboutFestiwal { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (posterTitleLabel != null) {
-                posterTitleLabel.Dispose ();
-                posterTitleLabel = null;
+            if (aboutFestivalTextView != null) {
+                aboutFestivalTextView.Dispose ();
+                aboutFestivalTextView = null;
+            }
+
+            if (titleAboutFestiwal != null) {
+                titleAboutFestiwal.Dispose ();
+                titleAboutFestiwal = null;
             }
         }
     }

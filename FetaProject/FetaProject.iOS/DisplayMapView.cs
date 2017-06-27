@@ -11,6 +11,7 @@ namespace FetaProject.iOS
     public partial class DisplayMapView : UIViewController
     {
         private MapView _mapView;
+		private UIView map;
 		public string a = "";
 		public double b = 0.0;
 		public double c = 0.0; 
@@ -35,26 +36,31 @@ namespace FetaProject.iOS
         {
 
             base.ViewDidLoad();
+			map = new UIView();
 
+			map.BackgroundColor = UIColor.Blue;
+
+
+			UIApplication.SharedApplication.Windows[1].AddSubview(map);
+			    
 			if (!Reachability.IsHostReachable("http://google.com"))
 			{
 				//map.Image = UIImage.FromBundle("Photo/Map.jpg");
 			}
 			else if (a == "")
 			{
-				LoadMap("13.07");
+			//	LoadMap("13.07");
 			}
 			else
 			{ 
-                LoadMap("13.07");
+             //   LoadMap("13.07");
 			}
         }
 
         public void LoadMap(string mapId)
         {
-			
-
-            _mapView?.Clear();
+			//map?.Dispose();
+           
 
             // Load map from KML file
             var doc = new XmlDocument();
@@ -80,7 +86,7 @@ namespace FetaProject.iOS
                 iMarker.Map = _mapView;
             }
 
-            View = _mapView;
+          // map = _mapView;
 
 
  			       

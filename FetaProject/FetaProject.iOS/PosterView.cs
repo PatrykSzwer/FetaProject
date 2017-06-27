@@ -13,7 +13,9 @@ namespace FetaProject.iOS
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
-			posterTitleLabel.Text = "PosterTitle".Translate();
+			titleAboutFestiwal.Text = "PosterTitle".Translate();
+			aboutFestivalTextView.BackgroundColor = UIColor.Clear;
+
 		}
     }
 }

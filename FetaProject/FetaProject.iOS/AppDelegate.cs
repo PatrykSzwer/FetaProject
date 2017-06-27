@@ -39,6 +39,9 @@ namespace FetaProject.iOS
 			}
 			else 
 			{
+				//TabBarViews menu = storyboard.InstantiateViewController("menu") as TabBarViews;
+				//Window.RootViewController = menu;
+
 				StartLanguageView firstView = storyboard.InstantiateViewController("firstView") as StartLanguageView;
 				Window.RootViewController = firstView;
 
