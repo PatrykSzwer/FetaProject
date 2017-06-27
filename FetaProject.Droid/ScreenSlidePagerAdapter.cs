@@ -10,6 +10,7 @@ namespace FetaProject.Droid
         public ScreenSlidePagerAdapter(FragmentManager fm) : base(fm)
         {
         }
+
         public override Fragment GetItem(int position)
         {
             switch (position)
