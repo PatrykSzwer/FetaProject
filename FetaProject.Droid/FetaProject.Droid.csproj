@@ -103,15 +103,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fragments\SettingsPageFragment.cs" />
+    <Compile Include="Fragments\MapPageFragment.cs" />
+    <Compile Include="Fragments\GalleryPageFragment.cs" />
+    <Compile Include="Fragments\AboutPageFragment.cs" />
+    <Compile Include="Fragments\ProgramPageFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Helpers\NavigationHelper.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AboutFestivalActivity.cs" />
-    <Compile Include="GalleryActivity.cs" />
-    <Compile Include="ScreenSlidePageFragment.cs" />
-    <Compile Include="SettingsActivity.cs" />
-    <Compile Include="MapActivity.cs" />
+    <Compile Include="Fragments\ScreenSlidePageFragment.cs" />
+    <Compile Include="ScreenSlidePagerAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

@@ -37,5 +37,11 @@ namespace FetaProject.Droid.Helpers
                 }
             };
         }
+        public static void ChangeBottomNavigationToPage(Activity context, int pageIndex)
+        {
+            var bottomNavigation = context.FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation);
+            bottomNavigation.Menu.GetItem(pageIndex).SetChecked(true);
+        }
+
     }
 }
