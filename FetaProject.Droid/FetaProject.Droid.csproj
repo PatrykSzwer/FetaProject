@@ -120,10 +120,15 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
+    <AndroidAsset Include="Resources\images\sample_0.jpg" />
+    <AndroidAsset Include="Resources\images\sample_1.jpg" />
+    <AndroidAsset Include="Resources\images\sample_2.jpg" />
+    <AndroidAsset Include="Resources\images\sample_3.jpg" />
+    <AndroidAsset Include="Resources\images\sample_4.jpg" />
+    <AndroidAsset Include="Resources\images\sample_5.jpg" />
+    <AndroidAsset Include="Resources\images\sample_6.jpg" />
+    <AndroidAsset Include="Resources\images\sample_7.jpg" />
     <AndroidResource Include="Resources\menu\bottom_navigation_main.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\activity_screen_slide.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\fragment_screen_slide_page_about.axml">
@@ -135,17 +140,18 @@
     <AndroidResource Include="Resources\layout\fragment_screen_slide_page_map.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\fragment_screen_slide_page_main.axml">
+    <AndroidResource Include="Resources\layout\fragment_screen_slide_page_program.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\fragment_screen_slide_page_settings.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml">
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\layout\program_button_group.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\mipmap-hdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-mdpi\Icon.png" />
@@ -161,42 +167,11 @@
     <AndroidResource Include="Resources\drawable\posterIcon.png" />
     <AndroidResource Include="Resources\drawable\program.png" />
     <AndroidResource Include="Resources\drawable\settings.png" />
-    <AndroidResource Include="Resources\layout\AboutFestival.axml" />
-    <AndroidResource Include="Resources\layout\Gallery.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\Map.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\Settings.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\nav_item_color_state.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\images\sample_0.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\images\sample_1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\images\sample_2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\images\sample_3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\images\sample_4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\images\sample_5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\images\sample_6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\images\sample_7.jpg" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
