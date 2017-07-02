@@ -11,18 +11,18 @@ using UIKit;
 
 namespace FetaProject.iOS
 {
-    [Register ("GalleryView")]
-    partial class GalleryView
+    [Register ("AboutView1")]
+    partial class AboutView1
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIImageView imageView { get; set; }
+        UIKit.UIScrollView ScrollView { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (imageView != null) {
-                imageView.Dispose ();
-                imageView = null;
+            if (ScrollView != null) {
+                ScrollView.Dispose ();
+                ScrollView = null;
             }
         }
     }

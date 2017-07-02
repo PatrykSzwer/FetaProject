@@ -2,6 +2,7 @@ using Foundation;
 using System;
 using UIKit;
 using FetaProject.iOS.LocalizationExtension;
+using System.Drawing;
 
 namespace FetaProject.iOS
 {
@@ -13,9 +14,10 @@ namespace FetaProject.iOS
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
-			titleAboutFestiwal.Text = "PosterTitle".Translate();
-			aboutFestivalTextView.BackgroundColor = UIColor.Clear;
+			//titleAboutFestiwal.Text = "PosterTitle".Translate();
+			//aboutFestivalTextView.BackgroundColor = UIColor.Clear;
 
+		//	scrollview1.ContentSize =;
 		}
     }
 }

@@ -20,30 +20,19 @@ namespace FetaProject.iOS
 			LanguageViewControler language = storyboard.InstantiateViewController("language") as LanguageViewControler;
 			ProgramNav program = storyboard.InstantiateViewController("program") as ProgramNav;
 			MapViewController maps = storyboard.InstantiateViewController("maps") as MapViewController;
-			PosterView about = storyboard.InstantiateViewController("about") as PosterView;
+			AboutView1 about = storyboard.InstantiateViewController("about") as AboutView1;
 
 
-
-/*
-			gallery.TabBarItem.Title = 
-			setting.TabBarItem.Title = "SettingsTab".Translate();
-			
-			 "GalleryTab" = "Galeria";
-			 "MapsTab" = "Mapa";
-			 "AboutTab" = "O festiwalu";
-			 "SettingsTab" = "Ustawienia";
-			 "ProgramTab" = "Program";
-			 */
-			tab1 = gallery;
-			tab1.Title = "GalleryTab".Translate();
-			tab2 = language;
-			tab2.Title = "SettingsTab".Translate();
-			tab3 = program;
-			tab3.Title = "ProgramTab".Translate();
-			tab4 = about;
-			tab4.Title = "AboutTab".Translate();
-			tab5 = maps;
-			tab5.Title = "MapsTab".Translate();
+			tab1 = program;
+			tab1.Title = "ProgramTab".Translate();
+			tab2 = about;
+			tab2.Title = "AboutTab".Translate();
+			tab3 = gallery;
+			tab3.Title = "GalleryTab".Translate();
+			tab4 = maps;
+			tab4.Title = "MapsTab".Translate();
+			tab5 = language;
+			tab5.Title = "SettingsTab".Translate();
 
 			var tabs = new UIViewController[] {
 								tab1, tab2, tab3, tab4, tab5

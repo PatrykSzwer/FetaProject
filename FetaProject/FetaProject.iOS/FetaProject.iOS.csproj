@@ -59,9 +59,10 @@
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <MtouchProfiling>true</MtouchProfiling>
+    <MtouchProfiling>false</MtouchProfiling>
     <CodesignKey>iPhone Developer: tomek.twa@gmail.com (C36V9VD2L2)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
+    <CodesignProvision>iOS Team Provisioning Profile: tom.FetaProject-iOS</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -170,6 +171,7 @@
       <DependentUpon>PosterView.cs</DependentUpon>
     </Compile>
     <Compile Include="StartLanguageView.cs" />
+    <Compile Include="TabBarViews.cs" />
     <Compile Include="StartLanguageView.designer.cs">
       <DependentUpon>StartLanguageView.cs</DependentUpon>
     </Compile>
@@ -182,7 +184,6 @@
     <Compile Include="DisplayMapView.designer.cs">
       <DependentUpon>DisplayMapView.cs</DependentUpon>
     </Compile>
-    <Compile Include="TabBarViews.cs" />
     <Compile Include="TabBarViews.designer.cs">
       <DependentUpon>TabBarViews.cs</DependentUpon>
     </Compile>
@@ -197,6 +198,10 @@
     <Compile Include="DetailProgramView_.cs" />
     <Compile Include="DetailProgramView_.designer.cs">
       <DependentUpon>DetailProgramView_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutView1.cs" />
+    <Compile Include="AboutView1.designer.cs">
+      <DependentUpon>AboutView1.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

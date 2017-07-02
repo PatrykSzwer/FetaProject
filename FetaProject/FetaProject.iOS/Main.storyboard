@@ -106,56 +106,47 @@
         </scene>
         <scene sceneID="341">
             <objects>
-                <viewController id="342" sceneMemberID="viewController" customClass="PosterView" storyboardIdentifier="about" modalPresentationStyle="overFullScreen">
+                <viewController id="342" sceneMemberID="viewController" customClass="PosterView" storyboardIdentifier="about1" providesPresentationContextTransitionStyle="YES" definesPresentationContext="YES">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="339"/>
                         <viewControllerLayoutGuide type="bottom" id="340"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="343">
+                    <view key="view" contentMode="scaleToFill" id="343" autoresizesSubviews="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8056" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1288"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="502" translatesAutoresizingMaskIntoConstraints="NO" image="Photo/FETA_2001.jpg" fixedFrame="YES">
-                                        <rect key="frame" x="0.0" y="686" width="375" height="463"/>
-                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4877" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="0.0" y="20" width="375" height="62"/>
-                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                        <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" id="8057" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" editable="NO">
-                                        <rect key="frame" x="0.0" y="84" width="375" height="601"/>
-                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <dataDetectorType key="dataDetectorTypes" link="YES" address="YES" phoneNumber="YES"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                    </textView>
-                                </subviews>
-                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" id="8057" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" editable="NO">
+                                <rect key="frame" x="0.0" y="84" width="375" height="188"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES" phoneNumber="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="502" translatesAutoresizingMaskIntoConstraints="NO" image="Photo/FETA_2001.jpg" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="273" width="375" height="463"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4877" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="22" width="375" height="62"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                     </view>
                     <tabBarItem key="tabBarItem" id="499" title="Plakat" image="Icons/posterIcon.png"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="aboutFestivalTextView" destination="8057" id="name-outlet-8057"/>
-                        <outlet property="titleAboutFestiwal" destination="4877" id="name-outlet-4877"/>
-                    </connections>
-                    <value key="contentSizeForViewInPopover" type="size" width="375" height="1667"/>
+                    <connections/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="1667"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="375" height="1667"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="344" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3080" y="574"/>
+            <point key="canvasLocation" x="-3085" y="573"/>
         </scene>
         <scene sceneID="702">
             <objects>
@@ -327,7 +318,7 @@
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinY="YES"/>
                             </label>
                         </subviews>
-                        <color key="tintColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
+                        <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                     </view>
                     <connections>
                         <outlet property="theatreNameLabel" destination="1830" id="name-outlet-1830"/>
@@ -359,28 +350,6 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="601"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2799" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="329" y="318" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinX="YES" flexibleMaxY="YES" flexibleMinY="YES"/>
-                                <state key="normal" image="Icons/arrow_right.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="UIButton2799_TouchUpInside:" destination="2250" id="2801" eventType="touchUpInside"/>
-                                </connections>
-                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2798" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="318" width="46" height="30"/>
-                                <state key="normal" image="Icons/arrow_left-2.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="PrevPhoto_TouchUpInside:" destination="1390" id="2800" eventType="touchUpInside"/>
-                                    <action selector="UIButton2798_TouchUpInside:" destination="2250" id="2809" eventType="touchUpInside"/>
-                                </connections>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinY="YES"/>
-                            </button>
                         </subviews>
                         <connections/>
                     </view>
@@ -430,12 +399,12 @@
                                     <action selector="PlButton_TouchUpInside:" destination="4929" id="5198" eventType="touchUpInside"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wybierz Język / Chouse Your Language" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8031" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8031" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2" text="Wybierz Język / Chouse Your Language">
                                 <rect key="frame" x="20" y="20" width="335" height="144"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
                                 <nil key="highlightedColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                             </label>
                         </subviews>
                     </view>
@@ -593,6 +562,62 @@
             </objects>
             <point key="canvasLocation" x="-3091" y="-178"/>
         </scene>
+        <scene sceneID="8170">
+            <objects>
+                <viewController id="8171" sceneMemberID="viewController" storyboardIdentifier="about" customClass="AboutView1">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8168"/>
+                        <viewControllerLayoutGuide type="bottom" id="8169"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8172">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8175" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" showsHorizontalScrollIndicator="NO" alwaysBounceVertical="YES">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1647"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="8205" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" autoresizesSubviews="NO">
+                                        <rect key="frame" x="0.0" y="1" width="375" height="1251"/>
+                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="8206" translatesAutoresizingMaskIntoConstraints="NO" image="Photo/FETA_2001.jpg" fixedFrame="YES">
+                                                <rect key="frame" x="0.0" y="719" width="375" height="463"/>
+                                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" id="8207" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" editable="NO">
+                                                <rect key="frame" x="0.0" y="219" width="375" height="188"/>
+                                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <dataDetectorType key="dataDetectorTypes" link="YES" address="YES" phoneNumber="YES"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8208" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                                <rect key="frame" x="0.0" y="39" width="375" height="62"/>
+                                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="ScrollView" destination="8175" id="name-outlet-8175"/>
+                    </connections>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8173" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2634" y="956"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination" type="retina47"/>
@@ -627,5 +652,5 @@
         <image name="TutorialPhoto/Tutorial_7.png" width="750" height="1334"/>
         <image name="Photo/17269551_1228805670501629_81768521_o.jpg" width="750" height="1334"/>
     </resources>
-    <color key="tintColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
+    <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
 </document>

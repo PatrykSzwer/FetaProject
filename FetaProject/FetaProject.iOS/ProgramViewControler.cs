@@ -161,10 +161,10 @@ namespace FetaProject.iOS
 							{
 								reader.Read();
 								coordinates = reader.Value.Split(',');
-								actPL.Latitude = Convert.ToDouble(coordinates[0]);
-								actPL.Longtitude = Convert.ToDouble(coordinates[1]);
-								actENG.Latitude = Convert.ToDouble(coordinates[0]);
-								actENG.Longtitude = Convert.ToDouble(coordinates[1]);
+								//actPL.Latitude = Convert.ToDouble(coordinates[0]);
+								//actPL.Longtitude = Convert.ToDouble(coordinates[1]);
+								//actENG.Latitude = Convert.ToDouble(coordinates[0]);
+								//actENG.Longtitude = Convert.ToDouble(coordinates[1]);
 							}
 							break;
 					}

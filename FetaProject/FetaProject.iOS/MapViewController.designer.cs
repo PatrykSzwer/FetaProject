@@ -1,4 +1,4 @@
-﻿// WARNING
+// WARNING
 //
 // This file has been generated automatically by Xamarin Studio from the outlets and
 // actions declared in your storyboard file.
@@ -33,10 +33,6 @@ namespace FetaProject.iOS
         [Action ("PrevPhoto_TouchUpInside")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void PrevPhoto_TouchUpInside ();
-
-        [Action ("PrevPhoto_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void PrevPhoto_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
