@@ -108,11 +108,12 @@
     <Compile Include="Fragments\GalleryPageFragment.cs" />
     <Compile Include="Fragments\AboutPageFragment.cs" />
     <Compile Include="Fragments\ProgramPageFragment.cs" />
+    <Compile Include="Helpers\ImageAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Helpers\NavigationHelper.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Fragments\ScreenSlidePageFragment.cs" />
+    <Compile Include="Fragments\Base\BaseSlidePageFragment.cs" />
     <Compile Include="ScreenSlidePagerAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
