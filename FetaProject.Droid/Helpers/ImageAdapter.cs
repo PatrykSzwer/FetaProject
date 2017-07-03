@@ -11,9 +11,9 @@ namespace FetaProject.Droid.Helpers
         // references to our images
         private readonly int[] _thumbIds =
         {
-            Resource.Drawable.gallery,
-            Resource.Drawable.map,
-            Resource.Drawable.program
+            Resource.Drawable.sample_0,
+            Resource.Drawable.sample_1,
+            Resource.Drawable.sample_2
         };
 
         public ImageAdapter(Context c)
@@ -39,9 +39,7 @@ namespace FetaProject.Droid.Helpers
             ImageView i = new ImageView(_context);
 
             i.SetImageResource(_thumbIds[position]);
-            i.LayoutParameters = new Gallery.LayoutParams(150, 100);
-            i.SetScaleType(ImageView.ScaleType.FitXy);
-
+            i.LayoutParameters = new Gallery.LayoutParams(600, 2000);
             return i;
         }
 

@@ -6,6 +6,6 @@
     <Gallery
         android:id="@+id/gallery"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:background="#318dd2"/>
 </ScrollView>

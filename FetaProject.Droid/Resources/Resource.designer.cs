@@ -2155,11 +2155,11 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f020067
 			public const int notification_icon_background = 2130837607;
 			
-			// aapt resource value: 0x7f02006d
-			public const int notification_template_icon_bg = 2130837613;
+			// aapt resource value: 0x7f020075
+			public const int notification_template_icon_bg = 2130837621;
 			
-			// aapt resource value: 0x7f02006e
-			public const int notification_template_icon_low_bg = 2130837614;
+			// aapt resource value: 0x7f020076
+			public const int notification_template_icon_low_bg = 2130837622;
 			
 			// aapt resource value: 0x7f020068
 			public const int notification_tile_bg = 2130837608;
@@ -2174,7 +2174,31 @@ namespace FetaProject.Droid
 			public const int program = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int settings = 2130837612;
+			public const int sample_0 = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int sample_1 = 2130837613;
+			
+			// aapt resource value: 0x7f02006e
+			public const int sample_2 = 2130837614;
+			
+			// aapt resource value: 0x7f02006f
+			public const int sample_3 = 2130837615;
+			
+			// aapt resource value: 0x7f020070
+			public const int sample_4 = 2130837616;
+			
+			// aapt resource value: 0x7f020071
+			public const int sample_5 = 2130837617;
+			
+			// aapt resource value: 0x7f020072
+			public const int sample_6 = 2130837618;
+			
+			// aapt resource value: 0x7f020073
+			public const int sample_7 = 2130837619;
+			
+			// aapt resource value: 0x7f020074
+			public const int settings = 2130837620;
 			
 			static Drawable()
 			{
