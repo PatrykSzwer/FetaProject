@@ -1,6 +1,6 @@
 // WARNING
 //
-// This file has been generated automatically by Xamarin Studio from the outlets and
+// This file has been generated automatically by Visual Studio from the outlets and
 // actions declared in your storyboard file.
 // Manual changes to this file will not be maintained.
 //
@@ -14,6 +14,10 @@ namespace FetaProject.iOS
     [Register ("MapViewController")]
     partial class MapViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        MapKit.MKMapView mainMapView { get; set; }
+
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView map { get; set; }
@@ -36,6 +40,11 @@ namespace FetaProject.iOS
 
         void ReleaseDesignerOutlets ()
         {
+            if (mainMapView != null) {
+                mainMapView.Dispose ();
+                mainMapView = null;
+            }
+
             if (map != null) {
                 map.Dispose ();
                 map = null;
