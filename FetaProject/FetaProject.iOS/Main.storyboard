@@ -167,6 +167,11 @@
                                 <rect key="frame" x="0.0" y="66" width="375" height="552"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <containerView contentMode="scaleToFill" id="5466" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="-1" y="64" width="377" height="553"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections/>
+                            </containerView>
                             <containerView contentMode="scaleToFill" id="5497" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="20" y="-838" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -201,6 +206,10 @@
                                     <action selector="PrevPhoto_TouchUpInside" destination="1390" id="7840" eventType="touchDownRepeat"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="8232" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="-2" y="64" width="377" height="553"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
                         </subviews>
                     </view>
                     <tabBarItem key="tabBarItem" id="1623" title="Mapa"/>
@@ -210,6 +219,7 @@
                         <outlet property="mapButton" destination="1623" id="name-outlet-1623"/>
                         <outlet property="SelectDay" destination="5527" id="name-outlet-5527"/>
                         <outlet property="OthersButton" destination="5402" id="name-outlet-5402"/>
+                        <outlet property="mainMapView" destination="8232" id="name-outlet-8232"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1392" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -497,7 +507,6 @@
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5522">
                         <rect key="frame" x="0.0" y="0.0" width="376" height="47"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
                     <toolbarItems/>
                 </viewController>

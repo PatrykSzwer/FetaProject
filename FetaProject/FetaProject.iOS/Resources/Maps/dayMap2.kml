@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>dayMap2</name>
+    <description/>
+    <Style id="icon-1899-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-795548-normal">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-795548-highlight">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-795548">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-795548-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-795548-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-880E4F-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-880E4F-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-880E4F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-880E4F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-880E4F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-AFB42B-normal">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-AFB42B-highlight">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-AFB42B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-AFB42B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-AFB42B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-C2185B-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-C2185B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-C2185B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-C2185B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFEA00-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>lokalizacje spektakli</name>
+      <Placemark>
+        <name>16.00 Whalley Range All Stars „Compost Mentis” / Wielka Brytania / 30 min – Plac Wałowy</name>
+        <description><![CDATA[Compost Mentis;Whalley Range All Stars;Wielka Brytania;„Tajemnicze, zabawne i surrealistyczne przedstawienia… zawsze wspaniała grupa Whalley Range All Stars. [tłum.]” THE GUARDIAN<br>W ogrodzie coś się rusza. <br>Widzimy duży stos kompostu umieszczony na niewielkiej działce oraz ogrodnika, który się nim zajmuje. Ich relacja ulega pogorszeniu, gdy ogrodnik odkrywa, że stos kompostu zaczął żyć własnym życiem i że fermentują w nim myśli. Akcja na żywo, kukły, mechaniczne i muzyczne interwencje pozwalają zagwarantować, że publiczność, tak jak ogrodnik, będzie iść ścieżką ogrodową.;2017-07-14 16:00;<br>ENG;Compost Mentis;Whalley Range All Stars;Great Britain;“Sly, funny and surreal performances … the ever-excellent Whalley Range All Stars.” THE GUARDIAN<br>Something is stirring in the garden. <br>Compost Mentis features a large compost heap, set in a small allotment, and the Gardener who looks after it. Their relationship begins to break down when he discovers that the compost heap has developed a life of its own, and harbours thoughts fermenting within. Live action, puppet, mechanical and musical interventions ensure that the audience, like the Gardener, are led up the garden path.;]]></description>
+        <styleUrl>#icon-1899-795548</styleUrl>
+        <Point>
+          <coordinates>
+            18.647114,54.342019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16.00 Teatr Porywacze Ciał „Hultaje” / Polska, Poznań / 50 min – ul. Łąkowa 39/44, okolice LPP</name>
+        <description><![CDATA[Hultaje;Teatr Porywacze Ciał;Polska;„Hultaje” to nasz najnowszy spektakl uliczny, którego premiera odbyła się 18 października 2014 w Poznaniu. Jest historią kilku pracowników różnych banków, którzy podczas przerwy w pracy spotykają się w umówionym miejscu, żeby razem poszaleć na… hulajnogach. Wystarczy tylko założyć ochraniacze i kaski, marynarki zamienić na dżinsowe katany z naszytą na plecach nazwą gangu - „Hultaje” i gotowe! Reszta jest już czystym szaleństwem: wykonywane w rytmie tłustych bitów najbardziej zwariowane i nigdy wcześniej nie prezentowane triki człowieka bankowca na hulajnodze. Bunt, sweet & teatr. A wszystko na czas, bo przerwa się w końcu skończy i trzeba wracać do udzielania kredytów i takich tam, więc każda sekunda się liczy… ;2017-07-14 16:00;<br>ENG;Scootergang;Teatr Porywacze Ciał;Poland;We wish to recommend you our latest street performance called “Scootergang” which had its premiere on the 18th of October, 2014 in Poznan. The main characters of the show are employees of various banks, who instead of having a smoke and talking about interest rates during their brake, get together on an agreed spot in order to go crazy on their scooters. All they need is to change the suits into patches, helmets and denim jackets, with their gang’s name on the back and that’s it! The rest is pure madness: performed to the fat bits, the most crazy and never before presented tricks of a bank man on a scooter, in other words - rebellion, sweet & theatre. No control. But all of this in a rush, since the brake will finally end and they will have to go back to granting credits, and so on and so forth, that’s why each second is so very precious…;]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            18.662285,54.342637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17.00 Muzikanty „Objazdowe nieme kino” / Polska, Gliwice / 60 min – Plac Wałowy</name>
+        <description><![CDATA[Objazdowe nieme kino;Muzikanty;Polska;Namiot kinematograficzny, rodem z zaklętego lunaparku, proponujący widzom szeroki przekrój kina światowego. Od pierwszych filmów niemych, przez horror, western, współczesne kino akcji, aż po science-fiction – wszystkie filmy w tym objazdowym kinie mają jednak jeden mankament – nie mają dźwięku. Trzech Operatorów, grając na wszystkim, co wpadnie im w ręce, generuje na żywo nie tylko muzykę filmową, ale i dialogi, odgłosy, a nawet (od czasu do czasu) efekty specjalne. Obraz filmowy przenika się z rzeczywistością, a szalone trio sięga od prawdziwych, odrobinę nadgryzionych zębem czasu instrumentów (smyczkowych, szarpanych, dętych, elektronicznych) po własne autorskie konstrukcje i przedmioty życia codziennego. Na żywo, w towarzyszeniu projekcji, z wykorzystaniem technik live loopingu, zaangażowanej publiczności i całego wiaderka mikrofonów. A cała ta, odrobinę postrzelona, filmowa onomatopeja przydarza się w urokliwym wnętrzu, jakby zatrzymanego w czasie namiotu – lunaparkowej jurty. Co może pójść źle?;2017-07-14 17:00;<br>ENG;Wandering Silent Cinema;Muzikanty;Poland;A cinematographic tent, out of an enchanted carnival, which offers the audience a broad selection of world’s best cinematic works. Starting with first silent movies, horrors, westerns, modern action cinema, up to the science-fiction! But all the movies in this wandering theatre have one small drawback – there is no sound. Three Operators-Inventors, playing on everything they can get their hands on, generate live sound – not only the motion picture music, but also the dialogues, foley sounds and even (from time to time) the special effects. The motion picture infiltrates reality when the crazy trio reaches for real instruments (maybe a bit nibbled with the tooth of time) – string, plucked, wind, electronic – as well as their own do-it-yourself constructions and even the everyday life objects. Every sound played live, with video projections, music live looping, audience involvement and a whole bucket full of microphones. And all that happening in the magical interior of the carnival yurt. What could possibly go wrong?;]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            18.64689,54.341699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17.00 Mimbre „Wondrous Strange” / Wielka Brytania / 45 min – boisko, Reduta Wilk</name>
+        <description><![CDATA[Wondrous Strange;Mimbre;WIelka Brytania;Teatr Royal Shakespeare Company zlecił grupie Mimbre przygotowanie spektaklu plenerowego upamiętniającego 400 rocznicę dziedzictwa Szekspira. Premiera spektaklu odbyła się 23 kwietnia 2016 roku w Stratford-Upon-Avon.<br>Niczego niepodejrzewająca kobieta zostaje wciągnięta w chaotyczny spektakl przez barwną trupę elżbietańskich artystów. To jej oczami publiczność widzi wiele popularnych postaci: zuchwałe wróżki w dzikim tańcu szydzą ze Spodka, Romeo i Julia adorują się wzajemnie na chwiejącej się drabinie, wielu Hamletów manipuluje przy masie czaszek, królowie walczą i giną w niesłabnącym tempie, a Ofelia płynie wolno na łóżku pełnym kwiatów.<br><br>Zespół artystyczny <br>Dyrektor artystyczny: Lina Johansson <br>Dyrektor ds. akrobacji: Silvia Fratelli <br>Wykonanie i opracowanie: Mélissa Colello, Craig Dagostino, Silvia Fratelli, Alison Halstead, Simon Hunt, Alcina Mendes <br>Scenografia: Loren Elstein <br>Dźwięk: Alan D.Boyd <br>Asystentka scenografa: Tash Prynne Stage <br>Menedżerka: Katie Thackeray;2017-07-14 17:00;<br>ENG;Wondrous Strange;Mimbre;Great Britain;Mimbre were commissioned by the Royal Shakespeare Company to create an outdoor performance celebrating the 400th anniversary of Shakespeare’s legacy. The show has premièred at Stratford-Upon-Avon on April 23 2016.<br>An unsuspecting woman gets pulled into a chaotic play by a colourful troupe of Elizabethan performers and through her eyes the audience is introduced to a host of well-known characters: cheeky fairies taunt Bottom in a raucous dance, Romeo and Juliet court each other on a balancing ladder, multiple Hamlets manipulate a stream of skulls, Kings fight and die at a relentless pace, and Ophelia slowly floats by on a bed of flowers.<br><br>Artistic Team <br>Artistic Director: Lina Johansson <br>Acrobatic Director: Silvia Fratelli <br>Performed & devised: Mélissa Colello, Craig Dagostino, Silvia Fratelli, Alison Halstead, Simon Hunt, Alcina Mendes <br>Design: Loren Elstein <br>Sound design: Alan D.Boyd <br>Assistant Designer: Tash Prynne Stage <br>Manager: Katie Thackeray;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            18.653042,54.339284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18.00 Markeliñe „Andante” / Hiszpania, Kraj Basków / 50 min – start: dziedziniec ASP</name>
+        <description><![CDATA[Andante;Markeliñe;Hiszpania;Po odpływie ulica jest pokryta piaskiem i butami. Morze wyrzuciło na brzeg historie, które trzeba opowiedzieć. Przechodnie pytają zdziwieni: „Skąd te buty się tu wzięły?”, „Do kogo należą?”, „Czego możemy się od nich dowiedzieć?” Magia teatru powoduje przemienienie butów w głównych bohaterów historii ukazujących cienie i blaski ludzkości. Buty, które tańczą, emigrują, zakochują się, żyją, czy umierają z rąk egzekutorów.<br>Spektakl „Andante” przedstawia to, co dzieje się ze zwykłymi butami podczas wojny lub w sytuacjach, w których dochodzi do naruszenia podstawowych praw człowieka. Buty, które widzimy w ruinach zniszczonego domu... Buty, które muszą się chować i są prześladowane za to, że mają odmienne poglądy... Buty, które zostały zakopane i skarżą się, że nikt nie został za ich tortury ukarany... Buty, które mogłyby należeć do nas...;2017-07-14 18:00;<br>ENG;Andante;Markeliñe;Spain, Basque Country;After a high tide, the street appears covered in sand and shoes. The sea washed up stories that have to be told. Passersby ask in amazement; how did they get here? Whose are they? What can they tell us? The magic of theatre transforms the shoes into the protagonists of stories that reflect the chiaroscuro of the human condition. Shoes that dance, emigrate, fall in love, live or die at the hands of their executioners.<br>“Andante” reflects on what happens to normal shoes in war or in situations where fundamental rights are breached. Shoes that show up in the rubble of a house that has been destroyed... Shoes that have to hide and are persecuted for harbouring different ideas ... Shoes that have been buried and complain about the impunity of their torturers... Shoes that could be ours...;]]></description>
+        <styleUrl>#icon-1899-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            18.646476,54.34228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18.00 De Jongens „The Passifists” / Holandia / 60 min – plac między ul. Kurzą a Szczyglą</name>
+        <description><![CDATA[The Passifists;De Jongens;Holandia;Tragikomiczny performance, w którym zwykli obywatele – może nasi przyjaciele, rodzice lub współpracownicy - decydują: koniec biernego przyglądania się! Podejmują próbę walki z niesprawiedliwością na świecie. <br>Niezgrabne działania i brak wiedzy pomieszane z nadmiernym entuzjazmem tworzą mieszaninę wybuchową, ale ich brak talentu bojowego ma nieodwracalne konsekwencje…<br><br>De Jongens jest fundacją, która przygotowuje spektakle na festiwale międzynarodowe. Jeśli jest to konieczne, grupa szuka koproducentów do określonych projektów i/lub ubiega się o środki pieniężne w różnych holenderskich instytucjach. Grupę De Jongens tworzą niezależni artyści teatralni, którzy samodzielnie przygotowują swoje spektakle. Jeśli to konieczne, korzystają z porad artystycznych oraz znajdują reżyserów, co pozwala im kwestionować sposób wykonania i swoje umiejętności oraz je doskonalić. Proszą specjalistów o przeszkolenie w zakresie pewnych umiejętności. Grupa De Jongens przygotowuje spektakle przez improwizacje. Proces ten łączy takie aspekty jak pomysły na scenografię, grę aktorską i możliwości fizyczne. Większość scenografii artyści budują sami. Teatr funkcjonuje w ramach Grand Theater Groningen.;2017-07-14 18:00;<br>ENG;The Passifists;De Jongens;Nethelands;A tragicomic representation in which ordinary citizens - it could be our friends, parents or colleagues - decide not to look passively, but instead to take hard action against injustice in the world. Uncomfortably stunned and lack of knowledge mixed with enthusiasm forms an explosive mixture. However, their lack of militant talent has irreversible consequences.<br>Theatercompany De Jongens is a foundation, that creates shows for (international) festivals. If necessary they find co producers for specific projects and/or apply for money from different Dutch institutions. De Jongens are autonomous theatermakers. They create their performances themselves . If necessary they find artistical advice an directors to challenge and improve the performance and their skills. They ask specialists to train them in certain skills. De Jongens create a show by improvising. Ideas for set, skills, acting and physical possibilities go together in this process. A big part of the set they build themselves. They operate within the Grand Theater Groningen.;]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            18.658037,54.33978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19.00 Whalley Range All Stars „Compost Mentis” / Wielka Brytania / 30 min – Plac Wałowy</name>
+        <description><![CDATA[Compost Mentis;Whalley Range All Stars;WIelka Brytania;„Tajemnicze, zabawne i surrealistyczne przedstawienia… zawsze wspaniała grupa Whalley Range All Stars. [tłum.]” THE GUARDIAN<br>W ogrodzie coś się rusza. <br>Widzimy duży stos kompostu umieszczony na niewielkiej działce oraz ogrodnika, który się nim zajmuje. Ich relacja ulega pogorszeniu, gdy ogrodnik odkrywa, że stos kompostu zaczął żyć własnym życiem i że fermentują w nim myśli. Akcja na żywo, kukły, mechaniczne i muzyczne interwencje pozwalają zagwarantować, że publiczność, tak jak ogrodnik, będzie iść ścieżką ogrodową.;2017-07-14 19:00;<br>ENG;Compost Mentis;Whalley Range All Stars;Great Britain;“Sly, funny and surreal performances … the ever-excellent Whalley Range All Stars.” THE GUARDIAN<br>Something is stirring in the garden. <br>Compost Mentis features a large compost heap, set in a small allotment, and the Gardener who looks after it. Their relationship begins to break down when he discovers that the compost heap has developed a life of its own, and harbours thoughts fermenting within. Live action, puppet, mechanical and musical interventions ensure that the audience, like the Gardener, are led up the garden path.;]]></description>
+        <styleUrl>#icon-1899-795548</styleUrl>
+        <Point>
+          <coordinates>
+            18.647114,54.342019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19.00 Teatr PIAN „Przejście” / Polska, Gdańsk / 40 min – plac, ul. Dobra</name>
+        <description><![CDATA[Przejście;Teatr PIAN;Polska;Spektakl o poszukiwaniu przejścia. Gdzie znajduje się ten portal, przez który można dostać się na lepszą stronę samego siebie? Jak go znaleźć i w jaki sposób przejść tam, gdzie nie będzie już naszych własnych ograniczeń. Co zrobić, aby uwolnić się z nałożonych sobie samym niepotrzebnych pęt i zanurzyć się wreszcie w pięknie istnienia.<br><br>W spektaklu występuje osoba zamknięta w więzieniu codzienności, chcąca bardzo, jak my wszyscy, móc w sposób naturalny zrealizować swoje pragnienia. Na drodze realizacji zatrzymują ją jej własne uwarunkowania. Jak automat stoi i czeka jak na przejściu dla pieszych na zielone światło. Towarzyszy temu znane wszystkim napięcie narzucone z zewnątrz kiedy wreszcie będzie to zielone i będzie można ruszyć. Postać zauważa w końcu więzienie w jakim sama się znalazła i postanawia nie czekać dłużej na symboliczną zmianę świateł na zielone. Likwiduje hamujące ją czerwone światło towarzyszące jej przez większość życia i wreszcie może przejść na drugą stronę, swoją lepszą drugą stronę, tam gdzie może spełniać swoje pragnienia. <br><br>Częścią naszego życia jest pragnienie. Stanowi siłę napędową, można powiedzieć że może lepszą niż ambicja, bardziej pozytywną. Dążymy do zrealizowania tego czego pragniemy. Lecz nie jest łatwo. Dlaczego? Co zamyka nam drogę do realizacji pragnień. Często, a nawet można powiedzieć zawsze my sami. Uwarunkowani wychowaniem, oceną społeczną poczuciem ograniczenia. Pragniemy wyzwolić się z więzienia konwenansów, smutku, zahamowań, myślenia o przykrościach jakie mogą nas spotkać, że coś może się nie udać coś złego może się nam przydarzyć. Przejdźmy i zostawmy to wszystko po drugiej stronie ulicy i nie wracajmy już więcej do tego. Dajmy sobie zielone światło w życiu.;2017-07-14 19:00;<br>ENG;Przejście;Teatr PIAN;Poland;The show is about the search for a passage. Where is the portal through which you could get to a better side of yourself? How to find it and how to reach the place without our own limits? What can we do to become freed from redundant fetters we tied ourselves and immerse in the beauty of existence?<br><br>The show tells the story of a person who is a prisoner of everyday life, who, like all of us, longs to naturally fulfil their desires. This fulfilment is limited by their own circumstances. The person, like an automaton, stands and waits for the green light at the pedestrian crossing. There is a widely familiar tension imposed from outside. When will the green light appear and when will I be able to go? The character finally notices the prison they have found themselves in and decides that they will not wait for the symbolic change of lights any longer. They destroy the red light which stops them and which accompanied them for most of their life. At last they can pass through to the other side, their better other side, where they can satisfy their desires. <br><br>Desire is a part of our lives. It is a driving force, perhaps even better than ambition, so to speak, more positive. We strive to achieve what we desire. It is not easy, though. Why? What blocks the way to fulfilling our desires? It is often, or always, we ourselves who do it. We are conditioned by nurture, social judgement, a sense of restriction. We wish to free ourselves from the prison of the conventional wisdom, sadness, inhibitions, thinking about distress we might experience, worrying that something could end in failure, something bad could happen to us. Let us pass through and leave all of this on the other side of the road and let us not come back to this any more. Let us give ourselves the green light in our lives.;]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            18.652775,54.339522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19.00 The Primitives „Three of a Kind” / Belgia, Walonia - Bruksela / 35 min – boisko, ul. Dolna Brama</name>
+        <description><![CDATA[Three of a Kind;The Primitives;Belgia;Pojawia się trzech mężczyzn w średnim wieku. Mają na sobie garnitury. Muszą coś dostarczyć, ale wygląda na to, że nie pamiętają, co, gdzie, ani komu. Zgubili się, są zdezorientowani, potykają się, tańczą, razem biegną i upadają, kurczowo się siebie trzymając. Równocześnie desperacko próbują opanować sytuację i zrealizować zapomniany cel.<br><br>Spektakl „Three of a Kind” stanowi zachętę, by się otworzyć i dać ponieść absurdalnie komicznemu teatrowi ruchu, który jest żartobliwy, wzruszający i zupełnie spontaniczny. Jedno jest pewne. Wszystko jest możliwe. Jedyna zasada jest taka, że nie ma żadnych zasad. „Three of a Kind” to po prostu niezła surrealistyczna jazda!<br>Spektakl odbywa się przy wsparciu Przedstawicielstwa Generalnego Walonia-Bruksela w Warszawie.;2017-07-14 19:00;<br>ENG;Three of a Kind;The Primitives;Belgium;There appear three middle-aged men dressed in suits. They have something to deliver, but cannot seem to remember what, where or for who. Lost and confused, they stumble, dance, run and fall together, clinging on to each other for dear life. At the same time they desperately try to have control and accomplish their forgotten aim.<br><br>Three of a Kind invites the audience to open their minds and plunge into absurdly comic movement theatre that is playful, emotional and completely spontaneous. One thing is certain. Anything is possible and the only rule is that there are no rules. Three of a Kind is some surrealistic trip!<br><br>The spectacle is held with the support of the Wallonia-Brussels Representative Office in Warsaw.;]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            18.648734,54.340918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20.00 Muzikanty „Objazdowe nieme kino” / Polska, Gliwice / 60 min – Plac Wałowy</name>
+        <description><![CDATA[Objazdowe nieme kino;Muzikanty;Polska;Namiot kinematograficzny, rodem z zaklętego lunaparku, proponujący widzom szeroki przekrój kina światowego. Od pierwszych filmów niemych, przez horror, western, współczesne kino akcji, aż po science-fiction – wszystkie filmy w tym objazdowym kinie mają jednak jeden mankament – nie mają dźwięku. Trzech Operatorów, grając na wszystkim, co wpadnie im w ręce, generuje na żywo nie tylko muzykę filmową, ale i dialogi, odgłosy, a nawet (od czasu do czasu) efekty specjalne. Obraz filmowy przenika się z rzeczywistością, a szalone trio sięga od prawdziwych, odrobinę nadgryzionych zębem czasu instrumentów (smyczkowych, szarpanych, dętych, elektronicznych) po własne autorskie konstrukcje i przedmioty życia codziennego. Na żywo, w towarzyszeniu projekcji, z wykorzystaniem technik live loopingu, zaangażowanej publiczności i całego wiaderka mikrofonów. A cała ta, odrobinę postrzelona, filmowa onomatopeja przydarza się w urokliwym wnętrzu, jakby zatrzymanego w czasie namiotu – lunaparkowej jurty. Co może pójść źle?;2017-07-14 20:00;<br>ENG;Wandering Silent Cinema;Muzikanty;Poland;A cinematographic tent, out of an enchanted carnival, which offers the audience a broad selection of world’s best cinematic works. Starting with first silent movies, horrors, westerns, modern action cinema, up to the science-fiction! But all the movies in this wandering theatre have one small drawback – there is no sound. Three Operators-Inventors, playing on everything they can get their hands on, generate live sound – not only the motion picture music, but also the dialogues, foley sounds and even (from time to time) the special effects. The motion picture infiltrates reality when the crazy trio reaches for real instruments (maybe a bit nibbled with the tooth of time) – string, plucked, wind, electronic – as well as their own do-it-yourself constructions and even the everyday life objects. Every sound played live, with video projections, music live looping, audience involvement and a whole bucket full of microphones. And all that happening in the magical interior of the carnival yurt. What could possibly go wrong?;]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            18.64689,54.341699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20.00 Teatr FETA „Gość z planety 326” / Polska, Gdańsk / 30 min – start: Plac Wałowy</name>
+        <description><![CDATA[Gość z planety 326;Teatr FETA;Polska;Podróż wśród gwiazd, podróż po planecie Ziemia, podróż wyobrażona. Trochę dla dzieci, trochę dla dorosłych. Rzecz o wyobraźni, przyjaźni, a może o podróżach w kosmosie. O czymś co zdarzyło się naprawdę, albo wcale się nie zdarzyło, ale przecież zdarzyć się może. Mieniące się gwiazdy, kuliste planety a wśród nich kosmita - taki „Mały Książe” , który przybył z jeszcze nie odkrytej planety, zadziwił się Ziemią, ale powrócił do swojego, ukrytego wśród gwiazd świata. Warto czasem zapatrzeć się w gwiazdy i chociaż przez chwilę pomilczeć, żeby usłyszeć dzwonki gwiazd.;2017-07-14 20:00;<br>ENG;A Guest from Planet 326;Teatr FETA;Poland;A journey among the stars, a journey on the planet Earth, an imagined journey. A bit for children, a bit for adults. It is about imagination, friendship, perhaps about travelling in outer space. About something which has really happened or has not happened at all, but can still happen. Sparkling stars, spherical planets and an alien among them, a kind of a ‘Little Prince’ who arrived from an undiscovered planet, became surprised by the Earth, but came back to his world hidden among the stars. Sometimes it is worth gazing at the stars and stay silent, at least for a while, to hear the bells of the stars.;]]></description>
+        <styleUrl>#icon-1899-FFEA00</styleUrl>
+        <Point>
+          <coordinates>
+            18.647275,54.341842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20.00 Mimbre „Wondrous Strange” / Wielka Brytania / 45 min – boisko, Reduta Wilk</name>
+        <description><![CDATA[Wondrous Strange;Mimbre;Wielka Brytania;Teatr Royal Shakespeare Company zlecił grupie Mimbre przygotowanie spektaklu plenerowego upamiętniającego 400 rocznicę dziedzictwa Szekspira. Premiera spektaklu odbyła się 23 kwietnia 2016 roku w Stratford-Upon-Avon.<br>Niczego niepodejrzewająca kobieta zostaje wciągnięta w chaotyczny spektakl przez barwną trupę elżbietańskich artystów. To jej oczami publiczność widzi wiele popularnych postaci: zuchwałe wróżki w dzikim tańcu szydzą ze Spodka, Romeo i Julia adorują się wzajemnie na chwiejącej się drabinie, wielu Hamletów manipuluje przy masie czaszek, królowie walczą i giną w niesłabnącym tempie, a Ofelia płynie wolno na łóżku pełnym kwiatów.<br><br>Zespół artystyczny <br>Dyrektor artystyczny: Lina Johansson <br>Dyrektor ds. akrobacji: Silvia Fratelli <br>Wykonanie i opracowanie: Mélissa Colello, Craig Dagostino, Silvia Fratelli, Alison Halstead, Simon Hunt, Alcina Mendes <br>Scenografia: Loren Elstein <br>Dźwięk: Alan D.Boyd <br>Asystentka scenografa: Tash Prynne Stage <br>Menedżerka: Katie Thackeray;2017-07-14 20:00;<br>ENG;Wondrous Strange;Mimbre;Great Britain;Mimbre were commissioned by the Royal Shakespeare Company to create an outdoor performance celebrating the 400th anniversary of Shakespeare’s legacy. The show has premièred at Stratford-Upon-Avon on April 23 2016.<br>An unsuspecting woman gets pulled into a chaotic play by a colourful troupe of Elizabethan performers and through her eyes the audience is introduced to a host of well-known characters: cheeky fairies taunt Bottom in a raucous dance, Romeo and Juliet court each other on a balancing ladder, multiple Hamlets manipulate a stream of skulls, Kings fight and die at a relentless pace, and Ophelia slowly floats by on a bed of flowers.<br><br>Artistic Team <br>Artistic Director: Lina Johansson <br>Acrobatic Director: Silvia Fratelli <br>Performed & devised: Mélissa Colello, Craig Dagostino, Silvia Fratelli, Alison Halstead, Simon Hunt, Alcina Mendes <br>Design: Loren Elstein <br>Sound design: Alan D.Boyd <br>Assistant Designer: Tash Prynne Stage <br>Manager: Katie Thackeray;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            18.653042,54.339284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21.00 The Primitives „Three of a Kind” / Belgia, Walonia - Bruksela / 35 min – Plac Wałowy</name>
+        <description><![CDATA[Three of a Kind;The Primitives;Belgia;Pojawia się trzech mężczyzn w średnim wieku. Mają na sobie garnitury. Muszą coś dostarczyć, ale wygląda na to, że nie pamiętają, co, gdzie, ani komu. Zgubili się, są zdezorientowani, potykają się, tańczą, razem biegną i upadają, kurczowo się siebie trzymając. Równocześnie desperacko próbują opanować sytuację i zrealizować zapomniany cel.<br><br>Spektakl „Three of a Kind” stanowi zachętę, by się otworzyć i dać ponieść absurdalnie komicznemu teatrowi ruchu, który jest żartobliwy, wzruszający i zupełnie spontaniczny. Jedno jest pewne. Wszystko jest możliwe. Jedyna zasada jest taka, że nie ma żadnych zasad. „Three of a Kind” to po prostu niezła surrealistyczna jazda!<br>Spektakl odbywa się przy wsparciu Przedstawicielstwa Generalnego Walonia-Bruksela w Warszawie.;2017-07-14 21:00;<br>ENG;Three of a Kind;The Primitives;Belgium;There appear three middle-aged men dressed in suits. They have something to deliver, but cannot seem to remember what, where or for who. Lost and confused, they stumble, dance, run and fall together, clinging on to each other for dear life. At the same time they desperately try to have control and accomplish their forgotten aim.<br><br>Three of a Kind invites the audience to open their minds and plunge into absurdly comic movement theatre that is playful, emotional and completely spontaneous. One thing is certain. Anything is possible and the only rule is that there are no rules. Three of a Kind is some surrealistic trip!<br><br>The spectacle is held with the support of the Wallonia-Brussels Representative Office in Warsaw.;]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            18.647059,54.342267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21.00 De Jongens „The Passifists” / Holandia / 60 min – plac między ul. Kurzą a Szczyglą</name>
+        <description><![CDATA[The Passifists;De Jonges;Holandia;Tragikomiczny performance, w którym zwykli obywatele – może nasi przyjaciele, rodzice lub współpracownicy - decydują: koniec biernego przyglądania się! Podejmują próbę walki z niesprawiedliwością na świecie. <br>Niezgrabne działania i brak wiedzy pomieszane z nadmiernym entuzjazmem tworzą mieszaninę wybuchową, ale ich brak talentu bojowego ma nieodwracalne konsekwencje…<br><br>De Jongens jest fundacją, która przygotowuje spektakle na festiwale międzynarodowe. Jeśli jest to konieczne, grupa szuka koproducentów do określonych projektów i/lub ubiega się o środki pieniężne w różnych holenderskich instytucjach. Grupę De Jongens tworzą niezależni artyści teatralni, którzy samodzielnie przygotowują swoje spektakle. Jeśli to konieczne, korzystają z porad artystycznych oraz znajdują reżyserów, co pozwala im kwestionować sposób wykonania i swoje umiejętności oraz je doskonalić. Proszą specjalistów o przeszkolenie w zakresie pewnych umiejętności. Grupa De Jongens przygotowuje spektakle przez improwizacje. Proces ten łączy takie aspekty jak pomysły na scenografię, grę aktorską i możliwości fizyczne. Większość scenografii artyści budują sami. Teatr funkcjonuje w ramach Grand Theater Groningen.;2017-07-14 21:00;<br>ENG;The Passifists;De Jongens;Netherlands;A tragicomic representation in which ordinary citizens - it could be our friends, parents or colleagues - decide not to look passively, but instead to take hard action against injustice in the world. Uncomfortably stunned and lack of knowledge mixed with enthusiasm forms an explosive mixture. However, their lack of militant talent has irreversible consequences.<br>Theatercompany De Jongens is a foundation, that creates shows for (international) festivals. If necessary they find co producers for specific projects and/or apply for money from different Dutch institutions. De Jongens are autonomous theatermakers. They create their performances themselves . If necessary they find artistical advice an directors to challenge and improve the performance and their skills. They ask specialists to train them in certain skills. De Jongens create a show by improvising. Ideas for set, skills, acting and physical possibilities go together in this process. A big part of the set they build themselves. They operate within the Grand Theater Groningen.;]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            18.658037,54.33978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21.00 Teatr Porywacze Ciał „Cykliści” / Polska, Poznań / 60 min – ul. Łąkowa, Wróbla, Radna, Reduta Wyskok / parada</name>
+        <description><![CDATA[Cykliści;Teatr Porywacze Ciał;Polska;"Cykliści" czyli zwariowany ślub Bractwa Cyklistów to nasza najnowsza uliczna parada „Porywaczy Ciał”. Cała akcja jest oparta na barwnym korowodzie szalonych weselników - niezwykłych rowerzystów. Panna młoda zabiera ze sobą wszystkie prezenty i ucieka przed swoim wybrankiem na pokracznej hulajnodze, jest rozkapryszona i zwariowana. Jej welon unoszą w powietrze baloniki w kształcie serca. Pan młody goni ją, ale jednocześnie nie stroni od innych niewiast i wszelkiej zabawy. Ciągle wszystkich zaczepia, częstuje szampanem, tańczy i szaleje. Człowiek – orkiestra komentuje wszystko na żywo, wciąga publiczność w akcje, stwarzając muzykę z grających elementów, które ma zamontowane na swoim rowerze, puszcza ją z taśm, organizuje imprezę, za każdym razem kiedy korowód się zatrzymuje. Szalony duchowny, mający połączenie astralne, próbujący pogodzić młodych, dolewa oliwy do ognia, zapominając w kółko, kto z kim się żeni, więc ciągle udziela ślubów przypadkowym widzom. Pochód zamyka Ciocia z Wysp Hawajskich, słoneczna, radosna, rozdająca wszystkim napotykanym uśmiechy i świeże owoce, jest jeszcze niechciany brat pana młodego, śmieciarz i nicpoń, oraz Człowiek Prosto z Plaży, chciał nad wodę, trafił na ślub… Jest wesoło, groteskowo, absurdalnie, kolorowo i głośno - czyli wszystko co potrzebne, żeby trochę namieszać i wnieść więcej życia do ulicznej rzeczywistości. A jak ktoś nie lubi ślubów, to ryż mu w oko i zaraz polubi… Parada jest interaktywna, wciągamy do zabawy widzów. Siedmiu cyklistów jedzie sobie luźno na rowerach, robiąc przystanki i zadymę czas od czasu. Jest bardzo kolorowo, głośno z odrobiną pirotechniki i mnóstwem szaleństwa. Przygoda, przygoda, każdej chwili szkoda, hej!;2017-07-14 21:00;<br>ENG;Cyclists;Teatr Porywacze Ciał;Poland;The crazy wedding of the Biker’s Society was originally presented at Heineken Open’er Festival in Gdynia in 2008. It is fun, grotesque, absurd and laud. In other words, everything that is necessary to mix things up a little and bring more life into the street reality. And if somebody doesn’t like weddings, let’s throw some rice in their face, and they’ll love it… The whole show is based on a colorful pageant of crazy wedding guests – extraordinary bikers. The bride takes all the gifts with her, and escapes from the boy of her choice on a bizarre scooter; she is spoilt and wild. Her veil is kept in the air by balloons in the shape of a heart. The groom is chasing her, but in the meantime he doesn’t shun other ladies and all kinds of fun. He is constantly chatting everybody up, treating them to champagne, dancing and going wild. The one man orchestra is commenting everything life, he engages the audience into the action, creating music with the playing elements he has installed on his bike; he plays music from tapes, and organizes the party every time the parade stops. The crazy minister, who has an astral connection, trying to reconcile the bride and groom, actually adds fuel to the flames because he keeps forgetting who is marring whom, so he is constantly marrying random people from among the audience. The rear of the parade is brought up by the Aunt from the Hawaiian Islands, who is sunny, cheerful, giving out smiles and fresh fruits to everybody, and she is secretly in love with the one man orchestra, what in the end leads to an engagement and a happy double wedding, amid fireworks, music and fun with the audience. The parade is interactive, we engage spectators. Seven characters are riding bikes, making stops and acting according to the script. It is all very colorful, loud with a bit of pyrotechnics, and lots of craziness. Adventure, adventure, each moment is precious, hey!;]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <Point>
+          <coordinates>
+            18.660804,54.341921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[22.00 Teatr Razem & Remont Pomp „Oni” / Polska, Gdańsk / 30 min – ul. Łąkowa 35/38, dziedziniec Królewskiej Fabryki Karabinów]]></name>
+        <description><![CDATA[Oni;Teatr Razem & Remont Pomp;Polska;Spektakl to wynik rozmów. Rozmów o kobiecości, męskości, dorosłości, pracy. Rozmów o braku rozmów o kobiecości, męskości, dorosłości, pracy. Kim są ONI w świecie osób pełnosprawnych. Może stanowią plemię jakieś obcej cywilizacji, które nieustannie próbujemy rehabilitować, dostosowywać, porównywać. A może to nasz świat po prostu tak wygląda. Dążymy do czegoś czego nie potrafimy nazwać i zmuszamy innych by robili to samo. Normalność i nienormalność. Kategoria. Sort. Dzielimy wszystko wokół siebie. Przyznajemy, dajemy, odbieramy, decydujemy. Bo wiemy lepiej. Wiemy lepiej?<br><br>Teatr Razem powstał w 2005 roku na bazie współpracy Polskiego Stowarzyszenia na Rzecz Osób z Niepełnosprawnością Intelektualną (Koło w Gdańsku) z Integracyjnym Klubem Artystycznym "Winda". Od początku istnienia Teatr tworzą wolontariusze i podopieczni Programu "Starszy Brat - Starsza Siostra", realizowanego przy PSONI. Celem tego projektu jest tworzenie sieci przyjaźni pomiędzy osobami z niepełnosprawnością intelektualną oraz pełnosprawną młodzieżą z gdańskich szkół średnich i uczelni. Obok polskich wolontariuszy od dwóch lat do teatru dołączają także wolontariusze zagraniczni, przyjeżdżający do stowarzyszenia na roczne projekty w ramach wolontariatu europejskiego (European Voluntary Service w ramach Programu "Młodzież w działaniu").<br><br>Integralna częścią grupy teatralnej jest zespół muzyczny Remont Pomp, pod dowództwem Jarka Marciszewskiego. Każdego roku obie grupy podsumowują swoją działalność wspólnym występem w ramach festiwalu Lato Ludzi w Teatrze Leśnym w Gdańsku Wrzeszczu. Wystawione tam dotychczas spektakle to kolejno: Labirynt, Upadek Ikara, Ucieczka do... , Samotność, Z nas, My, Zapraszamy na show, Przedstawienie czas zacząć, Dzień z życia, Jak Gyom chciał zostać starszym Panem, Opowieść o wielkim wstydzie. Teatr Razem oraz Remont Pomp występował na Międzynarodowym Festiwalu Teatrów Ulicznych FETA, Międzynarodowym Biennale „Terapia i Teatr” w Łodzi oraz Międzynarodowych Spotkaniach Artystycznych w Elblągu. Od ośmiu lat Teatr Razem działa w strukturach Teatru Gdańskiego Archipelagu Kultury. <br><br>Reżyseria: Jarek Rebeliński<br>Wizualizacje: Aleksandra Szumska<br>Muzyka: Jarek Marciszewski/Remont Pomp;2017-07-14 22:00;<br>ENG;Oni;Teatr Razem & Remont Pomp;Poland;The show results from conversations. Conversations about femininity, masculinity, adulthood and work. Conversations about the lack of conversations on femininity, masculinity, adulthood and work. Who are THEY in the world of the able-bodied? Perhaps they are a tribe from some strange civilisation which we constantly try to rehabilitate, adjust and compare. Maybe it is just that our world looks like this. We pursue aims which we cannot name and force others to do the same thing. Normality and abnormality. A category. A sort. We divide everything around us. We grant, give, take, decide. Because we know better. Do we know better?<br><br>Teatr Razem was founded in 2005 as a result of the co-operation between Polskie Stowarzyszenie na Rzecz Osób z Niepełnosprawnością Intelektualną ‘Koło’ (PSONI) in Gdansk and Integracyjny Klub Artystyczny ‘Winda’. From its beginning the theatre is made up of volunteers and charges of the programme ‘Elder Brother — Elder Sister’ carried out by PSONI. The aim of this project is to create the network of friendship between people with intellectual disability and able-bodied young people from Gdańsk secondary schools and universities. For two years the theatre has been co-operating with volunteers from abroad as well. They arrive at the association to participate in yearly projects within European voluntary work (European Voluntary Service within the Programme ‘The Youth in Activity’).<br><br>The integral part of the theatre is the band Remont Pomp managed by Jarek Marciszewski. Every year both groups sum up their activity with a joint performance at the festival People’s Summer in Teatr Leśny in Gdańsk-Wrzeszcz. The shows which have been put on there so far: The Maze, The Fall of Icarus, The Escape to... , Loneliness, From Us, We, We Invite to the Show, The Show Is About to Begin, A Day in a Life, As Gyom Wanted to Become an Older Man, A Story About a Great Shame. Teatr Razem and Remont Pomp performed at the International Street and Open-Air Theatres Festival — FETA, International Biennale ‘Therapy and Theatre’ in Łódź and International Artistic Meetings in Elbląg. For eight years Teatr Razem has been operating within Gdański Archipelag Kultury theatre. <br><br>Director: Jarek Rebeliński<br>Visualisations: Aleksandra Szumska<br>Music: Jarek Marciszewski/Remont Pomp;]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            18.660783,54.34119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22.00 Muzikanty „Objazdowe nieme kino” / Polska, Gliwice / 60 min – Plac Wałowy</name>
+        <description><![CDATA[Objazdowe nieme kino;Muzikanty;Polska;Namiot kinematograficzny, rodem z zaklętego lunaparku, proponujący widzom szeroki przekrój kina światowego. Od pierwszych filmów niemych, przez horror, western, współczesne kino akcji, aż po science-fiction – wszystkie filmy w tym objazdowym kinie mają jednak jeden mankament – nie mają dźwięku. Trzech Operatorów, grając na wszystkim, co wpadnie im w ręce, generuje na żywo nie tylko muzykę filmową, ale i dialogi, odgłosy, a nawet (od czasu do czasu) efekty specjalne. Obraz filmowy przenika się z rzeczywistością, a szalone trio sięga od prawdziwych, odrobinę nadgryzionych zębem czasu instrumentów (smyczkowych, szarpanych, dętych, elektronicznych) po własne autorskie konstrukcje i przedmioty życia codziennego. Na żywo, w towarzyszeniu projekcji, z wykorzystaniem technik live loopingu, zaangażowanej publiczności i całego wiaderka mikrofonów. A cała ta, odrobinę postrzelona, filmowa onomatopeja przydarza się w urokliwym wnętrzu, jakby zatrzymanego w czasie namiotu – lunaparkowej jurty. Co może pójść źle?;2017-07-14 22:00;<br>ENG;Wandering Silent Cinema;Muzikanty;Polska;A cinematographic tent, out of an enchanted carnival, which offers the audience a broad selection of world’s best cinematic works. Starting with first silent movies, horrors, westerns, modern action cinema, up to the science-fiction! But all the movies in this wandering theatre have one small drawback – there is no sound. Three Operators-Inventors, playing on everything they can get their hands on, generate live sound – not only the motion picture music, but also the dialogues, foley sounds and even (from time to time) the special effects. The motion picture infiltrates reality when the crazy trio reaches for real instruments (maybe a bit nibbled with the tooth of time) – string, plucked, wind, electronic – as well as their own do-it-yourself constructions and even the everyday life objects. Every sound played live, with video projections, music live looping, audience involvement and a whole bucket full of microphones. And all that happening in the magical interior of the carnival yurt. What could possibly go wrong?;]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            18.64689,54.341699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22.30 Markeliñe „Carbón Club” / Hiszpania, Kraj Basków / 60 min – plac pod Bastionem Św. Gertrudy / dla dorosłych</name>
+        <description><![CDATA[Carbón Club;Markeliñe;Hiszpania, Kraj Basków;"Carbón Club" opowiada historię kopalni w rytmie kabaretu. "Carbón Club" to metafora życia: wartość przyjaźni, tragiczne losy, wielka odwaga, głębia ziemi, wojny, codzienne zmagania ... Ale przede wszystkim to hołd pełen podziwu dla tych anonimowych bohaterów, którzy zginęli wykonując godną, ale trudną pracę. Górnicze legendy mówią, że ciemność w kopalni jest taka, że nawet cienie gubią swoich właścicieli.;2017-07-14 22:30;<br>ENG;Carbón Club;Markeliñe;Spain, Basque Country;“Carbón Club” tells the story of a mine to the rhythm of a cabaret. “Carbón Club” is a metaphor of life: The value of friendship, tragic destinies, vital courage, the depths of the earth, wars, everyday requirements... But, above all, it is a tribute, full of admiration, to those anonymous heroes who died performing a decent but difficult job. Mining legends have it that the darkness in a mine is such that even shadows loose their owners.<br>Comedy and tragedy mixed with coal dust. The rhythm of the sound, the vivid images and the enveloping space of this show works on the senses and the emotions of the audience, making “Coal Club” a theatrical experience that is difficult to forget.;]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            18.646591,54.340993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>23.00 Biuro Podróży „Silence. Cisza w Troi” / Polska, Poznań / 60 min – boisko, ul. Jałmużnicza / dla dorosłych</name>
+        <description><![CDATA[Cisza w Troi;Teatr Biuro Podróży;Polska;„Pojadę do innej ziemi, nad morze inne. <br>Jakieś inne znajdzie się miasto, jakieś lepsze miejsce. <br>Tu już wydany jest wyrok na wszystkie moje dążenia<br>i pogrzebane leży, jak w grobie, moje serce.”<br>Konstandinos Kawafis<br><br>Teatr Biuro Podróży znany ze swojego legendarnego spektaklu plenerowego „Carmen Funebre”, pokazującego okrucieństwa wojny, po raz kolejny mierzy się z tym tematem. Wykorzystując środki teatru plenerowego: symboliczną scenografię, ogień, szczudła oraz postaci dzieci i przejmującą muzykę, opowiada o ludziach, którzy znaleźli się w zawierusze wojennej i którym pozostały już tylko marzenia o ucieczce. <br>W kontekście zatrważającej rzezi i czystek dokonujących się na Bliskim Wschodzie, których rezultatem jest masowy exodus ludności w bezpieczniejsze miejsca, Teatr Biuro Podróży opowiada o losach uchodźców. Po spektaklu Carmen Funebre, dla którego inspiracją była wojna w Jugosławii, wydawało się, że we współczesnym świecie nic gorszego już stać się nie może. Jednakże rzeczywistość przerosła wyobraźnię. Jesteśmy świadkami zjawiska o niespotykanej skali, które wywołuje niepokój i lęk w całej Europie. Czy mamy się czego obawiać? <br>Teatr Biuro Podróży przygląda się sytuacji z punktu widzenia mieszkańca oblężonego miasta, na które spadły bomby, człowieka, któremu jeszcze kilka lat temu nie przyszłoby do głowy, że stanie się uchodźcą. Bohaterami spektaklu są dzieci – niewinni świadkowie śmierci bliskich, ofiary tułaczki i głodu. Dla tych dzieci i ich przyszłego spokoju, spróbujmy choć na chwilę postawić się w roli uchodźcy. <br>Spektakl powstaje na zamówienie Greenwich+Docklands International Festival/London oraz Hull UK City of Culture 2017 / Freedom Festival, w koprodukcji z GDIF. ;2017-07-14 16:30;<br>ENG;Silence;Teatr Biuro Podróży;Polska;‘I’ll go to another country, go to another shore, <br>find another city better than this one. <br>Whatever I try to do is fated to turn out wrong<br>and my heart lies buried as though it were something dead.’<br>The City, Constantine Cavafy (translated by Edmund Keeley/Philip Sherrard)<br><br>Teatr Biuro Podróży is famous for its legendary open-air production Carmen Funebre which shows the cruelties of war. The group deals with this theme again. They use the means of open-air theatre (symbolic set design, fire, stilts, children characters and moving music) and tell a story about the people who have been caught up in the chaos of war and who have nothing left apart from the dreams of escaping. <br>Teatr Biuro Podróży tells us about refugees’ fortunes in the context of massacres and ethnic cleansing in the Middle East which result in a massive exodus to safer areas. After the show Carmen Funebre, which was inspired by the war in Jugoslavia, it seemed that nothing worse could happen in the contemporary world. The reality, however, broke the limits of imagination. We witness a phenomenon on an unprecedented scale which invokes anxiety and fright throughout Europe. Is there a reason to fear? <br>Teatr Biuro Podróży looks at the situation from the perspective of a citizen who is in a town under siege and which has been bombarded. A few years ago this person would not have thought that they would become a refugee. The characters in the show are children — innocent witnesses of their relatives’ death, victims of wander and hunger. Let us try to put ourselves in a refugee’s shoes, at least for a while, for the sake of these children and their peace of mind in the future. <br>The production was commissioned by Greenwich+Docklands International Festival/London and Hull UK City of Culture 2017 / Freedom Festival in co-production with GDIF.;]]></description>
+        <styleUrl>#icon-1899-880E4F</styleUrl>
+        <Point>
+          <coordinates>
+            18.657199,54.340936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

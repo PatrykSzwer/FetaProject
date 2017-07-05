@@ -34,9 +34,7 @@ namespace FetaProject.iOS
 				MapViewController map = Storyboard.InstantiateViewController("maps") as MapViewController;
 				this.NavigationController.PushViewController(map, true);
 
-				//map.a = selectedEvent.Place;
-				//map.b = selectedEvent.Latitude;
-				//map.c = selectedEvent.Longtitude;
+
 			})
 			, true);
 

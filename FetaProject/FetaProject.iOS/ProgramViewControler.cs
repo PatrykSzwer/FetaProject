@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 using UIKit;
-
+using System.Reflection;
+using System.IO;
 
 namespace FetaProject.iOS
 {
@@ -19,19 +20,73 @@ namespace FetaProject.iOS
             new DateTime(2017, 7, 15),
             new DateTime(2017, 7, 16)
         };
+
 		Event[] theatreEvents;
+
+		private readonly Dictionary<int, string> _eventsDay = new Dictionary<int, string>
+		{
+			{0, "13.07"},
+			{1, "14.07"},
+			{2, "15.07"},
+			{3, "16.07"}
+		};
+
+		public string _dayId = "13.07";
+
+		private readonly Dictionary<string, string> _days = new Dictionary<string, string>
+			{
+				{"13.07", "FetaProject.iOS.Resources.Maps.dayMap1.kml"}, // Thursday
+                {"14.07", "FetaProject.iOS.Resources.Maps.dayMap2.kml"}, // Friday
+                {"15.07", "FetaProject.iOS.Resources.Maps.dayMap3.kml"}, // Saturday
+                {"16.07", "FetaProject.iOS.Resources.Maps.dayMap4.kml"} // Sunday
+
+            };
+
         public override void ViewDidLoad()
         {
 			base.ViewDidLoad();
-            SegmentDayControl.ValueChanged += (sender, e) => TableEvent.ReloadData();
+
+            if(DateTime.Today <= _eventsDates[0] || DateTime.Today > _eventsDates[3])
+            {
+                SegmentDayControl.SelectedSegment = 0;
+                LoadDay("13.07");            }
+            else if(DateTime.Today == _eventsDates[1])
+            {
+                SegmentDayControl.SelectedSegment = 1;
+                LoadDay("14.07");
+            }
+            else if(DateTime.Today == _eventsDates[2])
+            {
+                SegmentDayControl.SelectedSegment = 2;
+                LoadDay("14.07");
+            }
+            else
+            {
+                SegmentDayControl.SelectedSegment = 3;
+                LoadDay("14.07");
+            }
+
+            SegmentDayControl.ValueChanged += SegmentChange;
 
 
-			//TestMap
-			var map = "https://www.google.com/maps/d/kml?mid=1_kt2BQEIcaCocnNcdbPGSvgl0zk&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl";
+        }
+
+		private void SegmentChange(object sender, EventArgs e)
+		{
+			var selectedSegmentId = (int)(sender as UISegmentedControl).SelectedSegment;
+			_dayId = _eventsDay[selectedSegmentId];
+			LoadDay(_dayId);
+		}
+
+
+        public void LoadDay(String dayId)
+        {
+			
+
 			//zbranie info o eventach
 			List<Event> events = new List<Event>();
 			List<Event> eventsENG = new List<Event>();
-			events = ReadEvents(map, events);
+            events = ReadEvents(dayId, events);
 
 			//split list of events by language
 			for (var i = 1; i < events.Count; i++)
@@ -53,9 +108,9 @@ namespace FetaProject.iOS
 				_eventList = eventsENG;
 			}
 
-
-
+            TableEvent.ReloadData();
         }
+
         public ProgramViewControler(IntPtr handle) : base(handle)
         {
             _eventList = EventsManager.EventsManager.GetEvents().ToList();
@@ -107,7 +162,7 @@ namespace FetaProject.iOS
 			}
 		}
 
-		private List<Event> ReadEvents(string map, List<Event> events)
+		private List<Event> ReadEvents(string dayId, List<Event> events)
 		{
 			Event actPL = new Event();
 			Event actENG = new Event();
@@ -118,7 +173,12 @@ namespace FetaProject.iOS
 			//variable for spliting coordinates
 			string[] coordinates;
 
-			using (XmlReader reader = XmlReader.Create(map))
+            DateTime temp;
+
+			Assembly _assembly = Assembly.GetExecutingAssembly();
+            Stream _fileStream = _assembly.GetManifestResourceStream(_days[dayId]);
+
+            using (XmlReader reader = XmlReader.Create(_fileStream))
 			{
 
 				reader.MoveToContent();
@@ -136,16 +196,17 @@ namespace FetaProject.iOS
 							actPL.TeatreName = descpString[1];
 							actPL.OriginCountry = descpString[2];
 							actPL.Description = descpString[3];
-							if (descpString[4] != null)
-								actPL.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
+
+                            if (DateTime.TryParse(descpString[4], out temp))
+                                actPL.TimeEvent = temp;
 
 							// ENG part
 							actENG.ActName = descpString[6];
 							actENG.TeatreName = descpString[7];
 							actENG.OriginCountry = descpString[8];
 							actENG.Description = descpString[9];
-							if (descpString[4] != null)
-								actENG.TimeEvent = DateTime.ParseExact(descpString[4], "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture);
+							if (DateTime.TryParse(descpString[4], out temp))
+								actENG.TimeEvent = temp;
 							break;
 
 						case XmlNodeType.Element:

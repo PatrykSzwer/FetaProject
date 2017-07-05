@@ -1,6 +1,5 @@
 using CoreGraphics;
 using CoreLocation;
-using Google.Maps;
 using System;
 using System.Collections.Generic;
 using System.Xml;
@@ -10,14 +9,12 @@ namespace FetaProject.iOS
 {
     public partial class DisplayMapView : UIViewController
     {
-        private MapView _mapView;
-		private UIView map;
-		public string a = "";
-		public double b = 0.0;
-		public double c = 0.0; 
+
+		public string _mapId = "13.07";
+ 
         private readonly Dictionary<string, string> _maps = new Dictionary<string, string>
             {
-                {"13.07", "https://www.google.com/maps/d/kml?mid=1AawIPxHphPSojHFvtVoG3XEVW1I&forcekml=1&cid=mp&cv=sEUwvjl8K84.pl."}, // Thursday
+                {"13.07", "https://www.google.com/maps/d/kml?mid=1i6zeG6kvMcUdFBgTQ7DY2WIhAfU&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."}, // Thursday
                 {"14.07", "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4"}, // Friday
                 {"15.07", "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4"}, // Saturday
                 {"16.07", "https://www.google.com/maps/d/kml?mid=1AawIPxHphPSojHFvtVoG3XEVW1I&forcekml=1&cid=mp&cv=sEUwvjl8K84.pl."}, // Sunday
@@ -36,25 +33,17 @@ namespace FetaProject.iOS
         {
 
             base.ViewDidLoad();
-			map = new UIView();
-
-			map.BackgroundColor = UIColor.Blue;
-
-
-			UIApplication.SharedApplication.Windows[1].AddSubview(map);
+			
 			    
 			if (!Reachability.IsHostReachable("http://google.com"))
 			{
 				//map.Image = UIImage.FromBundle("Photo/Map.jpg");
 			}
-			else if (a == "")
-			{
-			//	LoadMap("13.07");
-			}
 			else
 			{ 
-             //   LoadMap("13.07");
+               LoadMap(_mapId);
 			}
+
         }
 
         public void LoadMap(string mapId)
@@ -69,61 +58,55 @@ namespace FetaProject.iOS
             // Get list of nodes from loaded KML file
             XmlNodeList idNodes = doc.GetElementsByTagName("Placemark");
 
-            var marker = new Marker();
-            var placemarks = new List<Marker>();
+            var marker = new MapKit.MKPointAnnotation();
+            var placemarks = new List<MapKit.MKPointAnnotation>();
 
             placemarks = ReadMarkers(idNodes, placemarks, marker);
 
-            CameraPosition camera = GetCameraPositionForMap(marker, placemarks);
-
-            _mapView = MapView.FromCamera(CGRect.Empty, camera);
-            _mapView.MyLocationEnabled = true;
-
-            // Push markers onto mapView
-            foreach (var iMarker in placemarks)
-            {
-                iMarker.Icon = UIImage.FromBundle("mapMarker.png");
-                iMarker.Map = _mapView;
-            }
-
-          // map = _mapView;
-
+            CenterMap(marker, placemarks);
 
  			       
 		}
 
-        private static CameraPosition GetCameraPositionForMap(Marker marker, IEnumerable<Marker> placemarks)
+        private void CenterMap(MapKit.MKPointAnnotation marker, IEnumerable<MapKit.MKPointAnnotation> placemarks)
         {
             // Calculation best view for map
-            double maxLat = marker.Position.Latitude;
-            double minLat = marker.Position.Latitude;
-            double maxLng = marker.Position.Longitude;
-            double minLng = marker.Position.Longitude;
+            double maxLat = marker.Coordinate.Latitude;
+            double minLat = marker.Coordinate.Latitude;
+            double maxLng = marker.Coordinate.Longitude;
+            double minLng = marker.Coordinate.Longitude;
 
             foreach (var mark in placemarks)
             {
-                if (mark.Position.Latitude > maxLat)
-                    maxLat = mark.Position.Latitude;
+                if (mark.Coordinate.Latitude > maxLat)
+                    maxLat = mark.Coordinate.Latitude;
 
-                if (minLat > mark.Position.Latitude)
-                    minLat = mark.Position.Latitude;
+                if (minLat > mark.Coordinate.Latitude)
+                    minLat = mark.Coordinate.Latitude;
 
-                if (mark.Position.Longitude > maxLng)
-                    maxLng = mark.Position.Longitude;
+                if (mark.Coordinate.Longitude > maxLng)
+                    maxLng = mark.Coordinate.Longitude;
 
-                if (minLng > mark.Position.Longitude)
-                    minLng = mark.Position.Longitude;
+                if (minLng > mark.Coordinate.Longitude)
+                    minLng = mark.Coordinate.Longitude;
             }
 
             // Ustawianie widoku mapy
             // srednia z wszysztkich markerów
             // CLLocationCoordinate2D location = new CLLocationCoordinate2D((maxLat + minLat) / 2, (maxLng + minLng) / 2);
 
-            var camera = CameraPosition.FromCamera((maxLat + minLat) / 2, (maxLng + minLng) / 2, zoom: 15);
-            return camera;
+            var coordinate = new CoreLocation.CLLocationCoordinate2D((maxLat + minLat) / 2, (maxLng + minLng) / 2);
+            var span = new MapKit.MKCoordinateSpan((maxLat - minLat)*2, (maxLng - minLng)*2);
+            var region = new MapKit.MKCoordinateRegion(coordinate, span);
+            //mainMapView.SetRegion(region, true);
+            //mainMapView.ShowsUserLocation = true;
+
+            //foreach(var mark in placemarks)
+            //mainMapView.AddAnnotations(mark);
+
         }
 
-        private static List<Marker> ReadMarkers(XmlNodeList nodeList, List<Marker> placemarks, Marker marker)
+        private static List<MapKit.MKPointAnnotation> ReadMarkers(XmlNodeList nodeList, List<MapKit.MKPointAnnotation> placemarks, MapKit.MKPointAnnotation marker)
         {
             foreach (XmlNode node in nodeList)
             {
@@ -134,18 +117,22 @@ namespace FetaProject.iOS
                         break;
                     case "coordinates":
                         var coordinates = node.FirstChild.Value.Split(',');
-                        marker.Position = new CLLocationCoordinate2D(Convert.ToDouble(coordinates[1]), Convert.ToDouble(coordinates[0]));
-                        marker = Marker.FromPosition(marker.Position);
+                        double latitude = 0, longtitude = 0, temp;
+                        if (double.TryParse(coordinates[1], out temp))
+                            latitude = temp;
+                        if (double.TryParse(coordinates[0], out temp))
+                            longtitude = temp;
+                        marker.Coordinate = new CLLocationCoordinate2D(latitude, longtitude);
                         break;
                     default:
                         ReadMarkers(node.ChildNodes, placemarks, marker);
                         break;
                 }
 
-                if (marker.Position.Latitude > 0 && marker.Title != null)
+                if (marker.Coordinate.Latitude > 0 && marker.Title != null)
                 {
                     placemarks.Add(marker);
-                    marker = new Marker();
+                    marker = new MapKit.MKPointAnnotation();
                 }
             }
 
