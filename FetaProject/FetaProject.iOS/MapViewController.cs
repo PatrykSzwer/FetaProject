@@ -6,7 +6,7 @@ namespace FetaProject.iOS
 {
     public partial class MapViewController : UIViewController
     {
-        private readonly DisplayMapView _mapView;
+       
         private readonly Dictionary<int, string> _eventsDayMapper = new Dictionary<int, string>
         {
             {0, "13.07"},
@@ -24,13 +24,13 @@ namespace FetaProject.iOS
         public MapViewController(IntPtr handle) : base(handle)
         {
             var storyboard = UIStoryboard.FromName("Main", null);
-            _mapView = storyboard.InstantiateViewController("map") as DisplayMapView;
+          //  _mapView = storyboard.InstantiateViewController("map") as DisplayMapView;
         }
 
         private void SegmentChange(object sender, EventArgs e)
         {
             var selectedSegmentId = (int)(sender as UISegmentedControl).SelectedSegment;
-            _mapView.LoadMap(_eventsDayMapper[selectedSegmentId]);
+           // _mapView.LoadMap(_eventsDayMapper[selectedSegmentId]);
         }
     }
 }

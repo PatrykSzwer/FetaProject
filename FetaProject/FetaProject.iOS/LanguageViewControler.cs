@@ -39,6 +39,16 @@ namespace FetaProject.iOS
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
+			UIGraphics.BeginImageContext(View.Frame.Size);
+			UIImage.FromBundle("bg.png").Draw(View.Bounds);
+			var bgImage = UIGraphics.GetImageFromCurrentImageContext();
+			UIGraphics.EndImageContext();
+
+			var uiImageView = new UIImageView(View.Frame);
+			uiImageView.Image = bgImage;
+			uiImageView.ContentMode = UIViewContentMode.Center;
+			View.AddSubview(uiImageView);
+			View.SendSubviewToBack(uiImageView);
 
 		}
 		private void ReloadTabBarTitle()

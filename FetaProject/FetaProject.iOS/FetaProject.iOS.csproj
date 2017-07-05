@@ -1,4 +1,5 @@
 ﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.props" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.props')" />
   <Import Project="..\..\packages\Xamarin.Build.Download.0.4.5\build\Xamarin.Build.Download.props" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.5\build\Xamarin.Build.Download.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -166,12 +167,8 @@
     </Compile>
     <Compile Include="LocalizationExtension\LocalizationExtension.cs" />
     <Compile Include="reachability.cs" />
-    <Compile Include="PosterView.cs" />
-    <Compile Include="PosterView.designer.cs">
-      <DependentUpon>PosterView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="StartLanguageView.cs" />
     <Compile Include="TabBarViews.cs" />
+    <Compile Include="StartLanguageView.cs" />
     <Compile Include="StartLanguageView.designer.cs">
       <DependentUpon>StartLanguageView.cs</DependentUpon>
     </Compile>
@@ -179,11 +176,7 @@
     <Compile Include="TutorialView.designer.cs">
       <DependentUpon>TutorialView.cs</DependentUpon>
     </Compile>
-    <Compile Include="DisplayMapView.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="DisplayMapView.designer.cs">
-      <DependentUpon>DisplayMapView.cs</DependentUpon>
-    </Compile>
     <Compile Include="TabBarViews.designer.cs">
       <DependentUpon>TabBarViews.cs</DependentUpon>
     </Compile>
@@ -199,9 +192,17 @@
     <Compile Include="DetailProgramView_.designer.cs">
       <DependentUpon>DetailProgramView_.cs</DependentUpon>
     </Compile>
-    <Compile Include="AboutView1.cs" />
-    <Compile Include="AboutView1.designer.cs">
-      <DependentUpon>AboutView1.cs</DependentUpon>
+    <Compile Include="AboutPager.cs" />
+    <Compile Include="AboutPager.designer.cs">
+      <DependentUpon>AboutPager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartView.cs" />
+    <Compile Include="StartView.designer.cs">
+      <DependentUpon>StartView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="start.cs" />
+    <Compile Include="start.designer.cs">
+      <DependentUpon>start.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -209,23 +210,6 @@
     <BundleResource Include="Resources\Base.lproj\Localizable.strings" />
     <BundleResource Include="Resources\ButtonsImage\EnglishLanguageButton.png" />
     <BundleResource Include="Resources\ButtonsImage\PolishLanguageButton.png" />
-    <BundleResource Include="Resources\Icons\gallery.png" />
-    <BundleResource Include="Resources\Icons\info.png" />
-    <BundleResource Include="Resources\Icons\map.png" />
-    <BundleResource Include="Resources\Icons\posterIcon.png" />
-    <BundleResource Include="Resources\Icons\program.png" />
-    <BundleResource Include="Resources\Icons\settings.png" />
-    <BundleResource Include="Resources\Photo\poster.jpg" />
-    <BundleResource Include="Resources\Photo\FETA_2001.jpg" />
-    <BundleResource Include="Resources\Photo\FETA_2013_1.jpg" />
-    <BundleResource Include="Resources\Photo\FETA_2013_2.jpg" />
-    <BundleResource Include="Resources\Photo\FETA_2015_1.jpg" />
-    <BundleResource Include="Resources\Photo\FETA_2014.jpg" />
-    <BundleResource Include="Resources\Photo\FETA_2015_2.jpeg" />
-    <BundleResource Include="Resources\mapMarker.png" />
-    <BundleResource Include="Resources\Photo\Map.jpg" />
-    <BundleResource Include="Resources\Icons\arrow_right.png" />
-    <BundleResource Include="Resources\Icons\arrow_left-2.png" />
     <BundleResource Include="Resources\TutorialPhoto\Tutorial_1.png" />
     <BundleResource Include="Resources\TutorialPhoto\Tutorial_2.png" />
     <BundleResource Include="Resources\TutorialPhoto\Tutorial_3.png" />
@@ -233,7 +217,44 @@
     <BundleResource Include="Resources\TutorialPhoto\Tutorial_5.png" />
     <BundleResource Include="Resources\TutorialPhoto\Tutorial_6.png" />
     <BundleResource Include="Resources\TutorialPhoto\Tutorial_7.png" />
-    <BundleResource Include="Resources\Photo\17269551_1228805670501629_81768521_o.jpg" />
+    <BundleResource Include="Resources\Icons\help.png" />
+    <BundleResource Include="Resources\Icons\WC.png" />
+    <BundleResource Include="Resources\Icons\food.png" />
+    <BundleResource Include="Resources\Icons\event.png" />
+    <BundleResource Include="Resources\Icons\wydarzenie.png" />
+    <BundleResource Include="Resources\Icons\gallery.png" />
+    <BundleResource Include="Resources\Icons\settings.png" />
+    <BundleResource Include="Resources\Icons\mapa.png" />
+    <BundleResource Include="Resources\Icons\about.png" />
+    <BundleResource Include="Resources\Icons\program.png" />
+    <BundleResource Include="Resources\Photo\5.jpg" />
+    <BundleResource Include="Resources\Photo\9.jpg" />
+    <BundleResource Include="Resources\Photo\21.jpg" />
+    <BundleResource Include="Resources\Photo\25.jpg" />
+    <BundleResource Include="Resources\Photo\13.jpg" />
+    <BundleResource Include="Resources\Photo\2.jpg" />
+    <BundleResource Include="Resources\Photo\16.jpg" />
+    <BundleResource Include="Resources\Photo\7.jpg" />
+    <BundleResource Include="Resources\Photo\8.jpg" />
+    <BundleResource Include="Resources\Photo\1.jpg" />
+    <BundleResource Include="Resources\Photo\11.jpg" />
+    <BundleResource Include="Resources\Photo\6.jpg" />
+    <BundleResource Include="Resources\Photo\12.jpg" />
+    <BundleResource Include="Resources\Photo\15.jpg" />
+    <BundleResource Include="Resources\Photo\24.jpg" />
+    <BundleResource Include="Resources\Photo\3.jpg" />
+    <BundleResource Include="Resources\Photo\4.jpg" />
+    <BundleResource Include="Resources\Photo\22.jpg" />
+    <BundleResource Include="Resources\Photo\14.jpg" />
+    <BundleResource Include="Resources\Photo\17.jpg" />
+    <BundleResource Include="Resources\Photo\18.jpg" />
+    <BundleResource Include="Resources\Photo\23.jpg" />
+    <BundleResource Include="Resources\Photo\26.jpg" />
+    <BundleResource Include="Resources\Photo\10.jpg" />
+    <BundleResource Include="Resources\Photo\19.jpg" />
+    <BundleResource Include="Resources\Photo\20.jpg" />
+    <BundleResource Include="Resources\Photo\Map.jpg" />
+    <BundleResource Include="Resources\bg.png" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -244,8 +265,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\TutorialPhoto\" />
+    <Folder Include="Resources\Icons\" />
+    <Folder Include="Resources\Photo\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Google.iOS.Maps.2.1.0.1\build\Xamarin.Google.iOS.Maps.targets" Condition="Exists('..\..\packages\Xamarin.Google.iOS.Maps.2.1.0.1\build\Xamarin.Google.iOS.Maps.targets')" />
   <Import Project="..\..\packages\Xamarin.Build.Download.0.4.5\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.5\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.targets')" />
 </Project>

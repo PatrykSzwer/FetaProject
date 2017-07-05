@@ -14,16 +14,8 @@ namespace FetaProject.iOS
     [Register ("AboutView1")]
     partial class AboutView1
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIScrollView ScrollView { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (ScrollView != null) {
-                ScrollView.Dispose ();
-                ScrollView = null;
-            }
         }
     }
 }

@@ -13,6 +13,19 @@ namespace FetaProject.iOS
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
+			UIGraphics.BeginImageContext(View.Frame.Size);
+			UIImage.FromBundle("bg.png").Draw(View.Bounds);
+			var bgImage = UIGraphics.GetImageFromCurrentImageContext();
+			UIGraphics.EndImageContext();
+
+			var uiImageView = new UIImageView(View.Frame);
+			uiImageView.Image = bgImage;
+			uiImageView.ContentMode = UIViewContentMode.Center;
+			View.AddSubview(uiImageView);
+
+			//descriptionTextView.BackgroundColor = UIColor.Clear;
+			View.SendSubviewToBack(infoBackground);
+			View.SendSubviewToBack(uiImageView);
 			this.NavigationItem.SetRightBarButtonItem(
 			new UIBarButtonItem(UIImage.FromFile("Icons/map.png")
 			, UIBarButtonItemStyle.Plain
@@ -20,11 +33,10 @@ namespace FetaProject.iOS
 			{
 				MapViewController map = Storyboard.InstantiateViewController("maps") as MapViewController;
 				this.NavigationController.PushViewController(map, true);
-				DisplayMapView displayMap = Storyboard.InstantiateViewController("map") as DisplayMapView;
 
-				displayMap.a = selectedEvent.Place;
-				displayMap.b = selectedEvent.Latitude;
-				displayMap.c = selectedEvent.Longtitude;
+				//map.a = selectedEvent.Place;
+				//map.b = selectedEvent.Latitude;
+				//map.c = selectedEvent.Longtitude;
 			})
 			, true);
 

@@ -20,19 +20,24 @@ namespace FetaProject.iOS
 			LanguageViewControler language = storyboard.InstantiateViewController("language") as LanguageViewControler;
 			ProgramNav program = storyboard.InstantiateViewController("program") as ProgramNav;
 			MapViewController maps = storyboard.InstantiateViewController("maps") as MapViewController;
-			AboutView1 about = storyboard.InstantiateViewController("about") as AboutView1;
+			AboutPager about = storyboard.InstantiateViewController("about") as AboutPager;
 
 
 			tab1 = program;
 			tab1.Title = "ProgramTab".Translate();
+			tab1.TabBarItem.Image = UIImage.FromFile("Icons/program.png");
 			tab2 = about;
 			tab2.Title = "AboutTab".Translate();
+			tab2.TabBarItem.Image = UIImage.FromFile("Icons/about.png");
 			tab3 = gallery;
 			tab3.Title = "GalleryTab".Translate();
+			tab3.TabBarItem.Image = UIImage.FromFile("Icons/gallery.png");
 			tab4 = maps;
 			tab4.Title = "MapsTab".Translate();
+			tab4.TabBarItem.Image = UIImage.FromFile("Icons/mapa.png");
 			tab5 = language;
 			tab5.Title = "SettingsTab".Translate();
+			tab5.TabBarItem.Image = UIImage.FromFile("Icons/settings.png");
 
 			var tabs = new UIViewController[] {
 								tab1, tab2, tab3, tab4, tab5

@@ -14,8 +14,7 @@ namespace FetaProject.iOS
         private List<Event> _eventList;
 
         private readonly DateTime[] _eventsDates = {
-
-            new DateTime(2017, 7, 13),
+			new DateTime(2017, 7, 13),
             new DateTime(2017, 7, 14),
             new DateTime(2017, 7, 15),
             new DateTime(2017, 7, 16)
@@ -28,7 +27,7 @@ namespace FetaProject.iOS
 
 
 			//TestMap
-			var map = "https://www.google.com/maps/d/kml?forcekml=1&mid=15gRIrjBFGwj-aJXzkoB6AMIXTG4";
+			var map = "https://www.google.com/maps/d/kml?mid=1_kt2BQEIcaCocnNcdbPGSvgl0zk&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl";
 			//zbranie info o eventach
 			List<Event> events = new List<Event>();
 			List<Event> eventsENG = new List<Event>();
@@ -75,7 +74,7 @@ namespace FetaProject.iOS
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
-
+			
             var cell = tableView.DequeueReusableCell("ShowEvent") as EventClassCell;
             var selectedDate = _eventsDates[SegmentDayControl.SelectedSegment].Date.Day;
             theatreEvents = _eventList.Where(x => x.TimeEvent.Day == selectedDate).ToArray();
@@ -184,5 +183,32 @@ namespace FetaProject.iOS
 
 			return events;
 		}
+		private void daySegmentSeter()
+		{
+			
+		}
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

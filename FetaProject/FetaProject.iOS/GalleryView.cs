@@ -10,7 +10,36 @@ namespace FetaProject.iOS
 
 
 		int imageCounter = 0;
-		string[] arrayOfImage = { "Photo/FETA_2001.jpg", "Photo/FETA_2013_1.jpg", "Photo/FETA_2013_2.jpg", "Photo/FETA_2015_1.jpg", "Photo/FETA_2015_2.jpeg", "Photo/FETA_2014.jpg", "Photo/poster.jpg" };
+		string[] arrayOfImage = { 
+			"Photo/1.jpg",
+			"Photo/2.jpg",
+			"Photo/3.jpg",
+			"Photo/4.jpg",
+			"Photo/5.jpg",
+			"Photo/6.jpg",
+			"Photo/7.jpg",
+			"Photo/8.jpg",
+			"Photo/9.jpg",
+			"Photo/10.jpg",
+			"Photo/11.jpg",
+			"Photo/12.jpg",
+			"Photo/13.jpg",
+			"Photo/14.jpg",
+			"Photo/15.jpg",
+			"Photo/16.jpg",
+			"Photo/17.jpg",
+			"Photo/18.jpg",
+			"Photo/19.jpg",
+			"Photo/20.jpg",
+			"Photo/21.jpg",
+			"Photo/22́.jpg",
+			"Photo/22.jpg",
+			"Photo/23.jpg",
+			"Photo/24.jpg",
+			"Photo/25.jpg",
+			"Photo/26.jpg"
+		};
+		
         public GalleryView (IntPtr handle) : base (handle)
         {
 
@@ -20,6 +49,8 @@ namespace FetaProject.iOS
 		{
 			base.ViewDidLoad();
 			UISwipeGestureRecognizer recognizerLeft = new UISwipeGestureRecognizer(UpdateLeft);
+
+
 			recognizerLeft.Direction = UISwipeGestureRecognizerDirection.Left;
 
 			UISwipeGestureRecognizer recognizerRight = new UISwipeGestureRecognizer(UpdateRight);
@@ -29,7 +60,18 @@ namespace FetaProject.iOS
 			View.AddGestureRecognizer(recognizerLeft);
 
 
-			imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]); 
+			imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]);
+			UIGraphics.BeginImageContext(View.Frame.Size);
+			UIImage.FromBundle("bg.png").Draw(View.Bounds);
+			var bgImage = UIGraphics.GetImageFromCurrentImageContext();
+			UIGraphics.EndImageContext();
+
+			var uiImageView = new UIImageView(View.Frame);
+			uiImageView.Image = bgImage;
+			uiImageView.ContentMode = UIViewContentMode.Center;
+			View.AddSubview(uiImageView);
+			View.SendSubviewToBack(uiImageView);
+			//imageView.Image
 		}
 
 		private void UpdateLeft()

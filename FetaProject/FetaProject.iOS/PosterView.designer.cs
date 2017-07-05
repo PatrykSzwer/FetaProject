@@ -14,16 +14,8 @@ namespace FetaProject.iOS
     [Register ("PosterView")]
     partial class PosterView
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIScrollView scrollview1 { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (scrollview1 != null) {
-                scrollview1.Dispose ();
-                scrollview1 = null;
-            }
         }
     }
 }

@@ -28,6 +28,10 @@ namespace FetaProject.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIView infoBackground { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel theatreNameLabel { get; set; }
 
         [Outlet]
@@ -49,6 +53,11 @@ namespace FetaProject.iOS
             if (descriptionTextView != null) {
                 descriptionTextView.Dispose ();
                 descriptionTextView = null;
+            }
+
+            if (infoBackground != null) {
+                infoBackground.Dispose ();
+                infoBackground = null;
             }
 
             if (theatreNameLabel != null) {

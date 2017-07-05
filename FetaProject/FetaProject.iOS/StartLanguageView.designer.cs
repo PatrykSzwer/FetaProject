@@ -20,6 +20,10 @@ namespace FetaProject.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIView languageview { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton plButton { get; set; }
 
         [Action ("EnButton_TouchUpInside:")]
@@ -35,6 +39,11 @@ namespace FetaProject.iOS
             if (enButton != null) {
                 enButton.Dispose ();
                 enButton = null;
+            }
+
+            if (languageview != null) {
+                languageview.Dispose ();
+                languageview = null;
             }
 
             if (plButton != null) {
