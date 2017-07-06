@@ -61,9 +61,9 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchProfiling>false</MtouchProfiling>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: tomek.twa@gmail.com (C36V9VD2L2)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignProvision></CodesignProvision>
+    <CodesignProvision>iOS Team Provisioning Profile: tom.FetaProject-iOS</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -204,6 +204,10 @@
     <Compile Include="start.designer.cs">
       <DependentUpon>start.cs</DependentUpon>
     </Compile>
+    <Compile Include="aboutViewController_.cs" />
+    <Compile Include="aboutViewController_.designer.cs">
+      <DependentUpon>aboutViewController_.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\pl.lproj\Localizable.strings" />
@@ -234,7 +238,6 @@
     <BundleResource Include="Resources\Photo\13.jpg" />
     <BundleResource Include="Resources\Photo\2.jpg" />
     <BundleResource Include="Resources\Photo\16.jpg" />
-    <BundleResource Include="Resources\Photo\7.jpg" />
     <BundleResource Include="Resources\Photo\8.jpg" />
     <BundleResource Include="Resources\Photo\1.jpg" />
     <BundleResource Include="Resources\Photo\11.jpg" />
@@ -255,6 +258,12 @@
     <BundleResource Include="Resources\Photo\20.jpg" />
     <BundleResource Include="Resources\Photo\Map.jpg" />
     <BundleResource Include="Resources\bg.png" />
+    <BundleResource Include="FETA_2017_plakat.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="FETAGazeta.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -268,6 +277,7 @@
     <Folder Include="Resources\Icons\" />
     <Folder Include="Resources\Photo\" />
     <Folder Include="Resources\Maps\" />
+    <Folder Include="Resources\PDF\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Maps\dayMap1.kml">
@@ -284,6 +294,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Maps\Utilities.kml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\plakat.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <LogicalName>FetaProject.iOS.Resources.PDF.plakat.pdf</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

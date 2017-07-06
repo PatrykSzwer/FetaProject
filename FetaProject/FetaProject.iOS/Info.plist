@@ -31,6 +31,8 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -41,8 +43,6 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
-	<key>XSLaunchImageAssets</key>
-	<string>Resources/Images.xcassets/LaunchImage.launchimage</string>
 	<key>CFBundleName</key>
 	<string>FetaProject.iOS</string>
 	<key>NSLocationWhenInUseUsageDescription</key>

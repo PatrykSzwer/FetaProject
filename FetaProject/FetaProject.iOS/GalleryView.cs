@@ -17,7 +17,6 @@ namespace FetaProject.iOS
 			"Photo/4.jpg",
 			"Photo/5.jpg",
 			"Photo/6.jpg",
-			"Photo/7.jpg",
 			"Photo/8.jpg",
 			"Photo/9.jpg",
 			"Photo/10.jpg",

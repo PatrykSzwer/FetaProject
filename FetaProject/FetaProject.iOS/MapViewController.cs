@@ -5,6 +5,7 @@ using UIKit;
 using CoreLocation;
 using System.Reflection;
 using System.IO;
+using System.Globalization;
 
 namespace FetaProject.iOS
 {
@@ -156,12 +157,11 @@ namespace FetaProject.iOS
 						marker.Title = node.FirstChild.Value;
 						break;
 					case "coordinates":
-						var coordinates = node.FirstChild.Value.Split(',');
+                        var coordinates = node.FirstChild.Value.Split(',');
+                     
 						double latitude = 0, longtitude = 0, temp;
-						if (double.TryParse(coordinates[1], out temp))
-							latitude = temp;
-						if (double.TryParse(coordinates[0], out temp))
-							longtitude = temp;
+                            latitude = double.Parse(coordinates[1].ToString(), CultureInfo.InvariantCulture);
+							longtitude = double.Parse(coordinates[0].ToString(), CultureInfo.InvariantCulture);
 						marker.Coordinate = new CLLocationCoordinate2D(latitude, longtitude);
 						break;
 					default:

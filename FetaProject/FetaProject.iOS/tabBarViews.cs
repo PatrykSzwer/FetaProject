@@ -20,7 +20,8 @@ namespace FetaProject.iOS
 			LanguageViewControler language = storyboard.InstantiateViewController("language") as LanguageViewControler;
 			ProgramNav program = storyboard.InstantiateViewController("program") as ProgramNav;
 			MapViewController maps = storyboard.InstantiateViewController("maps") as MapViewController;
-			AboutPager about = storyboard.InstantiateViewController("about") as AboutPager;
+            aboutViewController about = storyboard.InstantiateViewController("about") as aboutViewController;
+            //AboutPager about1 = storyboard.InstantiateViewController("about1") as AboutPager;
 
 
 			tab1 = program;

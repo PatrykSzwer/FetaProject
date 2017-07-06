@@ -193,13 +193,14 @@
                                     <segment title="15.07"/>
                                     <segment title="16.07"/>
                                 </segments>
-                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="1" blue="0" alpha="1"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <connections/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8784313725490196" green="0.403921568627451" blue="0.55294117647058827" alpha="1"/>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5402" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="309" y="28" width="66" height="30"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="309" y="28" width="35" height="29"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinX="YES"/>
+                                <state key="normal" title="Button" image="Icons/wydarzenie.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -507,6 +508,7 @@
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5522">
                         <rect key="frame" x="0.0" y="0.0" width="376" height="47"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8784313725490196" green="0.403921568627451" blue="0.55294117647058827" alpha="1"/>
                     </view>
                     <toolbarItems/>
                 </viewController>
@@ -534,7 +536,7 @@
         </scene>
         <scene sceneID="8304">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="8305" sceneMemberID="viewController" customClass="AboutPager" storyboardIdentifier="about">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="8305" sceneMemberID="viewController" customClass="AboutPager" storyboardIdentifier="about1">
                     <connections>
                         <outlet property="PageView" destination="8308" id="name-outlet-8308"/>
                     </connections>
@@ -545,7 +547,34 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </pageControl>
             </objects>
-            <point key="canvasLocation" x="-3099" y="571"/>
+            <point key="canvasLocation" x="-3096" y="570"/>
+        </scene>
+        <scene sceneID="8461">
+            <objects>
+                <viewController id="8462" sceneMemberID="viewController" customClass="aboutViewController" storyboardIdentifier="about">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8459"/>
+                        <viewControllerLayoutGuide type="bottom" id="8460"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8463">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="8487" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="16" width="375" height="651"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="8487" id="name-outlet-8487"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8464" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2600" y="594"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

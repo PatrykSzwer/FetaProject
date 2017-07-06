@@ -1,25 +1,31 @@
 using Foundation;
 using System;
 using UIKit;
+using System.IO;
+using System.Drawing;
+using System.Collections.Generic;
 
 namespace FetaProject.iOS
 {
+    
     public partial class AboutPager : UIPageViewController
     {
+        public nint PageNumber { get; private set; }
+
         public AboutPager (IntPtr handle) : base (handle)
         {
         }
-		public nint PageNumber { get; set; } = 0;
+    
 
 
-
-		public override void ViewDidLoad()
+	    public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
 
-			// Initialize
+			
 			PageView.Pages = 6;
-			ShowCat();
+
+            ShowCat();
 		}
 
 		public override void DidReceiveMemoryWarning()
