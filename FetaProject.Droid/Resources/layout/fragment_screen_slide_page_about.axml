@@ -3,11 +3,8 @@
     android:id="@+id/content"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        style="?android:textAppearanceMedium"
-        android:padding="16dp"
-        android:lineSpacingMultiplier="1.2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="about" />
+    <android.webkit.WebView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/webViewForPdf" />
 </ScrollView>
