@@ -1,7 +1,6 @@
 ﻿
 using Android.App;
 using Android.Webkit;
-using AndroidHUD;
 using Com.Joanzapata.Pdfview;
 using FetaProject.Droid.Fragments.Base;
 using System;
@@ -55,7 +54,7 @@ namespace FetaProject.Droid.Fragments
 
         private void DownloadPDFDocument()
         {
-            AndHUD.Shared.Show(_context, "Downloading PDF\nPlease Wait ..", -1, MaskType.Clear);
+            //AndHUD.Shared.Show(_context, "Downloading PDF\nPlease Wait ..", -1, MaskType.Clear);
 
             _pdfPath = _documentsPath + "/drawable";
             _pdfFilePath = Path.Combine(_pdfPath, _pdfFileName);
@@ -94,7 +93,7 @@ namespace FetaProject.Droid.Fragments
 
             _webView.LoadUrl("file:///android_asset/PDFViewer/index.html?file=" + _pdfFilePath);
 
-            AndHUD.Shared.Dismiss();
+            // AndHUD.Shared.Dismiss();
         }
     }
 }
