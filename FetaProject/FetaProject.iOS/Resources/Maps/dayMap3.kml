@@ -3,7 +3,7 @@
   <Document>
     <name>dayMap3</name>
     <description/>
-    <Style id="icon-1899-000000-nodesc-normal">
+    <Style id="icon-1899-000000-normal">
       <IconStyle>
         <color>ff000000</color>
         <scale>1</scale>
@@ -15,11 +15,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-000000-nodesc-highlight">
+    <Style id="icon-1899-000000-highlight">
       <IconStyle>
         <color>ff000000</color>
         <scale>1</scale>
@@ -31,21 +28,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-000000-nodesc">
+    <StyleMap id="icon-1899-000000">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-000000-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-000000-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-000000-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-000000-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-0097A7-nodesc-normal">
+    <Style id="icon-1899-0097A7-normal">
       <IconStyle>
         <color>ffa79700</color>
         <scale>1</scale>
@@ -57,11 +51,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0097A7-nodesc-highlight">
+    <Style id="icon-1899-0097A7-highlight">
       <IconStyle>
         <color>ffa79700</color>
         <scale>1</scale>
@@ -73,21 +64,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0097A7-nodesc">
+    <StyleMap id="icon-1899-0097A7">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0097A7-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-0097A7-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0097A7-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-0097A7-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-0288D1-nodesc-normal">
+    <Style id="icon-1899-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
@@ -99,11 +87,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
+    <Style id="icon-1899-0288D1-highlight">
       <IconStyle>
         <color>ffd18802</color>
         <scale>1</scale>
@@ -115,21 +100,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
+    <StyleMap id="icon-1899-0288D1">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-3949AB-nodesc-normal">
+    <Style id="icon-1899-3949AB-normal">
       <IconStyle>
         <color>ffab4939</color>
         <scale>1</scale>
@@ -141,11 +123,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-3949AB-nodesc-highlight">
+    <Style id="icon-1899-3949AB-highlight">
       <IconStyle>
         <color>ffab4939</color>
         <scale>1</scale>
@@ -157,18 +136,15 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-3949AB-nodesc">
+    <StyleMap id="icon-1899-3949AB">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-3949AB-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-3949AB-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-3949AB-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-3949AB-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1899-673AB7-normal">
@@ -207,7 +183,7 @@
         <styleUrl>#icon-1899-673AB7-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-795548-nodesc-normal">
+    <Style id="icon-1899-795548-normal">
       <IconStyle>
         <color>ff485579</color>
         <scale>1</scale>
@@ -219,11 +195,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-795548-nodesc-highlight">
+    <Style id="icon-1899-795548-highlight">
       <IconStyle>
         <color>ff485579</color>
         <scale>1</scale>
@@ -235,21 +208,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-795548-nodesc">
+    <StyleMap id="icon-1899-795548">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-795548-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-795548-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-795548-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-795548-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-7CB342-nodesc-normal">
+    <Style id="icon-1899-7CB342-normal">
       <IconStyle>
         <color>ff42b37c</color>
         <scale>1</scale>
@@ -261,11 +231,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-7CB342-nodesc-highlight">
+    <Style id="icon-1899-7CB342-highlight">
       <IconStyle>
         <color>ff42b37c</color>
         <scale>1</scale>
@@ -277,21 +244,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-7CB342-nodesc">
+    <StyleMap id="icon-1899-7CB342">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-AFB42B-nodesc-normal">
+    <Style id="icon-1899-AFB42B-normal">
       <IconStyle>
         <color>ff2bb4af</color>
         <scale>1</scale>
@@ -303,11 +267,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-AFB42B-nodesc-highlight">
+    <Style id="icon-1899-AFB42B-highlight">
       <IconStyle>
         <color>ff2bb4af</color>
         <scale>1</scale>
@@ -319,21 +280,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-AFB42B-nodesc">
+    <StyleMap id="icon-1899-AFB42B">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-AFB42B-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-AFB42B-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-AFB42B-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-AFB42B-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-BDBDBD-nodesc-normal">
+    <Style id="icon-1899-BDBDBD-normal">
       <IconStyle>
         <color>ffbdbdbd</color>
         <scale>1</scale>
@@ -345,11 +303,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-BDBDBD-nodesc-highlight">
+    <Style id="icon-1899-BDBDBD-highlight">
       <IconStyle>
         <color>ffbdbdbd</color>
         <scale>1</scale>
@@ -361,21 +316,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-BDBDBD-nodesc">
+    <StyleMap id="icon-1899-BDBDBD">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-BDBDBD-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-BDBDBD-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-BDBDBD-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-BDBDBD-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-C2185B-nodesc-normal">
+    <Style id="icon-1899-C2185B-normal">
       <IconStyle>
         <color>ff5b18c2</color>
         <scale>1</scale>
@@ -387,11 +339,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-C2185B-nodesc-highlight">
+    <Style id="icon-1899-C2185B-highlight">
       <IconStyle>
         <color>ff5b18c2</color>
         <scale>1</scale>
@@ -403,21 +352,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-C2185B-nodesc">
+    <StyleMap id="icon-1899-C2185B">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-C2185B-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-C2185B-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-C2185B-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-C2185B-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-E65100-nodesc-normal">
+    <Style id="icon-1899-E65100-normal">
       <IconStyle>
         <color>ff0051e6</color>
         <scale>1</scale>
@@ -429,11 +375,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-E65100-nodesc-highlight">
+    <Style id="icon-1899-E65100-highlight">
       <IconStyle>
         <color>ff0051e6</color>
         <scale>1</scale>
@@ -445,21 +388,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-E65100-nodesc">
+    <StyleMap id="icon-1899-E65100">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-E65100-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-E65100-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-E65100-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-E65100-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-FF5252-nodesc-normal">
+    <Style id="icon-1899-FF5252-normal">
       <IconStyle>
         <color>ff5252ff</color>
         <scale>1</scale>
@@ -471,11 +411,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-FF5252-nodesc-highlight">
+    <Style id="icon-1899-FF5252-highlight">
       <IconStyle>
         <color>ff5252ff</color>
         <scale>1</scale>
@@ -487,21 +424,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-FF5252-nodesc">
+    <StyleMap id="icon-1899-FF5252">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-FF5252-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-FF5252-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-FFD600-nodesc-normal">
+    <Style id="icon-1899-FFD600-normal">
       <IconStyle>
         <color>ff00d6ff</color>
         <scale>1</scale>
@@ -513,11 +447,8 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="icon-1899-FFD600-nodesc-highlight">
+    <Style id="icon-1899-FFD600-highlight">
       <IconStyle>
         <color>ff00d6ff</color>
         <scale>1</scale>
@@ -529,18 +460,15 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-FFD600-nodesc">
+    <StyleMap id="icon-1899-FFD600">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-FFD600-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1899-FFD600-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-FFD600-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1899-FFD600-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1899-FFEA00-normal">
@@ -603,7 +531,8 @@
       </Placemark>
       <Placemark>
         <name>16.00 Whalley Range All Stars „Compost Mentis” / Wielka Brytania / 30 min – Plac Wałowy</name>
-        <styleUrl>#icon-1899-795548-nodesc</styleUrl>
+        <description><![CDATA[Compost Mentis;Whalley Range All Stars;Wielka Brytania;„Tajemnicze, zabawne i surrealistyczne przedstawienia… zawsze wspaniała grupa Whalley Range All Stars. [tłum.]” THE GUARDIAN<br>W ogrodzie coś się rusza. <br>Widzimy duży stos kompostu umieszczony na niewielkiej działce oraz ogrodnika, który się nim zajmuje. Ich relacja ulega pogorszeniu, gdy ogrodnik odkrywa, że stos kompostu zaczął żyć własnym życiem i że fermentują w nim myśli. Akcja na żywo, kukły, mechaniczne i muzyczne interwencje pozwalają zagwarantować, że publiczność, tak jak ogrodnik, będzie iść ścieżką ogrodową.;2017-07-15 16:00; ENG;Compost Mentis;Whalley Range All Stars;Great Britain;“Sly, funny and surreal performances … the ever-excellent Whalley Range All Stars.” THE GUARDIAN<br>Something is stirring in the garden. <br>Compost Mentis features a large compost heap, set in a small allotment, and the Gardener who looks after it. Their relationship begins to break down when he discovers that the compost heap has developed a life of its own, and harbours thoughts fermenting within. Live action, puppet, mechanical and musical interventions ensure that the audience, like the Gardener, are led up the garden path.;]]></description>
+        <styleUrl>#icon-1899-795548</styleUrl>
         <Point>
           <coordinates>
             18.647119,54.342049,0
@@ -612,7 +541,8 @@
       </Placemark>
       <Placemark>
         <name>16.00 The Primitives „Three of a Kind” / Belgia, Walonia - Bruksela / 35 min – boisko, ul. Dolna Brama</name>
-        <styleUrl>#icon-1899-AFB42B-nodesc</styleUrl>
+        <description><![CDATA[Three of a Kind;The Primitives;Belgia;Pojawia się trzech mężczyzn w średnim wieku. Mają na sobie garnitury. Muszą coś dostarczyć, ale wygląda na to, że nie pamiętają, co, gdzie, ani komu. Zgubili się, są zdezorientowani, potykają się, tańczą, razem biegną i upadają, kurczowo się siebie trzymając. Równocześnie desperacko próbują opanować sytuację i zrealizować zapomniany cel.<br><br>Spektakl „Three of a Kind” stanowi zachętę, by się otworzyć i dać ponieść absurdalnie komicznemu teatrowi ruchu, który jest żartobliwy, wzruszający i zupełnie spontaniczny. Jedno jest pewne. Wszystko jest możliwe. Jedyna zasada jest taka, że nie ma żadnych zasad. „Three of a Kind” to po prostu niezła surrealistyczna jazda!<br>Spektakl odbywa się przy wsparciu Przedstawicielstwa Generalnego Walonia-Bruksela w Warszawie.;2017-07-15 16:00; ENG;Three of a Kind;The Primitives;Belgium;There appear three middle-aged men dressed in suits. They have something to deliver, but cannot seem to remember what, where or for who. Lost and confused, they stumble, dance, run and fall together, clinging on to each other for dear life. At the same time they desperately try to have control and accomplish their forgotten aim.<br><br>Three of a Kind invites the audience to open their minds and plunge into absurdly comic movement theatre that is playful, emotional and completely spontaneous. One thing is certain. Anything is possible and the only rule is that there are no rules. Three of a Kind is some surrealistic trip!<br><br>The spectacle is held with the support of the Wallonia-Brussels Representative Office in Warsaw.;]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
         <Point>
           <coordinates>
             18.648745,54.340929,0
@@ -621,7 +551,8 @@
       </Placemark>
       <Placemark>
         <name>16.00 Mimbre „Wondrous Strange” / Wielka Brytania / 45 min – boisko, Reduta Wilk</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <description><![CDATA[Wondrous Strange;Mimbre;Wielka Brytania;Teatr Royal Shakespeare Company zlecił grupie Mimbre przygotowanie spektaklu plenerowego upamiętniającego 400 rocznicę dziedzictwa Szekspira. Premiera spektaklu odbyła się 23 kwietnia 2016 roku w Stratford-Upon-Avon.<br>Niczego niepodejrzewająca kobieta zostaje wciągnięta w chaotyczny spektakl przez barwną trupę elżbietańskich artystów. To jej oczami publiczność widzi wiele popularnych postaci: zuchwałe wróżki w dzikim tańcu szydzą ze Spodka, Romeo i Julia adorują się wzajemnie na chwiejącej się drabinie, wielu Hamletów manipuluje przy masie czaszek, królowie walczą i giną w niesłabnącym tempie, a Ofelia płynie wolno na łóżku pełnym kwiatów.<br><br>Zespół artystyczny <br>Dyrektor artystyczny: Lina Johansson <br>Dyrektor ds. akrobacji: Silvia Fratelli <br>Wykonanie i opracowanie: Mélissa Colello, Craig Dagostino, Silvia Fratelli, Alison Halstead, Simon Hunt, Alcina Mendes <br>Scenografia: Loren Elstein <br>Dźwięk: Alan D.Boyd <br>Asystentka scenografa: Tash Prynne Stage <br>Menedżerka: Katie Thackeray;2017-07-15 16:00; ENG;Wondrous Strange;Mimbre;Great Britain;Mimbre were commissioned by the Royal Shakespeare Company to create an outdoor performance celebrating the 400th anniversary of Shakespeare’s legacy. The show has premièred at Stratford-Upon-Avon on April 23 2016.<br>An unsuspecting woman gets pulled into a chaotic play by a colourful troupe of Elizabethan performers and through her eyes the audience is introduced to a host of well-known characters: cheeky fairies taunt Bottom in a raucous dance, Romeo and Juliet court each other on a balancing ladder, multiple Hamlets manipulate a stream of skulls, Kings fight and die at a relentless pace, and Ophelia slowly floats by on a bed of flowers.<br><br>Artistic Team <br>Artistic Director: Lina Johansson <br>Acrobatic Director: Silvia Fratelli <br>Performed & devised: Mélissa Colello, Craig Dagostino, Silvia Fratelli, Alison Halstead, Simon Hunt, Alcina Mendes <br>Design: Loren Elstein <br>Sound design: Alan D.Boyd <br>Assistant Designer: Tash Prynne Stage <br>Manager: Katie Thackeray;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
             18.653026,54.339272,0
@@ -630,7 +561,8 @@
       </Placemark>
       <Placemark>
         <name>17.00 Muzikanty „Objazdowe nieme kino” / Polska, Gliwice / 60 min – Plac Wałowy</name>
-        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <description>Objazdowe nieme kino;Muzikanty;Polska;Namiot kinematograficzny, rodem z zaklętego lunaparku, proponujący widzom szeroki przekrój kina światowego. Od pierwszych filmów niemych, przez horror, western, współczesne kino akcji, aż po science-fiction – wszystkie filmy w tym objazdowym kinie mają jednak jeden mankament – nie mają dźwięku. Trzech Operatorów, grając na wszystkim, co wpadnie im w ręce, generuje na żywo nie tylko muzykę filmową, ale i dialogi, odgłosy, a nawet (od czasu do czasu) efekty specjalne. Obraz filmowy przenika się z rzeczywistością, a szalone trio sięga od prawdziwych, odrobinę nadgryzionych zębem czasu instrumentów (smyczkowych, szarpanych, dętych, elektronicznych) po własne autorskie konstrukcje i przedmioty życia codziennego. Na żywo, w towarzyszeniu projekcji, z wykorzystaniem technik live loopingu, zaangażowanej publiczności i całego wiaderka mikrofonów. A cała ta, odrobinę postrzelona, filmowa onomatopeja przydarza się w urokliwym wnętrzu, jakby zatrzymanego w czasie namiotu – lunaparkowej jurty. Co może pójść źle?;2017-07-15 17:00; ENG;Wandering Silent Cinema;Muzikanty;Poland;A cinematographic tent, out of an enchanted carnival, which offers the audience a broad selection of world’s best cinematic works. Starting with first silent movies, horrors, westerns, modern action cinema, up to the science-fiction! But all the movies in this wandering theatre have one small drawback – there is no sound. Three Operators-Inventors, playing on everything they can get their hands on, generate live sound – not only the motion picture music, but also the dialogues, foley sounds and even (from time to time) the special effects. The motion picture infiltrates reality when the crazy trio reaches for real instruments (maybe a bit nibbled with the tooth of time) – string, plucked, wind, electronic – as well as their own do-it-yourself constructions and even the everyday life objects. Every sound played live, with video projections, music live looping, audience involvement and a whole bucket full of microphones. And all that happening in the magical interior of the carnival yurt. What could possibly go wrong?;</description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
         <Point>
           <coordinates>
             18.646886,54.34172,0
@@ -639,7 +571,8 @@
       </Placemark>
       <Placemark>
         <name>17.00 Leo Bassi „Pato Gigante” / Włochy / 60 min – Reduta Wyskok</name>
-        <styleUrl>#icon-1899-FFD600-nodesc</styleUrl>
+        <description><![CDATA[Wielka Kaczka;Leo Bassi;Włochy;Gdy Bassi miał 5 lat, przekonał się, że dzieci bogatych ludzi mają większe gumowe kaczki niż dzieci ludzi biednych. Mści się 60 lat później, gdy w końcu na swój własny użytek wchodzi w posiadanie jednej z największych kaczek (o średnicy 15 m i wysokości 7 m).<br>Przedstawienie „Wielka kaczka” jest przezabawne. Podejmowana jest tu próba odnalezienia prawdziwego sensu życia oraz pokazania, jak kurczowo trzymamy się dziecięcych marzeń. To właśnie istota klaunady!;2017-07-15 17:00; ENG;Pato Gigante;Leo Bassi;Italy;When Bassi was 5 years old, he experienced that rich people's children had bigger rubber ducks than poor people's children. He took great revenge 60 years later when he finally acquired one of the biggest ducks ever (15 m in diameter, 7 m in height) for his own use.<br>Leo Bassi's Pato Gigante is a hilarious show that explores a real meaning of life and how we cling to our childhood dreams… It is the essence of clowning!;]]></description>
+        <styleUrl>#icon-1899-FFD600</styleUrl>
         <Point>
           <coordinates>
             18.658014,54.339044,0
@@ -648,7 +581,8 @@
       </Placemark>
       <Placemark>
         <name>18.00 Whalley Range All Stars „Compost Mentis” / Wielka Brytania / 30 min – Plac Wałowy</name>
-        <styleUrl>#icon-1899-795548-nodesc</styleUrl>
+        <description><![CDATA[Compost Mentis;Whalley Range All Stars;Wielka Brytania;„Tajemnicze, zabawne i surrealistyczne przedstawienia… zawsze wspaniała grupa Whalley Range All Stars. [tłum.]” THE GUARDIAN<br>W ogrodzie coś się rusza. <br>Widzimy duży stos kompostu umieszczony na niewielkiej działce oraz ogrodnika, który się nim zajmuje. Ich relacja ulega pogorszeniu, gdy ogrodnik odkrywa, że stos kompostu zaczął żyć własnym życiem i że fermentują w nim myśli. Akcja na żywo, kukły, mechaniczne i muzyczne interwencje pozwalają zagwarantować, że publiczność, tak jak ogrodnik, będzie iść ścieżką ogrodową.;2017-07-15 18:00; ENG;Compost Mentis;Whalley Range All Stars;Great Britain;“Sly, funny and surreal performances … the ever-excellent Whalley Range All Stars.” THE GUARDIAN<br>Something is stirring in the garden. <br>Compost Mentis features a large compost heap, set in a small allotment, and the Gardener who looks after it. Their relationship begins to break down when he discovers that the compost heap has developed a life of its own, and harbours thoughts fermenting within. Live action, puppet, mechanical and musical interventions ensure that the audience, like the Gardener, are led up the garden path.;]]></description>
+        <styleUrl>#icon-1899-795548</styleUrl>
         <Point>
           <coordinates>
             18.647119,54.342049,0
@@ -657,7 +591,8 @@
       </Placemark>
       <Placemark>
         <name>18.00 Teatr PIAN „Przejście” / Polska, Gdańsk / 40 min – plac, ul. Dobra</name>
-        <styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+        <description><![CDATA[Przejście;Teatr PIAN;Polska;Spektakl o poszukiwaniu przejścia. Gdzie znajduje się ten portal, przez który można dostać się na lepszą stronę samego siebie? Jak go znaleźć i w jaki sposób przejść tam, gdzie nie będzie już naszych własnych ograniczeń. Co zrobić, aby uwolnić się z nałożonych sobie samym niepotrzebnych pęt i zanurzyć się wreszcie w pięknie istnienia.<br><br>W spektaklu występuje osoba zamknięta w więzieniu codzienności, chcąca bardzo, jak my wszyscy, móc w sposób naturalny zrealizować swoje pragnienia. Na drodze realizacji zatrzymują ją jej własne uwarunkowania. Jak automat stoi i czeka jak na przejściu dla pieszych na zielone światło. Towarzyszy temu znane wszystkim napięcie narzucone z zewnątrz kiedy wreszcie będzie to zielone i będzie można ruszyć. Postać zauważa w końcu więzienie w jakim sama się znalazła i postanawia nie czekać dłużej na symboliczną zmianę świateł na zielone. Likwiduje hamujące ją czerwone światło towarzyszące jej przez większość życia i wreszcie może przejść na drugą stronę, swoją lepszą drugą stronę, tam gdzie może spełniać swoje pragnienia. <br><br>Częścią naszego życia jest pragnienie. Stanowi siłę napędową, można powiedzieć że może lepszą niż ambicja, bardziej pozytywną. Dążymy do zrealizowania tego czego pragniemy. Lecz nie jest łatwo. Dlaczego? Co zamyka nam drogę do realizacji pragnień. Często, a nawet można powiedzieć zawsze my sami. Uwarunkowani wychowaniem, oceną społeczną poczuciem ograniczenia. Pragniemy wyzwolić się z więzienia konwenansów, smutku, zahamowań, myślenia o przykrościach jakie mogą nas spotkać, że coś może się nie udać coś złego może się nam przydarzyć. Przejdźmy i zostawmy to wszystko po drugiej stronie ulicy i nie wracajmy już więcej do tego. Dajmy sobie zielone światło w życiu.<br><br>Teatr Pian<br>Izabela Terek Jopkiewicz<br>Gdańsk<br>;2017-07-15 18:00; ENG;Przejście;Teatr PIAN;Poland;The show is about the search for a passage. Where is the portal through which you could get to a better side of yourself? How to find it and how to reach the place without our own limits? What can we do to become freed from redundant fetters we tied ourselves and immerse in the beauty of existence?<br><br>The show tells the story of a person who is a prisoner of everyday life, who, like all of us, longs to naturally fulfil their desires. This fulfilment is limited by their own circumstances. The person, like an automaton, stands and waits for the green light at the pedestrian crossing. There is a widely familiar tension imposed from outside. When will the green light appear and when will I be able to go? The character finally notices the prison they have found themselves in and decides that they will not wait for the symbolic change of lights any longer. They destroy the red light which stops them and which accompanied them for most of their life. At last they can pass through to the other side, their better other side, where they can satisfy their desires. <br><br>Desire is a part of our lives. It is a driving force, perhaps even better than ambition, so to speak, more positive. We strive to achieve what we desire. It is not easy, though. Why? What blocks the way to fulfilling our desires? It is often, or always, we ourselves who do it. We are conditioned by nurture, social judgement, a sense of restriction. We wish to free ourselves from the prison of the conventional wisdom, sadness, inhibitions, thinking about distress we might experience, worrying that something could end in failure, something bad could happen to us. Let us pass through and leave all of this on the other side of the road and let us not come back to this any more. Let us give ourselves the green light in our lives.<br><br>Teatr Pian<br>Izabela Terek Jopkiewicz<br>Gdańsk;]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
         <Point>
           <coordinates>
             18.652768,54.339522,0
@@ -666,7 +601,8 @@
       </Placemark>
       <Placemark>
         <name>18.00 Teatr Gry i Ludzie „Steampunk parade” / Polska, Katowice / 40 min – ul. Łąkowa, ul. Kieturakisa, Reduta Wyskok; Dolne Miasto / parada</name>
-        <styleUrl>#icon-1899-000000-nodesc</styleUrl>
+        <description><![CDATA[Parada Steampunku;Teatr Gry i Ludzie;Polska;Parada Steampunku to podróż do epoki wiktoriańskiej, kiedy to rewolucja przemysłowa, industrializacja, postęp techniczny i liczne wynalazki budziły ufność i nadzieję. Nauka i postęp nie były jeszcze wtedy obciążone doświadczeniem dwudziestowiecznych rzezi. Doświadczeniem, które na zawsze odcisnęło piętno na naszym postrzeganiu postępu technicznego wiążąc go z lękiem przed masową zagładą. W tym kontekście epoka pary jawi nam się jako epoka niewinności, radosnej, twórczej fascynacji możliwościami jakie dają wynalazki techniczne. Główne elementy parady to łódź podwodna- mechaniczna ryba- batyskaf, transportowana przez parowy ciągnik, oraz trójkołowy bicykl. Pojazdom towarzyszą szczudlarzei postaci na ziemi w fantazyjnych steampunkowych kostiumach. Wśród kreowanych postaci widzowie rozpoznają: podróżników, wynalazców, odkrywców, radiotelegrafistę i fotografa… Aktorzy wchodzą w interakcje z publicznością. <br>Całość uzupełnia muzyka odtwarzana z urządzeń zainstalowanych w pojazdach, dźwięki klaksony, dymy i kolorowe oświetlenie. ;2017-07-15 18:00; ENG;Steampunk parade;Teatr Gry i Ludzie;Poland;The journey to the Victorian era, when the industrial revolution, technological progress and many inventions awakened trustfulness and hope. The science and the industrialization were not yet burdened with experience of twentieth-century massacre; the experience that always left an imprint on our perception of technical progres, tying it with a fear of mass destruction. In this context, the era of the steam appears to us as an era of innocence, joyful, creative fascination with the possibilities offered by technical inventions.<br><br>The main elements of the parade is a submarine - Mechanical fish-bathyscaphe, transported by steam tractor, accompanied by a three-wheeled bicycle. Vehicles accompanied by stilt walkers and characters on the ground in fancy steampunk costumes. Among the characters viewers will recognize travellers, inventors, discoverers, radio operator and photographer. The show is complemented by the music playing devices installed in vehicles, the sounds of horns, smoke and colored lights. Parade takes place both during the day and in the evening. Actors come into vivid interaction with the audience.;]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
         <Point>
           <coordinates>
             18.660788,54.341918,0
@@ -675,7 +611,8 @@
       </Placemark>
       <Placemark>
         <name>19.00 Muzikanty „Objazdowe nieme kino” / Polska, Gliwice / 60 min – Plac Wałowy</name>
-        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <description>Objazdowe nieme kino;Muzikanty;Polska;Namiot kinematograficzny, rodem z zaklętego lunaparku, proponujący widzom szeroki przekrój kina światowego. Od pierwszych filmów niemych, przez horror, western, współczesne kino akcji, aż po science-fiction – wszystkie filmy w tym objazdowym kinie mają jednak jeden mankament – nie mają dźwięku. Trzech Operatorów, grając na wszystkim, co wpadnie im w ręce, generuje na żywo nie tylko muzykę filmową, ale i dialogi, odgłosy, a nawet (od czasu do czasu) efekty specjalne. Obraz filmowy przenika się z rzeczywistością, a szalone trio sięga od prawdziwych, odrobinę nadgryzionych zębem czasu instrumentów (smyczkowych, szarpanych, dętych, elektronicznych) po własne autorskie konstrukcje i przedmioty życia codziennego. Na żywo, w towarzyszeniu projekcji, z wykorzystaniem technik live loopingu, zaangażowanej publiczności i całego wiaderka mikrofonów. A cała ta, odrobinę postrzelona, filmowa onomatopeja przydarza się w urokliwym wnętrzu, jakby zatrzymanego w czasie namiotu – lunaparkowej jurty. Co może pójść źle?;2017-07-15 19:00; ENG;andering Silent Cinema;Muzikanty;Poland;A cinematographic tent, out of an enchanted carnival, which offers the audience a broad selection of world’s best cinematic works. Starting with first silent movies, horrors, westerns, modern action cinema, up to the science-fiction! But all the movies in this wandering theatre have one small drawback – there is no sound. Three Operators-Inventors, playing on everything they can get their hands on, generate live sound – not only the motion picture music, but also the dialogues, foley sounds and even (from time to time) the special effects. The motion picture infiltrates reality when the crazy trio reaches for real instruments (maybe a bit nibbled with the tooth of time) – string, plucked, wind, electronic – as well as their own do-it-yourself constructions and even the everyday life objects. Every sound played live, with video projections, music live looping, audience involvement and a whole bucket full of microphones. And all that happening in the magical interior of the carnival yurt. What could possibly go wrong?;</description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
         <Point>
           <coordinates>
             18.646886,54.34172,0
@@ -684,7 +621,8 @@
       </Placemark>
       <Placemark>
         <name>19.00 The Primitives „Three of a Kind” / Belgia / 35 min – dziedziniec ASP</name>
-        <styleUrl>#icon-1899-AFB42B-nodesc</styleUrl>
+        <description><![CDATA[Three of a Kind;The Primitives;Belgia;Pojawia się trzech mężczyzn w średnim wieku. Mają na sobie garnitury. Muszą coś dostarczyć, ale wygląda na to, że nie pamiętają, co, gdzie, ani komu. Zgubili się, są zdezorientowani, potykają się, tańczą, razem biegną i upadają, kurczowo się siebie trzymając. Równocześnie desperacko próbują opanować sytuację i zrealizować zapomniany cel.<br><br>Spektakl „Three of a Kind” stanowi zachętę, by się otworzyć i dać ponieść absurdalnie komicznemu teatrowi ruchu, który jest żartobliwy, wzruszający i zupełnie spontaniczny. Jedno jest pewne. Wszystko jest możliwe. Jedyna zasada jest taka, że nie ma żadnych zasad. „Three of a Kind” to po prostu niezła surrealistyczna jazda!<br>Spektakl odbywa się przy wsparciu Przedstawicielstwa Generalnego Walonia-Bruksela w Warszawie.;2017-07-15 19:00; ENG;Three of a Kind;The Primitives;Belgium;There appear three middle-aged men dressed in suits. They have something to deliver, but cannot seem to remember what, where or for who. Lost and confused, they stumble, dance, run and fall together, clinging on to each other for dear life. At the same time they desperately try to have control and accomplish their forgotten aim.<br><br>Three of a Kind invites the audience to open their minds and plunge into absurdly comic movement theatre that is playful, emotional and completely spontaneous. One thing is certain. Anything is possible and the only rule is that there are no rules. Three of a Kind is some surrealistic trip!<br><br>The spectacle is held with the support of the Wallonia-Brussels Representative Office in Warsaw.;]]></description>
+        <styleUrl>#icon-1899-AFB42B</styleUrl>
         <Point>
           <coordinates>
             18.646481,54.342226,0
@@ -693,7 +631,8 @@
       </Placemark>
       <Placemark>
         <name>19.00 Markeliñe „Andante” / Hiszpania, Kraj Basków / 50 min – start: ul. Śluzy</name>
-        <styleUrl>#icon-1899-0097A7-nodesc</styleUrl>
+        <description><![CDATA[Andante;Markeliñe;Hiszpania, Kraj Basków;Po odpływie ulica jest pokryta piaskiem i butami. Morze wyrzuciło na brzeg historie, które trzeba opowiedzieć. Przechodnie pytają zdziwieni: „Skąd te buty się tu wzięły?”, „Do kogo należą?”, „Czego możemy się od nich dowiedzieć?” Magia teatru powoduje przemienienie butów w głównych bohaterów historii ukazujących cienie i blaski ludzkości. Buty, które tańczą, emigrują, zakochują się, żyją, czy umierają z rąk egzekutorów.<br>Spektakl „Andante” przedstawia to, co dzieje się ze zwykłymi butami podczas wojny lub w sytuacjach, w których dochodzi do naruszenia podstawowych praw człowieka. Buty, które widzimy w ruinach zniszczonego domu... Buty, które muszą się chować i są prześladowane za to, że mają odmienne poglądy... Buty, które zostały zakopane i skarżą się, że nikt nie został za ich tortury ukarany... Buty, które mogłyby należeć do nas...;2017-07-15 19:00; ENG;Andante;Markeliñe;Spain, Basque Country;After a high tide, the street appears covered in sand and shoes. The sea washed up stories that have to be told. Passersby ask in amazement; how did they get here? Whose are they? What can they tell us? The magic of theatre transforms the shoes into the protagonists of stories that reflect the chiaroscuro of the human condition. Shoes that dance, emigrate, fall in love, live or die at the hands of their executioners.<br>“Andante” reflects on what happens to normal shoes in war or in situations where fundamental rights are breached. Shoes that show up in the rubble of a house that has been destroyed... Shoes that have to hide and are persecuted for harbouring different ideas ... Shoes that have been buried and complain about the impunity of their torturers... Shoes that could be ours...;]]></description>
+        <styleUrl>#icon-1899-0097A7</styleUrl>
         <Point>
           <coordinates>
             18.657816,54.341259,0
@@ -702,7 +641,8 @@
       </Placemark>
       <Placemark>
         <name><![CDATA[20.00 Comagnie Une de Plus „Trois" / Francja / 35 min – boisko, Dolna Brama]]></name>
-        <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+        <description><![CDATA[Trois;Comagnie Une de Plus;Francja;Przed nami dwójka aktorów przebranych za marionetki, a spod ich kostiumów nie widać ani kawałka ludzkiego ciała. Najpierw pojawia się mniejsza marionetka, przypomina noworodka. Jej ruchu są niezdarne i z trudem utrzymuje pionową postawę. Po niej wkracza większa marionetka. Porusza się na wysokich szczudłach i wygląda jak drewniany manekin używany do nauki rysowania. Ten gigant będzie prowadził małą marionetkę jak lalkarz. Będzie jej pomagał stawiać pierwsze kroki, a nawet znajdzie dla niej towarzysza do zabawy wśród publiczności. Jednak wkrótce malec nabierze ochoty, żeby poruszać się o własnych siłach, więc musi przeciąć sznurki łączące go z „ojcem”. Dopiero, gdy go zabije, będzie mógł funkcjonować samodzielnie.<br>Aurélien Marteaux <br>Partnerzy instytucjonalni: <br>Le Fourneau <br>Musique et danse en Finistère ;2017-07-15 20:00; ENG;Trois;Comagnie Une de Plus;France;We see two actors dressed up as puppets. Their costumes are made in such a way that you cannot see any human skin. First, a small puppet appears. It resembles a newborn. Its first movements are clumsy and it looks as if it is really hard for it to stand straight. Then, the second puppet comes. It walks on high stilts and has a costume which reminds us of a wooden mannequin often used for learning to draw. Like a puppeteer, this giant guides the small puppet. It helps with its first steps and even finds a friend to play with in the audience. Soon enough, however, this kid wants to cut the strings joining it with ‘dad’ and to walk on its own. It is not until it kills the giant that it can live independently. <br>Aurélien Marteaux <br><br>Institutionals partners: <br>Le Fourneau <br>Musique et danse en Finistère;]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
         <Point>
           <coordinates>
             18.648745,54.340929,0
@@ -711,7 +651,8 @@
       </Placemark>
       <Placemark>
         <name>20.00 Mimbre „Wondrous Strange” / Wielka Brytania / 45 min – boisko, Reduta Wilk</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <description><![CDATA[Wondrous Strange;Mimbre;Wielka Brytania;Teatr Royal Shakespeare Company zlecił grupie Mimbre przygotowanie spektaklu plenerowego upamiętniającego 400 rocznicę dziedzictwa Szekspira. Premiera spektaklu odbyła się 23 kwietnia 2016 roku w Stratford-Upon-Avon.<br>Niczego niepodejrzewająca kobieta zostaje wciągnięta w chaotyczny spektakl przez barwną trupę elżbietańskich artystów. To jej oczami publiczność widzi wiele popularnych postaci: zuchwałe wróżki w dzikim tańcu szydzą ze Spodka, Romeo i Julia adorują się wzajemnie na chwiejącej się drabinie, wielu Hamletów manipuluje przy masie czaszek, królowie walczą i giną w niesłabnącym tempie, a Ofelia płynie wolno na łóżku pełnym kwiatów.<br><br>Zespół artystyczny <br>Dyrektor artystyczny: Lina Johansson <br>Dyrektor ds. akrobacji: Silvia Fratelli <br>Wykonanie i opracowanie: Mélissa Colello, Craig Dagostino, Silvia Fratelli, Alison Halstead, Simon Hunt, Alcina Mendes <br>Scenografia: Loren Elstein <br>Dźwięk: Alan D.Boyd <br>Asystentka scenografa: Tash Prynne Stage <br>Menedżerka: Katie Thackeray;2017-07-15 20:00; ENG;Wondrous Strange;Mimbre;Great Britain;Mimbre were commissioned by the Royal Shakespeare Company to create an outdoor performance celebrating the 400th anniversary of Shakespeare’s legacy. The show has premièred at Stratford-Upon-Avon on April 23 2016.<br>An unsuspecting woman gets pulled into a chaotic play by a colourful troupe of Elizabethan performers and through her eyes the audience is introduced to a host of well-known characters: cheeky fairies taunt Bottom in a raucous dance, Romeo and Juliet court each other on a balancing ladder, multiple Hamlets manipulate a stream of skulls, Kings fight and die at a relentless pace, and Ophelia slowly floats by on a bed of flowers.<br><br>Artistic Team <br>Artistic Director: Lina Johansson <br>Acrobatic Director: Silvia Fratelli <br>Performed & devised: Mélissa Colello, Craig Dagostino, Silvia Fratelli, Alison Halstead, Simon Hunt, Alcina Mendes <br>Design: Loren Elstein <br>Sound design: Alan D.Boyd <br>Assistant Designer: Tash Prynne Stage <br>Manager: Katie Thackeray;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
             18.653026,54.339272,0
@@ -720,7 +661,8 @@
       </Placemark>
       <Placemark>
         <name>20.00 Teatr Szczęście „Ale cyrki” / Polska, Kraków / 60 min – dziedziniec ASP</name>
-        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <description><![CDATA[ALe cyrki;Teatr Szczęście;Polska;W programie najlepsze numery: komiczna iluzja i żonglerka czym się da, skecze, scenki, etiudy muzyczne, pantomima, instrumenty muzyczne. W trakcie spektaklu poszczególni widzowie biorą udział w prezentacjach scenicznych, które zawsze kończą się salwą śmiechu.<br>Na koniec Klaun Feliks tworzy wielką orkiestrę z dzieci i dorosłych, która z wykorzystaniem takich instrumentów jak: ukulele, banjo, instrumenty perkusyjne, odgrywa brawurowo utwór muzyczny, specjalnie skomponowany na tę okazję.;2017-07-15 20:00; ENG;Some Circuses;Teatr Szczęście;Poland;The programme includes the best acts: comic illusion and juggling with whatever you can, sketches, scenes, musical etudes, mime and musical instruments. During the show some members of the audience take part in scene presentations which always cause gales of laughter.<br>At the end Feniks Clown creates a great orchestra of children and adults which, with such instruments as ukulele, banjo, percussive instruments, daringly plays a piece composed specially for this occasion.;]]></description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
         <Point>
           <coordinates>
             18.646441,54.342163,0
@@ -729,7 +671,8 @@
       </Placemark>
       <Placemark>
         <name>21.00 Muzikanty „Objazdowe nieme kino” / Polska, Gliwice / 60 min – Plac Wałowy</name>
-        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <description>Objazdowe nieme kino;Muzikanty;Polska;Namiot kinematograficzny, rodem z zaklętego lunaparku, proponujący widzom szeroki przekrój kina światowego. Od pierwszych filmów niemych, przez horror, western, współczesne kino akcji, aż po science-fiction – wszystkie filmy w tym objazdowym kinie mają jednak jeden mankament – nie mają dźwięku. Trzech Operatorów, grając na wszystkim, co wpadnie im w ręce, generuje na żywo nie tylko muzykę filmową, ale i dialogi, odgłosy, a nawet (od czasu do czasu) efekty specjalne. Obraz filmowy przenika się z rzeczywistością, a szalone trio sięga od prawdziwych, odrobinę nadgryzionych zębem czasu instrumentów (smyczkowych, szarpanych, dętych, elektronicznych) po własne autorskie konstrukcje i przedmioty życia codziennego. Na żywo, w towarzyszeniu projekcji, z wykorzystaniem technik live loopingu, zaangażowanej publiczności i całego wiaderka mikrofonów. A cała ta, odrobinę postrzelona, filmowa onomatopeja przydarza się w urokliwym wnętrzu, jakby zatrzymanego w czasie namiotu – lunaparkowej jurty. Co może pójść źle?;2017-07-15 21:00; ENG;Wandering silent cinema;Muzikanty;Poland;A cinematographic tent, out of an enchanted carnival, which offers the audience a broad selection of world’s best cinematic works. Starting with first silent movies, horrors, westerns, modern action cinema, up to the science-fiction! But all the movies in this wandering theatre have one small drawback – there is no sound. Three Operators-Inventors, playing on everything they can get their hands on, generate live sound – not only the motion picture music, but also the dialogues, foley sounds and even (from time to time) the special effects. The motion picture infiltrates reality when the crazy trio reaches for real instruments (maybe a bit nibbled with the tooth of time) – string, plucked, wind, electronic – as well as their own do-it-yourself constructions and even the everyday life objects. Every sound played live, with video projections, music live looping, audience involvement and a whole bucket full of microphones. And all that happening in the magical interior of the carnival yurt. What could possibly go wrong?;</description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
         <Point>
           <coordinates>
             18.646886,54.34172,0
@@ -738,7 +681,8 @@
       </Placemark>
       <Placemark>
         <name>21.00 Teatr Gry i Ludzie „Steampunk parade” / Polska, Katowice / 40 min – ul. Łąkowa, Kieturakisa, Reduta Wyskok; Dolne Miasto / parada</name>
-        <styleUrl>#icon-1899-000000-nodesc</styleUrl>
+        <description><![CDATA[Parada Steampunku;Teatr Gry i Ludzie;Polska;Parada Steampunku to podróż do epoki wiktoriańskiej, kiedy to rewolucja przemysłowa, industrializacja, postęp techniczny i liczne wynalazki budziły ufność i nadzieję. Nauka i postęp nie były jeszcze wtedy obciążone doświadczeniem dwudziestowiecznych rzezi. Doświadczeniem, które na zawsze odcisnęło piętno na naszym postrzeganiu postępu technicznego wiążąc go z lękiem przed masową zagładą. W tym kontekście epoka pary jawi nam się jako epoka niewinności, radosnej, twórczej fascynacji możliwościami jakie dają wynalazki techniczne. Główne elementy parady to łódź podwodna- mechaniczna ryba- batyskaf, transportowana przez parowy ciągnik, oraz trójkołowy bicykl. Pojazdom towarzyszą szczudlarzei postaci na ziemi w fantazyjnych steampunkowych kostiumach. Wśród kreowanych postaci widzowie rozpoznają: podróżników, wynalazców, odkrywców, radiotelegrafistę i fotografa… Aktorzy wchodzą w interakcje z publicznością. <br>Całość uzupełnia muzyka odtwarzana z urządzeń zainstalowanych w pojazdach, dźwięki klaksony, dymy i kolorowe oświetlenie.;2017-07-15 21:00; ENG;Steampunk parade;Teatr Gry i Ludzie;Poland;The journey to the Victorian era, when the industrial revolution, technological progress and many inventions awakened trustfulness and hope. The science and the industrialization were not yet burdened with experience of twentieth-century massacre; the experience that always left an imprint on our perception of technical progres, tying it with a fear of mass destruction. In this context, the era of the steam appears to us as an era of innocence, joyful, creative fascination with the possibilities offered by technical inventions.<br><br>The main elements of the parade is a submarine - Mechanical fish-bathyscaphe, transported by steam tractor, accompanied by a three-wheeled bicycle. Vehicles accompanied by stilt walkers and characters on the ground in fancy steampunk costumes. Among the characters viewers will recognize travellers, inventors, discoverers, radio operator and photographer. The show is complemented by the music playing devices installed in vehicles, the sounds of horns, smoke and colored lights. Parade takes place both during the day and in the evening. Actors come into vivid interaction with the audience.;]]></description>
+        <styleUrl>#icon-1899-000000</styleUrl>
         <Point>
           <coordinates>
             18.660788,54.341918,0
@@ -747,7 +691,8 @@
       </Placemark>
       <Placemark>
         <name>22.00 Leo Bassi „Utopia” / Włochy / 70 min – plac, ul. Fundacyjna / dla dorosłych</name>
-        <styleUrl>#icon-1899-FFD600-nodesc</styleUrl>
+        <description><![CDATA[Utopia;Leo Bassi;Włochy;„Dlaczego straciliśmy niewinność?” To podstawowe pytanie, które zadaje Leo Bassi w spektaklu „Utopia”. W wielkiej filozoficznej sadze, której narracja prowadzona jest w uniwersalnym języku klaunów, Bassi wraca do korzeni, do swojej cyrkowej rodziny, by odnaleźć głębokie, humanistyczne wartości, które kiedyś chroniły naszą niewinność.<br><br>W dzisiejszym świecie, zdominowanym przez cyniczne dążenie do zdobywania władzy, magiczna obecność Białego Klauna przypomina nam czasy, gdy wszystko było prostsze i bardziej szczere.<br><br>Spektakl „Utopia” ma rozbudzić dawne wspomnienia, ukryte głęboko w naszej podświadomości i pomaga odkryć na nowo nasze utracone wewnętrzne dziecko. Bassiemu udaje się przedstawić te poszukiwania we współczesnym kontekście. Pokazuje on, że walka o niewinność ma obecnie ogromne znaczenie w wymiarze politycznym .<br><br>Tak jak wszystkie prawdziwe klauny Bassi wie nie tylko, jak zabawiać publiczność, ale również jak być wnikliwym obserwatorem.;2017-07-15 22:00; ENG;Utopia;Leo Bassi;Italy;"Why have we lost our innocence?" This is the central question that Leo Bassi asks in Utopia. In this great philosophical saga narrated in clowns’ universal language Bassi goes back to the roots of his own circus family to find profound humanistic values that used to protect our innocence.<br>Today in the world dominated by a cynical pursuit of power the magical presence of the White Clown reminds us of the time when things were simpler and more sincere.<br><br>Utopia aims to stir old memories hidden at the back of our minds and help us rediscover the inner child we have lost. Bassi manages to put this quest into a modern context and shows that at present the fight for innocence is of enormous political importance .<br><br>Like all real clowns, Bassi knows how to be both entertaining and acute.;]]></description>
+        <styleUrl>#icon-1899-FFD600</styleUrl>
         <Point>
           <coordinates>
             18.653943,54.339603,0
@@ -756,7 +701,8 @@
       </Placemark>
       <Placemark>
         <name>23.00 Biuro Podróży „Silence. Cisza w Troi” / Polska, Poznań / 60 min – boisko, ul. Jałmużnicza / dla dorosłych</name>
-        <styleUrl>#icon-1899-BDBDBD-nodesc</styleUrl>
+        <description><![CDATA[Silence. Cisza w Troi;Biuro Podróży;Polska;„Pojadę do innej ziemi, nad morze inne. <br>Jakieś inne znajdzie się miasto, jakieś lepsze miejsce. <br>Tu już wydany jest wyrok na wszystkie moje dążenia<br>i pogrzebane leży, jak w grobie, moje serce.”<br>Konstandinos Kawafis<br><br>Teatr Biuro Podróży znany ze swojego legendarnego spektaklu plenerowego „Carmen Funebre”, pokazującego okrucieństwa wojny, po raz kolejny mierzy się z tym tematem. Wykorzystując środki teatru plenerowego: symboliczną scenografię, ogień, szczudła oraz postaci dzieci i przejmującą muzykę, opowiada o ludziach, którzy znaleźli się w zawierusze wojennej i którym pozostały już tylko marzenia o ucieczce. <br>W kontekście zatrważającej rzezi i czystek dokonujących się na Bliskim Wschodzie, których rezultatem jest masowy exodus ludności w bezpieczniejsze miejsca, Teatr Biuro Podróży opowiada o losach uchodźców. Po spektaklu Carmen Funebre, dla którego inspiracją była wojna w Jugosławii, wydawało się, że we współczesnym świecie nic gorszego już stać się nie może. Jednakże rzeczywistość przerosła wyobraźnię. Jesteśmy świadkami zjawiska o niespotykanej skali, które wywołuje niepokój i lęk w całej Europie. Czy mamy się czego obawiać? <br>Teatr Biuro Podróży przygląda się sytuacji z punktu widzenia mieszkańca oblężonego miasta, na które spadły bomby, człowieka, któremu jeszcze kilka lat temu nie przyszłoby do głowy, że stanie się uchodźcą. Bohaterami spektaklu są dzieci – niewinni świadkowie śmierci bliskich, ofiary tułaczki i głodu. Dla tych dzieci i ich przyszłego spokoju, spróbujmy choć na chwilę postawić się w roli uchodźcy. <br>Spektakl powstaje na zamówienie Greenwich+Docklands International Festival/London oraz Hull UK City of Culture 2017 / Freedom Festival, w koprodukcji z GDIF. ;2017-07-15 23:00; ENG;Silence;Biuro Podróży;Poland;‘I’ll go to another country, go to another shore, <br>find another city better than this one. <br>Whatever I try to do is fated to turn out wrong<br>and my heart lies buried as though it were something dead.’<br>The City, Constantine Cavafy (translated by Edmund Keeley/Philip Sherrard)<br><br>Teatr Biuro Podróży is famous for its legendary open-air production Carmen Funebre which shows the cruelties of war. The group deals with this theme again. They use the means of open-air theatre (symbolic set design, fire, stilts, children characters and moving music) and tell a story about the people who have been caught up in the chaos of war and who have nothing left apart from the dreams of escaping. <br>Teatr Biuro Podróży tells us about refugees’ fortunes in the context of massacres and ethnic cleansing in the Middle East which result in a massive exodus to safer areas. After the show Carmen Funebre, which was inspired by the war in Jugoslavia, it seemed that nothing worse could happen in the contemporary world. The reality, however, broke the limits of imagination. We witness a phenomenon on an unprecedented scale which invokes anxiety and fright throughout Europe. Is there a reason to fear? <br>Teatr Biuro Podróży looks at the situation from the perspective of a citizen who is in a town under siege and which has been bombarded. A few years ago this person would not have thought that they would become a refugee. The characters in the show are children — innocent witnesses of their relatives’ death, victims of wander and hunger. Let us try to put ourselves in a refugee’s shoes, at least for a while, for the sake of these children and their peace of mind in the future. <br>The production was commissioned by Greenwich+Docklands International Festival/London and Hull UK City of Culture 2017 / Freedom Festival in co-production with GDIF.;]]></description>
+        <styleUrl>#icon-1899-BDBDBD</styleUrl>
         <Point>
           <coordinates>
             18.657146,54.340923,0
@@ -765,7 +711,8 @@
       </Placemark>
       <Placemark>
         <name>23.00 Animal Religion „Indomador” / Hiszpania, Katalonia / 55 min – plac pod Bastionem Św. Gertrudy / dla dorosłych</name>
-        <styleUrl>#icon-1899-C2185B-nodesc</styleUrl>
+        <description><![CDATA[Indomador;Animal Religion;Hiszpania;„Indomador” to współczesny spektakl cyrkowy, który demaskuje dziwne przyzwyczajenia nowoczesnego życia i budzi w nas wewnętrzne zwierzę. Jest to groteskowa parodia na temat współczesnego człowieka i kulturowo uwarunkowanych różnic między płciami. Artysta odkrywa w sobie zwierzęcy instynkt i przemienia scenę w „animalarium”; transgeniczne ciała, stanie na rękach, akrobacje w obuwiu na obcasach, walka kogutów, tańce rytualne.<br>Kwestionuje się tu istnienie tego co ludzkie, tego co zwierzęce, męskie, czy żeńskie oraz relacji między nimi. Jako pierwszy pojawia się człowiek-kogut, który rozpoczyna opowieść o różnych zwierzętach i płciach, które stanowią odzwierciedlenie jego życia. Artysta wypełnia plan swoją obecnością i tchnie życie w każdą z postaci. Co tak naprawdę jest zwierzęce, a co ludzkie?;2017-07-15 23:00; ENG;Indomador;Animal Religion;Spain;Indomador is a contemporary circus performance putting light on weird routines in modern life and bringing out the inner animal in us. It is a grotesque parody of the modern human and the difference between the sexes that are culturally predetermined. The artist discovers his animal instinct and transforms the stage into an “animalarium”; transgenic bodies, handstands, acrobatics with heels, a spoon in the nose, roosterfight, ritual dances. It questions the presence of human and animal, male and female, and the relationship between them. He first appears as a human rooster that starts the story of the different animals and genders that reflect his life. The artist fills the stage with his presence and gives soul to each one of the members of thestory. What is animal and what is human?;]]></description>
+        <styleUrl>#icon-1899-C2185B</styleUrl>
         <Point>
           <coordinates>
             18.646607,54.340992,0

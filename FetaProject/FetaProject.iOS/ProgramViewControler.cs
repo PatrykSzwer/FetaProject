@@ -33,13 +33,23 @@ namespace FetaProject.iOS
 
 		public string _dayId = "13.07";
 
-		private readonly Dictionary<string, string> _days = new Dictionary<string, string>
+		private readonly Dictionary<string, string> _daysOffline = new Dictionary<string, string>
 			{
 				{"13.07", "FetaProject.iOS.Resources.Maps.dayMap1.kml"}, // Thursday
                 {"14.07", "FetaProject.iOS.Resources.Maps.dayMap2.kml"}, // Friday
                 {"15.07", "FetaProject.iOS.Resources.Maps.dayMap3.kml"}, // Saturday
-                {"16.07", "FetaProject.iOS.Resources.Maps.dayMap4.kml"} // Sunday
+                {"16.07", "FetaProject.iOS.Resources.Maps.dayMap4.kml"}, // Sunday
+                {"Utilities", "FetaProject.iOS.Resources.Maps.Utilities.kml"} // Sunday
 
+            };
+
+		private readonly Dictionary<string, string> _daysOnline = new Dictionary<string, string>
+		{
+				{"13.07", "https://www.google.com/maps/d/kml?mid=1i6zeG6kvMcUdFBgTQ7DY2WIhAfU&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."}, // Thursday
+                {"14.07", "https://www.google.com/maps/d/kml?mid=1_kt2BQEIcaCocnNcdbPGSvgl0zk&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."}, // Friday
+                {"15.07", "https://www.google.com/maps/d/kml?mid=1qRlwKN1uf3XYBI7g8tZ9K1z3YhA&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."}, // Saturday
+                {"16.07", "https://www.google.com/maps/d/kml?mid=1WKpgcbhulOiYMi4pr2zy65JbvV8&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."}, // Sunday
+                {"Utilities", "https://www.google.com/maps/d/kml?mid=12Oi5Pn5f0Y0lj6vu0uY4uu1waUc&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."} // Sunday
             };
 
         public override void ViewDidLoad()
@@ -174,11 +184,20 @@ namespace FetaProject.iOS
 			string[] coordinates;
 
             DateTime temp;
+            XmlReader reader;
+                                        
+			if (Reachability.IsHostReachable("http://google.com"))
+			{// Load map from KML file
+				reader = XmlReader.Create(_daysOnline[dayId]);
+			}
+			else
+			{
+				Assembly _assembly = Assembly.GetExecutingAssembly();
+				Stream _fileStream = _assembly.GetManifestResourceStream(_daysOffline[dayId]);
+				reader = XmlReader.Create(_fileStream);
+			}
 
-			Assembly _assembly = Assembly.GetExecutingAssembly();
-            Stream _fileStream = _assembly.GetManifestResourceStream(_days[dayId]);
-
-            using (XmlReader reader = XmlReader.Create(_fileStream))
+            using (reader)
 			{
 
 				reader.MoveToContent();

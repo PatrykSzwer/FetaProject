@@ -6,6 +6,7 @@ using CoreLocation;
 using System.Reflection;
 using System.IO;
 using System.Globalization;
+using MapKit;
 
 namespace FetaProject.iOS
 {
@@ -31,7 +32,7 @@ namespace FetaProject.iOS
 
 		public string _mapId = "13.07";
 
-		private readonly Dictionary<string, string> _maps = new Dictionary<string, string>
+		private readonly Dictionary<string, string> _mapsOffline = new Dictionary<string, string>
 			{
 				{"13.07", "FetaProject.iOS.Resources.Maps.dayMap1.kml"}, // Thursday
                 {"14.07", "FetaProject.iOS.Resources.Maps.dayMap2.kml"}, // Friday
@@ -41,21 +42,24 @@ namespace FetaProject.iOS
 
             };
 
+		private readonly Dictionary<string, string> _mapsOnline = new Dictionary<string, string>
+		{
+				{"13.07", "https://www.google.com/maps/d/kml?mid=1i6zeG6kvMcUdFBgTQ7DY2WIhAfU&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."}, // Thursday
+                {"14.07", "https://www.google.com/maps/d/kml?mid=1_kt2BQEIcaCocnNcdbPGSvgl0zk&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."}, // Friday
+                {"15.07", "https://www.google.com/maps/d/kml?mid=1qRlwKN1uf3XYBI7g8tZ9K1z3YhA&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."}, // Saturday
+                {"16.07", "https://www.google.com/maps/d/kml?mid=1WKpgcbhulOiYMi4pr2zy65JbvV8&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."}, // Sunday
+                {"Utilities", "https://www.google.com/maps/d/kml?mid=12Oi5Pn5f0Y0lj6vu0uY4uu1waUc&forcekml=1&cid=mp&cv=AQL2q8XZHY8.pl."} // Sunday
+            };
+
+
 		NetworkStatus internetStatus = Reachability.InternetConnectionStatus();
 
         public override void ViewDidLoad()
         {
 			base.ViewDidLoad();
 
-
-			if (!Reachability.IsHostReachable("http://google.com"))
-			{
-				map.Image = UIImage.FromBundle("Photo/Map.jpg");
-			}
-			else
-			{
-				LoadMap(_mapId);
-			}
+            			
+			LoadMap(_mapId);
 
             if (!userLocation)
             {
@@ -89,14 +93,19 @@ namespace FetaProject.iOS
 
 		public void LoadMap(string mapId)
 		{
-
-            Assembly _assembly = Assembly.GetExecutingAssembly();
-            Stream _fileStream = _assembly.GetManifestResourceStream(_maps[mapId]);
-
-			// Load map from KML file
+            
 			var doc = new XmlDocument();
-            doc.Load(_fileStream);
 
+            if (Reachability.IsHostReachable("http://google.com"))
+            {// Load map from KML file
+                doc.Load(_mapsOnline[mapId]);
+            }
+			else
+			{
+				Assembly _assembly = Assembly.GetExecutingAssembly();
+				Stream _fileStream = _assembly.GetManifestResourceStream(_mapsOffline[mapId]);
+                doc.Load(_fileStream);
+			}
 
 			// Get list of nodes from loaded KML file
 			XmlNodeList idNodes = doc.GetElementsByTagName("Placemark");
@@ -148,7 +157,7 @@ namespace FetaProject.iOS
 
 		}
 
-		private static List<MapKit.MKPointAnnotation> ReadMarkers(XmlNodeList nodeList, List<MapKit.MKPointAnnotation> placemarks, MapKit.MKPointAnnotation marker)
+		private static List<MKPointAnnotation> ReadMarkers(XmlNodeList nodeList, List<MKPointAnnotation> placemarks, MKPointAnnotation marker)
 		{
 			foreach (XmlNode node in nodeList)
 			{
@@ -159,8 +168,8 @@ namespace FetaProject.iOS
 						break;
 					case "coordinates":
                         var coordinates = node.FirstChild.Value.Split(',');
-                     
-						double latitude = 0, longtitude = 0, temp;
+
+                        double latitude = 0, longtitude = 0;
                             latitude = double.Parse(coordinates[1].ToString(), CultureInfo.InvariantCulture);
 							longtitude = double.Parse(coordinates[0].ToString(), CultureInfo.InvariantCulture);
 						marker.Coordinate = new CLLocationCoordinate2D(latitude, longtitude);
@@ -173,11 +182,28 @@ namespace FetaProject.iOS
 				if (marker.Coordinate.Latitude > 0 && marker.Title != null)
 				{
 					placemarks.Add(marker);
-					marker = new MapKit.MKPointAnnotation();
+					marker = new MKPointAnnotation();
 				}
 			}
 
 			return placemarks;
 		}
+
+        MKAnnotationView GetViewForAnnotation (MKMapView mapView, IMKAnnotation annotation)
+        {
+            MKAnnotationView annotationView = null;
+
+            if (annotation is MKUserLocation)
+                return null;
+            PinImage pin = new PinImage();
+
+            var anno = annotation as MKPointAnnotation;
+            if(annotationView == null)
+            {
+                annotationView.Image =UIImage.FromFile(pin.selectImage("food"));    
+            }
+
+            return annotationView;
+        }
     }
 }
