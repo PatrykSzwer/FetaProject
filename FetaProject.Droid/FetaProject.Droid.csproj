@@ -151,6 +151,31 @@
     <AndroidResource Include="Resources\layout\program_button_group.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\z5.jpg" />
+    <AndroidResource Include="Resources\drawable\z9.jpg" />
+    <AndroidResource Include="Resources\drawable\z21.JPG" />
+    <AndroidResource Include="Resources\drawable\z26.jpg" />
+    <AndroidResource Include="Resources\drawable\z2.jpg" />
+    <AndroidResource Include="Resources\drawable\z16.jpg" />
+    <AndroidResource Include="Resources\drawable\z7.jpg" />
+    <AndroidResource Include="Resources\drawable\z13.JPG" />
+    <AndroidResource Include="Resources\drawable\z8.jpg" />
+    <AndroidResource Include="Resources\drawable\z1.jpg" />
+    <AndroidResource Include="Resources\drawable\z11.jpg" />
+    <AndroidResource Include="Resources\drawable\z6.jpg" />
+    <AndroidResource Include="Resources\drawable\z12.jpg" />
+    <AndroidResource Include="Resources\drawable\z24.jpg" />
+    <AndroidResource Include="Resources\drawable\z3.jpg" />
+    <AndroidResource Include="Resources\drawable\z4.jpg" />
+    <AndroidResource Include="Resources\drawable\z22.JPG" />
+    <AndroidResource Include="Resources\drawable\z14.jpg" />
+    <AndroidResource Include="Resources\drawable\z17.JPG" />
+    <AndroidResource Include="Resources\drawable\z19.jpg" />
+    <AndroidResource Include="Resources\drawable\z23.jpg" />
+    <AndroidResource Include="Resources\drawable\z27.jpg" />
+    <AndroidResource Include="Resources\drawable\z10.jpg" />
+    <AndroidResource Include="Resources\drawable\z18.jpg" />
+    <AndroidResource Include="Resources\drawable\z20.jpg" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

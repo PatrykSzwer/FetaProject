@@ -11,9 +11,31 @@ namespace FetaProject.Droid.Helpers
         // references to our images
         private readonly int[] _thumbIds =
         {
-            Resource.Drawable.sample_0,
-            Resource.Drawable.sample_1,
-            Resource.Drawable.sample_2
+            Resource.Drawable.z1,
+            Resource.Drawable.z2,
+            Resource.Drawable.z3,
+            Resource.Drawable.z4,
+            Resource.Drawable.z5,
+            Resource.Drawable.z6,
+            Resource.Drawable.z7,
+            Resource.Drawable.z8,
+            Resource.Drawable.z9,
+			Resource.Drawable.z10,
+			Resource.Drawable.z11,
+			Resource.Drawable.z12,
+			Resource.Drawable.z13,
+            Resource.Drawable.z14,
+            Resource.Drawable.z20,
+			Resource.Drawable.z16,
+			Resource.Drawable.z17,
+			Resource.Drawable.z19,
+			Resource.Drawable.z21,
+			Resource.Drawable.z22,
+			Resource.Drawable.z23,
+            Resource.Drawable.z24,
+            Resource.Drawable.z26,
+            Resource.Drawable.z27,
+
         };
 
         public ImageAdapter(Context c)
@@ -39,7 +61,7 @@ namespace FetaProject.Droid.Helpers
             ImageView i = new ImageView(_context);
 
             i.SetImageResource(_thumbIds[position]);
-            i.LayoutParameters = new Gallery.LayoutParams(600, 2000);
+            i.LayoutParameters = new Gallery.LayoutParams(768, 1184);
             return i;
         }
 

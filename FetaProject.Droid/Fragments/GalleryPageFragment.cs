@@ -1,4 +1,5 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
 using Android.Widget;
 using FetaProject.Droid.Fragments.Base;
 using FetaProject.Droid.Helpers;
@@ -22,6 +23,8 @@ namespace FetaProject.Droid.Fragments
             {
                 Toast.MakeText(_context, args.Position.ToString(), ToastLength.Short).Show();
             };
+            Console.WriteLine(Resources.DisplayMetrics.WidthPixels);
+			Console.WriteLine(Resources.DisplayMetrics.HeightPixels);
         }
     }
 }
