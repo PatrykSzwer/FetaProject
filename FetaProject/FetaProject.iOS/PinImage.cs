@@ -16,10 +16,7 @@ namespace FetaProject.iOS
                 "Icons/WC.png"
             };
 
-            if(typeOfPin == "event")
-            {
-                imageCounter = 0;    
-            }else if(typeOfPin == "food")
+             if(typeOfPin == "food")
             {
                 imageCounter = 1;
             }else if(typeOfPin=="help")
@@ -28,6 +25,9 @@ namespace FetaProject.iOS
             }else if(typeOfPin=="WC")
             {
                 imageCounter = 3;
+            }else
+            {
+                imageCounter = 0;
             }
             type = arrayOfImage[imageCounter];
             return type;
