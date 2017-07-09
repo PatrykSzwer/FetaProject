@@ -375,25 +375,25 @@
                                 </state>
                                 <connections>
                                     <action selector="UIButton1330_TouchUpInside:" destination="4942" id="4941" eventType="touchUpInside"/>
-                                    <segue id="5111" destination="4936" kind="show"/>
                                     <action selector="EnButton_TouchUpInside:" destination="4929" id="5199" eventType="touchUpInside"/>
+                                    <segue id="8705" destination="7356" kind="show"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4945" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="20" y="155" width="335" height="237"/>
+                                <rect key="frame" x="20" y="172" width="335" height="220"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="ButtonsImage/PolishLanguageButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="UIButton1329_TouchUpInside:" destination="4942" id="4946" eventType="touchUpInside"/>
-                                    <segue id="4959" destination="4936" kind="show"/>
                                     <action selector="PlButton_TouchUpInside:" destination="4929" id="5198" eventType="touchUpInside"/>
+                                    <segue id="9461" destination="7356" kind="show"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" id="8343" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="20" y="20" width="335" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0.90980392156862744" green="0.49803921568627452" blue="0.62352941176470589" alpha="1"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
@@ -419,98 +419,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4931" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4159" y="-202"/>
-        </scene>
-        <scene sceneID="4935">
-            <objects>
-                <viewController id="4936" sceneMemberID="viewController" customClass="TutorialView" storyboardIdentifier="Tutorail">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4933"/>
-                        <viewControllerLayoutGuide type="bottom" id="4934"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4937">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5114" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5115" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="148" y="591" width="80" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="SkipButton_TouchUpInside:" destination="4936" id="5248" eventType="touchUpInside"/>
-                                    <segue id="7432" destination="7356" kind="show"/>
-                                </connections>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinX="YES" flexibleMinY="YES"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5205" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="329" y="591" width="46" height="30"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" image="Icons/arrow_right.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="NextButton_TouchUpInside:" destination="4936" id="5222" eventType="touchUpInside"/>
-                                </connections>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinX="YES" flexibleMaxY="YES" flexibleMinY="YES"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5206" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="591" width="46" height="30"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" image="Icons/arrow_left-2.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="PrevButton_TouchUpInside:" destination="4936" id="5223" eventType="touchUpInside"/>
-                                </connections>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinY="YES"/>
-                            </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="5310" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
-                                <rect key="frame" x="314" y="517" width="51" height="31"/>
-                                <color key="onTintColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
-                                <connections>
-                                    <action selector="ShowLabel:" destination="4936" id="5352" eventType="valueChanged"/>
-                                </connections>
-                                <constraints>
-                                    <constraint id="5380" firstAttribute="width" constant="51"/>
-                                </constraints>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5311" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="2">
-                                <rect key="frame" x="102" y="494" width="204" height="76"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
-                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint id="7850" firstItem="5311" firstAttribute="height" constant="76"/>
-                                    <constraint id="7853" firstAttribute="width" constant="204"/>
-                                </constraints>
-                            </label>
-                        </subviews>
-                        <constraints>
-                            <constraint id="7846" firstItem="4937" firstAttribute="trailing" secondItem="5310" secondAttribute="trailing" constant="10"/>
-                            <constraint id="7847" firstItem="4937" firstAttribute="bottom" secondItem="5310" secondAttribute="bottom" constant="119"/>
-                            <constraint id="7851" firstItem="4937" firstAttribute="trailing" secondItem="5311" secondAttribute="trailing" constant="69"/>
-                            <constraint id="7852" firstItem="4937" firstAttribute="bottom" secondItem="5311" secondAttribute="bottom" constant="97"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="skipButton" destination="5115" id="name-outlet-5115"/>
-                        <outlet property="tutorialImage" destination="5114" id="name-outlet-5114"/>
-                        <outlet property="nextButton" destination="5205" id="name-outlet-5205"/>
-                        <outlet property="PrevButton" destination="5206" id="name-outlet-5206"/>
-                        <outlet property="dontShowAgainLabel" destination="5311" id="name-outlet-5311"/>
-                        <outlet property="tutorialAgainSwitch" destination="5310" id="name-outlet-5310"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4938" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3649" y="-185"/>
         </scene>
         <scene sceneID="5521">
             <objects>
@@ -547,21 +455,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7360" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3091" y="-178"/>
-        </scene>
-        <scene sceneID="8304">
-            <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="8305" sceneMemberID="viewController" customClass="AboutPager" storyboardIdentifier="about1">
-                    <connections>
-                        <outlet property="PageView" destination="8308" id="name-outlet-8308"/>
-                    </connections>
-                </pageViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8306" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" id="8308" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                    <rect key="frame" x="-1906" y="1110" width="39" height="37"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </pageControl>
-            </objects>
-            <point key="canvasLocation" x="-3096" y="570"/>
         </scene>
         <scene sceneID="8461">
             <objects>

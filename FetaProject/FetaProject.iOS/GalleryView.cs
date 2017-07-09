@@ -58,6 +58,7 @@ namespace FetaProject.iOS
 
     		View.AddGestureRecognizer (recognizerRight);
 			View.AddGestureRecognizer(recognizerLeft);
+            PinImage imagePath = new PinImage();
 
 
 			imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]);

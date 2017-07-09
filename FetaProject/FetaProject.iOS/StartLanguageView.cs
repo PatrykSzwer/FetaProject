@@ -24,7 +24,12 @@ namespace FetaProject.iOS
 			uiImageView.ContentMode = UIViewContentMode.Center;
 			View.AddSubview(uiImageView);
 			View.SendSubviewToBack(uiImageView);
-					
+
+			string secondRunApp = "yes";
+			NSUserDefaults.StandardUserDefaults.SetString(secondRunApp, "Key");
+			NSUserDefaults.StandardUserDefaults.Synchronize();
+
+
 		}
 
 		partial void PlButton_TouchUpInside(UIButton sender)
@@ -32,10 +37,7 @@ namespace FetaProject.iOS
 			var userDefaults = NSUserDefaults.StandardUserDefaults;
 			userDefaults.SetString("pl", "language");
 			userDefaults.Synchronize(); // TODO: check on returned bool
-			string value;
-			value = "end";
-			NSUserDefaults.StandardUserDefaults.SetString(value.ToString(), "Key");
-			NSUserDefaults.StandardUserDefaults.Synchronize();
+
 
 		}
 
@@ -44,10 +46,7 @@ namespace FetaProject.iOS
 			var userDefaults = NSUserDefaults.StandardUserDefaults;
 			userDefaults.SetString("Base", "language");
 			userDefaults.Synchronize(); // TODO: check on returned bool
-			string value;
-			value = "end";
-			NSUserDefaults.StandardUserDefaults.SetString(value.ToString(), "Key");
-			NSUserDefaults.StandardUserDefaults.Synchronize();
+
 		}
 	}
 }

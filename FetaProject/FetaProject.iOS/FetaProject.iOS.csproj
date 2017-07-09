@@ -166,10 +166,6 @@
     <Compile Include="StartLanguageView.designer.cs">
       <DependentUpon>StartLanguageView.cs</DependentUpon>
     </Compile>
-    <Compile Include="TutorialView.cs" />
-    <Compile Include="TutorialView.designer.cs">
-      <DependentUpon>TutorialView.cs</DependentUpon>
-    </Compile>
     <Compile Include="AppDelegate.cs" />
     <Compile Include="TabBarViews.designer.cs">
       <DependentUpon>TabBarViews.cs</DependentUpon>
@@ -198,6 +194,7 @@
     <Compile Include="aboutViewController_.designer.cs">
       <DependentUpon>aboutViewController_.cs</DependentUpon>
     </Compile>
+    <Compile Include="PinImage.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\pl.lproj\Localizable.strings" />
@@ -215,7 +212,6 @@
     <BundleResource Include="Resources\Icons\WC.png" />
     <BundleResource Include="Resources\Icons\food.png" />
     <BundleResource Include="Resources\Icons\event.png" />
-    <BundleResource Include="Resources\Icons\wydarzenie.png" />
     <BundleResource Include="Resources\Icons\gallery.png" />
     <BundleResource Include="Resources\Icons\settings.png" />
     <BundleResource Include="Resources\Icons\mapa.png" />

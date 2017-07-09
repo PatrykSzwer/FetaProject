@@ -23,12 +23,7 @@ namespace FetaProject.iOS
 			var storyboard = UIStoryboard.FromName("Main", null);
 
 
-			if (NSUserDefaults.StandardUserDefaults.StringForKey("Key") == "no")
-			{
-				TutorialView toturial = storyboard.InstantiateViewController("Tutorail") as TutorialView;
-				Window.RootViewController = toturial;
-			}
-			else if (NSUserDefaults.StandardUserDefaults.StringForKey("Key") == "yes")
+            if (NSUserDefaults.StandardUserDefaults.StringForKey("Key") == "yes")
 			{
 				//tabBarView home = storyboard.InstantiateViewController("tabBarView") as tabBarView;
 				//Window.RootViewController = home;

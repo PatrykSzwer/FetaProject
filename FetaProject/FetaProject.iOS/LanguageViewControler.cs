@@ -50,6 +50,7 @@ namespace FetaProject.iOS
 			View.AddSubview(uiImageView);
 			View.SendSubviewToBack(uiImageView);
 
+			
 		}
 		private void ReloadTabBarTitle()
 		{
