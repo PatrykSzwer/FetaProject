@@ -1,30 +1,18 @@
 ﻿
 using Android.App;
 using Android.Webkit;
-using Com.Joanzapata.Pdfview;
 using FetaProject.Droid.Fragments.Base;
-using System;
-using System.IO;
-using System.Net;
 
 namespace FetaProject.Droid.Fragments
 {
     public class AboutPageFragment : BaseSlidePageFragment
     {
-        private string _documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-        private string _pdfPath;
-        private string _pdfFileName = "thePDFDocument.pdf";
-        private string _pdfFilePath;
+        private string _pdfFilePath = "file:///android_asset/paper.pdf";
         private WebView _webView;
         private string _pdfURL = @"http://sal.aalto.fi/publications/pdf-files/eluu11_public.pdf";
-        private WebClient _webClient = new WebClient();
-        private Activity _context;
-
-        private PDFView pdfView;
 
         public AboutPageFragment(Activity context) : base(Resource.Layout.fragment_screen_slide_page_about)
         {
-            _context = context;
         }
 
         public override void ViewInitialization()
@@ -35,28 +23,18 @@ namespace FetaProject.Droid.Fragments
             _webView.Settings.AllowUniversalAccessFromFileURLs = true;
             _webView.Settings.BuiltInZoomControls = true;
             _webView.SetWebChromeClient(new WebChromeClient());
-
-            var pdf = "http://www.adobe.com/devnet/acrobat/pdfs/pdf_open_parameters.pdf";
-            _webView.LoadUrl("http://drive.google.com/viewerng/viewer?embedded=true&url=" + pdf);
-            //pdfView = FragmentView.FindViewById<PDFView>(Resource.Id.pdfView);
-            //pdfView.FromAsset("test.pdf").Load();
-            //var settings = _webView.Settings;
-            //settings.JavaScriptEnabled = true;
-            //settings.AllowFileAccessFromFileURLs = true;
-            //settings.AllowUniversalAccessFromFileURLs = true;
-            //settings.BuiltInZoomControls = true;
-            //_webView.SetWebChromeClient(new WebChromeClient());
+            _webView.LoadUrl("file:///android_asset/pdfviewer/index.html?file=" + _pdfFilePath);
 
             //DownloadPDFDocument();
             //OpenPdfDocument();
 
         }
-
+        /*
         private void DownloadPDFDocument()
         {
-            //AndHUD.Shared.Show(_context, "Downloading PDF\nPlease Wait ..", -1, MaskType.Clear);
+            //AndHUD.Shared.Show(this, "Downloading PDF\nPlease Wait ..", -1, MaskType.Clear);
 
-            _pdfPath = _documentsPath + "/drawable";
+            _pdfPath = _documentsPath + "/PDFView";
             _pdfFilePath = Path.Combine(_pdfPath, _pdfFileName);
 
             // Check if the PDFDirectory Exists
@@ -91,9 +69,9 @@ namespace FetaProject.Droid.Fragments
                 var bytes = File.ReadAllBytes(_pdfFilePath);
             }
 
-            _webView.LoadUrl("file:///android_asset/PDFViewer/index.html?file=" + _pdfFilePath);
+            _webView.LoadUrl("file:///android_asset/pdfviewer/index.html?file=" + _pdfFilePath);
 
-            // AndHUD.Shared.Dismiss();
-        }
+            //AndHUD.Shared.Dismiss();
+        }*/
     }
 }
