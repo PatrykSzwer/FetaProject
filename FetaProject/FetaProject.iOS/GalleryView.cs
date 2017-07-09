@@ -2,6 +2,7 @@ using Foundation;
 using System;
 using UIKit;
 
+
 namespace FetaProject.iOS
 {
 	
@@ -70,6 +71,8 @@ namespace FetaProject.iOS
 			uiImageView.ContentMode = UIViewContentMode.Center;
 			View.AddSubview(uiImageView);
 			View.SendSubviewToBack(uiImageView);
+         
+
 			//imageView.Image
 		}
 
@@ -84,7 +87,6 @@ namespace FetaProject.iOS
 				imageCounter--;
 			}
 			imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]);
-
 		}
 		private void UpdateRight()
 		{
@@ -96,7 +98,7 @@ namespace FetaProject.iOS
 			{
 				imageCounter++;
 			}
-			imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]);
+            imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]);
 		}
 	}
 }

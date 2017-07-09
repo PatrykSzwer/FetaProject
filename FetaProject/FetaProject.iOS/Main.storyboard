@@ -22,23 +22,23 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="263" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                            <rect key="frame" x="9" y="11" width="55" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <rect key="frame" x="9" y="0.0" width="55" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="264" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                            <rect key="frame" x="72" y="11" width="150" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="264" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2" text="„Mane, tekel, fares”, ,,Policzono, zważono, rozdzielono&quot;">
+                                            <rect key="frame" x="72" y="0.0" width="184" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" heightSizable="YES" flexibleMaxX="YES" flexibleMinX="YES"/>
+                                            <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="266" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2" textAlignment="right">
-                                            <rect key="frame" x="273" y="-1" width="102" height="45"/>
-                                            <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinX="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <rect key="frame" x="264" y="-1" width="102" height="45"/>
+                                            <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
+                                            <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="10"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -91,9 +91,10 @@
         <scene sceneID="49">
             <objects>
                 <navigationController id="50" sceneMemberID="viewController" customClass="ProgramNav" storyboardIdentifier="program">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="52" barStyle="black">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="52" barStyle="blackTranslucent">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" colorSpace="calibratedRGB" red="0.8784313725490196" green="0.403921568627451" blue="0.55294117647058827" alpha="1"/>
                     </navigationBar>
                     <connections>
                         <segue id="110" destination="20" kind="relationship" relationship="rootViewController"/>
@@ -178,7 +179,7 @@
                                 <connections/>
                             </containerView>
                             <containerView contentMode="scaleToFill" id="5518" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="19" width="376" height="47"/>
+                                <rect key="frame" x="0.0" y="0.0" width="376" height="66"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="5520" kind="embed" id="5519"/>
@@ -197,21 +198,34 @@
                                 <connections/>
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8784313725490196" green="0.403921568627451" blue="0.55294117647058827" alpha="1"/>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5402" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="309" y="28" width="35" height="29"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinX="YES"/>
-                                <state key="normal" title="Button" image="Icons/wydarzenie.png">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5402" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="309" y="19" width="50" height="47"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8784313725490196" green="0.403921568627451" blue="0.55294117647058827" alpha="1"/>
+                                <state key="normal" title="Info">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="PrevPhoto_TouchUpInside" destination="1390" id="7840" eventType="touchDownRepeat"/>
                                 </connections>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <constraints>
+                                    <constraint id="8521" firstAttribute="width" constant="50"/>
+                                    <constraint id="8522" firstAttribute="height" constant="29"/>
+                                </constraints>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="8232" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="-2" y="64" width="377" height="553"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
                         </subviews>
+                        <constraints>
+                            <constraint id="8525" firstItem="1391" firstAttribute="trailing" secondItem="5402" secondAttribute="trailing" constant="16"/>
+                            <constraint id="8526" firstItem="5402" firstAttribute="top" secondItem="1391" secondAttribute="top" constant="28"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" id="1623" title="Mapa"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -251,14 +265,14 @@
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theatre Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1830" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2">
                                 <rect key="frame" x="20" y="73" width="335" height="37"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23" weight="heavy"/>
+                                <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="23"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Act Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2217" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="28" y="118" width="327" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20" weight="heavy"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Act Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2217" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2">
+                                <rect key="frame" x="20" y="108" width="335" height="51"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
@@ -266,8 +280,8 @@
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TimeEvent" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1832" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="217" y="167" width="128" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20" weight="heavy"/>
+                                <rect key="frame" x="270" y="167" width="75" height="21"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinX="YES" flexibleMaxY="YES" flexibleMinY="YES"/>
                             </label>
@@ -275,7 +289,7 @@
                                 <rect key="frame" x="20" y="206" width="335" height="408"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
@@ -289,8 +303,8 @@
                                 </userDefinedRuntimeAttributes>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2880" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="28" y="167" width="187" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20" weight="heavy"/>
+                                <rect key="frame" x="28" y="167" width="245" height="21"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinY="YES"/>
@@ -392,7 +406,7 @@
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="30"/>
                             </label>
                         </subviews>
                     </view>
@@ -506,7 +520,7 @@
                         <viewControllerLayoutGuide type="bottom" id="5517"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5522">
-                        <rect key="frame" x="0.0" y="0.0" width="376" height="47"/>
+                        <rect key="frame" x="0.0" y="0.0" width="376" height="66"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8784313725490196" green="0.403921568627451" blue="0.55294117647058827" alpha="1"/>
                     </view>
@@ -594,11 +608,11 @@
         <image name="TutorialPhoto/Tutorial_5.png" width="750" height="1334"/>
         <image name="TutorialPhoto/Tutorial_6.png" width="750" height="1334"/>
         <image name="TutorialPhoto/Tutorial_7.png" width="750" height="1334"/>
-        <image name="Icons/help.png" width="986" height="694"/>
-        <image name="Icons/WC.png" width="747" height="849"/>
-        <image name="Icons/food.png" width="1012" height="852"/>
-        <image name="Icons/event.png" width="799" height="998"/>
-        <image name="Icons/wydarzenie.png" width="970" height="842"/>
+        <image name="Icons/help.png" width="100" height="70"/>
+        <image name="Icons/WC.png" width="100" height="114"/>
+        <image name="Icons/food.png" width="100" height="84"/>
+        <image name="Icons/event.png" width="100" height="125"/>
+        <image name="Icons/wydarzenie.png" width="100" height="87"/>
         <image name="Icons/mapa.png" width="32" height="32"/>
         <image name="Icons/about.png" width="32" height="32"/>
         <image name="Photo/5.jpg" width="2592" height="3872"/>
@@ -612,7 +626,6 @@
         <image name="Photo/25.jpg" width="1181" height="838"/>
         <image name="Photo/13.jpg" width="2957" height="2264"/>
         <image name="Photo/16.jpg" width="2048" height="1365"/>
-        <image name="Photo/7.jpg" width="4724" height="2240"/>
         <image name="Photo/8.jpg" width="820" height="1024"/>
         <image name="Photo/11.jpg" width="4928" height="3264"/>
         <image name="Photo/12.jpg" width="732" height="549"/>

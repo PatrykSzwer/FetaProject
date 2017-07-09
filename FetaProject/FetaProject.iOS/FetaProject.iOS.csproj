@@ -73,6 +73,9 @@
     <Reference Include="Google.Maps">
       <HintPath>..\..\packages\Xamarin.Google.iOS.Maps.2.1.0.1\lib\Xamarin.iOS10\Google.Maps.dll</HintPath>
     </Reference>
+    <Reference Include="ToastIOS">
+      <HintPath>..\..\..\..\Downloads\ToastIOS-1.6\lib\ios-unified\ToastIOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FetaProject\FetaProject.csproj">
@@ -115,15 +118,6 @@
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default.png">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default%402x.png">
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-568h%402x.png">
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-Portrait.png">
@@ -192,10 +186,6 @@
     <Compile Include="DetailProgramView_.designer.cs">
       <DependentUpon>DetailProgramView_.cs</DependentUpon>
     </Compile>
-    <Compile Include="AboutPager.cs" />
-    <Compile Include="AboutPager.designer.cs">
-      <DependentUpon>AboutPager.cs</DependentUpon>
-    </Compile>
     <Compile Include="StartView.cs" />
     <Compile Include="StartView.designer.cs">
       <DependentUpon>StartView.cs</DependentUpon>
@@ -258,9 +248,6 @@
     <BundleResource Include="Resources\Photo\20.jpg" />
     <BundleResource Include="Resources\Photo\Map.jpg" />
     <BundleResource Include="Resources\bg.png" />
-    <BundleResource Include="FETA_2017_plakat.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
     <BundleResource Include="FETAGazeta.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>

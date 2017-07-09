@@ -68,7 +68,8 @@ namespace FetaProject.iOS
 				_mapId = "Utilities";
 				mainMapView.RemoveAnnotations(mainMapView.Annotations);
 				LoadMap(_mapId);
-            };
+
+			};
         }
 
         public MapViewController(IntPtr handle) : base(handle)

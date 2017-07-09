@@ -26,1732 +26,6 @@ namespace FetaProject.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::BottomNavigationBar.Resource.Animation.abc_fade_in = global::FetaProject.Droid.Resource.Animation.abc_fade_in;
-			global::BottomNavigationBar.Resource.Animation.abc_fade_out = global::FetaProject.Droid.Resource.Animation.abc_fade_out;
-			global::BottomNavigationBar.Resource.Animation.abc_grow_fade_in_from_bottom = global::FetaProject.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::BottomNavigationBar.Resource.Animation.abc_popup_enter = global::FetaProject.Droid.Resource.Animation.abc_popup_enter;
-			global::BottomNavigationBar.Resource.Animation.abc_popup_exit = global::FetaProject.Droid.Resource.Animation.abc_popup_exit;
-			global::BottomNavigationBar.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FetaProject.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::BottomNavigationBar.Resource.Animation.abc_slide_in_bottom = global::FetaProject.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::BottomNavigationBar.Resource.Animation.abc_slide_in_top = global::FetaProject.Droid.Resource.Animation.abc_slide_in_top;
-			global::BottomNavigationBar.Resource.Animation.abc_slide_out_bottom = global::FetaProject.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::BottomNavigationBar.Resource.Animation.abc_slide_out_top = global::FetaProject.Droid.Resource.Animation.abc_slide_out_top;
-			global::BottomNavigationBar.Resource.Animation.design_bottom_sheet_slide_in = global::FetaProject.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::BottomNavigationBar.Resource.Animation.design_bottom_sheet_slide_out = global::FetaProject.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::BottomNavigationBar.Resource.Animation.design_fab_in = global::FetaProject.Droid.Resource.Animation.design_fab_in;
-			global::BottomNavigationBar.Resource.Animation.design_fab_out = global::FetaProject.Droid.Resource.Animation.design_fab_out;
-			global::BottomNavigationBar.Resource.Animation.design_snackbar_in = global::FetaProject.Droid.Resource.Animation.design_snackbar_in;
-			global::BottomNavigationBar.Resource.Animation.design_snackbar_out = global::FetaProject.Droid.Resource.Animation.design_snackbar_out;
-			global::BottomNavigationBar.Resource.Attribute.actionBarDivider = global::FetaProject.Droid.Resource.Attribute.actionBarDivider;
-			global::BottomNavigationBar.Resource.Attribute.actionBarItemBackground = global::FetaProject.Droid.Resource.Attribute.actionBarItemBackground;
-			global::BottomNavigationBar.Resource.Attribute.actionBarPopupTheme = global::FetaProject.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::BottomNavigationBar.Resource.Attribute.actionBarSize = global::FetaProject.Droid.Resource.Attribute.actionBarSize;
-			global::BottomNavigationBar.Resource.Attribute.actionBarSplitStyle = global::FetaProject.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarStyle = global::FetaProject.Droid.Resource.Attribute.actionBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarTabBarStyle = global::FetaProject.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarTabStyle = global::FetaProject.Droid.Resource.Attribute.actionBarTabStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarTabTextStyle = global::FetaProject.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionBarTheme = global::FetaProject.Droid.Resource.Attribute.actionBarTheme;
-			global::BottomNavigationBar.Resource.Attribute.actionBarWidgetTheme = global::FetaProject.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::BottomNavigationBar.Resource.Attribute.actionButtonStyle = global::FetaProject.Droid.Resource.Attribute.actionButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionDropDownStyle = global::FetaProject.Droid.Resource.Attribute.actionDropDownStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionLayout = global::FetaProject.Droid.Resource.Attribute.actionLayout;
-			global::BottomNavigationBar.Resource.Attribute.actionMenuTextAppearance = global::FetaProject.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.actionMenuTextColor = global::FetaProject.Droid.Resource.Attribute.actionMenuTextColor;
-			global::BottomNavigationBar.Resource.Attribute.actionModeBackground = global::FetaProject.Droid.Resource.Attribute.actionModeBackground;
-			global::BottomNavigationBar.Resource.Attribute.actionModeCloseButtonStyle = global::FetaProject.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionModeCloseDrawable = global::FetaProject.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeCopyDrawable = global::FetaProject.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeCutDrawable = global::FetaProject.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeFindDrawable = global::FetaProject.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModePasteDrawable = global::FetaProject.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModePopupWindowStyle = global::FetaProject.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionModeSelectAllDrawable = global::FetaProject.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeShareDrawable = global::FetaProject.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionModeSplitBackground = global::FetaProject.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::BottomNavigationBar.Resource.Attribute.actionModeStyle = global::FetaProject.Droid.Resource.Attribute.actionModeStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionModeWebSearchDrawable = global::FetaProject.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::BottomNavigationBar.Resource.Attribute.actionOverflowButtonStyle = global::FetaProject.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionOverflowMenuStyle = global::FetaProject.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::BottomNavigationBar.Resource.Attribute.actionProviderClass = global::FetaProject.Droid.Resource.Attribute.actionProviderClass;
-			global::BottomNavigationBar.Resource.Attribute.actionViewClass = global::FetaProject.Droid.Resource.Attribute.actionViewClass;
-			global::BottomNavigationBar.Resource.Attribute.activityChooserViewStyle = global::FetaProject.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.alertDialogButtonGroupStyle = global::FetaProject.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::BottomNavigationBar.Resource.Attribute.alertDialogCenterButtons = global::FetaProject.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::BottomNavigationBar.Resource.Attribute.alertDialogStyle = global::FetaProject.Droid.Resource.Attribute.alertDialogStyle;
-			global::BottomNavigationBar.Resource.Attribute.alertDialogTheme = global::FetaProject.Droid.Resource.Attribute.alertDialogTheme;
-			global::BottomNavigationBar.Resource.Attribute.allowStacking = global::FetaProject.Droid.Resource.Attribute.allowStacking;
-			global::BottomNavigationBar.Resource.Attribute.alpha = global::FetaProject.Droid.Resource.Attribute.alpha;
-			global::BottomNavigationBar.Resource.Attribute.arrowHeadLength = global::FetaProject.Droid.Resource.Attribute.arrowHeadLength;
-			global::BottomNavigationBar.Resource.Attribute.arrowShaftLength = global::FetaProject.Droid.Resource.Attribute.arrowShaftLength;
-			global::BottomNavigationBar.Resource.Attribute.autoCompleteTextViewStyle = global::FetaProject.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.background = global::FetaProject.Droid.Resource.Attribute.background;
-			global::BottomNavigationBar.Resource.Attribute.backgroundSplit = global::FetaProject.Droid.Resource.Attribute.backgroundSplit;
-			global::BottomNavigationBar.Resource.Attribute.backgroundStacked = global::FetaProject.Droid.Resource.Attribute.backgroundStacked;
-			global::BottomNavigationBar.Resource.Attribute.backgroundTint = global::FetaProject.Droid.Resource.Attribute.backgroundTint;
-			global::BottomNavigationBar.Resource.Attribute.backgroundTintMode = global::FetaProject.Droid.Resource.Attribute.backgroundTintMode;
-			global::BottomNavigationBar.Resource.Attribute.barLength = global::FetaProject.Droid.Resource.Attribute.barLength;
-			global::BottomNavigationBar.Resource.Attribute.behavior_autoHide = global::FetaProject.Droid.Resource.Attribute.behavior_autoHide;
-			global::BottomNavigationBar.Resource.Attribute.behavior_hideable = global::FetaProject.Droid.Resource.Attribute.behavior_hideable;
-			global::BottomNavigationBar.Resource.Attribute.behavior_overlapTop = global::FetaProject.Droid.Resource.Attribute.behavior_overlapTop;
-			global::BottomNavigationBar.Resource.Attribute.behavior_peekHeight = global::FetaProject.Droid.Resource.Attribute.behavior_peekHeight;
-			global::BottomNavigationBar.Resource.Attribute.behavior_skipCollapsed = global::FetaProject.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::BottomNavigationBar.Resource.Attribute.borderWidth = global::FetaProject.Droid.Resource.Attribute.borderWidth;
-			global::BottomNavigationBar.Resource.Attribute.borderlessButtonStyle = global::FetaProject.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.bottomSheetDialogTheme = global::FetaProject.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::BottomNavigationBar.Resource.Attribute.bottomSheetStyle = global::FetaProject.Droid.Resource.Attribute.bottomSheetStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarButtonStyle = global::FetaProject.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarNegativeButtonStyle = global::FetaProject.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarNeutralButtonStyle = global::FetaProject.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarPositiveButtonStyle = global::FetaProject.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonBarStyle = global::FetaProject.Droid.Resource.Attribute.buttonBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonGravity = global::FetaProject.Droid.Resource.Attribute.buttonGravity;
-			global::BottomNavigationBar.Resource.Attribute.buttonPanelSideLayout = global::FetaProject.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::BottomNavigationBar.Resource.Attribute.buttonStyle = global::FetaProject.Droid.Resource.Attribute.buttonStyle;
-			global::BottomNavigationBar.Resource.Attribute.buttonStyleSmall = global::FetaProject.Droid.Resource.Attribute.buttonStyleSmall;
-			global::BottomNavigationBar.Resource.Attribute.buttonTint = global::FetaProject.Droid.Resource.Attribute.buttonTint;
-			global::BottomNavigationBar.Resource.Attribute.buttonTintMode = global::FetaProject.Droid.Resource.Attribute.buttonTintMode;
-			global::BottomNavigationBar.Resource.Attribute.checkboxStyle = global::FetaProject.Droid.Resource.Attribute.checkboxStyle;
-			global::BottomNavigationBar.Resource.Attribute.checkedTextViewStyle = global::FetaProject.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.closeIcon = global::FetaProject.Droid.Resource.Attribute.closeIcon;
-			global::BottomNavigationBar.Resource.Attribute.closeItemLayout = global::FetaProject.Droid.Resource.Attribute.closeItemLayout;
-			global::BottomNavigationBar.Resource.Attribute.collapseContentDescription = global::FetaProject.Droid.Resource.Attribute.collapseContentDescription;
-			global::BottomNavigationBar.Resource.Attribute.collapseIcon = global::FetaProject.Droid.Resource.Attribute.collapseIcon;
-			global::BottomNavigationBar.Resource.Attribute.collapsedTitleGravity = global::FetaProject.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::BottomNavigationBar.Resource.Attribute.collapsedTitleTextAppearance = global::FetaProject.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.color = global::FetaProject.Droid.Resource.Attribute.color;
-			global::BottomNavigationBar.Resource.Attribute.colorAccent = global::FetaProject.Droid.Resource.Attribute.colorAccent;
-			global::BottomNavigationBar.Resource.Attribute.colorBackgroundFloating = global::FetaProject.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::BottomNavigationBar.Resource.Attribute.colorButtonNormal = global::FetaProject.Droid.Resource.Attribute.colorButtonNormal;
-			global::BottomNavigationBar.Resource.Attribute.colorControlActivated = global::FetaProject.Droid.Resource.Attribute.colorControlActivated;
-			global::BottomNavigationBar.Resource.Attribute.colorControlHighlight = global::FetaProject.Droid.Resource.Attribute.colorControlHighlight;
-			global::BottomNavigationBar.Resource.Attribute.colorControlNormal = global::FetaProject.Droid.Resource.Attribute.colorControlNormal;
-			global::BottomNavigationBar.Resource.Attribute.colorPrimary = global::FetaProject.Droid.Resource.Attribute.colorPrimary;
-			global::BottomNavigationBar.Resource.Attribute.colorPrimaryDark = global::FetaProject.Droid.Resource.Attribute.colorPrimaryDark;
-			global::BottomNavigationBar.Resource.Attribute.colorSwitchThumbNormal = global::FetaProject.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::BottomNavigationBar.Resource.Attribute.commitIcon = global::FetaProject.Droid.Resource.Attribute.commitIcon;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetEnd = global::FetaProject.Droid.Resource.Attribute.contentInsetEnd;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetEndWithActions = global::FetaProject.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetLeft = global::FetaProject.Droid.Resource.Attribute.contentInsetLeft;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetRight = global::FetaProject.Droid.Resource.Attribute.contentInsetRight;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetStart = global::FetaProject.Droid.Resource.Attribute.contentInsetStart;
-			global::BottomNavigationBar.Resource.Attribute.contentInsetStartWithNavigation = global::FetaProject.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::BottomNavigationBar.Resource.Attribute.contentScrim = global::FetaProject.Droid.Resource.Attribute.contentScrim;
-			global::BottomNavigationBar.Resource.Attribute.controlBackground = global::FetaProject.Droid.Resource.Attribute.controlBackground;
-			global::BottomNavigationBar.Resource.Attribute.counterEnabled = global::FetaProject.Droid.Resource.Attribute.counterEnabled;
-			global::BottomNavigationBar.Resource.Attribute.counterMaxLength = global::FetaProject.Droid.Resource.Attribute.counterMaxLength;
-			global::BottomNavigationBar.Resource.Attribute.counterOverflowTextAppearance = global::FetaProject.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.counterTextAppearance = global::FetaProject.Droid.Resource.Attribute.counterTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.customNavigationLayout = global::FetaProject.Droid.Resource.Attribute.customNavigationLayout;
-			global::BottomNavigationBar.Resource.Attribute.defaultQueryHint = global::FetaProject.Droid.Resource.Attribute.defaultQueryHint;
-			global::BottomNavigationBar.Resource.Attribute.dialogPreferredPadding = global::FetaProject.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::BottomNavigationBar.Resource.Attribute.dialogTheme = global::FetaProject.Droid.Resource.Attribute.dialogTheme;
-			global::BottomNavigationBar.Resource.Attribute.displayOptions = global::FetaProject.Droid.Resource.Attribute.displayOptions;
-			global::BottomNavigationBar.Resource.Attribute.divider = global::FetaProject.Droid.Resource.Attribute.divider;
-			global::BottomNavigationBar.Resource.Attribute.dividerHorizontal = global::FetaProject.Droid.Resource.Attribute.dividerHorizontal;
-			global::BottomNavigationBar.Resource.Attribute.dividerPadding = global::FetaProject.Droid.Resource.Attribute.dividerPadding;
-			global::BottomNavigationBar.Resource.Attribute.dividerVertical = global::FetaProject.Droid.Resource.Attribute.dividerVertical;
-			global::BottomNavigationBar.Resource.Attribute.drawableSize = global::FetaProject.Droid.Resource.Attribute.drawableSize;
-			global::BottomNavigationBar.Resource.Attribute.drawerArrowStyle = global::FetaProject.Droid.Resource.Attribute.drawerArrowStyle;
-			global::BottomNavigationBar.Resource.Attribute.dropDownListViewStyle = global::FetaProject.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.dropdownListPreferredItemHeight = global::FetaProject.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::BottomNavigationBar.Resource.Attribute.editTextBackground = global::FetaProject.Droid.Resource.Attribute.editTextBackground;
-			global::BottomNavigationBar.Resource.Attribute.editTextColor = global::FetaProject.Droid.Resource.Attribute.editTextColor;
-			global::BottomNavigationBar.Resource.Attribute.editTextStyle = global::FetaProject.Droid.Resource.Attribute.editTextStyle;
-			global::BottomNavigationBar.Resource.Attribute.elevation = global::FetaProject.Droid.Resource.Attribute.elevation;
-			global::BottomNavigationBar.Resource.Attribute.errorEnabled = global::FetaProject.Droid.Resource.Attribute.errorEnabled;
-			global::BottomNavigationBar.Resource.Attribute.errorTextAppearance = global::FetaProject.Droid.Resource.Attribute.errorTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FetaProject.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::BottomNavigationBar.Resource.Attribute.expanded = global::FetaProject.Droid.Resource.Attribute.expanded;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleGravity = global::FetaProject.Droid.Resource.Attribute.expandedTitleGravity;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMargin = global::FetaProject.Droid.Resource.Attribute.expandedTitleMargin;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginBottom = global::FetaProject.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginEnd = global::FetaProject.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginStart = global::FetaProject.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginTop = global::FetaProject.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::BottomNavigationBar.Resource.Attribute.expandedTitleTextAppearance = global::FetaProject.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.fabSize = global::FetaProject.Droid.Resource.Attribute.fabSize;
-			global::BottomNavigationBar.Resource.Attribute.foregroundInsidePadding = global::FetaProject.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::BottomNavigationBar.Resource.Attribute.gapBetweenBars = global::FetaProject.Droid.Resource.Attribute.gapBetweenBars;
-			global::BottomNavigationBar.Resource.Attribute.goIcon = global::FetaProject.Droid.Resource.Attribute.goIcon;
-			global::BottomNavigationBar.Resource.Attribute.headerLayout = global::FetaProject.Droid.Resource.Attribute.headerLayout;
-			global::BottomNavigationBar.Resource.Attribute.height = global::FetaProject.Droid.Resource.Attribute.height;
-			global::BottomNavigationBar.Resource.Attribute.hideOnContentScroll = global::FetaProject.Droid.Resource.Attribute.hideOnContentScroll;
-			global::BottomNavigationBar.Resource.Attribute.hintAnimationEnabled = global::FetaProject.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::BottomNavigationBar.Resource.Attribute.hintEnabled = global::FetaProject.Droid.Resource.Attribute.hintEnabled;
-			global::BottomNavigationBar.Resource.Attribute.hintTextAppearance = global::FetaProject.Droid.Resource.Attribute.hintTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.homeAsUpIndicator = global::FetaProject.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::BottomNavigationBar.Resource.Attribute.homeLayout = global::FetaProject.Droid.Resource.Attribute.homeLayout;
-			global::BottomNavigationBar.Resource.Attribute.icon = global::FetaProject.Droid.Resource.Attribute.icon;
-			global::BottomNavigationBar.Resource.Attribute.iconifiedByDefault = global::FetaProject.Droid.Resource.Attribute.iconifiedByDefault;
-			global::BottomNavigationBar.Resource.Attribute.imageButtonStyle = global::FetaProject.Droid.Resource.Attribute.imageButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.indeterminateProgressStyle = global::FetaProject.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::BottomNavigationBar.Resource.Attribute.initialActivityCount = global::FetaProject.Droid.Resource.Attribute.initialActivityCount;
-			global::BottomNavigationBar.Resource.Attribute.insetForeground = global::FetaProject.Droid.Resource.Attribute.insetForeground;
-			global::BottomNavigationBar.Resource.Attribute.isLightTheme = global::FetaProject.Droid.Resource.Attribute.isLightTheme;
-			global::BottomNavigationBar.Resource.Attribute.itemBackground = global::FetaProject.Droid.Resource.Attribute.itemBackground;
-			global::BottomNavigationBar.Resource.Attribute.itemIconTint = global::FetaProject.Droid.Resource.Attribute.itemIconTint;
-			global::BottomNavigationBar.Resource.Attribute.itemPadding = global::FetaProject.Droid.Resource.Attribute.itemPadding;
-			global::BottomNavigationBar.Resource.Attribute.itemTextAppearance = global::FetaProject.Droid.Resource.Attribute.itemTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.itemTextColor = global::FetaProject.Droid.Resource.Attribute.itemTextColor;
-			global::BottomNavigationBar.Resource.Attribute.keylines = global::FetaProject.Droid.Resource.Attribute.keylines;
-			global::BottomNavigationBar.Resource.Attribute.layout = global::FetaProject.Droid.Resource.Attribute.layout;
-			global::BottomNavigationBar.Resource.Attribute.layoutManager = global::FetaProject.Droid.Resource.Attribute.layoutManager;
-			global::BottomNavigationBar.Resource.Attribute.layout_anchor = global::FetaProject.Droid.Resource.Attribute.layout_anchor;
-			global::BottomNavigationBar.Resource.Attribute.layout_anchorGravity = global::FetaProject.Droid.Resource.Attribute.layout_anchorGravity;
-			global::BottomNavigationBar.Resource.Attribute.layout_behavior = global::FetaProject.Droid.Resource.Attribute.layout_behavior;
-			global::BottomNavigationBar.Resource.Attribute.layout_collapseMode = global::FetaProject.Droid.Resource.Attribute.layout_collapseMode;
-			global::BottomNavigationBar.Resource.Attribute.layout_collapseParallaxMultiplier = global::FetaProject.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::BottomNavigationBar.Resource.Attribute.layout_dodgeInsetEdges = global::FetaProject.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::BottomNavigationBar.Resource.Attribute.layout_insetEdge = global::FetaProject.Droid.Resource.Attribute.layout_insetEdge;
-			global::BottomNavigationBar.Resource.Attribute.layout_keyline = global::FetaProject.Droid.Resource.Attribute.layout_keyline;
-			global::BottomNavigationBar.Resource.Attribute.layout_scrollFlags = global::FetaProject.Droid.Resource.Attribute.layout_scrollFlags;
-			global::BottomNavigationBar.Resource.Attribute.layout_scrollInterpolator = global::FetaProject.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::BottomNavigationBar.Resource.Attribute.listChoiceBackgroundIndicator = global::FetaProject.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::BottomNavigationBar.Resource.Attribute.listDividerAlertDialog = global::FetaProject.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::BottomNavigationBar.Resource.Attribute.listItemLayout = global::FetaProject.Droid.Resource.Attribute.listItemLayout;
-			global::BottomNavigationBar.Resource.Attribute.listLayout = global::FetaProject.Droid.Resource.Attribute.listLayout;
-			global::BottomNavigationBar.Resource.Attribute.listMenuViewStyle = global::FetaProject.Droid.Resource.Attribute.listMenuViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.listPopupWindowStyle = global::FetaProject.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeight = global::FetaProject.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeightLarge = global::FetaProject.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeightSmall = global::FetaProject.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemPaddingLeft = global::FetaProject.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::BottomNavigationBar.Resource.Attribute.listPreferredItemPaddingRight = global::FetaProject.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::BottomNavigationBar.Resource.Attribute.logo = global::FetaProject.Droid.Resource.Attribute.logo;
-			global::BottomNavigationBar.Resource.Attribute.logoDescription = global::FetaProject.Droid.Resource.Attribute.logoDescription;
-			global::BottomNavigationBar.Resource.Attribute.maxActionInlineWidth = global::FetaProject.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::BottomNavigationBar.Resource.Attribute.maxButtonHeight = global::FetaProject.Droid.Resource.Attribute.maxButtonHeight;
-			global::BottomNavigationBar.Resource.Attribute.measureWithLargestChild = global::FetaProject.Droid.Resource.Attribute.measureWithLargestChild;
-			global::BottomNavigationBar.Resource.Attribute.menu = global::FetaProject.Droid.Resource.Attribute.menu;
-			global::BottomNavigationBar.Resource.Attribute.multiChoiceItemLayout = global::FetaProject.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::BottomNavigationBar.Resource.Attribute.navigationContentDescription = global::FetaProject.Droid.Resource.Attribute.navigationContentDescription;
-			global::BottomNavigationBar.Resource.Attribute.navigationIcon = global::FetaProject.Droid.Resource.Attribute.navigationIcon;
-			global::BottomNavigationBar.Resource.Attribute.navigationMode = global::FetaProject.Droid.Resource.Attribute.navigationMode;
-			global::BottomNavigationBar.Resource.Attribute.overlapAnchor = global::FetaProject.Droid.Resource.Attribute.overlapAnchor;
-			global::BottomNavigationBar.Resource.Attribute.paddingEnd = global::FetaProject.Droid.Resource.Attribute.paddingEnd;
-			global::BottomNavigationBar.Resource.Attribute.paddingStart = global::FetaProject.Droid.Resource.Attribute.paddingStart;
-			global::BottomNavigationBar.Resource.Attribute.panelBackground = global::FetaProject.Droid.Resource.Attribute.panelBackground;
-			global::BottomNavigationBar.Resource.Attribute.panelMenuListTheme = global::FetaProject.Droid.Resource.Attribute.panelMenuListTheme;
-			global::BottomNavigationBar.Resource.Attribute.panelMenuListWidth = global::FetaProject.Droid.Resource.Attribute.panelMenuListWidth;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleContentDescription = global::FetaProject.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleDrawable = global::FetaProject.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleEnabled = global::FetaProject.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleTint = global::FetaProject.Droid.Resource.Attribute.passwordToggleTint;
-			global::BottomNavigationBar.Resource.Attribute.passwordToggleTintMode = global::FetaProject.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::BottomNavigationBar.Resource.Attribute.popupMenuStyle = global::FetaProject.Droid.Resource.Attribute.popupMenuStyle;
-			global::BottomNavigationBar.Resource.Attribute.popupTheme = global::FetaProject.Droid.Resource.Attribute.popupTheme;
-			global::BottomNavigationBar.Resource.Attribute.popupWindowStyle = global::FetaProject.Droid.Resource.Attribute.popupWindowStyle;
-			global::BottomNavigationBar.Resource.Attribute.preserveIconSpacing = global::FetaProject.Droid.Resource.Attribute.preserveIconSpacing;
-			global::BottomNavigationBar.Resource.Attribute.pressedTranslationZ = global::FetaProject.Droid.Resource.Attribute.pressedTranslationZ;
-			global::BottomNavigationBar.Resource.Attribute.progressBarPadding = global::FetaProject.Droid.Resource.Attribute.progressBarPadding;
-			global::BottomNavigationBar.Resource.Attribute.progressBarStyle = global::FetaProject.Droid.Resource.Attribute.progressBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.queryBackground = global::FetaProject.Droid.Resource.Attribute.queryBackground;
-			global::BottomNavigationBar.Resource.Attribute.queryHint = global::FetaProject.Droid.Resource.Attribute.queryHint;
-			global::BottomNavigationBar.Resource.Attribute.radioButtonStyle = global::FetaProject.Droid.Resource.Attribute.radioButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.ratingBarStyle = global::FetaProject.Droid.Resource.Attribute.ratingBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.ratingBarStyleIndicator = global::FetaProject.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::BottomNavigationBar.Resource.Attribute.ratingBarStyleSmall = global::FetaProject.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::BottomNavigationBar.Resource.Attribute.reverseLayout = global::FetaProject.Droid.Resource.Attribute.reverseLayout;
-			global::BottomNavigationBar.Resource.Attribute.rippleColor = global::FetaProject.Droid.Resource.Attribute.rippleColor;
-			global::BottomNavigationBar.Resource.Attribute.scrimAnimationDuration = global::FetaProject.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::BottomNavigationBar.Resource.Attribute.scrimVisibleHeightTrigger = global::FetaProject.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::BottomNavigationBar.Resource.Attribute.searchHintIcon = global::FetaProject.Droid.Resource.Attribute.searchHintIcon;
-			global::BottomNavigationBar.Resource.Attribute.searchIcon = global::FetaProject.Droid.Resource.Attribute.searchIcon;
-			global::BottomNavigationBar.Resource.Attribute.searchViewStyle = global::FetaProject.Droid.Resource.Attribute.searchViewStyle;
-			global::BottomNavigationBar.Resource.Attribute.seekBarStyle = global::FetaProject.Droid.Resource.Attribute.seekBarStyle;
-			global::BottomNavigationBar.Resource.Attribute.selectableItemBackground = global::FetaProject.Droid.Resource.Attribute.selectableItemBackground;
-			global::BottomNavigationBar.Resource.Attribute.selectableItemBackgroundBorderless = global::FetaProject.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::BottomNavigationBar.Resource.Attribute.showAsAction = global::FetaProject.Droid.Resource.Attribute.showAsAction;
-			global::BottomNavigationBar.Resource.Attribute.showDividers = global::FetaProject.Droid.Resource.Attribute.showDividers;
-			global::BottomNavigationBar.Resource.Attribute.showText = global::FetaProject.Droid.Resource.Attribute.showText;
-			global::BottomNavigationBar.Resource.Attribute.singleChoiceItemLayout = global::FetaProject.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::BottomNavigationBar.Resource.Attribute.spanCount = global::FetaProject.Droid.Resource.Attribute.spanCount;
-			global::BottomNavigationBar.Resource.Attribute.spinBars = global::FetaProject.Droid.Resource.Attribute.spinBars;
-			global::BottomNavigationBar.Resource.Attribute.spinnerDropDownItemStyle = global::FetaProject.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::BottomNavigationBar.Resource.Attribute.spinnerStyle = global::FetaProject.Droid.Resource.Attribute.spinnerStyle;
-			global::BottomNavigationBar.Resource.Attribute.splitTrack = global::FetaProject.Droid.Resource.Attribute.splitTrack;
-			global::BottomNavigationBar.Resource.Attribute.srcCompat = global::FetaProject.Droid.Resource.Attribute.srcCompat;
-			global::BottomNavigationBar.Resource.Attribute.stackFromEnd = global::FetaProject.Droid.Resource.Attribute.stackFromEnd;
-			global::BottomNavigationBar.Resource.Attribute.state_above_anchor = global::FetaProject.Droid.Resource.Attribute.state_above_anchor;
-			global::BottomNavigationBar.Resource.Attribute.state_collapsed = global::FetaProject.Droid.Resource.Attribute.state_collapsed;
-			global::BottomNavigationBar.Resource.Attribute.state_collapsible = global::FetaProject.Droid.Resource.Attribute.state_collapsible;
-			global::BottomNavigationBar.Resource.Attribute.statusBarBackground = global::FetaProject.Droid.Resource.Attribute.statusBarBackground;
-			global::BottomNavigationBar.Resource.Attribute.statusBarScrim = global::FetaProject.Droid.Resource.Attribute.statusBarScrim;
-			global::BottomNavigationBar.Resource.Attribute.subMenuArrow = global::FetaProject.Droid.Resource.Attribute.subMenuArrow;
-			global::BottomNavigationBar.Resource.Attribute.submitBackground = global::FetaProject.Droid.Resource.Attribute.submitBackground;
-			global::BottomNavigationBar.Resource.Attribute.subtitle = global::FetaProject.Droid.Resource.Attribute.subtitle;
-			global::BottomNavigationBar.Resource.Attribute.subtitleTextAppearance = global::FetaProject.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.subtitleTextColor = global::FetaProject.Droid.Resource.Attribute.subtitleTextColor;
-			global::BottomNavigationBar.Resource.Attribute.subtitleTextStyle = global::FetaProject.Droid.Resource.Attribute.subtitleTextStyle;
-			global::BottomNavigationBar.Resource.Attribute.suggestionRowLayout = global::FetaProject.Droid.Resource.Attribute.suggestionRowLayout;
-			global::BottomNavigationBar.Resource.Attribute.switchMinWidth = global::FetaProject.Droid.Resource.Attribute.switchMinWidth;
-			global::BottomNavigationBar.Resource.Attribute.switchPadding = global::FetaProject.Droid.Resource.Attribute.switchPadding;
-			global::BottomNavigationBar.Resource.Attribute.switchStyle = global::FetaProject.Droid.Resource.Attribute.switchStyle;
-			global::BottomNavigationBar.Resource.Attribute.switchTextAppearance = global::FetaProject.Droid.Resource.Attribute.switchTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.tabBackground = global::FetaProject.Droid.Resource.Attribute.tabBackground;
-			global::BottomNavigationBar.Resource.Attribute.tabContentStart = global::FetaProject.Droid.Resource.Attribute.tabContentStart;
-			global::BottomNavigationBar.Resource.Attribute.tabGravity = global::FetaProject.Droid.Resource.Attribute.tabGravity;
-			global::BottomNavigationBar.Resource.Attribute.tabIndicatorColor = global::FetaProject.Droid.Resource.Attribute.tabIndicatorColor;
-			global::BottomNavigationBar.Resource.Attribute.tabIndicatorHeight = global::FetaProject.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::BottomNavigationBar.Resource.Attribute.tabMaxWidth = global::FetaProject.Droid.Resource.Attribute.tabMaxWidth;
-			global::BottomNavigationBar.Resource.Attribute.tabMinWidth = global::FetaProject.Droid.Resource.Attribute.tabMinWidth;
-			global::BottomNavigationBar.Resource.Attribute.tabMode = global::FetaProject.Droid.Resource.Attribute.tabMode;
-			global::BottomNavigationBar.Resource.Attribute.tabPadding = global::FetaProject.Droid.Resource.Attribute.tabPadding;
-			global::BottomNavigationBar.Resource.Attribute.tabPaddingBottom = global::FetaProject.Droid.Resource.Attribute.tabPaddingBottom;
-			global::BottomNavigationBar.Resource.Attribute.tabPaddingEnd = global::FetaProject.Droid.Resource.Attribute.tabPaddingEnd;
-			global::BottomNavigationBar.Resource.Attribute.tabPaddingStart = global::FetaProject.Droid.Resource.Attribute.tabPaddingStart;
-			global::BottomNavigationBar.Resource.Attribute.tabPaddingTop = global::FetaProject.Droid.Resource.Attribute.tabPaddingTop;
-			global::BottomNavigationBar.Resource.Attribute.tabSelectedTextColor = global::FetaProject.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::BottomNavigationBar.Resource.Attribute.tabTextAppearance = global::FetaProject.Droid.Resource.Attribute.tabTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.tabTextColor = global::FetaProject.Droid.Resource.Attribute.tabTextColor;
-			global::BottomNavigationBar.Resource.Attribute.textAllCaps = global::FetaProject.Droid.Resource.Attribute.textAllCaps;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceLargePopupMenu = global::FetaProject.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItem = global::FetaProject.Droid.Resource.Attribute.textAppearanceListItem;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItemSmall = global::FetaProject.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::BottomNavigationBar.Resource.Attribute.textAppearancePopupMenuHeader = global::FetaProject.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FetaProject.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultTitle = global::FetaProject.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::BottomNavigationBar.Resource.Attribute.textAppearanceSmallPopupMenu = global::FetaProject.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::BottomNavigationBar.Resource.Attribute.textColorAlertDialogListItem = global::FetaProject.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::BottomNavigationBar.Resource.Attribute.textColorError = global::FetaProject.Droid.Resource.Attribute.textColorError;
-			global::BottomNavigationBar.Resource.Attribute.textColorSearchUrl = global::FetaProject.Droid.Resource.Attribute.textColorSearchUrl;
-			global::BottomNavigationBar.Resource.Attribute.theme = global::FetaProject.Droid.Resource.Attribute.theme;
-			global::BottomNavigationBar.Resource.Attribute.thickness = global::FetaProject.Droid.Resource.Attribute.thickness;
-			global::BottomNavigationBar.Resource.Attribute.thumbTextPadding = global::FetaProject.Droid.Resource.Attribute.thumbTextPadding;
-			global::BottomNavigationBar.Resource.Attribute.thumbTint = global::FetaProject.Droid.Resource.Attribute.thumbTint;
-			global::BottomNavigationBar.Resource.Attribute.thumbTintMode = global::FetaProject.Droid.Resource.Attribute.thumbTintMode;
-			global::BottomNavigationBar.Resource.Attribute.tickMark = global::FetaProject.Droid.Resource.Attribute.tickMark;
-			global::BottomNavigationBar.Resource.Attribute.tickMarkTint = global::FetaProject.Droid.Resource.Attribute.tickMarkTint;
-			global::BottomNavigationBar.Resource.Attribute.tickMarkTintMode = global::FetaProject.Droid.Resource.Attribute.tickMarkTintMode;
-			global::BottomNavigationBar.Resource.Attribute.title = global::FetaProject.Droid.Resource.Attribute.title;
-			global::BottomNavigationBar.Resource.Attribute.titleEnabled = global::FetaProject.Droid.Resource.Attribute.titleEnabled;
-			global::BottomNavigationBar.Resource.Attribute.titleMargin = global::FetaProject.Droid.Resource.Attribute.titleMargin;
-			global::BottomNavigationBar.Resource.Attribute.titleMarginBottom = global::FetaProject.Droid.Resource.Attribute.titleMarginBottom;
-			global::BottomNavigationBar.Resource.Attribute.titleMarginEnd = global::FetaProject.Droid.Resource.Attribute.titleMarginEnd;
-			global::BottomNavigationBar.Resource.Attribute.titleMarginStart = global::FetaProject.Droid.Resource.Attribute.titleMarginStart;
-			global::BottomNavigationBar.Resource.Attribute.titleMarginTop = global::FetaProject.Droid.Resource.Attribute.titleMarginTop;
-			global::BottomNavigationBar.Resource.Attribute.titleMargins = global::FetaProject.Droid.Resource.Attribute.titleMargins;
-			global::BottomNavigationBar.Resource.Attribute.titleTextAppearance = global::FetaProject.Droid.Resource.Attribute.titleTextAppearance;
-			global::BottomNavigationBar.Resource.Attribute.titleTextColor = global::FetaProject.Droid.Resource.Attribute.titleTextColor;
-			global::BottomNavigationBar.Resource.Attribute.titleTextStyle = global::FetaProject.Droid.Resource.Attribute.titleTextStyle;
-			global::BottomNavigationBar.Resource.Attribute.toolbarId = global::FetaProject.Droid.Resource.Attribute.toolbarId;
-			global::BottomNavigationBar.Resource.Attribute.toolbarNavigationButtonStyle = global::FetaProject.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::BottomNavigationBar.Resource.Attribute.toolbarStyle = global::FetaProject.Droid.Resource.Attribute.toolbarStyle;
-			global::BottomNavigationBar.Resource.Attribute.track = global::FetaProject.Droid.Resource.Attribute.track;
-			global::BottomNavigationBar.Resource.Attribute.trackTint = global::FetaProject.Droid.Resource.Attribute.trackTint;
-			global::BottomNavigationBar.Resource.Attribute.trackTintMode = global::FetaProject.Droid.Resource.Attribute.trackTintMode;
-			global::BottomNavigationBar.Resource.Attribute.useCompatPadding = global::FetaProject.Droid.Resource.Attribute.useCompatPadding;
-			global::BottomNavigationBar.Resource.Attribute.voiceIcon = global::FetaProject.Droid.Resource.Attribute.voiceIcon;
-			global::BottomNavigationBar.Resource.Attribute.windowActionBar = global::FetaProject.Droid.Resource.Attribute.windowActionBar;
-			global::BottomNavigationBar.Resource.Attribute.windowActionBarOverlay = global::FetaProject.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::BottomNavigationBar.Resource.Attribute.windowActionModeOverlay = global::FetaProject.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::BottomNavigationBar.Resource.Attribute.windowFixedHeightMajor = global::FetaProject.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::BottomNavigationBar.Resource.Attribute.windowFixedHeightMinor = global::FetaProject.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::BottomNavigationBar.Resource.Attribute.windowFixedWidthMajor = global::FetaProject.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::BottomNavigationBar.Resource.Attribute.windowFixedWidthMinor = global::FetaProject.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::BottomNavigationBar.Resource.Attribute.windowMinWidthMajor = global::FetaProject.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::BottomNavigationBar.Resource.Attribute.windowMinWidthMinor = global::FetaProject.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::BottomNavigationBar.Resource.Attribute.windowNoTitle = global::FetaProject.Droid.Resource.Attribute.windowNoTitle;
-			global::BottomNavigationBar.Resource.Boolean.abc_action_bar_embed_tabs = global::FetaProject.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::BottomNavigationBar.Resource.Boolean.abc_allow_stacked_button_bar = global::FetaProject.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::BottomNavigationBar.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FetaProject.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::BottomNavigationBar.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::FetaProject.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::BottomNavigationBar.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::FetaProject.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::BottomNavigationBar.Resource.Boolean.bb_bottom_bar_is_tablet_mode = global::FetaProject.Droid.Resource.Boolean.bb_bottom_bar_is_tablet_mode;
-			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FetaProject.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_light = global::FetaProject.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::BottomNavigationBar.Resource.Color.abc_btn_colored_borderless_text_material = global::FetaProject.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::BottomNavigationBar.Resource.Color.abc_color_highlight_material = global::FetaProject.Droid.Resource.Color.abc_color_highlight_material;
-			global::BottomNavigationBar.Resource.Color.abc_input_method_navigation_guard = global::FetaProject.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::BottomNavigationBar.Resource.Color.abc_primary_text_disable_only_material_dark = global::FetaProject.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::BottomNavigationBar.Resource.Color.abc_primary_text_disable_only_material_light = global::FetaProject.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::BottomNavigationBar.Resource.Color.abc_primary_text_material_dark = global::FetaProject.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::BottomNavigationBar.Resource.Color.abc_primary_text_material_light = global::FetaProject.Droid.Resource.Color.abc_primary_text_material_light;
-			global::BottomNavigationBar.Resource.Color.abc_search_url_text = global::FetaProject.Droid.Resource.Color.abc_search_url_text;
-			global::BottomNavigationBar.Resource.Color.abc_search_url_text_normal = global::FetaProject.Droid.Resource.Color.abc_search_url_text_normal;
-			global::BottomNavigationBar.Resource.Color.abc_search_url_text_pressed = global::FetaProject.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::BottomNavigationBar.Resource.Color.abc_search_url_text_selected = global::FetaProject.Droid.Resource.Color.abc_search_url_text_selected;
-			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_dark = global::FetaProject.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_light = global::FetaProject.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::BottomNavigationBar.Resource.Color.abc_tint_btn_checkable = global::FetaProject.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::BottomNavigationBar.Resource.Color.abc_tint_default = global::FetaProject.Droid.Resource.Color.abc_tint_default;
-			global::BottomNavigationBar.Resource.Color.abc_tint_edittext = global::FetaProject.Droid.Resource.Color.abc_tint_edittext;
-			global::BottomNavigationBar.Resource.Color.abc_tint_seek_thumb = global::FetaProject.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::BottomNavigationBar.Resource.Color.abc_tint_spinner = global::FetaProject.Droid.Resource.Color.abc_tint_spinner;
-			global::BottomNavigationBar.Resource.Color.abc_tint_switch_thumb = global::FetaProject.Droid.Resource.Color.abc_tint_switch_thumb;
-			global::BottomNavigationBar.Resource.Color.abc_tint_switch_track = global::FetaProject.Droid.Resource.Color.abc_tint_switch_track;
-			global::BottomNavigationBar.Resource.Color.accent_material_dark = global::FetaProject.Droid.Resource.Color.accent_material_dark;
-			global::BottomNavigationBar.Resource.Color.accent_material_light = global::FetaProject.Droid.Resource.Color.accent_material_light;
-			global::BottomNavigationBar.Resource.Color.background_floating_material_dark = global::FetaProject.Droid.Resource.Color.background_floating_material_dark;
-			global::BottomNavigationBar.Resource.Color.background_floating_material_light = global::FetaProject.Droid.Resource.Color.background_floating_material_light;
-			global::BottomNavigationBar.Resource.Color.background_material_dark = global::FetaProject.Droid.Resource.Color.background_material_dark;
-			global::BottomNavigationBar.Resource.Color.background_material_light = global::FetaProject.Droid.Resource.Color.background_material_light;
-			global::BottomNavigationBar.Resource.Color.bb_darkBackgroundColor = global::FetaProject.Droid.Resource.Color.bb_darkBackgroundColor;
-			global::BottomNavigationBar.Resource.Color.bb_darkInActiveBottomBarItemColor = global::FetaProject.Droid.Resource.Color.bb_darkInActiveBottomBarItemColor;
-			global::BottomNavigationBar.Resource.Color.bb_inActiveBottomBarItemColor = global::FetaProject.Droid.Resource.Color.bb_inActiveBottomBarItemColor;
-			global::BottomNavigationBar.Resource.Color.bb_tabletRightBorderDark = global::FetaProject.Droid.Resource.Color.bb_tabletRightBorderDark;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_disabled_material_dark = global::FetaProject.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_disabled_material_light = global::FetaProject.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_inverse_material_dark = global::FetaProject.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_inverse_material_light = global::FetaProject.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_material_dark = global::FetaProject.Droid.Resource.Color.bright_foreground_material_dark;
-			global::BottomNavigationBar.Resource.Color.bright_foreground_material_light = global::FetaProject.Droid.Resource.Color.bright_foreground_material_light;
-			global::BottomNavigationBar.Resource.Color.button_material_dark = global::FetaProject.Droid.Resource.Color.button_material_dark;
-			global::BottomNavigationBar.Resource.Color.button_material_light = global::FetaProject.Droid.Resource.Color.button_material_light;
-			global::BottomNavigationBar.Resource.Color.design_error = global::FetaProject.Droid.Resource.Color.design_error;
-			global::BottomNavigationBar.Resource.Color.design_fab_shadow_end_color = global::FetaProject.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_shadow_mid_color = global::FetaProject.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_shadow_start_color = global::FetaProject.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_stroke_end_inner_color = global::FetaProject.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_stroke_end_outer_color = global::FetaProject.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_inner_color = global::FetaProject.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_outer_color = global::FetaProject.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::BottomNavigationBar.Resource.Color.design_snackbar_background_color = global::FetaProject.Droid.Resource.Color.design_snackbar_background_color;
-			global::BottomNavigationBar.Resource.Color.design_textinput_error_color_dark = global::FetaProject.Droid.Resource.Color.design_textinput_error_color_dark;
-			global::BottomNavigationBar.Resource.Color.design_textinput_error_color_light = global::FetaProject.Droid.Resource.Color.design_textinput_error_color_light;
-			global::BottomNavigationBar.Resource.Color.design_tint_password_toggle = global::FetaProject.Droid.Resource.Color.design_tint_password_toggle;
-			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_dark = global::FetaProject.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_light = global::FetaProject.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.dim_foreground_material_dark = global::FetaProject.Droid.Resource.Color.dim_foreground_material_dark;
-			global::BottomNavigationBar.Resource.Color.dim_foreground_material_light = global::FetaProject.Droid.Resource.Color.dim_foreground_material_light;
-			global::BottomNavigationBar.Resource.Color.foreground_material_dark = global::FetaProject.Droid.Resource.Color.foreground_material_dark;
-			global::BottomNavigationBar.Resource.Color.foreground_material_light = global::FetaProject.Droid.Resource.Color.foreground_material_light;
-			global::BottomNavigationBar.Resource.Color.highlighted_text_material_dark = global::FetaProject.Droid.Resource.Color.highlighted_text_material_dark;
-			global::BottomNavigationBar.Resource.Color.highlighted_text_material_light = global::FetaProject.Droid.Resource.Color.highlighted_text_material_light;
-			global::BottomNavigationBar.Resource.Color.material_blue_grey_800 = global::FetaProject.Droid.Resource.Color.material_blue_grey_800;
-			global::BottomNavigationBar.Resource.Color.material_blue_grey_900 = global::FetaProject.Droid.Resource.Color.material_blue_grey_900;
-			global::BottomNavigationBar.Resource.Color.material_blue_grey_950 = global::FetaProject.Droid.Resource.Color.material_blue_grey_950;
-			global::BottomNavigationBar.Resource.Color.material_deep_teal_200 = global::FetaProject.Droid.Resource.Color.material_deep_teal_200;
-			global::BottomNavigationBar.Resource.Color.material_deep_teal_500 = global::FetaProject.Droid.Resource.Color.material_deep_teal_500;
-			global::BottomNavigationBar.Resource.Color.material_grey_100 = global::FetaProject.Droid.Resource.Color.material_grey_100;
-			global::BottomNavigationBar.Resource.Color.material_grey_300 = global::FetaProject.Droid.Resource.Color.material_grey_300;
-			global::BottomNavigationBar.Resource.Color.material_grey_50 = global::FetaProject.Droid.Resource.Color.material_grey_50;
-			global::BottomNavigationBar.Resource.Color.material_grey_600 = global::FetaProject.Droid.Resource.Color.material_grey_600;
-			global::BottomNavigationBar.Resource.Color.material_grey_800 = global::FetaProject.Droid.Resource.Color.material_grey_800;
-			global::BottomNavigationBar.Resource.Color.material_grey_850 = global::FetaProject.Droid.Resource.Color.material_grey_850;
-			global::BottomNavigationBar.Resource.Color.material_grey_900 = global::FetaProject.Droid.Resource.Color.material_grey_900;
-			global::BottomNavigationBar.Resource.Color.primary_dark_material_dark = global::FetaProject.Droid.Resource.Color.primary_dark_material_dark;
-			global::BottomNavigationBar.Resource.Color.primary_dark_material_light = global::FetaProject.Droid.Resource.Color.primary_dark_material_light;
-			global::BottomNavigationBar.Resource.Color.primary_material_dark = global::FetaProject.Droid.Resource.Color.primary_material_dark;
-			global::BottomNavigationBar.Resource.Color.primary_material_light = global::FetaProject.Droid.Resource.Color.primary_material_light;
-			global::BottomNavigationBar.Resource.Color.primary_text_default_material_dark = global::FetaProject.Droid.Resource.Color.primary_text_default_material_dark;
-			global::BottomNavigationBar.Resource.Color.primary_text_default_material_light = global::FetaProject.Droid.Resource.Color.primary_text_default_material_light;
-			global::BottomNavigationBar.Resource.Color.primary_text_disabled_material_dark = global::FetaProject.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.primary_text_disabled_material_light = global::FetaProject.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.ripple_material_dark = global::FetaProject.Droid.Resource.Color.ripple_material_dark;
-			global::BottomNavigationBar.Resource.Color.ripple_material_light = global::FetaProject.Droid.Resource.Color.ripple_material_light;
-			global::BottomNavigationBar.Resource.Color.secondary_text_default_material_dark = global::FetaProject.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::BottomNavigationBar.Resource.Color.secondary_text_default_material_light = global::FetaProject.Droid.Resource.Color.secondary_text_default_material_light;
-			global::BottomNavigationBar.Resource.Color.secondary_text_disabled_material_dark = global::FetaProject.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.secondary_text_disabled_material_light = global::FetaProject.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_disabled_material_dark = global::FetaProject.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_disabled_material_light = global::FetaProject.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_material_dark = global::FetaProject.Droid.Resource.Color.switch_thumb_material_dark;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_material_light = global::FetaProject.Droid.Resource.Color.switch_thumb_material_light;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_dark = global::FetaProject.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_light = global::FetaProject.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_content_inset_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_height_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_elevation_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_progress_bar_size = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_stacked_max_height = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FetaProject.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_height_material = global::FetaProject.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_width_material = global::FetaProject.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FetaProject.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FetaProject.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::BottomNavigationBar.Resource.Dimension.abc_button_inset_horizontal_material = global::FetaProject.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_button_inset_vertical_material = global::FetaProject.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_horizontal_material = global::FetaProject.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_vertical_material = global::FetaProject.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FetaProject.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_config_prefDialogWidth = global::FetaProject.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::BottomNavigationBar.Resource.Dimension.abc_control_corner_material = global::FetaProject.Droid.Resource.Dimension.abc_control_corner_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_control_inset_material = global::FetaProject.Droid.Resource.Dimension.abc_control_inset_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_control_padding_material = global::FetaProject.Droid.Resource.Dimension.abc_control_padding_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_height_major = global::FetaProject.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_height_minor = global::FetaProject.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_width_major = global::FetaProject.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_width_minor = global::FetaProject.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_min_width_major = global::FetaProject.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_min_width_minor = global::FetaProject.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_padding_material = global::FetaProject.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_dialog_padding_top_material = global::FetaProject.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_disabled_alpha_material_dark = global::FetaProject.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::BottomNavigationBar.Resource.Dimension.abc_disabled_alpha_material_light = global::FetaProject.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_icon_width = global::FetaProject.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FetaProject.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FetaProject.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FetaProject.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FetaProject.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_top_material = global::FetaProject.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_floating_window_z = global::FetaProject.Droid.Resource.Dimension.abc_floating_window_z;
-			global::BottomNavigationBar.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FetaProject.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_panel_menu_list_width = global::FetaProject.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_progress_bar_height_material = global::FetaProject.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_search_view_preferred_height = global::FetaProject.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::BottomNavigationBar.Resource.Dimension.abc_search_view_preferred_width = global::FetaProject.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_background_height_material = global::FetaProject.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FetaProject.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_select_dialog_padding_start_material = global::FetaProject.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_switch_padding = global::FetaProject.Droid.Resource.Dimension.abc_switch_padding;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_body_1_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_body_2_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_button_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_caption_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_1_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_2_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_3_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_4_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_headline_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_large_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_medium_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_menu_header_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_menu_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_small_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_subhead_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FetaProject.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_title_material = global::FetaProject.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::BottomNavigationBar.Resource.Dimension.abc_text_size_title_material_toolbar = global::FetaProject.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::BottomNavigationBar.Resource.Dimension.activity_horizontal_margin = global::FetaProject.Droid.Resource.Dimension.activity_horizontal_margin;
-			global::BottomNavigationBar.Resource.Dimension.activity_vertical_margin = global::FetaProject.Droid.Resource.Dimension.activity_vertical_margin;
-			global::BottomNavigationBar.Resource.Dimension.bb_height = global::FetaProject.Droid.Resource.Dimension.bb_height;
-			global::BottomNavigationBar.Resource.Dimension.bottom_bar_elevation = global::FetaProject.Droid.Resource.Dimension.bottom_bar_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_appbar_elevation = global::FetaProject.Droid.Resource.Dimension.design_appbar_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FetaProject.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_active_text_size = global::FetaProject.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_height = global::FetaProject.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_item_max_width = global::FetaProject.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_margin = global::FetaProject.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_navigation_text_size = global::FetaProject.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FetaProject.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FetaProject.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_border_width = global::FetaProject.Droid.Resource.Dimension.design_fab_border_width;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_elevation = global::FetaProject.Droid.Resource.Dimension.design_fab_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_image_size = global::FetaProject.Droid.Resource.Dimension.design_fab_image_size;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_size_mini = global::FetaProject.Droid.Resource.Dimension.design_fab_size_mini;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_size_normal = global::FetaProject.Droid.Resource.Dimension.design_fab_size_normal;
-			global::BottomNavigationBar.Resource.Dimension.design_fab_translation_z_pressed = global::FetaProject.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_elevation = global::FetaProject.Droid.Resource.Dimension.design_navigation_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_icon_padding = global::FetaProject.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_icon_size = global::FetaProject.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_max_width = global::FetaProject.Droid.Resource.Dimension.design_navigation_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_padding_bottom = global::FetaProject.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::BottomNavigationBar.Resource.Dimension.design_navigation_separator_vertical_padding = global::FetaProject.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_action_inline_max_width = global::FetaProject.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_background_corner_radius = global::FetaProject.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_elevation = global::FetaProject.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FetaProject.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_max_width = global::FetaProject.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_min_width = global::FetaProject.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_horizontal = global::FetaProject.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_vertical = global::FetaProject.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FetaProject.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::BottomNavigationBar.Resource.Dimension.design_snackbar_text_size = global::FetaProject.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::BottomNavigationBar.Resource.Dimension.design_tab_max_width = global::FetaProject.Droid.Resource.Dimension.design_tab_max_width;
-			global::BottomNavigationBar.Resource.Dimension.design_tab_scrollable_min_width = global::FetaProject.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::BottomNavigationBar.Resource.Dimension.design_tab_text_size = global::FetaProject.Droid.Resource.Dimension.design_tab_text_size;
-			global::BottomNavigationBar.Resource.Dimension.design_tab_text_size_2line = global::FetaProject.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::BottomNavigationBar.Resource.Dimension.disabled_alpha_material_dark = global::FetaProject.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::BottomNavigationBar.Resource.Dimension.disabled_alpha_material_light = global::FetaProject.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_colored = global::FetaProject.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_dark = global::FetaProject.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_light = global::FetaProject.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FetaProject.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FetaProject.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FetaProject.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::BottomNavigationBar.Resource.Dimension.notification_large_icon_height = global::FetaProject.Droid.Resource.Dimension.notification_large_icon_height;
-			global::BottomNavigationBar.Resource.Dimension.notification_large_icon_width = global::FetaProject.Droid.Resource.Dimension.notification_large_icon_width;
-			global::BottomNavigationBar.Resource.Dimension.notification_subtext_size = global::FetaProject.Droid.Resource.Dimension.notification_subtext_size;
-			global::BottomNavigationBar.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_action_bar_item_background_material = global::FetaProject.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_borderless_material = global::FetaProject.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_material = global::FetaProject.Droid.Resource.Drawable.abc_btn_check_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FetaProject.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FetaProject.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_colored_material = global::FetaProject.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_default_mtrl_shape = global::FetaProject.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_material = global::FetaProject.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FetaProject.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FetaProject.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FetaProject.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::BottomNavigationBar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FetaProject.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_internal_bg = global::FetaProject.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_material = global::FetaProject.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_control_background_material = global::FetaProject.Droid.Resource.Drawable.abc_control_background_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_dialog_material_background = global::FetaProject.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::BottomNavigationBar.Resource.Drawable.abc_edit_text_material = global::FetaProject.Droid.Resource.Drawable.abc_edit_text_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_ab_back_material = global::FetaProject.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FetaProject.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_clear_material = global::FetaProject.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_go_search_api_material = global::FetaProject.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FetaProject.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_overflow_material = global::FetaProject.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FetaProject.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_search_api_material = global::FetaProject.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_16dp = global::FetaProject.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_36dp = global::FetaProject.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_48dp = global::FetaProject.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_16dp = global::FetaProject.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_36dp = global::FetaProject.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_48dp = global::FetaProject.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::BottomNavigationBar.Resource.Drawable.abc_ic_voice_search_api_material = global::FetaProject.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_dark = global::FetaProject.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_light = global::FetaProject.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_focused_holo = global::FetaProject.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_longpressed_holo = global::FetaProject.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_pressed_holo_dark = global::FetaProject.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_pressed_holo_light = global::FetaProject.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FetaProject.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FetaProject.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FetaProject.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FetaProject.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_holo_dark = global::FetaProject.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_holo_light = global::FetaProject.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FetaProject.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::BottomNavigationBar.Resource.Drawable.abc_popup_background_mtrl_mult = global::FetaProject.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_indicator_material = global::FetaProject.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_material = global::FetaProject.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_small_material = global::FetaProject.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FetaProject.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FetaProject.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_thumb_material = global::FetaProject.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_tick_mark_material = global::FetaProject.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_track_material = global::FetaProject.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FetaProject.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_spinner_textfield_background_material = global::FetaProject.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_switch_thumb_material = global::FetaProject.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_material = global::FetaProject.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_cursor_material = global::FetaProject.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FetaProject.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FetaProject.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FetaProject.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FetaProject.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FetaProject.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::BottomNavigationBar.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FetaProject.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FetaProject.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_material = global::FetaProject.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::BottomNavigationBar.Resource.Drawable.abc_vector_test = global::FetaProject.Droid.Resource.Drawable.abc_vector_test;
-			global::BottomNavigationBar.Resource.Drawable.bb_bottom_bar_top_shadow = global::FetaProject.Droid.Resource.Drawable.bb_bottom_bar_top_shadow;
-			global::BottomNavigationBar.Resource.Drawable.design_fab_background = global::FetaProject.Droid.Resource.Drawable.design_fab_background;
-			global::BottomNavigationBar.Resource.Drawable.design_ic_visibility = global::FetaProject.Droid.Resource.Drawable.design_ic_visibility;
-			global::BottomNavigationBar.Resource.Drawable.design_snackbar_background = global::FetaProject.Droid.Resource.Drawable.design_snackbar_background;
-			global::BottomNavigationBar.Resource.Drawable.navigation_empty_icon = global::FetaProject.Droid.Resource.Drawable.navigation_empty_icon;
-			global::BottomNavigationBar.Resource.Drawable.notification_template_icon_bg = global::FetaProject.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::BottomNavigationBar.Resource.Id.action0 = global::FetaProject.Droid.Resource.Id.action0;
-			global::BottomNavigationBar.Resource.Id.action_bar = global::FetaProject.Droid.Resource.Id.action_bar;
-			global::BottomNavigationBar.Resource.Id.action_bar_activity_content = global::FetaProject.Droid.Resource.Id.action_bar_activity_content;
-			global::BottomNavigationBar.Resource.Id.action_bar_container = global::FetaProject.Droid.Resource.Id.action_bar_container;
-			global::BottomNavigationBar.Resource.Id.action_bar_root = global::FetaProject.Droid.Resource.Id.action_bar_root;
-			global::BottomNavigationBar.Resource.Id.action_bar_spinner = global::FetaProject.Droid.Resource.Id.action_bar_spinner;
-			global::BottomNavigationBar.Resource.Id.action_bar_subtitle = global::FetaProject.Droid.Resource.Id.action_bar_subtitle;
-			global::BottomNavigationBar.Resource.Id.action_bar_title = global::FetaProject.Droid.Resource.Id.action_bar_title;
-			global::BottomNavigationBar.Resource.Id.action_context_bar = global::FetaProject.Droid.Resource.Id.action_context_bar;
-			global::BottomNavigationBar.Resource.Id.action_divider = global::FetaProject.Droid.Resource.Id.action_divider;
-			global::BottomNavigationBar.Resource.Id.action_menu_divider = global::FetaProject.Droid.Resource.Id.action_menu_divider;
-			global::BottomNavigationBar.Resource.Id.action_menu_presenter = global::FetaProject.Droid.Resource.Id.action_menu_presenter;
-			global::BottomNavigationBar.Resource.Id.action_mode_bar = global::FetaProject.Droid.Resource.Id.action_mode_bar;
-			global::BottomNavigationBar.Resource.Id.action_mode_bar_stub = global::FetaProject.Droid.Resource.Id.action_mode_bar_stub;
-			global::BottomNavigationBar.Resource.Id.action_mode_close_button = global::FetaProject.Droid.Resource.Id.action_mode_close_button;
-			global::BottomNavigationBar.Resource.Id.activity_chooser_view_content = global::FetaProject.Droid.Resource.Id.activity_chooser_view_content;
-			global::BottomNavigationBar.Resource.Id.add = global::FetaProject.Droid.Resource.Id.add;
-			global::BottomNavigationBar.Resource.Id.alertTitle = global::FetaProject.Droid.Resource.Id.alertTitle;
-			global::BottomNavigationBar.Resource.Id.all = global::FetaProject.Droid.Resource.Id.all;
-			global::BottomNavigationBar.Resource.Id.always = global::FetaProject.Droid.Resource.Id.always;
-			global::BottomNavigationBar.Resource.Id.auto = global::FetaProject.Droid.Resource.Id.auto;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_overlay = global::FetaProject.Droid.Resource.Id.bb_bottom_bar_background_overlay;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_view = global::FetaProject.Droid.Resource.Id.bb_bottom_bar_background_view;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_icon = global::FetaProject.Droid.Resource.Id.bb_bottom_bar_icon;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_item_container = global::FetaProject.Droid.Resource.Id.bb_bottom_bar_item_container;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_outer_container = global::FetaProject.Droid.Resource.Id.bb_bottom_bar_outer_container;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_shadow = global::FetaProject.Droid.Resource.Id.bb_bottom_bar_shadow;
-			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_title = global::FetaProject.Droid.Resource.Id.bb_bottom_bar_title;
-			global::BottomNavigationBar.Resource.Id.bb_tablet_right_border = global::FetaProject.Droid.Resource.Id.bb_tablet_right_border;
-			global::BottomNavigationBar.Resource.Id.bb_user_content_container = global::FetaProject.Droid.Resource.Id.bb_user_content_container;
-			global::BottomNavigationBar.Resource.Id.beginning = global::FetaProject.Droid.Resource.Id.beginning;
-			global::BottomNavigationBar.Resource.Id.bottom = global::FetaProject.Droid.Resource.Id.bottom;
-			global::BottomNavigationBar.Resource.Id.buttonPanel = global::FetaProject.Droid.Resource.Id.buttonPanel;
-			global::BottomNavigationBar.Resource.Id.cancel_action = global::FetaProject.Droid.Resource.Id.cancel_action;
-			global::BottomNavigationBar.Resource.Id.center = global::FetaProject.Droid.Resource.Id.center;
-			global::BottomNavigationBar.Resource.Id.center_horizontal = global::FetaProject.Droid.Resource.Id.center_horizontal;
-			global::BottomNavigationBar.Resource.Id.center_vertical = global::FetaProject.Droid.Resource.Id.center_vertical;
-			global::BottomNavigationBar.Resource.Id.checkbox = global::FetaProject.Droid.Resource.Id.checkbox;
-			global::BottomNavigationBar.Resource.Id.chronometer = global::FetaProject.Droid.Resource.Id.chronometer;
-			global::BottomNavigationBar.Resource.Id.clip_horizontal = global::FetaProject.Droid.Resource.Id.clip_horizontal;
-			global::BottomNavigationBar.Resource.Id.clip_vertical = global::FetaProject.Droid.Resource.Id.clip_vertical;
-			global::BottomNavigationBar.Resource.Id.collapseActionView = global::FetaProject.Droid.Resource.Id.collapseActionView;
-			global::BottomNavigationBar.Resource.Id.contentPanel = global::FetaProject.Droid.Resource.Id.contentPanel;
-			global::BottomNavigationBar.Resource.Id.custom = global::FetaProject.Droid.Resource.Id.custom;
-			global::BottomNavigationBar.Resource.Id.customPanel = global::FetaProject.Droid.Resource.Id.customPanel;
-			global::BottomNavigationBar.Resource.Id.decor_content_parent = global::FetaProject.Droid.Resource.Id.decor_content_parent;
-			global::BottomNavigationBar.Resource.Id.default_activity_button = global::FetaProject.Droid.Resource.Id.default_activity_button;
-			global::BottomNavigationBar.Resource.Id.design_bottom_sheet = global::FetaProject.Droid.Resource.Id.design_bottom_sheet;
-			global::BottomNavigationBar.Resource.Id.design_menu_item_action_area = global::FetaProject.Droid.Resource.Id.design_menu_item_action_area;
-			global::BottomNavigationBar.Resource.Id.design_menu_item_action_area_stub = global::FetaProject.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::BottomNavigationBar.Resource.Id.design_menu_item_text = global::FetaProject.Droid.Resource.Id.design_menu_item_text;
-			global::BottomNavigationBar.Resource.Id.design_navigation_view = global::FetaProject.Droid.Resource.Id.design_navigation_view;
-			global::BottomNavigationBar.Resource.Id.disableHome = global::FetaProject.Droid.Resource.Id.disableHome;
-			global::BottomNavigationBar.Resource.Id.edit_query = global::FetaProject.Droid.Resource.Id.edit_query;
-			global::BottomNavigationBar.Resource.Id.end = global::FetaProject.Droid.Resource.Id.end;
-			global::BottomNavigationBar.Resource.Id.end_padder = global::FetaProject.Droid.Resource.Id.end_padder;
-			global::BottomNavigationBar.Resource.Id.enterAlways = global::FetaProject.Droid.Resource.Id.enterAlways;
-			global::BottomNavigationBar.Resource.Id.enterAlwaysCollapsed = global::FetaProject.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::BottomNavigationBar.Resource.Id.exitUntilCollapsed = global::FetaProject.Droid.Resource.Id.exitUntilCollapsed;
-			global::BottomNavigationBar.Resource.Id.expand_activities_button = global::FetaProject.Droid.Resource.Id.expand_activities_button;
-			global::BottomNavigationBar.Resource.Id.expanded_menu = global::FetaProject.Droid.Resource.Id.expanded_menu;
-			global::BottomNavigationBar.Resource.Id.fill = global::FetaProject.Droid.Resource.Id.fill;
-			global::BottomNavigationBar.Resource.Id.fill_horizontal = global::FetaProject.Droid.Resource.Id.fill_horizontal;
-			global::BottomNavigationBar.Resource.Id.fill_vertical = global::FetaProject.Droid.Resource.Id.fill_vertical;
-			global::BottomNavigationBar.Resource.Id.@fixed = global::FetaProject.Droid.Resource.Id.@fixed;
-			global::BottomNavigationBar.Resource.Id.home = global::FetaProject.Droid.Resource.Id.home;
-			global::BottomNavigationBar.Resource.Id.homeAsUp = global::FetaProject.Droid.Resource.Id.homeAsUp;
-			global::BottomNavigationBar.Resource.Id.icon = global::FetaProject.Droid.Resource.Id.icon;
-			global::BottomNavigationBar.Resource.Id.ifRoom = global::FetaProject.Droid.Resource.Id.ifRoom;
-			global::BottomNavigationBar.Resource.Id.image = global::FetaProject.Droid.Resource.Id.image;
-			global::BottomNavigationBar.Resource.Id.info = global::FetaProject.Droid.Resource.Id.info;
-			global::BottomNavigationBar.Resource.Id.item_touch_helper_previous_elevation = global::FetaProject.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::BottomNavigationBar.Resource.Id.left = global::FetaProject.Droid.Resource.Id.left;
-			global::BottomNavigationBar.Resource.Id.line1 = global::FetaProject.Droid.Resource.Id.line1;
-			global::BottomNavigationBar.Resource.Id.line3 = global::FetaProject.Droid.Resource.Id.line3;
-			global::BottomNavigationBar.Resource.Id.listMode = global::FetaProject.Droid.Resource.Id.listMode;
-			global::BottomNavigationBar.Resource.Id.list_item = global::FetaProject.Droid.Resource.Id.list_item;
-			global::BottomNavigationBar.Resource.Id.media_actions = global::FetaProject.Droid.Resource.Id.media_actions;
-			global::BottomNavigationBar.Resource.Id.middle = global::FetaProject.Droid.Resource.Id.middle;
-			global::BottomNavigationBar.Resource.Id.mini = global::FetaProject.Droid.Resource.Id.mini;
-			global::BottomNavigationBar.Resource.Id.multiply = global::FetaProject.Droid.Resource.Id.multiply;
-			global::BottomNavigationBar.Resource.Id.navigation_header_container = global::FetaProject.Droid.Resource.Id.navigation_header_container;
-			global::BottomNavigationBar.Resource.Id.never = global::FetaProject.Droid.Resource.Id.never;
-			global::BottomNavigationBar.Resource.Id.none = global::FetaProject.Droid.Resource.Id.none;
-			global::BottomNavigationBar.Resource.Id.normal = global::FetaProject.Droid.Resource.Id.normal;
-			global::BottomNavigationBar.Resource.Id.parallax = global::FetaProject.Droid.Resource.Id.parallax;
-			global::BottomNavigationBar.Resource.Id.parentPanel = global::FetaProject.Droid.Resource.Id.parentPanel;
-			global::BottomNavigationBar.Resource.Id.pin = global::FetaProject.Droid.Resource.Id.pin;
-			global::BottomNavigationBar.Resource.Id.progress_circular = global::FetaProject.Droid.Resource.Id.progress_circular;
-			global::BottomNavigationBar.Resource.Id.progress_horizontal = global::FetaProject.Droid.Resource.Id.progress_horizontal;
-			global::BottomNavigationBar.Resource.Id.radio = global::FetaProject.Droid.Resource.Id.radio;
-			global::BottomNavigationBar.Resource.Id.right = global::FetaProject.Droid.Resource.Id.right;
-			global::BottomNavigationBar.Resource.Id.screen = global::FetaProject.Droid.Resource.Id.screen;
-			global::BottomNavigationBar.Resource.Id.scroll = global::FetaProject.Droid.Resource.Id.scroll;
-			global::BottomNavigationBar.Resource.Id.scrollIndicatorDown = global::FetaProject.Droid.Resource.Id.scrollIndicatorDown;
-			global::BottomNavigationBar.Resource.Id.scrollIndicatorUp = global::FetaProject.Droid.Resource.Id.scrollIndicatorUp;
-			global::BottomNavigationBar.Resource.Id.scrollView = global::FetaProject.Droid.Resource.Id.scrollView;
-			global::BottomNavigationBar.Resource.Id.scrollable = global::FetaProject.Droid.Resource.Id.scrollable;
-			global::BottomNavigationBar.Resource.Id.search_badge = global::FetaProject.Droid.Resource.Id.search_badge;
-			global::BottomNavigationBar.Resource.Id.search_bar = global::FetaProject.Droid.Resource.Id.search_bar;
-			global::BottomNavigationBar.Resource.Id.search_button = global::FetaProject.Droid.Resource.Id.search_button;
-			global::BottomNavigationBar.Resource.Id.search_close_btn = global::FetaProject.Droid.Resource.Id.search_close_btn;
-			global::BottomNavigationBar.Resource.Id.search_edit_frame = global::FetaProject.Droid.Resource.Id.search_edit_frame;
-			global::BottomNavigationBar.Resource.Id.search_go_btn = global::FetaProject.Droid.Resource.Id.search_go_btn;
-			global::BottomNavigationBar.Resource.Id.search_mag_icon = global::FetaProject.Droid.Resource.Id.search_mag_icon;
-			global::BottomNavigationBar.Resource.Id.search_plate = global::FetaProject.Droid.Resource.Id.search_plate;
-			global::BottomNavigationBar.Resource.Id.search_src_text = global::FetaProject.Droid.Resource.Id.search_src_text;
-			global::BottomNavigationBar.Resource.Id.search_voice_btn = global::FetaProject.Droid.Resource.Id.search_voice_btn;
-			global::BottomNavigationBar.Resource.Id.select_dialog_listview = global::FetaProject.Droid.Resource.Id.select_dialog_listview;
-			global::BottomNavigationBar.Resource.Id.shortcut = global::FetaProject.Droid.Resource.Id.shortcut;
-			global::BottomNavigationBar.Resource.Id.showCustom = global::FetaProject.Droid.Resource.Id.showCustom;
-			global::BottomNavigationBar.Resource.Id.showHome = global::FetaProject.Droid.Resource.Id.showHome;
-			global::BottomNavigationBar.Resource.Id.showTitle = global::FetaProject.Droid.Resource.Id.showTitle;
-			global::BottomNavigationBar.Resource.Id.snackbar_action = global::FetaProject.Droid.Resource.Id.snackbar_action;
-			global::BottomNavigationBar.Resource.Id.snackbar_text = global::FetaProject.Droid.Resource.Id.snackbar_text;
-			global::BottomNavigationBar.Resource.Id.snap = global::FetaProject.Droid.Resource.Id.snap;
-			global::BottomNavigationBar.Resource.Id.spacer = global::FetaProject.Droid.Resource.Id.spacer;
-			global::BottomNavigationBar.Resource.Id.split_action_bar = global::FetaProject.Droid.Resource.Id.split_action_bar;
-			global::BottomNavigationBar.Resource.Id.src_atop = global::FetaProject.Droid.Resource.Id.src_atop;
-			global::BottomNavigationBar.Resource.Id.src_in = global::FetaProject.Droid.Resource.Id.src_in;
-			global::BottomNavigationBar.Resource.Id.src_over = global::FetaProject.Droid.Resource.Id.src_over;
-			global::BottomNavigationBar.Resource.Id.start = global::FetaProject.Droid.Resource.Id.start;
-			global::BottomNavigationBar.Resource.Id.status_bar_latest_event_content = global::FetaProject.Droid.Resource.Id.status_bar_latest_event_content;
-			global::BottomNavigationBar.Resource.Id.submenuarrow = global::FetaProject.Droid.Resource.Id.submenuarrow;
-			global::BottomNavigationBar.Resource.Id.submit_area = global::FetaProject.Droid.Resource.Id.submit_area;
-			global::BottomNavigationBar.Resource.Id.tabMode = global::FetaProject.Droid.Resource.Id.tabMode;
-			global::BottomNavigationBar.Resource.Id.text = global::FetaProject.Droid.Resource.Id.text;
-			global::BottomNavigationBar.Resource.Id.text2 = global::FetaProject.Droid.Resource.Id.text2;
-			global::BottomNavigationBar.Resource.Id.textSpacerNoButtons = global::FetaProject.Droid.Resource.Id.textSpacerNoButtons;
-			global::BottomNavigationBar.Resource.Id.text_input_password_toggle = global::FetaProject.Droid.Resource.Id.text_input_password_toggle;
-			global::BottomNavigationBar.Resource.Id.time = global::FetaProject.Droid.Resource.Id.time;
-			global::BottomNavigationBar.Resource.Id.title = global::FetaProject.Droid.Resource.Id.title;
-			global::BottomNavigationBar.Resource.Id.title_template = global::FetaProject.Droid.Resource.Id.title_template;
-			global::BottomNavigationBar.Resource.Id.top = global::FetaProject.Droid.Resource.Id.top;
-			global::BottomNavigationBar.Resource.Id.topPanel = global::FetaProject.Droid.Resource.Id.topPanel;
-			global::BottomNavigationBar.Resource.Id.touch_outside = global::FetaProject.Droid.Resource.Id.touch_outside;
-			global::BottomNavigationBar.Resource.Id.up = global::FetaProject.Droid.Resource.Id.up;
-			global::BottomNavigationBar.Resource.Id.useLogo = global::FetaProject.Droid.Resource.Id.useLogo;
-			global::BottomNavigationBar.Resource.Id.view_offset_helper = global::FetaProject.Droid.Resource.Id.view_offset_helper;
-			global::BottomNavigationBar.Resource.Id.withText = global::FetaProject.Droid.Resource.Id.withText;
-			global::BottomNavigationBar.Resource.Id.wrap_content = global::FetaProject.Droid.Resource.Id.wrap_content;
-			global::BottomNavigationBar.Resource.Integer.abc_config_activityDefaultDur = global::FetaProject.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::BottomNavigationBar.Resource.Integer.abc_config_activityShortDur = global::FetaProject.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::BottomNavigationBar.Resource.Integer.app_bar_elevation_anim_duration = global::FetaProject.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::BottomNavigationBar.Resource.Integer.bottom_sheet_slide_duration = global::FetaProject.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::BottomNavigationBar.Resource.Integer.cancel_button_image_alpha = global::FetaProject.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::BottomNavigationBar.Resource.Integer.design_snackbar_text_max_lines = global::FetaProject.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::BottomNavigationBar.Resource.Integer.status_bar_notification_info_maxnum = global::FetaProject.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::BottomNavigationBar.Resource.Layout.abc_action_bar_title_item = global::FetaProject.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::BottomNavigationBar.Resource.Layout.abc_action_bar_up_container = global::FetaProject.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::BottomNavigationBar.Resource.Layout.abc_action_bar_view_list_nav_layout = global::FetaProject.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_action_menu_item_layout = global::FetaProject.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_action_menu_layout = global::FetaProject.Droid.Resource.Layout.abc_action_menu_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_action_mode_bar = global::FetaProject.Droid.Resource.Layout.abc_action_mode_bar;
-			global::BottomNavigationBar.Resource.Layout.abc_action_mode_close_item_material = global::FetaProject.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::BottomNavigationBar.Resource.Layout.abc_activity_chooser_view = global::FetaProject.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::BottomNavigationBar.Resource.Layout.abc_activity_chooser_view_list_item = global::FetaProject.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::BottomNavigationBar.Resource.Layout.abc_alert_dialog_button_bar_material = global::FetaProject.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::BottomNavigationBar.Resource.Layout.abc_alert_dialog_material = global::FetaProject.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::BottomNavigationBar.Resource.Layout.abc_dialog_title_material = global::FetaProject.Droid.Resource.Layout.abc_dialog_title_material;
-			global::BottomNavigationBar.Resource.Layout.abc_expanded_menu_layout = global::FetaProject.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_checkbox = global::FetaProject.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_icon = global::FetaProject.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_layout = global::FetaProject.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_radio = global::FetaProject.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::BottomNavigationBar.Resource.Layout.abc_popup_menu_header_item_layout = global::FetaProject.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_popup_menu_item_layout = global::FetaProject.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::BottomNavigationBar.Resource.Layout.abc_screen_content_include = global::FetaProject.Droid.Resource.Layout.abc_screen_content_include;
-			global::BottomNavigationBar.Resource.Layout.abc_screen_simple = global::FetaProject.Droid.Resource.Layout.abc_screen_simple;
-			global::BottomNavigationBar.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FetaProject.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::BottomNavigationBar.Resource.Layout.abc_screen_toolbar = global::FetaProject.Droid.Resource.Layout.abc_screen_toolbar;
-			global::BottomNavigationBar.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FetaProject.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::BottomNavigationBar.Resource.Layout.abc_search_view = global::FetaProject.Droid.Resource.Layout.abc_search_view;
-			global::BottomNavigationBar.Resource.Layout.abc_select_dialog_material = global::FetaProject.Droid.Resource.Layout.abc_select_dialog_material;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_container = global::FetaProject.Droid.Resource.Layout.bb_bottom_bar_item_container;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_container_tablet = global::FetaProject.Droid.Resource.Layout.bb_bottom_bar_item_container_tablet;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_fixed = global::FetaProject.Droid.Resource.Layout.bb_bottom_bar_item_fixed;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_fixed_tablet = global::FetaProject.Droid.Resource.Layout.bb_bottom_bar_item_fixed_tablet;
-			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_shifting = global::FetaProject.Droid.Resource.Layout.bb_bottom_bar_item_shifting;
-			global::BottomNavigationBar.Resource.Layout.design_bottom_sheet_dialog = global::FetaProject.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::BottomNavigationBar.Resource.Layout.design_layout_snackbar = global::FetaProject.Droid.Resource.Layout.design_layout_snackbar;
-			global::BottomNavigationBar.Resource.Layout.design_layout_snackbar_include = global::FetaProject.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::BottomNavigationBar.Resource.Layout.design_layout_tab_icon = global::FetaProject.Droid.Resource.Layout.design_layout_tab_icon;
-			global::BottomNavigationBar.Resource.Layout.design_layout_tab_text = global::FetaProject.Droid.Resource.Layout.design_layout_tab_text;
-			global::BottomNavigationBar.Resource.Layout.design_menu_item_action_area = global::FetaProject.Droid.Resource.Layout.design_menu_item_action_area;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_item = global::FetaProject.Droid.Resource.Layout.design_navigation_item;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_item_header = global::FetaProject.Droid.Resource.Layout.design_navigation_item_header;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_item_separator = global::FetaProject.Droid.Resource.Layout.design_navigation_item_separator;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_item_subheader = global::FetaProject.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_menu = global::FetaProject.Droid.Resource.Layout.design_navigation_menu;
-			global::BottomNavigationBar.Resource.Layout.design_navigation_menu_item = global::FetaProject.Droid.Resource.Layout.design_navigation_menu_item;
-			global::BottomNavigationBar.Resource.Layout.design_text_input_password_icon = global::FetaProject.Droid.Resource.Layout.design_text_input_password_icon;
-			global::BottomNavigationBar.Resource.Layout.notification_media_action = global::FetaProject.Droid.Resource.Layout.notification_media_action;
-			global::BottomNavigationBar.Resource.Layout.notification_media_cancel_action = global::FetaProject.Droid.Resource.Layout.notification_media_cancel_action;
-			global::BottomNavigationBar.Resource.Layout.notification_template_big_media = global::FetaProject.Droid.Resource.Layout.notification_template_big_media;
-			global::BottomNavigationBar.Resource.Layout.notification_template_big_media_narrow = global::FetaProject.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::BottomNavigationBar.Resource.Layout.notification_template_media = global::FetaProject.Droid.Resource.Layout.notification_template_media;
-			global::BottomNavigationBar.Resource.Layout.notification_template_part_chronometer = global::FetaProject.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::BottomNavigationBar.Resource.Layout.notification_template_part_time = global::FetaProject.Droid.Resource.Layout.notification_template_part_time;
-			global::BottomNavigationBar.Resource.Layout.select_dialog_item_material = global::FetaProject.Droid.Resource.Layout.select_dialog_item_material;
-			global::BottomNavigationBar.Resource.Layout.select_dialog_multichoice_material = global::FetaProject.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::BottomNavigationBar.Resource.Layout.select_dialog_singlechoice_material = global::FetaProject.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::BottomNavigationBar.Resource.Layout.support_simple_spinner_dropdown_item = global::FetaProject.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_home_description = global::FetaProject.Droid.Resource.String.abc_action_bar_home_description;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_home_description_format = global::FetaProject.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_home_subtitle_description_format = global::FetaProject.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::BottomNavigationBar.Resource.String.abc_action_bar_up_description = global::FetaProject.Droid.Resource.String.abc_action_bar_up_description;
-			global::BottomNavigationBar.Resource.String.abc_action_menu_overflow_description = global::FetaProject.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::BottomNavigationBar.Resource.String.abc_action_mode_done = global::FetaProject.Droid.Resource.String.abc_action_mode_done;
-			global::BottomNavigationBar.Resource.String.abc_activity_chooser_view_see_all = global::FetaProject.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::BottomNavigationBar.Resource.String.abc_activitychooserview_choose_application = global::FetaProject.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::BottomNavigationBar.Resource.String.abc_capital_off = global::FetaProject.Droid.Resource.String.abc_capital_off;
-			global::BottomNavigationBar.Resource.String.abc_capital_on = global::FetaProject.Droid.Resource.String.abc_capital_on;
-			global::BottomNavigationBar.Resource.String.abc_font_family_body_1_material = global::FetaProject.Droid.Resource.String.abc_font_family_body_1_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_body_2_material = global::FetaProject.Droid.Resource.String.abc_font_family_body_2_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_button_material = global::FetaProject.Droid.Resource.String.abc_font_family_button_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_caption_material = global::FetaProject.Droid.Resource.String.abc_font_family_caption_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_display_1_material = global::FetaProject.Droid.Resource.String.abc_font_family_display_1_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_display_2_material = global::FetaProject.Droid.Resource.String.abc_font_family_display_2_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_display_3_material = global::FetaProject.Droid.Resource.String.abc_font_family_display_3_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_display_4_material = global::FetaProject.Droid.Resource.String.abc_font_family_display_4_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_headline_material = global::FetaProject.Droid.Resource.String.abc_font_family_headline_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_menu_material = global::FetaProject.Droid.Resource.String.abc_font_family_menu_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_subhead_material = global::FetaProject.Droid.Resource.String.abc_font_family_subhead_material;
-			global::BottomNavigationBar.Resource.String.abc_font_family_title_material = global::FetaProject.Droid.Resource.String.abc_font_family_title_material;
-			global::BottomNavigationBar.Resource.String.abc_search_hint = global::FetaProject.Droid.Resource.String.abc_search_hint;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_clear = global::FetaProject.Droid.Resource.String.abc_searchview_description_clear;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_query = global::FetaProject.Droid.Resource.String.abc_searchview_description_query;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_search = global::FetaProject.Droid.Resource.String.abc_searchview_description_search;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_submit = global::FetaProject.Droid.Resource.String.abc_searchview_description_submit;
-			global::BottomNavigationBar.Resource.String.abc_searchview_description_voice = global::FetaProject.Droid.Resource.String.abc_searchview_description_voice;
-			global::BottomNavigationBar.Resource.String.abc_shareactionprovider_share_with = global::FetaProject.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::BottomNavigationBar.Resource.String.abc_shareactionprovider_share_with_application = global::FetaProject.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::BottomNavigationBar.Resource.String.abc_toolbar_collapse_description = global::FetaProject.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::BottomNavigationBar.Resource.String.app_name = global::FetaProject.Droid.Resource.String.app_name;
-			global::BottomNavigationBar.Resource.String.appbar_scrolling_view_behavior = global::FetaProject.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::BottomNavigationBar.Resource.String.bottom_sheet_behavior = global::FetaProject.Droid.Resource.String.bottom_sheet_behavior;
-			global::BottomNavigationBar.Resource.String.character_counter_pattern = global::FetaProject.Droid.Resource.String.character_counter_pattern;
-			global::BottomNavigationBar.Resource.String.search_menu_title = global::FetaProject.Droid.Resource.String.search_menu_title;
-			global::BottomNavigationBar.Resource.String.status_bar_notification_info_overflow = global::FetaProject.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat = global::FetaProject.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat_Light = global::FetaProject.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Animation_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Animation_AppCompat_DropDownUp = global::FetaProject.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::BottomNavigationBar.Resource.Style.Animation_Design_BottomSheetDialog = global::FetaProject.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarBadge_Text = global::FetaProject.Droid.Resource.Style.BB_BottomBarBadge_Text;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem = global::FetaProject.Droid.Resource.Style.BB_BottomBarItem;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Fixed = global::FetaProject.Droid.Resource.Style.BB_BottomBarItem_Fixed;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance = global::FetaProject.Droid.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Shifting = global::FetaProject.Droid.Resource.Style.BB_BottomBarItem_Shifting;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance = global::FetaProject.Droid.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Tablet = global::FetaProject.Droid.Resource.Style.BB_BottomBarItem_Tablet;
-			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_TitleStyle = global::FetaProject.Droid.Resource.Style.BB_BottomBarItem_TitleStyle;
-			global::BottomNavigationBar.Resource.Style.Base_AlertDialog_AppCompat = global::FetaProject.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_Animation_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FetaProject.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::BottomNavigationBar.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FetaProject.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FetaProject.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FetaProject.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FetaProject.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat = global::FetaProject.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FetaProject.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FetaProject.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FetaProject.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FetaProject.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::FetaProject.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::FetaProject.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::FetaProject.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat = global::FetaProject.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FetaProject.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat = global::FetaProject.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V23_Theme_AppCompat = global::FetaProject.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat = global::FetaProject.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FetaProject.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FetaProject.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FetaProject.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_EditText = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FetaProject.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_Design_AppBarLayout = global::FetaProject.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
-			global::BottomNavigationBar.Resource.Style.Base_Widget_Design_TabLayout = global::FetaProject.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::BottomNavigationBar.Resource.Style.Platform_AppCompat = global::FetaProject.Droid.Resource.Style.Platform_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Platform_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FetaProject.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FetaProject.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Platform_V11_AppCompat = global::FetaProject.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Platform_V11_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Platform_V14_AppCompat = global::FetaProject.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Platform_V14_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FetaProject.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FetaProject.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FetaProject.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::BottomNavigationBar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FetaProject.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::BottomNavigationBar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FetaProject.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Body1 = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Body2 = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Button = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Caption = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display1 = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display2 = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display3 = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display4 = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Headline = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Large = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Medium = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Menu = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Small = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Subhead = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Title = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FetaProject.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FetaProject.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Counter = global::FetaProject.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FetaProject.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Error = global::FetaProject.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Hint = global::FetaProject.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FetaProject.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Tab = global::FetaProject.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent = global::FetaProject.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::FetaProject.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::FetaProject.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::FetaProject.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::FetaProject.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FetaProject.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FetaProject.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FetaProject.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat = global::FetaProject.Droid.Resource.Style.Theme_AppCompat;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_CompactMenu = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_NoActionBar = global::FetaProject.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_Design = global::FetaProject.Droid.Resource.Style.Theme_Design;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_BottomSheetDialog = global::FetaProject.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_Light = global::FetaProject.Droid.Resource.Style.Theme_Design_Light;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FetaProject.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_Light_NoActionBar = global::FetaProject.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.Theme_Design_NoActionBar = global::FetaProject.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat = global::FetaProject.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FetaProject.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FetaProject.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FetaProject.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FetaProject.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FetaProject.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Light = global::FetaProject.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionMode = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Borderless = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Colored = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Small = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ButtonBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_EditText = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ImageButton = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_SearchView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListMenuView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView_Menu = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupMenu = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupWindow = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ProgressBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SeekBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Toolbar = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FetaProject.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_AppBarLayout = global::FetaProject.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_BottomSheet_Modal = global::FetaProject.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_CollapsingToolbar = global::FetaProject.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_CoordinatorLayout = global::FetaProject.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_FloatingActionButton = global::FetaProject.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_NavigationView = global::FetaProject.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FetaProject.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_Snackbar = global::FetaProject.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_TabLayout = global::FetaProject.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::BottomNavigationBar.Resource.Style.Widget_Design_TextInputLayout = global::FetaProject.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar = global::FetaProject.Droid.Resource.Styleable.ActionBar;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_background = global::FetaProject.Droid.Resource.Styleable.ActionBar_background;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundSplit = global::FetaProject.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundStacked = global::FetaProject.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetEnd = global::FetaProject.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FetaProject.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetLeft = global::FetaProject.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetRight = global::FetaProject.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetStart = global::FetaProject.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FetaProject.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_customNavigationLayout = global::FetaProject.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_displayOptions = global::FetaProject.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_divider = global::FetaProject.Droid.Resource.Styleable.ActionBar_divider;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_elevation = global::FetaProject.Droid.Resource.Styleable.ActionBar_elevation;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_height = global::FetaProject.Droid.Resource.Styleable.ActionBar_height;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_hideOnContentScroll = global::FetaProject.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FetaProject.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_homeLayout = global::FetaProject.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_icon = global::FetaProject.Droid.Resource.Styleable.ActionBar_icon;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FetaProject.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_itemPadding = global::FetaProject.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_logo = global::FetaProject.Droid.Resource.Styleable.ActionBar_logo;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_navigationMode = global::FetaProject.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_popupTheme = global::FetaProject.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_progressBarPadding = global::FetaProject.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_progressBarStyle = global::FetaProject.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_subtitle = global::FetaProject.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_subtitleTextStyle = global::FetaProject.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_title = global::FetaProject.Droid.Resource.Styleable.ActionBar_title;
-			global::BottomNavigationBar.Resource.Styleable.ActionBar_titleTextStyle = global::FetaProject.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionBarLayout = global::FetaProject.Droid.Resource.Styleable.ActionBarLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FetaProject.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::BottomNavigationBar.Resource.Styleable.ActionMenuItemView = global::FetaProject.Droid.Resource.Styleable.ActionMenuItemView;
-			global::BottomNavigationBar.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FetaProject.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::BottomNavigationBar.Resource.Styleable.ActionMenuView = global::FetaProject.Droid.Resource.Styleable.ActionMenuView;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode = global::FetaProject.Droid.Resource.Styleable.ActionMode;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_background = global::FetaProject.Droid.Resource.Styleable.ActionMode_background;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_backgroundSplit = global::FetaProject.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_closeItemLayout = global::FetaProject.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_height = global::FetaProject.Droid.Resource.Styleable.ActionMode_height;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_subtitleTextStyle = global::FetaProject.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActionMode_titleTextStyle = global::FetaProject.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView = global::FetaProject.Droid.Resource.Styleable.ActivityChooserView;
-			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FetaProject.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FetaProject.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog = global::FetaProject.Droid.Resource.Styleable.AlertDialog;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_android_layout = global::FetaProject.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FetaProject.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_listItemLayout = global::FetaProject.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_listLayout = global::FetaProject.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FetaProject.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::BottomNavigationBar.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FetaProject.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout = global::FetaProject.Droid.Resource.Styleable.AppBarLayout;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_android_background = global::FetaProject.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_elevation = global::FetaProject.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_expanded = global::FetaProject.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayoutStates = global::FetaProject.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FetaProject.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FetaProject.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_Layout = global::FetaProject.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FetaProject.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FetaProject.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView = global::FetaProject.Droid.Resource.Styleable.AppCompatImageView;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_android_src = global::FetaProject.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_srcCompat = global::FetaProject.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar = global::FetaProject.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FetaProject.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_tickMark = global::FetaProject.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FetaProject.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FetaProject.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper = global::FetaProject.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FetaProject.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FetaProject.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FetaProject.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FetaProject.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FetaProject.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FetaProject.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FetaProject.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView = global::FetaProject.Droid.Resource.Styleable.AppCompatTextView;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FetaProject.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_textAllCaps = global::FetaProject.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarSize = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorAccent = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorPrimary = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_controlBackground = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dialogTheme = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dividerVertical = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextBackground = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextColor = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelBackground = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_switchStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionBar = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FetaProject.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout = global::FetaProject.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FetaProject.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FetaProject.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::BottomNavigationBar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FetaProject.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout = global::FetaProject.Droid.Resource.Styleable.ButtonBarLayout;
-			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout_allowStacking = global::FetaProject.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_title = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FetaProject.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem = global::FetaProject.Droid.Resource.Styleable.ColorStateListItem;
-			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem_alpha = global::FetaProject.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem_android_alpha = global::FetaProject.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::BottomNavigationBar.Resource.Styleable.ColorStateListItem_android_color = global::FetaProject.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::BottomNavigationBar.Resource.Styleable.CompoundButton = global::FetaProject.Droid.Resource.Styleable.CompoundButton;
-			global::BottomNavigationBar.Resource.Styleable.CompoundButton_android_button = global::FetaProject.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::BottomNavigationBar.Resource.Styleable.CompoundButton_buttonTint = global::FetaProject.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::BottomNavigationBar.Resource.Styleable.CompoundButton_buttonTintMode = global::FetaProject.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_keylines = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FetaProject.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::BottomNavigationBar.Resource.Styleable.DesignTheme = global::FetaProject.Droid.Resource.Styleable.DesignTheme;
-			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::FetaProject.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetStyle = global::FetaProject.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::BottomNavigationBar.Resource.Styleable.DesignTheme_textColorError = global::FetaProject.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle = global::FetaProject.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FetaProject.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FetaProject.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_barLength = global::FetaProject.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_color = global::FetaProject.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FetaProject.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FetaProject.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_spinBars = global::FetaProject.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_thickness = global::FetaProject.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_backgroundTint = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_borderWidth = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_elevation = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_fabSize = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_rippleColor = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FetaProject.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout = global::FetaProject.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FetaProject.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FetaProject.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FetaProject.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_divider = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_showDividers = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FetaProject.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow = global::FetaProject.Droid.Resource.Styleable.ListPopupWindow;
-			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FetaProject.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FetaProject.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup = global::FetaProject.Droid.Resource.Styleable.MenuGroup;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FetaProject.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_enabled = global::FetaProject.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_id = global::FetaProject.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_menuCategory = global::FetaProject.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_orderInCategory = global::FetaProject.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_visible = global::FetaProject.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem = global::FetaProject.Droid.Resource.Styleable.MenuItem;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionLayout = global::FetaProject.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionProviderClass = global::FetaProject.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionViewClass = global::FetaProject.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_checkable = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_checked = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_enabled = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_icon = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_id = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_id;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_menuCategory = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_numericShortcut = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_onClick = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_orderInCategory = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_title = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_title;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_titleCondensed = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_visible = global::FetaProject.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::BottomNavigationBar.Resource.Styleable.MenuItem_showAsAction = global::FetaProject.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::BottomNavigationBar.Resource.Styleable.MenuView = global::FetaProject.Droid.Resource.Styleable.MenuView;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_headerBackground = global::FetaProject.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_horizontalDivider = global::FetaProject.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemBackground = global::FetaProject.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FetaProject.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemTextAppearance = global::FetaProject.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_verticalDivider = global::FetaProject.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FetaProject.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_preserveIconSpacing = global::FetaProject.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::BottomNavigationBar.Resource.Styleable.MenuView_subMenuArrow = global::FetaProject.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView = global::FetaProject.Droid.Resource.Styleable.NavigationView;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_background = global::FetaProject.Droid.Resource.Styleable.NavigationView_android_background;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FetaProject.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_maxWidth = global::FetaProject.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_elevation = global::FetaProject.Droid.Resource.Styleable.NavigationView_elevation;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_headerLayout = global::FetaProject.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemBackground = global::FetaProject.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemIconTint = global::FetaProject.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemTextAppearance = global::FetaProject.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemTextColor = global::FetaProject.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::BottomNavigationBar.Resource.Styleable.NavigationView_menu = global::FetaProject.Droid.Resource.Styleable.NavigationView_menu;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindow = global::FetaProject.Droid.Resource.Styleable.PopupWindow;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FetaProject.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindow_android_popupBackground = global::FetaProject.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindow_overlapAnchor = global::FetaProject.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState = global::FetaProject.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FetaProject.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView = global::FetaProject.Droid.Resource.Styleable.RecyclerView;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FetaProject.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_android_orientation = global::FetaProject.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_layoutManager = global::FetaProject.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_reverseLayout = global::FetaProject.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_spanCount = global::FetaProject.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::BottomNavigationBar.Resource.Styleable.RecyclerView_stackFromEnd = global::FetaProject.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout = global::FetaProject.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FetaProject.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::BottomNavigationBar.Resource.Styleable.ScrollingViewBehavior_Layout = global::FetaProject.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::BottomNavigationBar.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FetaProject.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::BottomNavigationBar.Resource.Styleable.SearchView = global::FetaProject.Droid.Resource.Styleable.SearchView;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_android_focusable = global::FetaProject.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_android_imeOptions = global::FetaProject.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_android_inputType = global::FetaProject.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_android_maxWidth = global::FetaProject.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_closeIcon = global::FetaProject.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_commitIcon = global::FetaProject.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_defaultQueryHint = global::FetaProject.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_goIcon = global::FetaProject.Droid.Resource.Styleable.SearchView_goIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_iconifiedByDefault = global::FetaProject.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_layout = global::FetaProject.Droid.Resource.Styleable.SearchView_layout;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_queryBackground = global::FetaProject.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_queryHint = global::FetaProject.Droid.Resource.Styleable.SearchView_queryHint;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_searchHintIcon = global::FetaProject.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_searchIcon = global::FetaProject.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_submitBackground = global::FetaProject.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_suggestionRowLayout = global::FetaProject.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::BottomNavigationBar.Resource.Styleable.SearchView_voiceIcon = global::FetaProject.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout = global::FetaProject.Droid.Resource.Styleable.SnackbarLayout;
-			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FetaProject.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_elevation = global::FetaProject.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FetaProject.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::BottomNavigationBar.Resource.Styleable.Spinner = global::FetaProject.Droid.Resource.Styleable.Spinner;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_android_dropDownWidth = global::FetaProject.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_android_entries = global::FetaProject.Droid.Resource.Styleable.Spinner_android_entries;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_android_popupBackground = global::FetaProject.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_android_prompt = global::FetaProject.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::BottomNavigationBar.Resource.Styleable.Spinner_popupTheme = global::FetaProject.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat = global::FetaProject.Droid.Resource.Styleable.SwitchCompat;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_textOff = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_textOn = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_thumb = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_showText = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_splitTrack = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchMinWidth = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchPadding = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTint = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTintMode = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_track = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_track;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_trackTint = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_trackTintMode = global::FetaProject.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::BottomNavigationBar.Resource.Styleable.TabItem = global::FetaProject.Droid.Resource.Styleable.TabItem;
-			global::BottomNavigationBar.Resource.Styleable.TabItem_android_icon = global::FetaProject.Droid.Resource.Styleable.TabItem_android_icon;
-			global::BottomNavigationBar.Resource.Styleable.TabItem_android_layout = global::FetaProject.Droid.Resource.Styleable.TabItem_android_layout;
-			global::BottomNavigationBar.Resource.Styleable.TabItem_android_text = global::FetaProject.Droid.Resource.Styleable.TabItem_android_text;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout = global::FetaProject.Droid.Resource.Styleable.TabLayout;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabBackground = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabContentStart = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabGravity = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabIndicatorColor = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMaxWidth = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMinWidth = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMode = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPadding = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingBottom = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingEnd = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingStart = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingTop = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabTextAppearance = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabTextColor = global::FetaProject.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance = global::FetaProject.Droid.Resource.Styleable.TextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowColor = global::FetaProject.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowDx = global::FetaProject.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowDy = global::FetaProject.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowRadius = global::FetaProject.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textColor = global::FetaProject.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textSize = global::FetaProject.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textStyle = global::FetaProject.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_typeface = global::FetaProject.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::BottomNavigationBar.Resource.Styleable.TextAppearance_textAllCaps = global::FetaProject.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout = global::FetaProject.Droid.Resource.Styleable.TextInputLayout;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_android_hint = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_android_textColorHint = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterEnabled = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterMaxLength = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_errorEnabled = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintEnabled = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FetaProject.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar = global::FetaProject.Droid.Resource.Styleable.Toolbar;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_gravity = global::FetaProject.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_minHeight = global::FetaProject.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_buttonGravity = global::FetaProject.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseContentDescription = global::FetaProject.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseIcon = global::FetaProject.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetEnd = global::FetaProject.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FetaProject.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetLeft = global::FetaProject.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetRight = global::FetaProject.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetStart = global::FetaProject.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FetaProject.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_logo = global::FetaProject.Droid.Resource.Styleable.Toolbar_logo;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_logoDescription = global::FetaProject.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_maxButtonHeight = global::FetaProject.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_navigationContentDescription = global::FetaProject.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_navigationIcon = global::FetaProject.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_popupTheme = global::FetaProject.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitle = global::FetaProject.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FetaProject.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextColor = global::FetaProject.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_title = global::FetaProject.Droid.Resource.Styleable.Toolbar_title;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMargin = global::FetaProject.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginBottom = global::FetaProject.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginEnd = global::FetaProject.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginStart = global::FetaProject.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginTop = global::FetaProject.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMargins = global::FetaProject.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleTextAppearance = global::FetaProject.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleTextColor = global::FetaProject.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::BottomNavigationBar.Resource.Styleable.View = global::FetaProject.Droid.Resource.Styleable.View;
-			global::BottomNavigationBar.Resource.Styleable.View_android_focusable = global::FetaProject.Droid.Resource.Styleable.View_android_focusable;
-			global::BottomNavigationBar.Resource.Styleable.View_android_theme = global::FetaProject.Droid.Resource.Styleable.View_android_theme;
-			global::BottomNavigationBar.Resource.Styleable.View_paddingEnd = global::FetaProject.Droid.Resource.Styleable.View_paddingEnd;
-			global::BottomNavigationBar.Resource.Styleable.View_paddingStart = global::FetaProject.Droid.Resource.Styleable.View_paddingStart;
-			global::BottomNavigationBar.Resource.Styleable.View_theme = global::FetaProject.Droid.Resource.Styleable.View_theme;
-			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper = global::FetaProject.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_android_background = global::FetaProject.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FetaProject.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FetaProject.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat = global::FetaProject.Droid.Resource.Styleable.ViewStubCompat;
-			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_id = global::FetaProject.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FetaProject.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_layout = global::FetaProject.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -2804,9 +1078,6 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0b0004
 			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131427332;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int bb_bottom_bar_is_tablet_mode = 2131427333;
-			
 			static Boolean()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -2820,44 +1091,44 @@ namespace FetaProject.Droid
 		public partial class Color
 		{
 			
+			// aapt resource value: 0x7f0c004a
+			public const int abc_background_cache_hint_selector_material_dark = 2131492938;
+			
+			// aapt resource value: 0x7f0c004b
+			public const int abc_background_cache_hint_selector_material_light = 2131492939;
+			
+			// aapt resource value: 0x7f0c004c
+			public const int abc_btn_colored_borderless_text_material = 2131492940;
+			
 			// aapt resource value: 0x7f0c004d
-			public const int abc_background_cache_hint_selector_material_dark = 2131492941;
+			public const int abc_btn_colored_text_material = 2131492941;
 			
 			// aapt resource value: 0x7f0c004e
-			public const int abc_background_cache_hint_selector_material_light = 2131492942;
+			public const int abc_color_highlight_material = 2131492942;
 			
 			// aapt resource value: 0x7f0c004f
-			public const int abc_btn_colored_borderless_text_material = 2131492943;
+			public const int abc_hint_foreground_material_dark = 2131492943;
 			
 			// aapt resource value: 0x7f0c0050
-			public const int abc_btn_colored_text_material = 2131492944;
-			
-			// aapt resource value: 0x7f0c0051
-			public const int abc_color_highlight_material = 2131492945;
-			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_hint_foreground_material_dark = 2131492946;
-			
-			// aapt resource value: 0x7f0c0053
-			public const int abc_hint_foreground_material_light = 2131492947;
+			public const int abc_hint_foreground_material_light = 2131492944;
 			
 			// aapt resource value: 0x7f0c0001
 			public const int abc_input_method_navigation_guard = 2131492865;
 			
+			// aapt resource value: 0x7f0c0051
+			public const int abc_primary_text_disable_only_material_dark = 2131492945;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int abc_primary_text_disable_only_material_light = 2131492946;
+			
+			// aapt resource value: 0x7f0c0053
+			public const int abc_primary_text_material_dark = 2131492947;
+			
 			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_disable_only_material_dark = 2131492948;
+			public const int abc_primary_text_material_light = 2131492948;
 			
 			// aapt resource value: 0x7f0c0055
-			public const int abc_primary_text_disable_only_material_light = 2131492949;
-			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_primary_text_material_dark = 2131492950;
-			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_primary_text_material_light = 2131492951;
-			
-			// aapt resource value: 0x7f0c0058
-			public const int abc_search_url_text = 2131492952;
+			public const int abc_search_url_text = 2131492949;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int abc_search_url_text_normal = 2131492866;
@@ -2868,32 +1139,32 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0c0004
 			public const int abc_search_url_text_selected = 2131492868;
 			
+			// aapt resource value: 0x7f0c0056
+			public const int abc_secondary_text_material_dark = 2131492950;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int abc_secondary_text_material_light = 2131492951;
+			
+			// aapt resource value: 0x7f0c0058
+			public const int abc_tint_btn_checkable = 2131492952;
+			
 			// aapt resource value: 0x7f0c0059
-			public const int abc_secondary_text_material_dark = 2131492953;
+			public const int abc_tint_default = 2131492953;
 			
 			// aapt resource value: 0x7f0c005a
-			public const int abc_secondary_text_material_light = 2131492954;
+			public const int abc_tint_edittext = 2131492954;
 			
 			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_btn_checkable = 2131492955;
+			public const int abc_tint_seek_thumb = 2131492955;
 			
 			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_default = 2131492956;
+			public const int abc_tint_spinner = 2131492956;
 			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_edittext = 2131492957;
+			public const int abc_tint_switch_thumb = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_seek_thumb = 2131492958;
-			
-			// aapt resource value: 0x7f0c005f
-			public const int abc_tint_spinner = 2131492959;
-			
-			// aapt resource value: 0x7f0c0060
-			public const int abc_tint_switch_thumb = 2131492960;
-			
-			// aapt resource value: 0x7f0c0061
-			public const int abc_tint_switch_track = 2131492961;
+			public const int abc_tint_switch_track = 2131492958;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int accent_material_dark = 2131492869;
@@ -2913,17 +1184,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0c000a
 			public const int background_material_light = 2131492874;
 			
-			// aapt resource value: 0x7f0c0048
-			public const int bb_darkBackgroundColor = 2131492936;
-			
-			// aapt resource value: 0x7f0c0047
-			public const int bb_darkInActiveBottomBarItemColor = 2131492935;
-			
-			// aapt resource value: 0x7f0c0046
-			public const int bb_inActiveBottomBarItemColor = 2131492934;
-			
 			// aapt resource value: 0x7f0c0049
-			public const int bb_tabletRightBorderDark = 2131492937;
+			public const int bb_darkBackgroundColor = 2131492937;
 			
 			// aapt resource value: 0x7f0c000b
 			public const int bright_foreground_disabled_material_dark = 2131492875;
@@ -2949,20 +1211,20 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0c0012
 			public const int button_material_light = 2131492882;
 			
-			// aapt resource value: 0x7f0c004c
-			public const int colorAccent = 2131492940;
+			// aapt resource value: 0x7f0c0048
+			public const int colorAccent = 2131492936;
 			
-			// aapt resource value: 0x7f0c004a
-			public const int colorPrimary = 2131492938;
+			// aapt resource value: 0x7f0c0046
+			public const int colorPrimary = 2131492934;
 			
-			// aapt resource value: 0x7f0c004b
-			public const int colorPrimaryDark = 2131492939;
+			// aapt resource value: 0x7f0c0047
+			public const int colorPrimaryDark = 2131492935;
 			
 			// aapt resource value: 0x7f0c003b
 			public const int design_bottom_navigation_shadow_color = 2131492923;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int design_error = 2131492962;
+			// aapt resource value: 0x7f0c005f
+			public const int design_error = 2131492959;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int design_fab_shadow_end_color = 2131492924;
@@ -2994,8 +1256,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0c0045
 			public const int design_textinput_error_color_light = 2131492933;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int design_tint_password_toggle = 2131492963;
+			// aapt resource value: 0x7f0c0060
+			public const int design_tint_password_toggle = 2131492960;
 			
 			// aapt resource value: 0x7f0c0013
 			public const int dim_foreground_disabled_material_dark = 2131492883;
@@ -3114,11 +1376,11 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0c0038
 			public const int switch_thumb_disabled_material_light = 2131492920;
 			
-			// aapt resource value: 0x7f0c0064
-			public const int switch_thumb_material_dark = 2131492964;
+			// aapt resource value: 0x7f0c0061
+			public const int switch_thumb_material_dark = 2131492961;
 			
-			// aapt resource value: 0x7f0c0065
-			public const int switch_thumb_material_light = 2131492965;
+			// aapt resource value: 0x7f0c0062
+			public const int switch_thumb_material_light = 2131492962;
 			
 			// aapt resource value: 0x7f0c0039
 			public const int switch_thumb_normal_material_dark = 2131492921;
@@ -3366,9 +1628,6 @@ namespace FetaProject.Droid
 			
 			// aapt resource value: 0x7f07008c
 			public const int activity_vertical_margin = 2131165324;
-			
-			// aapt resource value: 0x7f07008e
-			public const int bb_height = 2131165326;
 			
 			// aapt resource value: 0x7f07008d
 			public const int bottom_bar_elevation = 2131165325;
@@ -3837,82 +2096,79 @@ namespace FetaProject.Droid
 			public const int avd_show_password = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int bb_bottom_bar_top_shadow = 2130837589;
+			public const int design_bottom_navigation_item_background = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int design_bottom_navigation_item_background = 2130837590;
+			public const int design_fab_background = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_fab_background = 2130837591;
+			public const int design_ic_visibility = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_ic_visibility = 2130837592;
+			public const int design_ic_visibility_off = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_ic_visibility_off = 2130837593;
+			public const int design_password_eye = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_password_eye = 2130837594;
+			public const int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int design_snackbar_background = 2130837595;
+			public const int gallery = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int gallery = 2130837596;
+			public const int info = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int info = 2130837597;
+			public const int map = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int map = 2130837598;
+			public const int navigation_empty_icon = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int navigation_empty_icon = 2130837599;
+			public const int notification_action_background = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int notification_action_background = 2130837600;
+			public const int notification_bg = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_bg = 2130837601;
+			public const int notification_bg_low = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg_low = 2130837602;
+			public const int notification_bg_low_normal = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_bg_low_normal = 2130837603;
+			public const int notification_bg_low_pressed = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_bg_low_pressed = 2130837604;
+			public const int notification_bg_normal = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int notification_bg_normal = 2130837605;
+			public const int notification_bg_normal_pressed = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int notification_bg_normal_pressed = 2130837606;
-			
-			// aapt resource value: 0x7f020067
-			public const int notification_icon_background = 2130837607;
-			
-			// aapt resource value: 0x7f02006d
-			public const int notification_template_icon_bg = 2130837613;
-			
-			// aapt resource value: 0x7f02006e
-			public const int notification_template_icon_low_bg = 2130837614;
-			
-			// aapt resource value: 0x7f020068
-			public const int notification_tile_bg = 2130837608;
-			
-			// aapt resource value: 0x7f020069
-			public const int notify_panel_notification_icon_bg = 2130837609;
-			
-			// aapt resource value: 0x7f02006a
-			public const int posterIcon = 2130837610;
-			
-			// aapt resource value: 0x7f02006b
-			public const int program = 2130837611;
+			public const int notification_icon_background = 2130837606;
 			
 			// aapt resource value: 0x7f02006c
-			public const int settings = 2130837612;
+			public const int notification_template_icon_bg = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int notification_template_icon_low_bg = 2130837613;
+			
+			// aapt resource value: 0x7f020067
+			public const int notification_tile_bg = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int notify_panel_notification_icon_bg = 2130837608;
+			
+			// aapt resource value: 0x7f020069
+			public const int posterIcon = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int program = 2130837610;
+			
+			// aapt resource value: 0x7f02006b
+			public const int settings = 2130837611;
 			
 			static Drawable()
 			{
@@ -3927,23 +2183,23 @@ namespace FetaProject.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0800ac
-			public const int AboutItem = 2131230892;
+			// aapt resource value: 0x7f0800a3
+			public const int AboutItem = 2131230883;
 			
-			// aapt resource value: 0x7f0800af
-			public const int GalleryItem = 2131230895;
+			// aapt resource value: 0x7f0800a6
+			public const int GalleryItem = 2131230886;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int MapItem = 2131230894;
+			// aapt resource value: 0x7f0800a5
+			public const int MapItem = 2131230885;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int ProgramItem = 2131230891;
+			// aapt resource value: 0x7f0800a2
+			public const int ProgramItem = 2131230882;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int SettingsItem = 2131230893;
+			// aapt resource value: 0x7f0800a4
+			public const int SettingsItem = 2131230884;
 			
-			// aapt resource value: 0x7f080095
-			public const int action0 = 2131230869;
+			// aapt resource value: 0x7f08008c
+			public const int action0 = 2131230860;
 			
 			// aapt resource value: 0x7f080064
 			public const int action_bar = 2131230820;
@@ -3966,17 +2222,17 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080041
 			public const int action_bar_title = 2131230785;
 			
-			// aapt resource value: 0x7f080092
-			public const int action_container = 2131230866;
+			// aapt resource value: 0x7f080089
+			public const int action_container = 2131230857;
 			
 			// aapt resource value: 0x7f080065
 			public const int action_context_bar = 2131230821;
 			
-			// aapt resource value: 0x7f080099
-			public const int action_divider = 2131230873;
+			// aapt resource value: 0x7f080090
+			public const int action_divider = 2131230864;
 			
-			// aapt resource value: 0x7f080093
-			public const int action_image = 2131230867;
+			// aapt resource value: 0x7f08008a
+			public const int action_image = 2131230858;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -3993,11 +2249,11 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080043
 			public const int action_mode_close_button = 2131230787;
 			
-			// aapt resource value: 0x7f080094
-			public const int action_text = 2131230868;
+			// aapt resource value: 0x7f08008b
+			public const int action_text = 2131230859;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int actions = 2131230882;
+			// aapt resource value: 0x7f080099
+			public const int actions = 2131230873;
 			
 			// aapt resource value: 0x7f080044
 			public const int activity_chooser_view_content = 2131230788;
@@ -4017,33 +2273,6 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f08002f
 			public const int auto = 2131230767;
 			
-			// aapt resource value: 0x7f08007b
-			public const int bb_bottom_bar_background_overlay = 2131230843;
-			
-			// aapt resource value: 0x7f08007a
-			public const int bb_bottom_bar_background_view = 2131230842;
-			
-			// aapt resource value: 0x7f08007e
-			public const int bb_bottom_bar_icon = 2131230846;
-			
-			// aapt resource value: 0x7f08007c
-			public const int bb_bottom_bar_item_container = 2131230844;
-			
-			// aapt resource value: 0x7f080078
-			public const int bb_bottom_bar_outer_container = 2131230840;
-			
-			// aapt resource value: 0x7f080079
-			public const int bb_bottom_bar_shadow = 2131230841;
-			
-			// aapt resource value: 0x7f08007f
-			public const int bb_bottom_bar_title = 2131230847;
-			
-			// aapt resource value: 0x7f08007d
-			public const int bb_tablet_right_border = 2131230845;
-			
-			// aapt resource value: 0x7f080077
-			public const int bb_user_content_container = 2131230839;
-			
 			// aapt resource value: 0x7f080020
 			public const int beginning = 2131230752;
 			
@@ -4056,8 +2285,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f08004b
 			public const int buttonPanel = 2131230795;
 			
-			// aapt resource value: 0x7f080096
-			public const int cancel_action = 2131230870;
+			// aapt resource value: 0x7f08008d
+			public const int cancel_action = 2131230861;
 			
 			// aapt resource value: 0x7f080030
 			public const int center = 2131230768;
@@ -4077,8 +2306,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080074
 			public const int checkedTextView1 = 2131230836;
 			
-			// aapt resource value: 0x7f08009e
-			public const int chronometer = 2131230878;
+			// aapt resource value: 0x7f080095
+			public const int chronometer = 2131230869;
 			
 			// aapt resource value: 0x7f080039
 			public const int clip_horizontal = 2131230777;
@@ -4104,20 +2333,20 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080047
 			public const int default_activity_button = 2131230791;
 			
-			// aapt resource value: 0x7f080083
-			public const int design_bottom_sheet = 2131230851;
+			// aapt resource value: 0x7f08007a
+			public const int design_bottom_sheet = 2131230842;
 			
-			// aapt resource value: 0x7f08008a
-			public const int design_menu_item_action_area = 2131230858;
+			// aapt resource value: 0x7f080081
+			public const int design_menu_item_action_area = 2131230849;
 			
-			// aapt resource value: 0x7f080089
-			public const int design_menu_item_action_area_stub = 2131230857;
+			// aapt resource value: 0x7f080080
+			public const int design_menu_item_action_area_stub = 2131230848;
 			
-			// aapt resource value: 0x7f080088
-			public const int design_menu_item_text = 2131230856;
+			// aapt resource value: 0x7f08007f
+			public const int design_menu_item_text = 2131230847;
 			
-			// aapt resource value: 0x7f080087
-			public const int design_navigation_view = 2131230855;
+			// aapt resource value: 0x7f08007e
+			public const int design_navigation_view = 2131230846;
 			
 			// aapt resource value: 0x7f080012
 			public const int disableHome = 2131230738;
@@ -4128,8 +2357,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080021
 			public const int end = 2131230753;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int end_padder = 2131230888;
+			// aapt resource value: 0x7f08009f
+			public const int end_padder = 2131230879;
 			
 			// aapt resource value: 0x7f08002a
 			public const int enterAlways = 2131230762;
@@ -4158,8 +2387,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f08003f
 			public const int @fixed = 2131230783;
 			
-			// aapt resource value: 0x7f08008d
-			public const int fixedBtn = 2131230861;
+			// aapt resource value: 0x7f080084
+			public const int fixedBtn = 2131230852;
 			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
@@ -4170,8 +2399,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080049
 			public const int icon = 2131230793;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int icon_group = 2131230883;
+			// aapt resource value: 0x7f08009a
+			public const int icon_group = 2131230874;
 			
 			// aapt resource value: 0x7f080025
 			public const int ifRoom = 2131230757;
@@ -4179,26 +2408,26 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080046
 			public const int image = 2131230790;
 			
-			// aapt resource value: 0x7f08008f
-			public const int imageView1 = 2131230863;
+			// aapt resource value: 0x7f080086
+			public const int imageView1 = 2131230854;
 			
-			// aapt resource value: 0x7f08009f
-			public const int info = 2131230879;
+			// aapt resource value: 0x7f080096
+			public const int info = 2131230870;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f080081
-			public const int largeLabel = 2131230849;
+			// aapt resource value: 0x7f080078
+			public const int largeLabel = 2131230840;
 			
 			// aapt resource value: 0x7f080034
 			public const int left = 2131230772;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int line1 = 2131230884;
+			// aapt resource value: 0x7f08009b
+			public const int line1 = 2131230875;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int line3 = 2131230886;
+			// aapt resource value: 0x7f08009d
+			public const int line3 = 2131230877;
 			
 			// aapt resource value: 0x7f08000f
 			public const int listMode = 2131230735;
@@ -4206,11 +2435,11 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int masked = 2131230890;
+			// aapt resource value: 0x7f0800a1
+			public const int masked = 2131230881;
 			
-			// aapt resource value: 0x7f080098
-			public const int media_actions = 2131230872;
+			// aapt resource value: 0x7f08008f
+			public const int media_actions = 2131230863;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -4221,8 +2450,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f08001a
 			public const int multiply = 2131230746;
 			
-			// aapt resource value: 0x7f080086
-			public const int navigation_header_container = 2131230854;
+			// aapt resource value: 0x7f08007d
+			public const int navigation_header_container = 2131230845;
 			
 			// aapt resource value: 0x7f080026
 			public const int never = 2131230758;
@@ -4233,14 +2462,14 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080010
 			public const int normal = 2131230736;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int notification_background = 2131230881;
+			// aapt resource value: 0x7f080098
+			public const int notification_background = 2131230872;
 			
-			// aapt resource value: 0x7f08009b
-			public const int notification_main_column = 2131230875;
+			// aapt resource value: 0x7f080092
+			public const int notification_main_column = 2131230866;
 			
-			// aapt resource value: 0x7f08009a
-			public const int notification_main_column_container = 2131230874;
+			// aapt resource value: 0x7f080091
+			public const int notification_main_column_container = 2131230865;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
@@ -4251,8 +2480,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080038
 			public const int pin = 2131230776;
 			
-			// aapt resource value: 0x7f080090
-			public const int programLisView = 2131230864;
+			// aapt resource value: 0x7f080087
+			public const int programLisView = 2131230855;
 			
 			// aapt resource value: 0x7f080075
 			public const int progressBar1 = 2131230837;
@@ -4266,17 +2495,17 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f08005d
 			public const int radio = 2131230813;
 			
-			// aapt resource value: 0x7f08008e
-			public const int radioButton1 = 2131230862;
+			// aapt resource value: 0x7f080085
+			public const int radioButton1 = 2131230853;
 			
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int right_icon = 2131230880;
+			// aapt resource value: 0x7f080097
+			public const int right_icon = 2131230871;
 			
-			// aapt resource value: 0x7f08009c
-			public const int right_side = 2131230876;
+			// aapt resource value: 0x7f080093
+			public const int right_side = 2131230867;
 			
 			// aapt resource value: 0x7f08001b
 			public const int screen = 2131230747;
@@ -4329,8 +2558,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080072
 			public const int select_dialog_listview = 2131230834;
 			
-			// aapt resource value: 0x7f08008c
-			public const int shiftingBtn = 2131230860;
+			// aapt resource value: 0x7f080083
+			public const int shiftingBtn = 2131230851;
 			
 			// aapt resource value: 0x7f08005c
 			public const int shortcut = 2131230812;
@@ -4344,14 +2573,14 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080017
 			public const int showTitle = 2131230743;
 			
-			// aapt resource value: 0x7f080080
-			public const int smallLabel = 2131230848;
+			// aapt resource value: 0x7f080077
+			public const int smallLabel = 2131230839;
 			
-			// aapt resource value: 0x7f080085
-			public const int snackbar_action = 2131230853;
+			// aapt resource value: 0x7f08007c
+			public const int snackbar_action = 2131230844;
 			
-			// aapt resource value: 0x7f080084
-			public const int snackbar_text = 2131230852;
+			// aapt resource value: 0x7f08007b
+			public const int snackbar_text = 2131230843;
 			
 			// aapt resource value: 0x7f08002e
 			public const int snap = 2131230766;
@@ -4374,8 +2603,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080036
 			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f080097
-			public const int status_bar_latest_event_content = 2131230871;
+			// aapt resource value: 0x7f08008e
+			public const int status_bar_latest_event_content = 2131230862;
 			
 			// aapt resource value: 0x7f08005e
 			public const int submenuarrow = 2131230814;
@@ -4386,11 +2615,11 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int text = 2131230887;
+			// aapt resource value: 0x7f08009e
+			public const int text = 2131230878;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int text2 = 2131230885;
+			// aapt resource value: 0x7f08009c
+			public const int text2 = 2131230876;
 			
 			// aapt resource value: 0x7f080052
 			public const int textSpacerNoButtons = 2131230802;
@@ -4398,11 +2627,11 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080051
 			public const int textSpacerNoTitle = 2131230801;
 			
-			// aapt resource value: 0x7f080091
-			public const int textView1 = 2131230865;
+			// aapt resource value: 0x7f080088
+			public const int textView1 = 2131230856;
 			
-			// aapt resource value: 0x7f08008b
-			public const int text_input_password_toggle = 2131230859;
+			// aapt resource value: 0x7f080082
+			public const int text_input_password_toggle = 2131230850;
 			
 			// aapt resource value: 0x7f08000c
 			public const int textinput_counter = 2131230732;
@@ -4410,8 +2639,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f08009d
-			public const int time = 2131230877;
+			// aapt resource value: 0x7f080094
+			public const int time = 2131230868;
 			
 			// aapt resource value: 0x7f08004a
 			public const int title = 2131230794;
@@ -4428,8 +2657,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f080056
 			public const int topPanel = 2131230806;
 			
-			// aapt resource value: 0x7f080082
-			public const int touch_outside = 2131230850;
+			// aapt resource value: 0x7f080079
+			public const int touch_outside = 2131230841;
 			
 			// aapt resource value: 0x7f08000a
 			public const int transition_current_scene = 2131230730;
@@ -4446,8 +2675,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int visible = 2131230889;
+			// aapt resource value: 0x7f0800a0
+			public const int visible = 2131230880;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;
@@ -4593,130 +2822,115 @@ namespace FetaProject.Droid
 			public const int AboutFestival = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int bb_bottom_bar_item_container = 2130968604;
+			public const int design_bottom_navigation_item = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int bb_bottom_bar_item_container_tablet = 2130968605;
+			public const int design_bottom_sheet_dialog = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int bb_bottom_bar_item_fixed = 2130968606;
+			public const int design_layout_snackbar = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int bb_bottom_bar_item_fixed_tablet = 2130968607;
+			public const int design_layout_snackbar_include = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int bb_bottom_bar_item_shifting = 2130968608;
+			public const int design_layout_tab_icon = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_bottom_navigation_item = 2130968609;
+			public const int design_layout_tab_text = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_bottom_sheet_dialog = 2130968610;
+			public const int design_menu_item_action_area = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_layout_snackbar = 2130968611;
+			public const int design_navigation_item = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_layout_snackbar_include = 2130968612;
+			public const int design_navigation_item_header = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_layout_tab_icon = 2130968613;
+			public const int design_navigation_item_separator = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_layout_tab_text = 2130968614;
+			public const int design_navigation_item_subheader = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_menu_item_action_area = 2130968615;
+			public const int design_navigation_menu = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_navigation_item = 2130968616;
+			public const int design_navigation_menu_item = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int design_navigation_item_header = 2130968617;
+			public const int design_text_input_password_icon = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int design_navigation_item_separator = 2130968618;
+			public const int Gallery = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int design_navigation_item_subheader = 2130968619;
+			public const int Main = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int design_navigation_menu = 2130968620;
+			public const int Map = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int design_navigation_menu_item = 2130968621;
+			public const int notification_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int design_text_input_password_icon = 2130968622;
+			public const int notification_action_tombstone = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int Gallery = 2130968623;
+			public const int notification_media_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int Main = 2130968624;
+			public const int notification_media_cancel_action = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int Map = 2130968625;
+			public const int notification_template_big_media = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_action = 2130968626;
+			public const int notification_template_big_media_custom = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_action_tombstone = 2130968627;
+			public const int notification_template_big_media_narrow = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_media_action = 2130968628;
+			public const int notification_template_big_media_narrow_custom = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_media_cancel_action = 2130968629;
+			public const int notification_template_custom_big = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_big_media = 2130968630;
+			public const int notification_template_icon_group = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_big_media_custom = 2130968631;
+			public const int notification_template_lines_media = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_big_media_narrow = 2130968632;
+			public const int notification_template_media = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_big_media_narrow_custom = 2130968633;
+			public const int notification_template_media_custom = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_custom_big = 2130968634;
+			public const int notification_template_part_chronometer = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_icon_group = 2130968635;
+			public const int notification_template_part_time = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_lines_media = 2130968636;
+			public const int select_dialog_item_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int notification_template_media = 2130968637;
+			public const int select_dialog_multichoice_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int notification_template_media_custom = 2130968638;
+			public const int select_dialog_singlechoice_material = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int notification_template_part_chronometer = 2130968639;
+			public const int Settings = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int notification_template_part_time = 2130968640;
-			
-			// aapt resource value: 0x7f040041
-			public const int select_dialog_item_material = 2130968641;
-			
-			// aapt resource value: 0x7f040042
-			public const int select_dialog_multichoice_material = 2130968642;
-			
-			// aapt resource value: 0x7f040043
-			public const int select_dialog_singlechoice_material = 2130968643;
-			
-			// aapt resource value: 0x7f040044
-			public const int Settings = 2130968644;
-			
-			// aapt resource value: 0x7f040045
-			public const int support_simple_spinner_dropdown_item = 2130968645;
+			public const int support_simple_spinner_dropdown_item = 2130968640;
 			
 			static Layout()
 			{
@@ -4920,32 +3134,8 @@ namespace FetaProject.Droid
 			// aapt resource value: 0x7f0a0161
 			public const int Animation_Design_BottomSheetDialog = 2131362145;
 			
-			// aapt resource value: 0x7f0a0182
-			public const int AppTheme = 2131362178;
-			
-			// aapt resource value: 0x7f0a0181
-			public const int BB_BottomBarBadge_Text = 2131362177;
-			
 			// aapt resource value: 0x7f0a017a
-			public const int BB_BottomBarItem = 2131362170;
-			
-			// aapt resource value: 0x7f0a017b
-			public const int BB_BottomBarItem_Fixed = 2131362171;
-			
-			// aapt resource value: 0x7f0a017d
-			public const int BB_BottomBarItem_Fixed_TitleAppearance = 2131362173;
-			
-			// aapt resource value: 0x7f0a017e
-			public const int BB_BottomBarItem_Shifting = 2131362174;
-			
-			// aapt resource value: 0x7f0a017f
-			public const int BB_BottomBarItem_Shifting_TitleAppearance = 2131362175;
-			
-			// aapt resource value: 0x7f0a0180
-			public const int BB_BottomBarItem_Tablet = 2131362176;
-			
-			// aapt resource value: 0x7f0a017c
-			public const int BB_BottomBarItem_TitleStyle = 2131362172;
+			public const int AppTheme = 2131362170;
 			
 			// aapt resource value: 0x7f0a00a3
 			public const int Base_AlertDialog_AppCompat = 2131361955;
