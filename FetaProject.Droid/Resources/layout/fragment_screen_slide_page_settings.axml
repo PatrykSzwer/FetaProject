@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/content"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        style="?android:textAppearanceMedium"
-        android:padding="16dp"
-        android:lineSpacingMultiplier="1.2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="settings" />
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="Polski"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/settingsButtonPolish" />
+        <Button
+            android:text="English"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/settingsButtonEnglish" />
+    </LinearLayout>
 </ScrollView>

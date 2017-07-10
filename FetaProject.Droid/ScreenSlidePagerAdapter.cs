@@ -1,5 +1,4 @@
-﻿using Android.App;
-using Android.Support.V4.App;
+﻿using Android.Support.V4.App;
 using FetaProject.Droid.Fragments;
 
 namespace FetaProject.Droid
@@ -7,29 +6,27 @@ namespace FetaProject.Droid
     public class ScreenSlidePagerAdapter : FragmentStatePagerAdapter
     {
         public override int Count => 5;
-        public readonly Activity _context;
 
-        public ScreenSlidePagerAdapter(Activity context, Android.Support.V4.App.FragmentManager fm) : base(fm)
+        public ScreenSlidePagerAdapter(FragmentManager fm) : base(fm)
         {
-            _context = context;
         }
 
-        public override Android.Support.V4.App.Fragment GetItem(int position)
+        public override Fragment GetItem(int position)
         {
             switch (position)
             {
                 case 0:
-                    return new ProgramPageFragment(_context);
+                    return new ProgramPageFragment();
                 case 1:
-                    return new AboutPageFragment(_context);
+                    return new AboutPageFragment();
                 case 2:
-                    return new GalleryPageFragment(_context);
+                    return new GalleryPageFragment();
                 case 3:
-                    return new MapPageFragment(_context);
+                    return new MapPageFragment();
                 case 4:
-                    return new SettingsPageFragment(_context);
+                    return new SettingsPageFragment();
                 default:
-                    return new ProgramPageFragment(_context);
+                    return new ProgramPageFragment();
             }
         }
     }

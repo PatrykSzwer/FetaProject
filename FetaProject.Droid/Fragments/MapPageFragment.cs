@@ -1,13 +1,11 @@
-﻿using Android.App;
-using FetaProject.Droid.Fragments.Base;
+﻿using FetaProject.Droid.Fragments.Base;
 
 namespace FetaProject.Droid.Fragments
 {
     public class MapPageFragment : BaseSlidePageFragment
     {
-        public MapPageFragment(Activity context) : base(Resource.Layout.fragment_screen_slide_page_gallery)
+        public MapPageFragment() : base(Resource.Layout.fragment_screen_slide_page_about)
         {
-
         }
 
         public override void ViewInitialization()

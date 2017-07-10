@@ -1,30 +1,28 @@
-﻿using System;
-using Android.App;
-using Android.Widget;
+﻿using Android.Widget;
 using FetaProject.Droid.Fragments.Base;
 using FetaProject.Droid.Helpers;
+using System;
 
 namespace FetaProject.Droid.Fragments
 {
     public class GalleryPageFragment : BaseSlidePageFragment
     {
-        private readonly Activity _context;
-        public GalleryPageFragment(Activity context) : base(Resource.Layout.fragment_screen_slide_page_gallery)
+        public GalleryPageFragment() : base(Resource.Layout.fragment_screen_slide_page_gallery)
         {
-            _context = context;
         }
 
         public override void ViewInitialization()
         {
             var gallery = (Gallery)FragmentView.FindViewById(Resource.Id.gallery);
-            gallery.Adapter = new ImageAdapter(_context);
+            gallery.Adapter = new ImageAdapter(this.Activity);
 
             gallery.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
             {
-                Toast.MakeText(_context, args.Position.ToString(), ToastLength.Short).Show();
+                Toast.MakeText(this.Activity, args.Position.ToString(), ToastLength.Short).Show();
             };
+
             Console.WriteLine(Resources.DisplayMetrics.WidthPixels);
-			Console.WriteLine(Resources.DisplayMetrics.HeightPixels);
+            Console.WriteLine(Resources.DisplayMetrics.HeightPixels);
         }
     }
 }

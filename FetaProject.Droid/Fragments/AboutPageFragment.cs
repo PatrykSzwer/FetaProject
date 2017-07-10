@@ -1,6 +1,4 @@
-﻿
-using Android.App;
-using Android.Webkit;
+﻿using Android.Webkit;
 using FetaProject.Droid.Fragments.Base;
 
 namespace FetaProject.Droid.Fragments
@@ -9,14 +7,14 @@ namespace FetaProject.Droid.Fragments
     {
         private string _pdfFilePath = "file:///android_asset/paper.pdf";
         private WebView _webView;
-        private string _pdfURL = @"http://sal.aalto.fi/publications/pdf-files/eluu11_public.pdf";
 
-        public AboutPageFragment(Activity context) : base(Resource.Layout.fragment_screen_slide_page_about)
+        public AboutPageFragment() : base(Resource.Layout.fragment_screen_slide_page_about)
         {
         }
 
         public override void ViewInitialization()
         {
+            this.RetainInstance = true;
             _webView = FragmentView.FindViewById<WebView>(Resource.Id.webViewForPdf);
             _webView.Settings.JavaScriptEnabled = true;
             _webView.Settings.AllowFileAccessFromFileURLs = true;
