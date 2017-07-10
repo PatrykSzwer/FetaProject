@@ -58,14 +58,15 @@ namespace FetaProject.iOS
 
     		View.AddGestureRecognizer (recognizerRight);
 			View.AddGestureRecognizer(recognizerLeft);
-            PinImage imagePath = new PinImage();
+           // PinImage imagePath = new PinImage();
 
 
-			imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]);
+            //imageView.Image = UIImage.FromBundle(imagePath.selectImage("food"));
 			UIGraphics.BeginImageContext(View.Frame.Size);
 			UIImage.FromBundle("bg.png").Draw(View.Bounds);
 			var bgImage = UIGraphics.GetImageFromCurrentImageContext();
 			UIGraphics.EndImageContext();
+
 
 			var uiImageView = new UIImageView(View.Frame);
 			uiImageView.Image = bgImage;

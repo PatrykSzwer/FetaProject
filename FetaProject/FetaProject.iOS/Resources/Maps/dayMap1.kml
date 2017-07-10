@@ -115,7 +115,7 @@
       <name>Stare Przedmieście</name>
       <Placemark>
         <name>20.00 Inauguracja Festiwalu. Wernisaż wystawy FOTO FETA – Plac Wałowy</name>
-        <description><![CDATA[nazwaSpektaklu;nazwaTeatru;krajTeatru;opisSpektaklu;2017-07-13 20:00;<br>ENG;actName;theatreName;theatreCountry;eventDescp;]]></description>
+        <description><![CDATA[Inauguracja Festiwalu; nazwaTeatru;krajTeatru;opisSpektaklu;2017-07-13 20:00;<br>ENG;actName;theatreName;theatreCountry;eventDescp;]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
