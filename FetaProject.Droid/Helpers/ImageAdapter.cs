@@ -28,9 +28,10 @@ namespace FetaProject.Droid.Helpers
             //Resource.Drawable.z20,
             //Resource.Drawable.z16,
             //Resource.Drawable.z17,
+            //Resource.Drawable.z18,
             //Resource.Drawable.z19,
             //Resource.Drawable.z21,
-            //Resource.Drawable.z22,
+            Resource.Drawable.z22,
             //Resource.Drawable.z23,
             Resource.Drawable.z24
             //Resource.Drawable.z26,
