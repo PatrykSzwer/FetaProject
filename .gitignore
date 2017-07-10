@@ -241,3 +241,4 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 Setings.Stylecop
+FetaProject.Droid/Resources/Resource.designer.cs
