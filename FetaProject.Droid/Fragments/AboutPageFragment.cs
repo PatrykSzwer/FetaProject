@@ -27,7 +27,6 @@ namespace FetaProject.Droid.Fragments
 
             //DownloadPDFDocument();
             //OpenPdfDocument();
-
         }
         /*
         private void DownloadPDFDocument()

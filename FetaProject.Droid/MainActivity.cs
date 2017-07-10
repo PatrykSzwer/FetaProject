@@ -17,7 +17,7 @@ namespace FetaProject.Droid
 
             SetContentView(Resource.Layout.Main);
             _mPager = (ViewPager)FindViewById(Resource.Id.pager);
-            _mPager.Adapter = new ScreenSlidePagerAdapter(this, SupportFragmentManager); ;
+            _mPager.Adapter = new ScreenSlidePagerAdapter(this, SupportFragmentManager);
             _mPager.PageScrolled += (obj, t) =>
             {
                 NavigationHelper.ChangeBottomNavigationToPage(this, ((ViewPager)obj).CurrentItem);
