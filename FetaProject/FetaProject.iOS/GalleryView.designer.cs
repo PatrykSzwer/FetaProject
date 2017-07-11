@@ -18,11 +18,20 @@ namespace FetaProject.iOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView imageView { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel TheatreName { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
             if (imageView != null) {
                 imageView.Dispose ();
                 imageView = null;
+            }
+
+            if (TheatreName != null) {
+                TheatreName.Dispose ();
+                TheatreName = null;
             }
         }
     }

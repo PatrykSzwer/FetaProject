@@ -198,13 +198,6 @@
     <BundleResource Include="Resources\Base.lproj\Localizable.strings" />
     <BundleResource Include="Resources\ButtonsImage\EnglishLanguageButton.png" />
     <BundleResource Include="Resources\ButtonsImage\PolishLanguageButton.png" />
-    <BundleResource Include="Resources\TutorialPhoto\Tutorial_1.png" />
-    <BundleResource Include="Resources\TutorialPhoto\Tutorial_2.png" />
-    <BundleResource Include="Resources\TutorialPhoto\Tutorial_3.png" />
-    <BundleResource Include="Resources\TutorialPhoto\Tutorial_4.png" />
-    <BundleResource Include="Resources\TutorialPhoto\Tutorial_5.png" />
-    <BundleResource Include="Resources\TutorialPhoto\Tutorial_6.png" />
-    <BundleResource Include="Resources\TutorialPhoto\Tutorial_7.png" />
     <BundleResource Include="Resources\Icons\help.png" />
     <BundleResource Include="Resources\Icons\WC.png" />
     <BundleResource Include="Resources\Icons\food.png" />
@@ -253,27 +246,25 @@
     </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\TutorialPhoto\" />
     <Folder Include="Resources\Icons\" />
     <Folder Include="Resources\Photo\" />
     <Folder Include="Resources\Maps\" />
-    <Folder Include="Resources\PDF\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Maps\dayMap1.kml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Maps\dayMap2.kml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Maps\dayMap3.kml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Maps\dayMap4.kml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Maps\Utilities.kml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Maps\dayMap1.kml.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Maps\dayMap3.kml.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Maps\dayMap4.kml.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Maps\dayMap2.kml.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

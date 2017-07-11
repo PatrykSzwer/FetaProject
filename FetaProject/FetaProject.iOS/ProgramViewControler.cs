@@ -35,10 +35,10 @@ namespace FetaProject.iOS
 
 		private readonly Dictionary<string, string> _daysOffline = new Dictionary<string, string>
 			{
-				{"13.07", "FetaProject.iOS.Resources.Maps.dayMap1.kml"}, // Thursday
-                {"14.07", "FetaProject.iOS.Resources.Maps.dayMap2.kml"}, // Friday
-                {"15.07", "FetaProject.iOS.Resources.Maps.dayMap3.kml"}, // Saturday
-                {"16.07", "FetaProject.iOS.Resources.Maps.dayMap4.kml"}, // Sunday
+				{"13.07", "FetaProject.iOS.Resources.Maps.dayMap1.kml.xml"}, // Thursday
+                {"14.07", "FetaProject.iOS.Resources.Maps.dayMap2.kml.xml"}, // Friday
+                {"15.07", "FetaProject.iOS.Resources.Maps.dayMap3.kml.xml"}, // Saturday
+                {"16.07", "FetaProject.iOS.Resources.Maps.dayMap4.kml.xml"}, // Sunday
                 {"Utilities", "FetaProject.iOS.Resources.Maps.Utilities.kml"} // Sunday
 
             };

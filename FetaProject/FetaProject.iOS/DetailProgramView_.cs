@@ -48,6 +48,7 @@ namespace FetaProject.iOS
 			timeNameLabel.Text = selectedEvent.TimeEvent.ToString("HH:mm");
 			descriptionTextView.Text = selectedEvent.Description;
 			countryOriginLabel.Text = selectedEvent.OriginCountry;
+            Place.Text = selectedEvent.Place;
 		}
     }
 }

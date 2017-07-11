@@ -114,8 +114,8 @@
     <Folder>
       <name>Stare Przedmieście</name>
       <Placemark>
-        <name>20.00 Inauguracja Festiwalu. Wernisaż wystawy FOTO FETA – Plac Wałowy</name>
-        <description><![CDATA[Inauguracja Festiwalu; nazwaTeatru;krajTeatru;opisSpektaklu;2017-07-13 20:00;<br>ENG;actName;theatreName;theatreCountry;eventDescp;]]></description>
+        <name>A</name>
+        <description><![CDATA[Wernisaż wystawy FOTO FETA;Inauguracja Festiwalu;;Inauguracja Festiwalu. Wernisaż wystawy FOTO FETA;2017-07-13 20:00;<br>ENG;The inauguration of the festival;;;;]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -124,7 +124,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>22.00 Teatr Feta „Mene, tekel, fares” / 30 min – dziedziniec Akademii Sztuk Pięknych / dla dorosłych</name>
+        <name>A1</name>
         <description><![CDATA[„Mane, tekel, fares”, ,,Policzono, zważono, rozdzielono";Teatr FETA;Polska;„Sąd Ostateczny” Hansa Memlinga, wybitne dzieło malarstwa gotyckiego, najcenniejszy eksponat Muzeum Narodowego w Gdańsku, obraz o burzliwej historii, był inspiracją do stworzenia spektaklu plenerowego i do zastanowienia się nad tym, co dla współczesnego człowieka znaczą takie słowa, jak „piekło”, „niebo”. Tak jak na obrazie flamandzkiego mistrza nasze anioły są kolorowe, z pięknymi skrzydłami pokrytymi pawiami piórami. Urodą diabły - uosobienie ludzkich grzechów - nie ustępują aniołom. Trąby anielskie zapowiadają sąd. Rozpoczyna się walka dobrego ze złem, walka o każdą duszę. Baczenie na wszystko ma złoty Archanioł Michał, na którego wadze można sprawdzić wartość duszy, wartość ludzkiego żywota.;2017-07-13 22:00;<br>ENG;"Mane, tekel, fares", "Calculated, Weighed, Divided";Teatr FETA;Poland;Hans Memling’s The Last Judgement, an outstanding gothic painting, the most valuable exhibit in the National Museum in Gdańsk, a painting with a turbulent history, was an inspiration for creating an open-air show and for considering what the words like ‘hell’ and ‘heaven’ mean for a modern man. Our angels are colourful and have beautiful wings covered in peacock’s feathers, just like in a Flemish painter’s painting. Devils, who are the epitome of human sins, have the appearance which is not inferior to that of angels. Angels’ horns announce the Judgement. The battle of the good and the evil ensues, the battle for every soul. Everything is supervised by golden St Michael the Archangel. His scales enable to check the value of a soul, the value of human life.;]]></description>
         <styleUrl>#icon-1899-0F9D58</styleUrl>
         <Point>
@@ -134,8 +134,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>23.00 Markeliñe „Carbón Club” / Hiszpania, Kraj Basków / 60 min - plac pod Bastionem Św. Gertrudy / dla dorosłych</name>
-        <description><![CDATA[Carbón Club;Markeliñe;Hiszpania, Kraj Basków;"Carbón Club" opowiada historię kopalni w rytmie kabaretu. "Carbón Club" to metafora życia: wartość przyjaźni, tragiczne losy, wielka odwaga, głębia ziemi, wojny, codzienne zmagania ... Ale przede wszystkim to hołd pełen podziwu dla tych anonimowych bohaterów, którzy zginęli wykonując godną, ale trudną pracę. Górnicze legendy mówią, że ciemność w kopalni jest taka, że nawet cienie gubią swoich właścicieli.;2017-07-13 23:00;<br>ENG;Carbón Club;Markeliñe;Spain, ;“Carbón Club” tells the story of a mine to the rhythm of a cabaret. “Carbón Club” is a metaphor of life: The value of friendship, tragic destinies, vital courage, the depths of the earth, wars, everyday requirements... But, above all, it is a tribute, full of admiration, to those anonymous heroes who died performing a decent but difficult job. Mining legends have it that the darkness in a mine is such that even shadows loose their owners.<br>Comedy and tragedy mixed with coal dust. The rhythm of the sound, the vivid images and the enveloping space of this show works on the senses and the emotions of the audience, making “Coal Club” a theatrical experience that is difficult to forget.;]]></description>
+        <name>A2</name>
+        <description><![CDATA[Carbón Club;Markeliñe;Hiszpania, Kraj Basków;"Carbón Club" opowiada historię kopalni w rytmie kabaretu. "Carbón Club" to metafora życia: wartość przyjaźni, tragiczne losy, wielka odwaga, głębia ziemi, wojny, codzienne zmagania ... Ale przede wszystkim to hołd pełen podziwu dla tych anonimowych bohaterów, którzy zginęli wykonując godną, ale trudną pracę. Górnicze legendy mówią, że ciemność w kopalni jest taka, że nawet cienie gubią swoich właścicieli.;2017-07-13 23:00;<br>ENG;Carbón Club;Markeliñe;Spain, ;“Carbón Club” tells the story of a mine to the rhythm of a cabaret. “Carbón Club” is a metaphor of life: The value of friendship, tragic destinies, vital courage, the depths of the earth, wars, everyday requirements... But, above all, it is a tribute, full of admiration, to those anonymous heroes who died performing a decent but difficult job. Mining legends have it that the darkness in a mine is such that even shadows loose their owners. Comedy and tragedy mixed with coal dust. The rhythm of the sound, the vivid images and the enveloping space of this show works on the senses and the emotions of the audience, making “Coal Club” a theatrical experience that is difficult to forget.;]]></description>
         <styleUrl>#icon-1899-C2185B</styleUrl>
         <Point>
           <coordinates>

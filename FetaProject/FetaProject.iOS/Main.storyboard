@@ -30,7 +30,7 @@
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="264" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2" text="„Mane, tekel, fares”, ,,Policzono, zważono, rozdzielono&quot;">
                                             <rect key="frame" x="72" y="0.0" width="184" height="43"/>
-                                            <autoresizingMask key="autoresizingMask" heightSizable="YES" flexibleMaxX="YES" flexibleMinX="YES"/>
+                                            <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinX="YES"/>
                                             <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
@@ -262,6 +262,16 @@
                                         <real key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9492" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                        <rect key="frame" x="261" y="34" width="64" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                    </label>
+                                </subviews>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theatre Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1830" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2">
                                 <rect key="frame" x="20" y="73" width="335" height="37"/>
@@ -271,7 +281,7 @@
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Act Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2217" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2">
-                                <rect key="frame" x="20" y="108" width="335" height="51"/>
+                                <rect key="frame" x="20" y="108" width="261" height="51"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -319,6 +329,7 @@
                         <outlet property="descriptionTextView" destination="1835" id="name-outlet-1835"/>
                         <outlet property="countryOriginLabel" destination="2880" id="name-outlet-2880"/>
                         <outlet property="infoBackground" destination="8276" id="name-outlet-8276"/>
+                        <outlet property="Place" destination="9492" id="name-outlet-9492"/>
                     </connections>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -339,9 +350,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <subviews>
+                            <view contentMode="scaleToFill" id="9487" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="48" y="16" width="278" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.8784313725490196" green="0.403921568627451" blue="0.55294117647058827" alpha="1"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9482" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2">
+                                        <rect key="frame" x="0.0" y="0.0" width="278" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2256" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="20" width="375" height="601"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
+                                <rect key="frame" x="0.0" y="103" width="375" height="518"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMinY="YES"/>
                             </imageView>
                         </subviews>
                         <connections/>
@@ -350,6 +380,7 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="imageView" destination="2256" id="name-outlet-2256"/>
+                        <outlet property="TheatreName" destination="9482" id="name-outlet-9482"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2252" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -494,13 +525,6 @@
         <image name="Icons/gallery.png" width="32" height="32"/>
         <image name="Icons/program.png" width="32" height="32"/>
         <image name="Icons/settings.png" width="32" height="32"/>
-        <image name="TutorialPhoto/Tutorial_1.png" width="750" height="1334"/>
-        <image name="TutorialPhoto/Tutorial_2.png" width="750" height="1334"/>
-        <image name="TutorialPhoto/Tutorial_3.png" width="750" height="1334"/>
-        <image name="TutorialPhoto/Tutorial_4.png" width="750" height="1334"/>
-        <image name="TutorialPhoto/Tutorial_5.png" width="750" height="1334"/>
-        <image name="TutorialPhoto/Tutorial_6.png" width="750" height="1334"/>
-        <image name="TutorialPhoto/Tutorial_7.png" width="750" height="1334"/>
         <image name="Icons/help.png" width="100" height="70"/>
         <image name="Icons/WC.png" width="100" height="114"/>
         <image name="Icons/food.png" width="100" height="84"/>

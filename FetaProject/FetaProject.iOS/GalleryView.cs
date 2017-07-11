@@ -32,14 +32,40 @@ namespace FetaProject.iOS
 			"Photo/19.jpg",
 			"Photo/20.jpg",
 			"Photo/21.jpg",
-			"Photo/22́.jpg",
 			"Photo/22.jpg",
 			"Photo/23.jpg",
 			"Photo/24.jpg",
 			"Photo/25.jpg",
 			"Photo/26.jpg"
 		};
-		
+		private string[] arrayOfTheaters =
+{
+			"Akhe",
+			"Animal Religion",
+			"Compagnie Une de Plus",
+			"De Jongens",
+			"Leo Bassi",
+			"Leo Bassi",
+			"Markeliñe",
+			"Mimbre",
+			"Mimbre",
+			"Muzikanty",
+			"Porywacze Cial",
+			"Porywacze Cial",
+			"TeART",
+			"Teatr Barnaby",
+			"Teatr biuro podrózy",
+			"Teatr FETA",
+			"Teatr FETA",
+			"Teatr Gry Ludzie",
+			"Teatr Novogo Fronta",
+			"Teatr PIAN",
+			"Teatr Razem i Remont Pomp",
+			"Teatr Szczescie",
+			"The Primitives",
+			"Theater Anu",
+			"Whalley Range All Stars"
+		};
         public GalleryView (IntPtr handle) : base (handle)
         {
 
@@ -48,9 +74,8 @@ namespace FetaProject.iOS
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
+
 			UISwipeGestureRecognizer recognizerLeft = new UISwipeGestureRecognizer(UpdateLeft);
-
-
 			recognizerLeft.Direction = UISwipeGestureRecognizerDirection.Left;
 
 			UISwipeGestureRecognizer recognizerRight = new UISwipeGestureRecognizer(UpdateRight);
@@ -58,10 +83,10 @@ namespace FetaProject.iOS
 
     		View.AddGestureRecognizer (recognizerRight);
 			View.AddGestureRecognizer(recognizerLeft);
-           // PinImage imagePath = new PinImage();
 
 
-            //imageView.Image = UIImage.FromBundle(imagePath.selectImage("food"));
+            TheatreName.Text = arrayOfTheaters[imageCounter];
+            imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]);
 			UIGraphics.BeginImageContext(View.Frame.Size);
 			UIImage.FromBundle("bg.png").Draw(View.Bounds);
 			var bgImage = UIGraphics.GetImageFromCurrentImageContext();
@@ -89,6 +114,7 @@ namespace FetaProject.iOS
 				imageCounter--;
 			}
 			imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]);
+            TheatreName.Text = arrayOfTheaters[imageCounter];
 		}
 		private void UpdateRight()
 		{
@@ -101,6 +127,7 @@ namespace FetaProject.iOS
 				imageCounter++;
 			}
             imageView.Image = UIImage.FromBundle(arrayOfImage[imageCounter]);
+            TheatreName.Text = arrayOfTheaters[imageCounter];
 		}
 	}
 }
