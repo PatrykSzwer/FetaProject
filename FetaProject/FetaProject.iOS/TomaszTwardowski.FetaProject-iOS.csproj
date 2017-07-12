@@ -1,0 +1,274 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.props" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.props')" />
+  <Import Project="..\..\packages\Xamarin.Build.Download.0.4.5\build\Xamarin.Build.Download.props" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.5\build\Xamarin.Build.Download.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{5445252E-861C-4ACB-A63B-5CDEF9DB78E3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FetaProject.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>FetaProject.iOS</AssemblyName>
+    <NuGetPackageImportStamp></NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>false</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignProvision></CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer: tomek.twa@gmail.com (C36V9VD2L2)</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>x86_64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchProfiling>false</MtouchProfiling>
+    <CodesignKey>iPhone Developer: tomek.twa@gmail.com (C36V9VD2L2)</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignProvision>iOS Team Provisioning Profile: tom.FetaProject-iOS</CodesignProvision>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Google.Maps">
+      <HintPath>..\..\packages\Xamarin.Google.iOS.Maps.2.1.0.1\lib\Xamarin.iOS10\Google.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="ToastIOS">
+      <HintPath>..\..\..\..\Downloads\ToastIOS-1.6\lib\ios-unified\ToastIOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FetaProject\FetaProject.csproj">
+      <Name>FetaProject</Name>
+      <Project>{F4730006-FF55-4FCC-AAA6-AE19F197CABD}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-60%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-60%403x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-76.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-76%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-Portrait.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-Portrait%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small%403x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small-40.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small-40%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small-50.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small-50%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-72.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-72%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventsManager\EventsManager.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="ProgramViewControler.cs" />
+    <Compile Include="ProgramViewControler.designer.cs">
+      <DependentUpon>ProgramViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventClassCell.cs" />
+    <Compile Include="EventClassCell.designer.cs">
+      <DependentUpon>EventClassCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GalleryView.cs" />
+    <Compile Include="GalleryView.designer.cs">
+      <DependentUpon>GalleryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MapViewController.cs" />
+    <Compile Include="MapViewController.designer.cs">
+      <DependentUpon>MapViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizationExtension\LocalizationExtension.cs" />
+    <Compile Include="reachability.cs" />
+    <Compile Include="TabBarViews.cs" />
+    <Compile Include="StartLanguageView.cs" />
+    <Compile Include="StartLanguageView.designer.cs">
+      <DependentUpon>StartLanguageView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="TabBarViews.designer.cs">
+      <DependentUpon>TabBarViews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramNav.cs" />
+    <Compile Include="ProgramNav.designer.cs">
+      <DependentUpon>ProgramNav.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageViewControler.cs" />
+    <Compile Include="LanguageViewControler.designer.cs">
+      <DependentUpon>LanguageViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailProgramView_.designer.cs">
+      <DependentUpon>DetailProgramView_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartView.cs" />
+    <Compile Include="StartView.designer.cs">
+      <DependentUpon>StartView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="start.cs" />
+    <Compile Include="start.designer.cs">
+      <DependentUpon>start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aboutViewController_.cs" />
+    <Compile Include="aboutViewController_.designer.cs">
+      <DependentUpon>aboutViewController_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PinImage.cs" />
+    <Compile Include="DetailProgramView_.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pl.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Base.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\ButtonsImage\EnglishLanguageButton.png" />
+    <BundleResource Include="Resources\ButtonsImage\PolishLanguageButton.png" />
+    <BundleResource Include="Resources\Icons\help.png" />
+    <BundleResource Include="Resources\Icons\WC.png" />
+    <BundleResource Include="Resources\Icons\food.png" />
+    <BundleResource Include="Resources\Icons\event.png" />
+    <BundleResource Include="Resources\Icons\gallery.png" />
+    <BundleResource Include="Resources\Icons\settings.png" />
+    <BundleResource Include="Resources\Icons\mapa.png" />
+    <BundleResource Include="Resources\Icons\about.png" />
+    <BundleResource Include="Resources\Icons\program.png" />
+    <BundleResource Include="Resources\Photo\5.jpg" />
+    <BundleResource Include="Resources\Photo\9.jpg" />
+    <BundleResource Include="Resources\Photo\21.jpg" />
+    <BundleResource Include="Resources\Photo\25.jpg" />
+    <BundleResource Include="Resources\Photo\13.jpg" />
+    <BundleResource Include="Resources\Photo\2.jpg" />
+    <BundleResource Include="Resources\Photo\16.jpg" />
+    <BundleResource Include="Resources\Photo\8.jpg" />
+    <BundleResource Include="Resources\Photo\1.jpg" />
+    <BundleResource Include="Resources\Photo\11.jpg" />
+    <BundleResource Include="Resources\Photo\6.jpg" />
+    <BundleResource Include="Resources\Photo\12.jpg" />
+    <BundleResource Include="Resources\Photo\15.jpg" />
+    <BundleResource Include="Resources\Photo\24.jpg" />
+    <BundleResource Include="Resources\Photo\3.jpg" />
+    <BundleResource Include="Resources\Photo\4.jpg" />
+    <BundleResource Include="Resources\Photo\22.jpg" />
+    <BundleResource Include="Resources\Photo\14.jpg" />
+    <BundleResource Include="Resources\Photo\17.jpg" />
+    <BundleResource Include="Resources\Photo\18.jpg" />
+    <BundleResource Include="Resources\Photo\23.jpg" />
+    <BundleResource Include="Resources\Photo\26.jpg" />
+    <BundleResource Include="Resources\Photo\10.jpg" />
+    <BundleResource Include="Resources\Photo\19.jpg" />
+    <BundleResource Include="Resources\Photo\20.jpg" />
+    <BundleResource Include="Resources\Photo\Map.jpg" />
+    <BundleResource Include="Resources\bg.png" />
+    <BundleResource Include="FETAGazeta.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <XamarinComponentReference Include="googleiosmaps">
+      <Version>2.1.0.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Icons\" />
+    <Folder Include="Resources\Photo\" />
+    <Folder Include="Resources\Maps\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Maps\Utilities.kml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Maps\dayMap1.kml.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Maps\dayMap3.kml.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Maps\dayMap4.kml.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Maps\dayMap2.kml.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\..\packages\Xamarin.Google.iOS.Maps.2.1.0.1\build\Xamarin.Google.iOS.Maps.targets" Condition="Exists('..\..\packages\Xamarin.Google.iOS.Maps.2.1.0.1\build\Xamarin.Google.iOS.Maps.targets')" />
+  <Import Project="..\..\packages\Xamarin.Build.Download.0.4.5\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.5\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\packages\Xamarin.Build.Download.0.4.6\build\Xamarin.Build.Download.targets')" />
+</Project>

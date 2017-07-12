@@ -1,0 +1,70 @@
+﻿"Parade" = "Parade";
+"Parade_TheaterName" = "Cie Abozeta";
+"Parade_OriginCountry" = "France";
+"Parade_Description" = "Jugglers, musicians, stilt walkers and acrobats — they all have their feet on the ground and their heads in the clouds. They weave a web of moving multifaceted pictures from the strings of live experimentation and poetic expression and bring us into a brand new world between the skies and the ground where they mingle and untangle their bodies, stilts, juggling balls and clubs, dreams and humour…";
+"Parade_DateTime" = "14-07-2016 20:30";
+
+"Remus" = "Remus";
+"Remus_TheaterName" = "Teatr Snow";
+"Remus_OriginCountry" = "Poland";
+"Remus_Description" = "A tale of the loneliness of an ordinary but generous-spirited man who does not agree on status quo and starts a fight for changes in his immediate surroundings. You have to realise what your ideals are and struggle with the stronger in the name of good, whereas temporary misfortunes do not mean a final defeat.";
+"Remus_DateTime" = "14-07-2016 20:30";
+
+"Spatial" = "Spatial";
+"Spatial_TheaterName" = "Teatr Snow";
+"Spatial_OriginCountry" = "Poland";
+"Spatial_Description" = "'Spatial' is a show about someone who stops fitting into trivial reality. They realize that until now they have been in a cage which they had created themselves. They try to 'stretch out' the reality. They search for ways to expand inner space so that they also find a place for being happy. They embark on a journey upwards, into the skies to find a perspective and new territory in which they will be able to fit in positive aspects of their life as well.";
+"Spatial_DateTime" = "15-07-2016 18:00";
+
+"TheSenses" = "The Senses";
+"TheSenses_TheaterName" = "A3Teatr";
+"TheSenses_OriginCountry" = "Poland";
+"TheSenses_Description" = "The Senses could take over any anonymous urban space thanks to the vital energy of the performance and its appealing, absurd and amusing episodes. The show fills a street, a park or other urban space with a new life and meaning. Live music, music from loudspeakers, characters (the Singing Ears, the Stepping Eyes, the Huge Nose where children can find hidden treasures), the Special Mouth Machine interact with the surroundings and the passing audience in a sparkling manner.";
+"TheSenses_DateTime" = "15-07-2016 19:30";
+
+
+"TheLastBastion" = "The Last Bastion";
+"TheLastBastion_TheaterName" = "Mr Pejo's Wandering Dolls";
+"TheLastBastion_OriginCountry" = "Russia";
+"TheLastBastion_Description" = "A last stronghold bastion of the old theatre,- the buffoon market spectacle, which is disappearing under the rush of the contemporary “avant-guard” conception art. Traditional inhabitants of the card house – Polichinelle and Pierrette – an Actor and an Actress – the Comedians. As a real buffoonery, the performance is full of sudden tricks and mythical creatures, like the Minotaur, who symbolizes the irrational in the theatre. The performance researches the problems of the inner aggression, the sham borders put by people. By the highest standards, it learns eternal relations between the audience and the actors. The Last Bastion is a funny provocative performance. The audience is fired upon with the catapult. The characters build barricades, try to desert, put out a white flag. Nevertheless, the show is funny and excitable, intellectual and buffoon, bright and grotesque. Suitable for the general public.";
+"TheLastBastion_DateTime" = "15-07-2016 21:00";
+
+"BigBangCompany" = "Big Bang Company";
+"BigBangCompany_TheaterName" = "Dansk Rakkerpak";
+"BigBangCompany_OriginCountry" = "Denmark";
+"BigBangCompany_Description" = "Big Bang Company is composed of an artistic duo, Nicko and Speedy, who have appeared together for a lifetime, their Polish conductor Tomazjevski and his one-man circus band. The show has definitely seen better days, but it is performed with great charm, confidence and contempt for death – in the grand finale Speedy is fired over the audience as a human cannonball... Big Bang Company is a meaningful performance about lifelong partnership, friendship, crises, compromises and great love for a profession. The performance oozes dusty circus nostalgia and is shown using Dansk Rakkerpak’s unique, comical, physical theatre language that appeals to both children and adults.";
+"BigBangCompany_DateTime" = "16-07-2016 17:00";
+
+"Remus17" = "Remus";
+"Remus17_TheaterName" = "Teatr Snow";
+"Remus17_OriginCountry" = "Poland";
+"Remus17_Description" = "A tale of the loneliness of an ordinary but generous-spirited man who does not agree on status quo and starts a fight for changes in his immediate surroundings. You have to realise what your ideals are and struggle with the stronger in the name of good, whereas temporary misfortunes do not mean a final defeat.";
+"Remus17_DateTime" = "17-07-2016 15:00";
+
+
+
+// Navigation item title
+
+"GalleryTab" = "Gallery";
+"MapsTab" = "Map";
+"AboutTab" = "About";
+"SettingsTab" = "Settings";
+"ProgramTab" = "Program";
+
+
+
+// SettingView
+
+"Settings" = "Settings";
+"Language" = "Language";
+
+// PosterView
+
+"PosterTitle" = "Poster FETA 2017";
+"Poster" = "Poster";
+
+//TutorialView
+
+"skip"="Skip";
+"End" = "End";
+"Not_Show_Tutoraial"="I want see tutorail again.";

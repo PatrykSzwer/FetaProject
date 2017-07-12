@@ -1,39 +1,109 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X5k-f2-b5h">
-	<dependencies>
-		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238" />
-	</dependencies>
-	<scenes>
-		<!--View Controller-->
-		<scene sceneID="gAE-YM-kbH">
-			<objects>
-				<viewController id="X5k-f2-b5h" sceneMemberID="viewController">
-					<layoutGuides>
-						<viewControllerLayoutGuide type="top" id="Y8P-hJ-Z43" />
-						<viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ" />
-					</layoutGuides>
-					<view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
-						<rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
-						<subviews>
-							<imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="Icon-60.png" translatesAutoresizingMaskIntoConstraints="NO" id="23">
-								<rect key="frame" x="270" y="270" width="60" height="60" />
-								<rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0" />
-							</imageView>
-						</subviews>
-						<color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB" />
-						<constraints>
-							<constraint firstItem="23" firstAttribute="centerY" secondItem="yd7-JS-zBw" secondAttribute="centerY" priority="1" id="39" />
-							<constraint firstItem="23" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX" priority="1" id="41" />
-						</constraints>
-					</view>
-				</viewController>
-				<placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder" />
-			</objects>
-			<point key="canvasLocation" x="349" y="339" />
-		</scene>
-	</scenes>
-	<resources>
-		<image name="Icon-60.png" width="180" height="180" />
-	</resources>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X5k-f2-b5h" launchScreen="NO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gAE-YM-kbH">
+            <objects>
+                <viewController id="X5k-f2-b5h" sceneMemberID="viewController" customClass="start">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y8P-hJ-Z43"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="bg.png">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="23" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="57" y="206" width="261" height="254"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.90980392156862744" green="0.49803921568627452" blue="0.62352941176470589" alpha="1"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FETA 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="2">
+                                <rect key="frame" x="57" y="206" width="261" height="254"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="100"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" customColorSpace="sRGB" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="fetaLabel" destination="7" id="name-outlet-7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="350" y="424"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icons/settings.png" width="32" height="32"/>
+        <image name="ButtonsImage/EnglishLanguageButton.png" width="1280" height="1280"/>
+        <image name="ButtonsImage/PolishLanguageButton.png" width="1280" height="1280"/>
+        <image name="Icons/gallery.png" width="32" height="32"/>
+        <image name="Icons/program.png" width="32" height="32"/>
+        <image name="TutorialPhoto/Tutorial_1.png" width="750" height="1334"/>
+        <image name="TutorialPhoto/Tutorial_2.png" width="750" height="1334"/>
+        <image name="TutorialPhoto/Tutorial_3.png" width="750" height="1334"/>
+        <image name="TutorialPhoto/Tutorial_4.png" width="750" height="1334"/>
+        <image name="TutorialPhoto/Tutorial_5.png" width="750" height="1334"/>
+        <image name="TutorialPhoto/Tutorial_6.png" width="750" height="1334"/>
+        <image name="TutorialPhoto/Tutorial_7.png" width="750" height="1334"/>
+        <image name="Icons/help.png" width="100" height="70"/>
+        <image name="Icons/WC.png" width="100" height="114"/>
+        <image name="Icons/food.png" width="100" height="84"/>
+        <image name="Icons/event.png" width="100" height="125"/>
+        <image name="Icons/mapa.png" width="32" height="32"/>
+        <image name="Icons/about.png" width="32" height="32"/>
+        <image name="Photo/5.jpg" width="2592" height="3872"/>
+        <image name="Photo/9.jpg" width="1940" height="2048"/>
+        <image name="Photo/21.jpg" width="4928" height="3264"/>
+        <image name="Photo/25.jpg" width="1181" height="838"/>
+        <image name="Photo/13.jpg" width="2957" height="2264"/>
+        <image name="Photo/2.jpg" width="3861" height="2574"/>
+        <image name="Photo/16.jpg" width="2048" height="1365"/>
+        <image name="Photo/8.jpg" width="820" height="1024"/>
+        <image name="Photo/1.jpg" width="2336" height="3254"/>
+        <image name="Photo/11.jpg" width="4928" height="3264"/>
+        <image name="Photo/6.jpg" width="1023" height="1343"/>
+        <image name="Photo/12.jpg" width="732" height="549"/>
+        <image name="Photo/15.jpg" width="2048" height="1365"/>
+        <image name="Photo/24.jpg" width="960" height="640"/>
+        <image name="Photo/3.jpg" width="861" height="1707"/>
+        <image name="Photo/4.jpg" width="5315" height="3543"/>
+        <image name="Photo/22.jpg" width="1500" height="1001"/>
+        <image name="Photo/14.jpg" width="539" height="960"/>
+        <image name="Photo/17.jpg" width="4000" height="2248"/>
+        <image name="Photo/18.jpg" width="2424" height="1587"/>
+        <image name="Photo/23.jpg" width="3744" height="5616"/>
+        <image name="Photo/26.jpg" width="1420" height="801"/>
+        <image name="Photo/10.jpg" width="1500" height="1071"/>
+        <image name="Photo/19.jpg" width="5483" height="3655"/>
+        <image name="Photo/20.jpg" width="2000" height="1333"/>
+        <image name="Photo/Map.jpg" width="3000" height="1452"/>
+        <image name="bg.png" width="1080" height="1920"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
 </document>
